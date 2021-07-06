@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_bg" android:layout_width="0.0dip" android:layout_height="37.0dip" android:alpha="0.8" app:layout_constraintBottom_toBottomOf="@id/layout_gift" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="@id/space" app:layout_constraintTop_toTopOf="@id/layout_gift" />
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar" android:visibility="gone" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/view_bg" app:layout_constraintLeft_toLeftOf="@id/view_bg" app:layout_constraintTop_toTopOf="@id/view_bg" app:placeholderImage="@drawable/be6" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/img_avatar" app:layout_constraintLeft_toRightOf="@id/img_avatar" app:layout_constraintTop_toTopOf="@id/img_avatar" app:layout_goneMarginStart="12.0dip">
+        <TextView android:textSize="14.0sp" android:id="@id/text_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0sp" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/BK99" android:id="@id/text_desc_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0sp" android:alpha="0.9" />
+    </LinearLayout>
+    <View android:id="@id/space" android:layout_width="25.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="@id/img_avatar" app:layout_constraintLeft_toRightOf="@id/text_container" app:layout_constraintTop_toTopOf="@id/img_avatar" />
+    <FrameLayout android:id="@id/layout_gift" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginStart="8.0dip" app:layout_constraintLeft_toRightOf="@id/text_container" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/img_gift" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/gift" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textSize="20.0sp" android:textStyle="bold|italic" android:textColor="@color/BK99" android:id="@id/text_number" android:layout_width="100.0dip" android:layout_height="wrap_content" android:alpha="0.0" android:layout_marginStart="9.0dip" app:layout_constraintBottom_toBottomOf="@id/layout_gift" app:layout_constraintLeft_toRightOf="@id/layout_gift" app:layout_constraintTop_toTopOf="@id/layout_gift" />
+</androidx.constraintlayout.widget.ConstraintLayout>

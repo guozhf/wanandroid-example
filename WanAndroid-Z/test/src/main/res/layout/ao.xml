@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/jw" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="130.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ad_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" zhihu:actualImageScaleType="centerCrop" zhihu:autoMask="false" zhihu:businessType="commerce" zhihu:placeholderImageScaleType="fitXY" zhihu:roundedCornerRadius="6.0dip" />
+    </FrameLayout>
+</FrameLayout>

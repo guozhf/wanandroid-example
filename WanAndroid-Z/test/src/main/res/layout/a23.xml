@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/status_bar_mask" android:layout_width="fill_parent" android:layout_height="@dimen/r5" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="49.0dip">
+        <com.zhihu.android.app.market.newhome.ui.view.CustomEveryTabLayout android:id="@id/tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toStartOf="@id/book_layout" app:layout_constraintStart_toStartOf="parent" />
+        <com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/book_layout" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginEnd="13.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/search" app:layout_constraintTop_toTopOf="parent">
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/book_shelf" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ca1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.zhihu.android.app.market.newhome.ui.view.SemicircleView android:id="@id/red_point" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </com.zhihu.android.base.widget.ZHConstraintLayout>
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/search" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/axn" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</merge>

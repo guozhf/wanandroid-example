@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ask_question" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/ask_panel" android:background="@drawable/cp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="91.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:id="@id/label_inputting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/eec" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/send_question" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="发布问题" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <EditText android:textSize="19.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/edit_question" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:lineSpacingExtra="7.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/send_question" app:layout_constraintStart_toStartOf="@id/label_inputting" app:layout_constraintTop_toBottomOf="@id/label_inputting" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

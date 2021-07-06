@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GRD08A" android:id="@id/priceView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textColor="@color/GRD08A" android:gravity="center" android:id="@id/purchaseBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bw1" android:drawableRight="@drawable/baq" android:drawableTint="@color/GRD08A" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/r5" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/lv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/product_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/brb" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/product_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/product_title" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/product_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/drl" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/product_recycler" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.videox.fragment.liveroom.widget.CommentRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.zhihu.android.videox.fragment.liveroom.widget.MarqueeView android:id="@id/marquee_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/ba3" />
+            <include layout="@layout/ba3" />
+        </com.zhihu.android.videox.fragment.liveroom.widget.MarqueeView>
+        <include android:id="@id/point_top_view" android:visibility="gone" layout="@layout/baw" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="bottom" android:id="@id/text_new_msg" android:background="@drawable/anf" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e6l" android:drawablePadding="6.0dip" android:lineSpacingExtra="0.0sp" android:drawableStart="@drawable/c95" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="12.0dip" />
+</merge>

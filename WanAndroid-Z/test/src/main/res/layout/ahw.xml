@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:background="@drawable/a87" android:paddingTop="@dimen/fc" android:paddingBottom="@dimen/fc" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginStart="@dimen/f3" android:layout_marginEnd="@dimen/f3" android:elevation="@dimen/fc">
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_vertical" android:id="@id/label_guide_iv" android:layout_width="100.0dip" android:layout_height="fill_parent" android:src="@mipmap/i" android:layout_marginStart="@dimen/fc" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK04A" android:layout_gravity="center_vertical" android:id="@id/label_guide_tv" android:paddingRight="@dimen/f8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="9.0dip" android:text="还没有人留下对刘看山的印象，快来做第一个为他添加印象的好友吧" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.profile.label.widget.DownTriangleView android:layout_gravity="center_horizontal" android:layout_width="18.0dip" android:layout_height="18.0dip" android:elevation="6.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

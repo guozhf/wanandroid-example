@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.GalleryViewPager android:id="@id/viewpager" android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f2" android:layout_marginBottom="@dimen/f2" android:foreground="?a3i" />
+</RelativeLayout>

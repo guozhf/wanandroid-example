@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/canvas_shrink_image" android:layout_width="wrap_content" android:layout_height="wrap_content" app:businessType="commerce" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/canvas_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/ic_canvas_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b0r" />
+    <View android:id="@id/keyboard_overlayview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/anim_constraintLayout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.views.NewUserGuideV3BackgroundView android:id="@id/bg_layout_v3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/anim_guide_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_loop="false" app:lottie_rawRes="@raw/a" />
+</androidx.constraintlayout.widget.ConstraintLayout>

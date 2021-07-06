@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.PasscodeView android:textSize="20.0sp" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/passcode_input_1" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.zhihu.android.app.ui.widget.PasscodeView android:textSize="20.0sp" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/passcode_input_2" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.zhihu.android.app.ui.widget.PasscodeView android:textSize="20.0sp" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/passcode_input_3" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.zhihu.android.app.ui.widget.PasscodeView android:textSize="20.0sp" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/passcode_input_4" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.zhihu.android.app.ui.widget.PasscodeView android:textSize="20.0sp" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/passcode_input_5" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.zhihu.android.app.ui.widget.PasscodeView android:textSize="20.0sp" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/passcode_input_6" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <EditText android:textColor="@android:color/transparent" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/edit_text" android:background="@android:color/transparent" android:layout_width="1.0dip" android:layout_height="56.0dip" android:cursorVisible="false" android:inputType="number" android:imeOptions="flagNoExtractUi" android:alpha="0.0" />
+</merge>

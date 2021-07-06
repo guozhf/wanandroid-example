@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.media.scaffold.widget.DurationProgressTextView android:id="@id/gesture_seek_hint_progress_bar" app:bg_cornerRadius="16.0dip" app:bg_fillColor="#cc000000" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/k6" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

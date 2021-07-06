@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingTop="42.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/selectorLayout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/sequenceSelector" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="21.0dip">
+            <CheckBox android:id="@id/btnSequenceOrder" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/e9" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:id="@id/textOrder" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:text="正序" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/sliceSelector" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:id="@id/textPage" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/btnSliceOrder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bi8" />
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:id="@id/textUpdate" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" />
+        <View android:layout_gravity="bottom" android:id="@id/selectorDivider" android:background="@color/GBK09B" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+    </FrameLayout>
+    <include android:id="@id/loadingLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/a07" />
+</FrameLayout>

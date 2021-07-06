@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:tag="layout/training_toolbar_detail_0" android:layout_width="fill_parent" android:layout_height="?au" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/navigationButton" android:tag="binding_2" android:layout_width="56.0dip" android:layout_height="fill_parent" android:scaleType="center" android:tint="@color/GBK03A" app:srcCompat="@drawable/adh" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/GRD10A" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/b" android:layout_marginStart="18.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/overFlowButton" android:tag="binding_5" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:scaleType="center" android:tint="@color/GBK03A" app:srcCompat="@drawable/adi" />
+        </LinearLayout>
+        <RelativeLayout android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/ade" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" android:tint="@color/GBK99A" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/adh" />
+            <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/ade" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="center" android:tint="@color/GBK99A" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/adi" />
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.appcompat.widget.Toolbar>

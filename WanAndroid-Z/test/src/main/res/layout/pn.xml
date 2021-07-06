@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/search_header_container" android:tag="layout/fragment_region_search_header_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:id="@id/search_widget_container" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/search_widget" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ayv" />
+    </LinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

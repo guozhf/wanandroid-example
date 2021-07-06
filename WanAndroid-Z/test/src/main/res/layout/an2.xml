@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.search.ui.widget.SearchCapsuleListView android:orientation="vertical" android:id="@id/capsule_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK07A" android:layout_gravity="center_horizontal" android:id="@id/label_guess_list_dismiss" android:padding="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/anx" />
+</FrameLayout>

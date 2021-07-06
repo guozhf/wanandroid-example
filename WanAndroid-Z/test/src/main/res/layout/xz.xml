@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/people_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/avatar_container" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        <com.zhihu.android.app.ui.widget.AvatarMultiDrawableView android:layout_gravity="end|bottom|center" android:id="@id/multi_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" app:drawable_height="16.0dip" app:drawable_width="16.0dip" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/more_layout" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+        <com.zhihu.android.app.ui.widget.button.ZHFollowPeopleButton2 android:id="@id/follow" style="@style/fz" />
+        <com.zhihu.android.db.widget.DbVipView android:id="@id/vip_widget" android:layout_width="60.0dip" android:layout_height="30.0dip" android:scaleType="fitCenter" app:hasMask="false" />
+        <com.zhihu.android.db.widget.DbTouchImageButton android:id="@id/more" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/bdr" android:scaleType="center" android:layout_marginStart="10.0dip" app:tintColor="@color/GBK06A" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/more_layout" android:layout_toEndOf="@id/avatar_container">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <com.zhihu.android.db.widget.DbVipView android:id="@id/vip_icon" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginStart="4.0dip" app:hasMask="false" />
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/expose_medal" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginStart="4.0dip" app:autoMask="true" app:businessType="community" app:hasMask="false" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="middle" android:id="@id/meta_view" android:background="@drawable/fb" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="7" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginStart="4.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/center_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.db.widget.FixedProgressBar android:id="@id/header_progress" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:indeterminate="true" android:layout_marginEnd="4.0dip" style="@style/tn" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="start|center" android:id="@id/center_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

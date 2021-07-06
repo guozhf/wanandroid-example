@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:layout_width="fill_parent" android:layout_height="43.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/iv_check" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/awh" android:layout_centerVertical="true" android:layout_marginEnd="19.0dip" android:layout_alignParentEnd="true" app:tint="@color/GBK07A" />
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/iv_check" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

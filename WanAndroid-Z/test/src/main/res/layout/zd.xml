@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="67.0dip" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl" android:foreground="?a3i" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.feed.ui.widget.DoubleUrlThemedDraweeView android:id="@id/icon" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginStart="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/icon" app:layout_constraintRight_toLeftOf="@id/wrap_close" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:id="@id/wrap_close" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/body" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/bmz" android:tint="@color/GBK08A" android:contentDescription="关闭" android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="54.0dip" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/icon" android:layout_width="25.0dip" android:layout_height="25.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="10.0sp" android:textColor="@color/GBK03A" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

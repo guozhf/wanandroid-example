@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/below_cover" android:layout_width="wrap_content" android:layout_height="fill_parent" app:autoMask="true" app:businessType="base" />
+    <FrameLayout android:id="@id/texture_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.player.player.ui.AspectTextureView android:layout_gravity="center" android:id="@id/texture_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/plugin_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="center" android:id="@id/play_in_mobile" android:background="@drawable/a53" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42.0dip" android:text="@string/bzw" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+</merge>

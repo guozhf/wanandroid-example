@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/medal_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:id="@id/who" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/c2q" android:drawablePadding="8.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:id="@id/tv_medal_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" android:text="@string/co9" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/medal_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/baq" android:tint="@color/color_8a334957_8ab2ccd5" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/medal_list" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/medal_arrow" />
+    <TextView android:id="@id/stack_medals" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/medal_arrow" />
+    <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/a6k" android:layout_toRightOf="@id/who" android:layout_alignTop="@id/name" android:layout_alignBottom="@id/name" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parent" android:background="@color/GBK99A" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.profile.newprofile.ui.widget.ProfileContentSrollView android:id="@id/header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/ahc" />
+            <FrameLayout android:id="@id/footer" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/fj">
+                <LinearLayout android:orientation="vertical" android:id="@id/tabs" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="100.0dip">
+                    <com.zhihu.android.profile.newprofile.ui.widget.tablayout.CustomTabLayout android:id="@id/tablayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.zhihu.android.profile.newprofile.ui.widget.ProfileViewPager android:id="@id/viewpager" android:background="@color/GBK09C" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.zhihu.android.profile.newprofile.ui.widget.ProfileContentSrollView>
+    <com.zhihu.android.profile.newprofile.ui.widget.ProfileBottomFlowLayout android:id="@id/bottom_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="20.0dip" />
+    <FrameLayout android:id="@id/hover" android:background="#a9000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="80.0dip" app:navigationIcon="?ou" app:tintColor="@color/BK99" app:title="" />
+    <com.zhihu.android.profile.newprofile.ui.widget.ProfileFloatToolbar android:id="@id/float_toolbar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+    <ViewStub android:id="@id/error_page_view_stub" android:layout="@layout/ag4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/tip_layout_view_stub" android:layout="@layout/ah6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-32.0dip" android:layout_centerInParent="true" android:layout_marginStart="@dimen/f3" android:layout_marginEnd="@dimen/f3" />
+    <com.zhihu.android.profile.newprofile.ui.widget.ProfileFollowTips android:id="@id/follow_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="100.0dip" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/top_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="101.0dip" />
+</RelativeLayout>

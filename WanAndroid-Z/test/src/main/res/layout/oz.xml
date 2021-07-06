@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/web_content" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="27.0sp" android:textColor="@color/GBK07A" android:id="@id/tv_loading_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b86" android:layout_centerInParent="true" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff3d9bf5" android:id="@id/tv_click_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/b85" android:layout_below="@id/tv_loading_error" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <com.zhihu.android.app.sku.manuscript.ui.view.DraftSettingPanel android:id="@id/setting_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/cf2" android:key="@string/c3t">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cge" android:key="@string/c69" android:summary="@string/ce6" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cf6" android:key="@string/c3z">
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cfw" android:key="@string/c5r" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cfv" android:key="@string/c5q" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cg3" android:key="@string/c5y" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cfz" android:key="@string/c5u" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cgj" android:key="@string/c6c" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cgi" android:key="@string/c6b" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cf4" android:key="@string/c3x">
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cgc" android:key="@string/c67" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cg1" android:key="@string/c5w" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cg6" android:key="@string/c61" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cf5" android:key="@string/c3y">
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cgg" android:key="@string/c6_" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfx" android:key="@string/c5s" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cg7" android:key="@string/c62" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cg5" android:key="@string/c60" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cgm" android:key="@string/c6d" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cf7" android:key="@string/c40">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cgn" android:key="@string/c6e" android:summary="@string/cde" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cgd" android:key="@string/c68" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cg2" android:key="@string/c5x" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cgh" android:key="@string/c6a" />
+        <com.zhihu.android.app.ui.widget.InfoPreference android:title="@string/cfy" android:key="@string/c5t" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cg4" android:key="@string/c5z" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cg0" android:key="@string/c5v" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/read_position_tips" android:tag="layout/recycler_item_read_position_tips_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1i" android:gravity="center" android:layout_gravity="center" android:id="@id/tips_text" android:paddingTop="@dimen/f4" android:paddingBottom="@dimen/f4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/bft" android:drawablePadding="@dimen/f4" zhihu:tintColor="@color/color_ff0077d9_8a03a9f4" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

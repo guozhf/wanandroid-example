@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/modal_dialogue_0" android:background="@color/GBK99A" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/cancel" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" android:tint="@color/GBK08B" android:layout_marginEnd="12.0dip" android:layout_alignEnd="@id/image" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_below="@id/image" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textAppearance="@style/yr" android:textColor="@color/GBK02A" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <TextView android:textAppearance="@style/a0m" android:textColor="@color/GBK06A" android:id="@id/sub_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <TextView android:textAppearance="@style/a16" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/positive_button" android:background="@drawable/eh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <TextView android:textAppearance="@style/a16" android:textColor="@color/GBL01A" android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+</RelativeLayout>

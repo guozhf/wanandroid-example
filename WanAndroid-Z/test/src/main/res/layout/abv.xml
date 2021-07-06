@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/filterCard" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="70.0dip" android:layout_height="94.0dip">
+        <FrameLayout android:layout_width="70.0dip" android:layout_height="70.0dip">
+            <ImageView android:id="@id/preImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.zhihu.android.picture.editor.widget.FilterItemShader android:id="@id/shader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

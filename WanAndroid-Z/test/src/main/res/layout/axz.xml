@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:tag="layout/recycler_item_topic_recommend_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/topic_image" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="@dimen/fi" android:layout_marginBottom="@dimen/fi" android:scaleType="fitXY" fresco:fadeDuration="300" fresco:roundedCornerRadius="6.0dip" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/topic_image_mask" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="@dimen/fi" android:layout_marginBottom="@dimen/fi" fresco:fadeDuration="300" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center|right|top" android:id="@id/topic_choice" android:tag="binding_1" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_marginTop="12.0dip" android:layout_marginRight="4.0dip" android:scaleType="fitXY" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:layout_gravity="bottom|center" android:id="@id/topic_text" android:tag="binding_2" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fi" android:singleLine="true" android:shadowColor="#8f000000" android:shadowDy="2.0" android:shadowRadius="1.0" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

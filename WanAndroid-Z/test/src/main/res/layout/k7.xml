@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ad_video_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/aspect_ratio_Layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/pluginVideoView" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:aspectRatio="1.778" />
+    </RelativeLayout>
+    <ImageView android:id="@id/close_video_player_button" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_margin="@dimen/f_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:srcCompat="@drawable/a4b" />
+    <ImageView android:id="@id/sound_video_player_button" android:visibility="gone" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_margin="@dimen/f7" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@drawable/b4m" />
+    <FrameLayout android:id="@id/webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/aspect_ratio_Layout" />
+</RelativeLayout>

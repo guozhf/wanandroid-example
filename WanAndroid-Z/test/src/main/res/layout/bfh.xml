@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="114.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableImageView android:id="@id/view1" android:layout_width="70.0dip" android:layout_height="94.0dip" android:layout_marginStart="20.0dip" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableImageView android:id="@id/view2" android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:bg_cornerRadius="5.0dip" app:bg_fillColor="@color/white" app:layout_constraintStart_toEndOf="@id/view1" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.45" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableImageView android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:bg_cornerRadius="5.0dip" app:bg_fillColor="@color/white" app:layout_constraintStart_toEndOf="@id/view1" app:layout_constraintTop_toBottomOf="@id/view2" app:layout_constraintWidth_percent="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

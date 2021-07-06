@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_theater_container" android:background="@drawable/ape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.videox.fragment.list_theater.widget.TheaterDrawerLayout android:id="@id/audience_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.videox.fragment.list_theater.widget.ListTheaterRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/drawer_container" android:background="#ff18191d" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="-32.0dip">
+            <com.zhihu.android.videox.fragment.newfeed.next.SlideArrowView android:layout_gravity="center_vertical" android:id="@id/slide" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip" />
+            <FrameLayout android:id="@id/drawer_hybrid_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.1" />
+        </LinearLayout>
+    </com.zhihu.android.videox.fragment.list_theater.widget.TheaterDrawerLayout>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/edulive_fragment_room_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.edulive.widget.StatusBarMaskView android:id="@id/statusBarMask" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/portraitLayout" android:tag="binding_1" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/statusBarMask">
+        <include android:id="@id/top_info_bar" android:layout_width="fill_parent" android:layout_height="60.0dip" layout="@layout/hy" />
+        <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/headerLayout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspectRatio="1.78" app:layout_constraintTop_toBottomOf="@id/top_info_bar">
+            <com.zhihu.android.cclivelib.widget.LiveVideoAndDocView android:id="@id/liveVideoView" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.zhihu.android.base.widget.ZHFrameLayout>
+        <View android:id="@id/dividerHeader" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toBottomOf="@id/headerLayout" />
+        <com.zhihu.android.base.widget.ZHSpace android:id="@id/hybridPopupTopAnchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="15.0dip" app:layout_constraintBottom_toBottomOf="@id/headerLayout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <FrameLayout android:id="@id/messageLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/divider2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/dividerHeader">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:tag="binding_3" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:tag="binding_4" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:elevation="5.0dip" app:bg_cornerRadius="17.0dip" app:bg_fillColor="@color/GBK99A">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b8_" android:tint="@color/GBL01A" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+            </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+            <View android:layout_gravity="top" android:id="@id/message_top_overlay" android:tag="binding_6" android:background="@drawable/sh" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/portraitQuestionPopupContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/dividerHeader">
+            <com.zhihu.android.app.edulive.widget.EduLiveQuestionPopupView android:id="@id/questionPopupView" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <View android:id="@id/divider2" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toTopOf="@id/footerLayout" />
+        <com.zhihu.android.app.edulive.widget.carttips.EduLiveCartTipsContainerView android:id="@id/cartContainer" android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="300.0dip" app:layout_constraintBottom_toTopOf="@id/footerLayout" app:layout_constraintStart_toStartOf="parent" />
+        <include android:id="@id/footerLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/i7" />
+        <FrameLayout android:id="@id/hybridPopupContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/hybridPopupTopAnchor" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/landscapeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/landscapeVideoViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/landscapeQuestionPopupContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.618" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.zhihu.android.app.edulive.widget.EduLiveInteractContainerView android:tag="binding_9" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Group android:id="@id/portraitGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="portraitLayout" />
+    <androidx.constraintlayout.widget.Group android:id="@id/landscapeGroup" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="landscapeLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

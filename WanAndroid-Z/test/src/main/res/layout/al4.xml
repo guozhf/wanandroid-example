@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/answer_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:autoMask="true" app:businessType="community" app:roundedCornerRadius="3.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center" android:id="@id/video_play_icon" android:visibility="gone" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" android:src="@drawable/c6b" android:scaleType="fitXY" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0sp" android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="center" android:id="@id/photo_rest_count" android:background="@drawable/a8x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

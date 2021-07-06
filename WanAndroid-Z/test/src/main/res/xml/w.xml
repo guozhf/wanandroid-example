@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:enabled="true" android:title="@string/ci1" android:key="@string/cbe" />
+    <Preference android:enabled="true" android:title="@string/ci0" android:key="@string/cbd" />
+    <Preference android:enabled="true" android:title="@string/ci3" android:key="@string/cbf" />
+</PreferenceScreen>

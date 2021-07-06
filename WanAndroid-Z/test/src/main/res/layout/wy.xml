@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/color_50_percent_transparent_black" android:paddingLeft="@dimen/fd" android:paddingRight="@dimen/fd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/canvas_container_second_form" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/canvas_second_form_close" android:layout_width="@dimen/f9" android:layout_height="@dimen/f9" android:layout_marginTop="@dimen/f9" android:src="@drawable/b0p" android:layout_below="@id/canvas_container_second_form" android:layout_centerHorizontal="true" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:tag="layout/recycler_item_feed_uninterest_card_0" android:paddingLeft="@dimen/f7" android:paddingTop="@dimen/f4" android:paddingRight="@dimen/f7" android:paddingBottom="@dimen/f4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:paddingLeft="@dimen/ce" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/fi" android:paddingBottom="@dimen/cg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:id="@id/title" android:padding="@dimen/fi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/alt" android:layout_weight="1.0" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/revert_uninterest" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7s" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0s" android:id="@id/confirm_uninterest" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kz" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.app.feed.ui.widget.AutoLinearLayout android:orientation="vertical" android:id="@id/reason_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHFrameLayout>

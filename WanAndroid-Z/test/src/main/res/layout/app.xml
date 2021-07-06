@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/recycler_item_ebook_recommend_item_0" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="@dimen/fc" android:elevation="2.0dip">
+        <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/book_cover_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/book_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" app:placeholderImage="@drawable/b4u" app:roundedCornerRadius="@dimen/fn" app:viewAspectRatio="0.75" />
+            <com.zhihu.android.app.ui.widget.EBookDownloadButton android:layout_gravity="end|bottom|center" android:id="@id/btn_func" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="6.0dip" android:layout_marginEnd="4.0dip" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="bottom" android:id="@id/read_progress_bar_bg" android:background="@drawable/l1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:alpha="0.5" />
+            <ProgressBar android:layout_gravity="bottom" android:id="@id/read_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:max="100" android:progressDrawable="@drawable/qu" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="end" android:id="@id/trial_book_image" android:tag="binding_1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bb9" android:layout_marginEnd="-1.0dip" />
+        </com.zhihu.android.base.widget.ZHFrameLayout>
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="end" android:id="@id/is_selected_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/bpc" android:scaleX="0.0" android:scaleY="0.0" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip">
+        <ImageView android:id="@id/red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/a_4" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1y" android:ellipsize="end" android:id="@id/book_name" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2q" android:ellipsize="end" android:id="@id/book_authors" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

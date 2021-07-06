@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/a6j" android:layout_width="155.0dip" android:layout_height="186.0dip" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/see_more" android:background="@drawable/c0r" android:layout_width="60.0dip" android:layout_height="60.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="40.0dip" android:src="@drawable/c5a" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBL01A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="查看全部" android:layout_below="@id/see_more" android:lineSpacingExtra="3.0sp" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/cgr" android:key="@string/c78" />
+    <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/cgt" android:key="@string/c7_" />
+    <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/cgs" android:key="@string/c79" />
+</PreferenceScreen>

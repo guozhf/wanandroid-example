@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/profile_profile_light_text" android:layout_gravity="center_vertical" android:id="@id/tv_following" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_gravity="center_vertical" android:id="@id/divider_1" android:background="#ffffffff" android:layout_width="0.5dip" android:layout_height="15.0dip" android:alpha="0.3" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/profile_profile_light_text" android:layout_gravity="center_vertical" android:id="@id/tv_follower" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_gravity="center_vertical" android:id="@id/divider_2" android:background="#ffffffff" android:layout_width="0.5dip" android:layout_height="15.0dip" android:alpha="0.3" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/profile_profile_light_text" android:layout_gravity="center_vertical" android:id="@id/tv_like" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

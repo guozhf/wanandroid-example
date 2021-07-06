@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.fragment.more.more.widget.MoreHeaderDataView android:orientation="horizontal" android:id="@id/data_layout" android:paddingTop="16.0dip" android:paddingBottom="@dimen/f4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:id="@id/create_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center" android:layout_gravity="center" android:id="@id/creation_num" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:layout_gravity="center" android:id="@id/not_open_creation_center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cqa" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/creation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cpu" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="10.0sp" android:textColor="@color/GBK07A" android:gravity="center" android:id="@id/draft_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_gravity="center_vertical" android:id="@id/draft_dot" android:background="@drawable/a7g" android:visibility="gone" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginStart="1.0dip" />
+        </LinearLayout>
+    </com.zhihu.android.zui.widget.ZUILinearLayout>
+    <View android:id="@id/creation_spit" android:background="@color/GBK09A" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginTop="24.0dip" android:layout_alignTop="@id/creation_num" android:layout_alignParentRight="true" app:layout_constraintLeft_toRightOf="@id/follow_num" app:layout_constraintRight_toLeftOf="@id/creation_num" app:layout_constraintTop_toTopOf="@id/creation_num" />
+    <com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:id="@id/follow_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/follow_num" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/follow_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="关注" />
+    </com.zhihu.android.zui.widget.ZUILinearLayout>
+    <View android:background="@color/GBK09A" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginTop="24.0dip" android:layout_alignTop="@id/creation_num" android:layout_alignParentRight="true" app:layout_constraintLeft_toRightOf="@id/follow_num" app:layout_constraintRight_toLeftOf="@id/creation_num" app:layout_constraintTop_toTopOf="@id/creation_num" />
+    <com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:id="@id/collect_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/collection_num" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/collection_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cpy" app:layout_constraintLeft_toLeftOf="@id/collection_num" app:layout_constraintRight_toRightOf="@id/collection_num" app:layout_constraintTop_toTopOf="@id/follow_text" />
+    </com.zhihu.android.zui.widget.ZUILinearLayout>
+    <View android:background="@color/GBK09A" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginTop="24.0dip" android:layout_alignTop="@id/creation_num" android:layout_alignParentRight="true" app:layout_constraintLeft_toRightOf="@id/follow_num" app:layout_constraintRight_toLeftOf="@id/creation_num" app:layout_constraintTop_toTopOf="@id/creation_num" />
+    <com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:id="@id/recent_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/recently_num" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/recently_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="最近浏览" android:layout_below="@id/creation_num" />
+    </com.zhihu.android.zui.widget.ZUILinearLayout>
+</com.zhihu.android.app.ui.fragment.more.more.widget.MoreHeaderDataView>

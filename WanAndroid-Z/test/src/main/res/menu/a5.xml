@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_public" android:title="@string/v_" android:checkable="true" />
+    <item android:id="@id/action_need_review" android:title="@string/v9" android:checkable="true" />
+    <item android:id="@id/action_reserved" android:title="@string/va" android:checkable="true" />
+</menu>

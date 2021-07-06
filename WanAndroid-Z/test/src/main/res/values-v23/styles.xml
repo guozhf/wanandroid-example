@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ar" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="b1" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="be" parent="@style/a59" />
+    <style name="bl" parent="@style/a5_" />
+    <style name="dl" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="dr" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="dt" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="e3" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="en" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="eo" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="eu" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="ev" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="fe" parent="@style/u">
+        <item name="ft">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="jd">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">@drawable/a8h</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:drawableRight">@drawable/bao</item>
+        <item name="android:drawableTint">@android:color/black</item>
+    </style>
+    <style name="w_" parent="@style/f4">
+        <item name="android:popupBackground">?z4</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="wa" parent="@style/f5">
+        <item name="android:popupBackground">?z4</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="a59" parent="@style/a57">
+        <item name="as">?android:actionBarItemBackground</item>
+        <item name="b5">?android:actionMenuTextAppearance</item>
+        <item name="b6">?android:actionMenuTextColor</item>
+        <item name="bj">?android:actionOverflowButtonStyle</item>
+        <item name="il">@drawable/b07</item>
+        <item name="a1t">?android:ratingBarStyleIndicator</item>
+        <item name="a1u">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="a5_" parent="@style/a58">
+        <item name="as">?android:actionBarItemBackground</item>
+        <item name="b5">?android:actionMenuTextAppearance</item>
+        <item name="b6">?android:actionMenuTextColor</item>
+        <item name="bj">?android:actionOverflowButtonStyle</item>
+        <item name="il">@drawable/b07</item>
+        <item name="a1t">?android:ratingBarStyleIndicator</item>
+        <item name="a1u">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_following" android:visible="true" android:title="关注" zhihu:showAsAction="always" />
+    <item android:id="@id/action_chat" android:visible="true" android:title="@string/cnm" zhihu:showAsAction="always" />
+    <item android:icon="@drawable/c3m" android:id="@id/action_share_qr" android:visible="false" android:title="@string/ck3" zhihu:showAsAction="never" />
+    <item android:icon="@drawable/c1v" android:id="@id/action_edit" android:visible="false" android:title="@string/bq" zhihu:showAsAction="always" />
+    <item android:icon="@drawable/bpk" android:id="@id/action_share" android:title="@string/c2" zhihu:showAsAction="never" />
+    <item android:id="@id/action_ignored" android:title="@string/cn7" zhihu:showAsAction="never" />
+    <item android:id="@id/action_blocked" android:title="@string/ck4" zhihu:showAsAction="never" />
+    <item android:id="@id/action_report" android:title="@string/crk" zhihu:showAsAction="never" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.market.newhome.ui.view.VerticalNestedScrollLinearLayout android:orientation="vertical" android:id="@id/verticalNestedScrollLinearLayout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/downstair_recyclerview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.zhihu.android.app.market.newhome.ui.view.RecyclerViewBottomView android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </com.zhihu.android.app.market.newhome.ui.view.VerticalNestedScrollLinearLayout>
+    <FrameLayout android:id="@id/loadingLayout" android:background="@color/GBK99A" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/loadingLottie" android:layout_width="55.0dip" android:layout_height="55.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/webViewRoot" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

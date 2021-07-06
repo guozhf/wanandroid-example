@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:id="@id/layoutContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1,1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableImageView android:id="@id/imgBGMask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.2" app:bg_cornerRadius="4.0dip" app:bg_fillColor="@color/YL08" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK03A" android:layout_gravity="center" android:id="@id/textIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/b" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/imgGif" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="end|center|top" android:id="@id/imgTagRightTop" android:layout_width="22.0dip" android:layout_height="14.0dip" app:businessType="kmarket" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/imgLock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/cbo" android:tint="@color/GBK07B" />
+        <TextView android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/remove_good_at_topic" android:title="@string/a7s" zhihu:showAsAction="always" />
+</menu>

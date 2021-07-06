@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.zhihu.android.app.ui.widget.LevelIconView android:id="@id/level" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginStart="4.0dip" />
+    <com.zhihu.android.comment_for_v7.widget.UserTagView android:id="@id/author_tag" android:background="@drawable/aba" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginStart="4.0dip" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/vip_icon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginStart="4.0dip" app:businessType="community" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/arrow_right" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/awb" android:tint="@color/GBK06A" android:layout_marginStart="4.0dip" />
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/respondent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="4.0dip" />
+    <com.zhihu.android.comment_for_v7.widget.UserTagView android:id="@id/reply_author_tag" android:background="@drawable/aba" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginStart="4.0dip" />
+    <View android:id="@id/view_occupy" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_gravity="end" android:id="@id/more" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="center" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/ay4" app:tintColor="@color/GBK06A" />
+</merge>

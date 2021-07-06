@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/pu" android:layout_marginEnd="36.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/a6h" android:layout_width="64.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/tab_layout" app:layout_constraintEnd_toEndOf="@id/tab_layout" app:layout_constraintTop_toTopOf="@id/tab_layout" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/profile_tab_search" android:layout_width="52.0dip" android:layout_height="0.0dip" android:src="@drawable/c3n" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/tab_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tab_layout" />
+    <View android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toBottomOf="@id/tab_layout" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.db.widget.DbTouchImageButton android:layout_gravity="start|center" android:id="@id/button" android:layout_width="32.0dip" android:layout_height="40.0dip" android:scaleType="center" app:tintColor="@color/GBK06A" />
+    <com.zhihu.android.db.widget.DbDynamicCountView android:layout_gravity="start|center" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="32.0dip" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

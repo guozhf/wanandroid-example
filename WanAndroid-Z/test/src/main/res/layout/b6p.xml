@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/rl_manuscript_toolbar_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@id/tv_manuscript_toolbar_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15.0dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/GBK02A"
+            android:textSize="16.0sp"
+            android:textStyle="bold"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toTopOf="@id/tv_manuscript_toolbar_subtitle"
+            app:layout_constraintEnd_toStartOf="@id/manuscript_toolbar_catalog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.zhihu.android.base.widget.ZHTextView
+            android:id="@id/tv_manuscript_toolbar_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/c6m"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:textColor="@color/GBK06A"
+            android:textSize="12.0sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_manuscript_toolbar_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_manuscript_toolbar_title"
+            app:tintColor="@color/GBK06A" />
+
+        <com.zhihu.android.base.widget.ZHImageView
+            android:id="@id/manuscript_toolbar_catalog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24.0dip"
+            android:src="@drawable/axv"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/manuscript_toolbar_more"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tintColor="@color/GBK03A" />
+
+        <com.zhihu.android.base.widget.ZHImageView
+            android:id="@id/manuscript_toolbar_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cb6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tintColor="@color/GBK03A" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@id/rl_toolbar_search_rect_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/tv_toolbar_search_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="搜索知乎内容"
+            android:textColor="#ff767676"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <com.zhihu.android.base.widget.ZHImageView
+            android:id="@id/img_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/cb6"
+            app:tintColor="@color/GBK04A" />
+    </RelativeLayout>
+</merge>

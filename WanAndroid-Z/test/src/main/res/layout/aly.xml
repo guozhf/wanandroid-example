@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.market.widget.OverlayDraweeView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:viewAspectRatio="1.88" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK99B" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="@id/img" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="36.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/text" app:layout_constraintStart_toStartOf="@id/text" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationY="-15.0dip" app:bg_cornerRadius="10.0dip" app:bg_fillColor="@color/GBK99A" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/img">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最近解锁" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="浏览或参与即算成功解锁 " android:layout_marginStart="16.0dip" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

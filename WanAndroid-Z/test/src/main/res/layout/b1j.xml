@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.view.ZHView android:id="@id/status_bar_mask" android:background="@color/GBL01A" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:background="@drawable/he" android:layout_width="fill_parent" android:layout_height="?au" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" bind:popupTheme="@style/a37" bind:theme="@style/a39" bind:tintColor="@color/GBK04A">
+        <com.zhihu.android.app.sku.manuscript.draftpage.DraftHeaderView android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.zhihu.android.base.widget.ZHToolBar>
+</merge>

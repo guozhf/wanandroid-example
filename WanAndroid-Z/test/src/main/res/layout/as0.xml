@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/common_container" android:background="@color/GBK99A" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/ce" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.topic.widget.PopupAnchorSpace android:id="@id/menu_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/rk" android:textColor="@color/GBK06B" android:gravity="center" android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/item_hot_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_alignParentEnd="true">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/rk" android:textColor="@color/GBK05A" android:id="@id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/brj" android:drawablePadding="8.0dip" android:drawableEnd="@drawable/brj" app:tintColor="@color/GBK05A" />
+    </RelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

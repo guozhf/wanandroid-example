@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ad_video_layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/pluginVideoView" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:aspectRatio="1.778" />
+    <ImageView android:id="@id/close_video_player_button" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_margin="@dimen/f_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:srcCompat="@drawable/a4b" />
+    <ImageView android:id="@id/sound_video_player_button" android:visibility="gone" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_margin="@dimen/f7" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@drawable/b4m" />
+    <com.zhihu.android.app.ui.widget.AdSmallCenterBottomView android:id="@id/ad_small_center_bottom_view" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

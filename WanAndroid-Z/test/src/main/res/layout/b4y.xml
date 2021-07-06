@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/BK02" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip">
+        <CheckBox android:id="@id/music_play_icon" android:background="@null" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:checked="false" android:button="@drawable/ake" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:ellipsize="end" android:id="@id/music_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="14" android:layout_marginStart="10.0dip" />
+        <com.zhihu.android.vessay.preview.widget.VessayMusicPlayingView android:layout_gravity="center_vertical" android:id="@id/music_playing" android:layout_width="10.0dip" android:layout_height="12.0dip" android:layout_marginLeft="8.0dip" app:VessayPlayingCount="3" app:VessayPlayingDownColor="@color/BL01" app:VessayPlayingOffset="2.0dip" app:VessayPlayingTopColor="@color/BL01" />
+    </LinearLayout>
+    <TextView android:textColor="@color/black_54p_secondary_text" android:layout_gravity="bottom" android:id="@id/music_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginBottom="8.0dip" />
+    <CheckBox android:textSize="14.0sp" android:layout_gravity="center|right" android:id="@id/music_selected_icon" android:background="@null" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="18.0dip" android:checked="false" android:button="@drawable/akf" />
+    <com.zhihu.android.vessay.preview.widget.VessayCirclePercentView android:layout_gravity="center|right" android:id="@id/music_loading" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="18.0dip" app:VessayArcColor="@color/BK01" app:VessayCircleColor="@color/BL01" app:VessayStripeWidth="2.0dip" />
+    <View android:layout_gravity="bottom" android:background="@color/BK01" android:layout_width="fill_parent" android:layout_height="0.6dip" android:layout_marginLeft="8.0dip" />
+</FrameLayout>

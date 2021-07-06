@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/profile_fragment_label_detail_header_0" android:background="@drawable/a7u" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.profile.label.widget.LabelView android:id="@id/label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/vote_layout" android:padding="11.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toBottomOf="@id/label_view" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/label_view">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/btn_icon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/a6s" android:tint="@color/GBL01A" />
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBL01A" android:id="@id/vote_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="认可" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/delete_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toBottomOf="@id/label_view" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/label_view">
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBL05A" android:id="@id/detele_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="11.0dip" android:text="删除" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/header_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="31.0dip" android:layout_centerVertical="true" app:layout_constraintBottom_toBottomOf="@id/label_view" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/label_view">
+        <ProgressBar android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.zhihu.android.base.view.ZHView android:id="@id/divder" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0dip" app:layout_constraintTop_toBottomOf="@id/label_view" />
+    <RelativeLayout android:id="@id/vote_count_view" android:background="@color/GBK99A" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.5dip" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/divder">
+        <TextView android:textSize="16.0sp" android:textColor="@color/GBK03A" android:id="@id/vote_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="24" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

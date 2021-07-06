@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center_vertical" android:tag="layout/recycler_item_wallet_balance_0" android:background="@color/color_ffffffff_ff37474f" android:paddingLeft="13.0dip" android:paddingRight="@dimen/ce" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="@dimen/fi"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/c7o" android:layout_centerVertical="true" android:alpha="@dimen/gv" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:gravity="center_vertical" android:id="@id/balance_title" android:layout_width="86.0dip" android:layout_height="fill_parent" android:text="@string/az5" android:layout_marginStart="7.0dip" android:layout_toEndOf="@id/icon" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/balance_title" />
+    <com.zhihu.android.base.widget.ZHButton android:gravity="center" android:id="@id/withdrawal" android:background="@drawable/aw5" android:layout_width="@dimen/lw" android:layout_height="@dimen/lv" android:foreground="?a3i" android:text="@string/b01" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/a53" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

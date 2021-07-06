@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pinnedToolbar" android:background="@color/black" android:paddingLeft="@dimen/nq" android:paddingTop="@dimen/nr" android:paddingRight="@dimen/nq" android:paddingBottom="@dimen/nr" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0" android:paddingHorizontal="@dimen/nq" android:paddingVertical="@dimen/nr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start" android:id="@id/pinnedToolbarBack" android:src="@drawable/axe" android:tint="@color/BK99" style="@style/k7" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/pinnedToolbarPlay" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ayj" android:scaleType="center" android:tint="@color/BK99" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/BK99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即播放" android:layout_marginStart="6.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/pinnedToolbarMore" android:src="@drawable/axj" android:tint="@color/BK99" style="@style/k7" />
+</FrameLayout>

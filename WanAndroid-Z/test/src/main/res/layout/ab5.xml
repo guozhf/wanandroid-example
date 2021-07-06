@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐这件商品的答主" android:maxLines="1" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/closeBtn" android:background="?android:selectableItemBackground" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/bxu" android:scaleType="centerInside" android:layout_marginStart="@dimen/fi" app:tint="#ff8f8d99" />
+</LinearLayout>

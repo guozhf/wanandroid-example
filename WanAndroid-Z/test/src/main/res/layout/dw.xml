@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/commercial_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.view.ZHView android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/BK07" android:id="@id/commercial_tip_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="提示：发布后默认参与活动，答案底部会自动添加活动标识" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="center" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@color/GBK99A" zhihu:autoMask="true" zhihu:businessType="community" zhihu:roundingBorderColor="@color/GBK99A" zhihu:roundingBorderWidth="2.0dip" />
+    <TextView android:textSize="@dimen/f3" android:textColor="@color/GBK04A" android:layout_gravity="center" android:id="@id/collapse_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="@dimen/f3" android:layout_marginEnd="@dimen/f3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/avatar" android:layout_width="@dimen/f7" android:layout_height="@dimen/f7" android:layout_marginTop="2.0dip" fresco:actualImageScaleType="fitXY" fresco:businessType="community" fresco:hasMask="false" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:layout_gravity="center_vertical" android:id="@id/text_view_multi_line" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+</LinearLayout>

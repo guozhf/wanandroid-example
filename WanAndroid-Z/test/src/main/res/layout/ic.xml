@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.base.ui.widget.label.ZHShapeDrawableLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bg_cornerRadius="12.0dip" app:bg_fillColor="@color/GBK99A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBK05A" android:layout_gravity="center_horizontal" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="24.0dip" />
+    <com.zhihu.android.app.base.ui.widget.label.ZHShapeDrawableText android:textSize="16.0sp" android:textColor="@color/GBK99A" android:gravity="center" android:id="@id/confirm_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="26.0dip" android:text="@string/ee7" app:bg_cornerRadius="4.0dip" app:bg_fillColor="@color/GBL01A" />
+</com.zhihu.android.app.base.ui.widget.label.ZHShapeDrawableLinearLayout>

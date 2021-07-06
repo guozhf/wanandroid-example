@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.video_entity.editor.topic.view.MaskView android:id="@id/mask_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.video_entity.editor.topic.view.NestedTouchScrollingLayout android:orientation="vertical" android:id="@id/container_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.video_entity.editor.topic.TopicSheetView android:orientation="vertical" android:id="@id/sheet_view" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="133.0dip">
+                <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="center" android:background="@drawable/ae4" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加话题" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:gravity="end" android:layout_gravity="center|right" android:id="@id/select_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/f7" android:text="完成" />
+                </com.zhihu.android.base.widget.ZHFrameLayout>
+                <com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.zhihu.android.video_entity.editor.topic.view.TopicEditTextView android:id="@id/topic_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:id="@id/topic_info" android:paddingLeft="@dimen/f7" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/f7" android:paddingBottom="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="至少添加一个话题" />
+                    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/topic_label_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fc" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+                    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/rv_search_topic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </com.zhihu.android.base.widget.ZHLinearLayout2>
+            </com.zhihu.android.video_entity.editor.topic.TopicSheetView>
+        </FrameLayout>
+    </com.zhihu.android.video_entity.editor.topic.view.NestedTouchScrollingLayout>
+</FrameLayout>

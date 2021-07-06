@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/following_tags_container" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="52.0dip" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/following_tags" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+    <com.zhihu.android.base.view.ZHView android:layout_gravity="left" android:id="@id/fg_left" android:background="@drawable/tr" android:visibility="invisible" android:layout_width="36.0dip" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.view.ZHView android:layout_gravity="right" android:id="@id/fg_right" android:background="@drawable/ts" android:layout_width="36.0dip" android:layout_height="fill_parent" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

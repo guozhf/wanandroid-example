@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/frame_layout" android:tag="layout/profile_fragment_edit_detail_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHScrollView android:id="@id/scroll_view" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/profile_edit_layout" android:background="@color/GBK99A" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/fa" android:animateLayoutChanges="true">
+            <com.zhihu.android.profile.edit.EduInputText android:id="@id/company_it" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f9" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+            <com.zhihu.android.profile.edit.EduInputText android:id="@id/job_it" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f9" android:layout_below="@id/company_it" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/company_rv" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_below="@id/company_it" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/job_rv" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_below="@id/job_it" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+    </com.zhihu.android.base.widget.ZHScrollView>
+</com.zhihu.android.base.widget.ZHFrameLayout>

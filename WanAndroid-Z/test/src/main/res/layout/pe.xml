@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_recharge_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="bottom" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="@dimen/f4" />
+    <View android:background="@color/GBL01A" android:layout_width="fill_parent" android:layout_height="500.0dip" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/panelContainer" android:tag="binding_1" android:padding="@dimen/f7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bg_cornerRadius="12.0dip" app:bg_fillColor="@color/GBK10C">
+        <include android:id="@id/panelTitle" layout="@layout/x8" />
+        <View android:layout_gravity="bottom" android:id="@id/bottomView" android:background="@color/GYL01A" android:layout_width="fill_parent" android:layout_height="400.0dip" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+</FrameLayout>

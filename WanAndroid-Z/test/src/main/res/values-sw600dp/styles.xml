@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ud" parent="@style/ez">
+        <item name="a6q">center</item>
+        <item name="a72">fixed</item>
+    </style>
+</resources>

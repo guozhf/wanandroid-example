@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.kmarket.videodetail.ui.KmVideoBackLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/bgCover" android:layout_width="fill_parent" android:layout_height="fill_parent" app:failureImage="@color/kmvideo_default_cover_color" app:placeholderImage="@color/kmvideo_default_cover_color" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/BK99" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="9.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.kmarket.videodetail.ui.KmVideoBackLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionGroup="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginStart="30.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/close_btn" android:background="@drawable/v0" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="18.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/reward_artwork" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="63.0dip" android:layout_marginEnd="63.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="h,250:138" app:layout_constraintTop_toBottomOf="@id/title_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

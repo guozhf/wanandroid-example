@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:id="@id/panel_achieve_left_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.zhihu.android.panel.widget.ui.NumberCountView android:id="@id/panel_read_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHLinearLayout2 android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:id="@id/panel_left_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="阅读数" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/panel_read_up_im" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/a1r" android:layout_marginStart="@dimen/f8" app:tintColor="@color/GBL01A" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0sp" android:textColor="@color/GBK03A" android:id="@id/panel_read_present" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23%" android:lineSpacingExtra="2.5sp" android:layout_marginStart="1.0dip" app:tintColor="@color/GBL01A" />
+        </com.zhihu.android.base.widget.ZHLinearLayout2>
+    </com.zhihu.android.base.widget.ZHLinearLayout2>
+    <com.zhihu.android.base.view.ZHView android:id="@id/panel_divider" android:background="@color/GBK08A" android:layout_width="0.5dip" android:layout_height="30.0dip" android:layout_centerHorizontal="true" />
+    <com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/f_" android:layout_toEndOf="@id/panel_divider">
+        <com.zhihu.android.panel.widget.ui.NumberCountView android:id="@id/panel_agree_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:id="@id/panel_right_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="赞同数" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/panel_agree_up_im" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/a1r" android:layout_marginStart="@dimen/f8" app:tintColor="@color/GBL01A" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0sp" android:textColor="@color/GBK03A" android:id="@id/panel_agree_present" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="82%" android:lineSpacingExtra="2.5sp" android:layout_marginStart="1.0dip" app:tintColor="@color/GBL01A" />
+        </com.zhihu.android.base.widget.ZHLinearLayout2>
+    </com.zhihu.android.base.widget.ZHLinearLayout2>
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK07A" android:id="@id/panel_update_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/bottom_sheet_unify_gift_share_0" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip" app:cardCornerRadius="20.0dip" app:cardElevation="0.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_horizontal" android:id="@id/gift_img" android:layout_width="310.0dip" android:layout_height="wrap_content" app:viewAspectRatio="1.835" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textColor="#ff0084ff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/gift_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/b2q" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="#ff999999" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/amx" />
+            <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="21.299988dip" />
+            <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" />
+            <LinearLayout android:orientation="horizontal" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/btn_dm" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bjv" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/zh_tv_dm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dw0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/btn_wechat" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bjw" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/zh_tv_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dw1" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/btn_wechat_moment" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bjx" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/zh_tv_wechat_moment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dw2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/btn_weibo" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bjy" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/zh_tv_weibo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dw3" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/btn_copy_link" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bic" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/zh_tv_copy_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dvz" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

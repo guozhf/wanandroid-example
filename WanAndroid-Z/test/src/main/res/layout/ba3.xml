@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="12.0dip" app:placeholderImage="@drawable/be6" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="9.0sp" android:textColor="@color/BK99" android:gravity="center" android:id="@id/anchor_identity" android:background="@drawable/amg" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="16.0dip" android:text="@string/e5b" android:lineSpacingExtra="3.0sp" android:layout_marginEnd="5.0dip" />
+            <TextView android:textColor="@color/BK99" android:id="@id/text_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="130.0dip" android:maxLines="1" android:lineSpacingExtra="6.0sp" android:alpha="0.8" />
+            <com.zhihu.android.videox.widget.UserLevelView android:id="@id/level" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginStart="5.0dip" />
+            <com.zhihu.android.videox.fragment.fans.widget.FansBadgeView android:id="@id/fans_badge_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+            <TextView android:textSize="14.0sp" android:layout_gravity="center_vertical" android:id="@id/text_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.zhihu.android.videox.fragment.liveroom.widget.MeTooActionView android:layout_gravity="center_vertical" android:id="@id/me_too_action" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="479.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableRelativeLayout android:layout_gravity="bottom" android:id="@id/premium_cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bg_cornerRadius="12.0dip" app:bg_fillColor="@color/GBK99A">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/close" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginBottom="99.0dip" android:src="@drawable/c02" android:scaleType="centerInside" android:tint="@color/GBK05A" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/touch_dispatcher" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center" android:id="@id/privilege_title" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="42.0dip" android:layout_marginRight="42.0dip" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/premium_web_containter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/privilege_title" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableRelativeLayout>
+</FrameLayout>

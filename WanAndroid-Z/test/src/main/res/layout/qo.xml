@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.topic.widget.SimpleToolBar android:id="@id/toolbar" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/r5" zhihu:SimpleToolBarBackSrc="@drawable/u9" zhihu:SimpleToolBarBackSrcTint="@color/GBK05A" zhihu:SimpleToolBarTitle="观影记录" zhihu:SimpleToolBarTitleColor="@color/GBK02A" zhihu:SimpleToolBarTitleSize="17.0sp" />
+    <com.zhihu.android.base.widget.ZHTabLayout android:layout_gravity="bottom|center" android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" zhihu:tabIndicatorColor="@color/GBK02A" zhihu:tabMinWidth="0.0dip" zhihu:tabPaddingEnd="0.0dip" zhihu:tabPaddingStart="0.0dip" zhihu:tabSelectedTextColor="@color/GBK02A" zhihu:tabTextColor="@color/color_tab_state" style="@style/xi" />
+    <com.zhihu.android.base.view.ZHView android:layout_gravity="bottom" android:id="@id/tab_layout_bottom_line" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.70000005dip" />
+    <com.zhihu.android.base.widget.ZHViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

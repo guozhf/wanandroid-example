@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/contacts_entry" android:tag="layout/recycler_item_followed_contacts_entry_0" android:background="@color/GBK99A" android:padding="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/f3" android:foreground="?a3i"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/bgx" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <TextView android:textAppearance="@style/zh" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:text="@string/yh" android:layout_weight="1.0" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBK06A" android:id="@id/count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+    <View android:background="@drawable/d1" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+</LinearLayout>

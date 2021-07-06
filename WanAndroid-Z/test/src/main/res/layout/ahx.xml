@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:paddingTop="@dimen/fc" android:paddingBottom="@dimen/fc" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/BK99" android:id="@id/region_search_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fc" android:layout_marginRight="@dimen/fc" android:text="@string/crg" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

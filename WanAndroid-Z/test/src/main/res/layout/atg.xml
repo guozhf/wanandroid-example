@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:gravity="center" android:id="@id/tag_content_tv" android:tag="layout/recycler_item_market_classify_header_tag_0" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

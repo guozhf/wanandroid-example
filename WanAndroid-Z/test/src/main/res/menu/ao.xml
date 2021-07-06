@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/aya" android:id="@id/action_add_shelf" android:visible="false" android:title="@string/b_7" app:showAsAction="always" />
+    <item android:icon="@drawable/ayb" android:id="@id/action_remove_shelf" android:visible="false" android:title="@string/b_7" app:showAsAction="always" />
+    <item android:icon="@drawable/ayn" android:id="@id/action_settings" android:visible="true" android:title="@string/b_4" app:showAsAction="always" />
+    <item android:icon="@drawable/cb6" android:id="@id/action_share" android:title="" app:showAsAction="always" />
+</menu>

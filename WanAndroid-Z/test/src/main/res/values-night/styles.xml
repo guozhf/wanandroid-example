@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ge" parent="@style/lb">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/text_follow_strong_light</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="nr" parent="@style/np" />
+    <style name="ns" parent="@style/np" />
+    <style name="nt" parent="@style/ny" />
+    <style name="nu" parent="@style/nz" />
+    <style name="nv" parent="@style/o0" />
+    <style name="nw" parent="@style/o1" />
+    <style name="nx" parent="@style/o9" />
+    <style name="ol" parent="@style/oh" />
+    <style name="om" parent="@style/oi" />
+    <style name="on" parent="@style/oj" />
+    <style name="oo" parent="@style/oh" />
+    <style name="op" parent="@style/oj" />
+    <style name="oq" parent="@style/p1" />
+    <style name="or" parent="@style/p2" />
+    <style name="os" parent="@style/p3" />
+    <style name="ot" parent="@style/p4" />
+    <style name="ou" parent="@style/p5" />
+    <style name="ov" parent="@style/p6" />
+    <style name="ow" parent="@style/p7" />
+    <style name="ox" parent="@style/p8" />
+    <style name="oy" parent="@style/p9" />
+    <style name="oz" parent="@style/pr" />
+    <style name="p0" parent="@style/ps" />
+    <style name="py" parent="@style/pw" />
+    <style name="qh" parent="@style/qe" />
+    <style name="uh" parent="@style/uj" />
+    <style name="ul" parent="@style/um" />
+    <style name="uu" parent="@style/us" />
+    <style name="ux" parent="@style/uv" />
+    <style name="wj" parent="@style/wh" />
+    <style name="wz" parent="@style/x0" />
+    <style name="x6">
+        <item name="hg">@color/color_8a03a9f4</item>
+    </style>
+    <style name="xo" parent="@style/a02">
+        <item name="android:textSize">@dimen/c9</item>
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="xp" parent="@style/a02">
+        <item name="android:textSize">@dimen/c9</item>
+        <item name="android:textColor">@color/color_ff1e8ae8</item>
+    </style>
+    <style name="xq" parent="@style/a02">
+        <item name="android:textSize">@dimen/c9</item>
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="xs" parent="@style/a16">
+        <item name="android:textColor">@color/color_ff03a9f4</item>
+    </style>
+    <style name="xu" parent="@style/a1y">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="xv" parent="@style/lb">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/text_color_conversation_snippet_dark</item>
+    </style>
+    <style name="xw" parent="@style/lb">
+        <item name="android:textSize">@dimen/b9</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="y0" parent="@style/a2_">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="y1" parent="@style/a0t">
+        <item name="android:textColor">@color/color_ff0f88eb_ff0f88eb</item>
+    </style>
+    <style name="y3" parent="@style/a2_">
+        <item name="android:textColor">@color/color_ff0f88eb_ff0f88eb</item>
+    </style>
+    <style name="y4" parent="@style/a0s">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/EBD04</item>
+    </style>
+    <style name="yb" parent="@style/ya">
+        <item name="android:textSize">@dimen/rh</item>
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="yc" parent="@style/ya">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+        <item name="android:fontFamily">sans-serif-dark</item>
+    </style>
+    <style name="ye" parent="@style/yd">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="yg" parent="@style/a0m">
+        <item name="android:textColor">@color/color_deffffff</item>
+    </style>
+    <style name="yj" parent="@style/yi">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="yl" parent="@style/yk">
+        <item name="android:textColor">@color/GBK06B</item>
+    </style>
+    <style name="ym" parent="@style/yk">
+        <item name="android:textColor">@color/color_ffd92155</item>
+    </style>
+    <style name="yn" parent="@style/yk">
+        <item name="android:textColor">@color/color_ff1db576</item>
+    </style>
+    <style name="yo" parent="@style/yk">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="yq" parent="@style/yp">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="yt" parent="@style/yr">
+        <item name="android:textColor">@color/color_4c000000_4cffffff</item>
+        <item name="android:textColorHint">@color/color_4c000000_4cffffff</item>
+    </style>
+    <style name="yu" parent="@style/yr">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="yy" parent="@style/yx">
+        <item name="android:textColor">@color/color_de000000_4dffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="yz" parent="@style/yx">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="z3" parent="@style/z0">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="z4" parent="@style/z0">
+        <item name="android:textColor">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="z5" parent="@style/z0">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="z7" parent="@style/z0">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="za" parent="@style/z8">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="zc" parent="@style/z8">
+        <item name="android:textColor">@color/color_ffe09600</item>
+    </style>
+    <style name="zg" parent="@style/z8">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="zh" parent="@style/z8">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="zi" parent="@style/z8">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="zk" parent="@style/z8">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="zm" parent="@style/zl">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="zn" parent="@style/zl">
+        <item name="android:textColor">@color/color_ffd92155</item>
+    </style>
+    <style name="zp" parent="@style/zl">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="zq" parent="@style/zl">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="zr" parent="@style/zl">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="zs" parent="@style/zl">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="zt" parent="@style/a16">
+        <item name="android:textColor">@color/color_4dffffff</item>
+    </style>
+    <style name="zz" parent="@style/nn">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/GBK05A</item>
+    </style>
+    <style name="a01" parent="@style/no">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/BK06</item>
+    </style>
+    <style name="a04" parent="@style/a03">
+        <item name="android:textColor">@color/color_4c000000_4cffffff</item>
+    </style>
+    <style name="a05" parent="@style/a03">
+        <item name="android:textColor">@color/text_live_reply_selector_dark</item>
+    </style>
+    <style name="a06" parent="@style/a03">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="a07" parent="@style/a03">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a0a" parent="@style/a09">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a0b" parent="@style/a09">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a0e" parent="@style/a0c">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="a0i" parent="@style/a0c">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="a0j" parent="@style/a0c">
+        <item name="android:textColor">@color/GBK02A</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a0k" parent="@style/a0c">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a0l" parent="@style/a0c">
+        <item name="android:textColor">@color/color_4d000000_54ffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a0n" parent="@style/a0m">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="a0p" parent="@style/a0m">
+        <item name="android:textColor">@color/color_ffd92155</item>
+    </style>
+    <style name="a0r" parent="@style/a0m">
+        <item name="android:textColor">@color/color_ff03a9f4</item>
+    </style>
+    <style name="a0s" parent="@style/a0m">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="a0z" parent="@style/a0m">
+        <item name="android:textColor">@color/text_live_reply_selector_dark</item>
+    </style>
+    <style name="a10" parent="@style/a0m">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="a11" parent="@style/a0m">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a13" parent="@style/a0m">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a14" parent="@style/a0m">
+        <item name="android:textColor">@color/text_color_primary_selectable_dark</item>
+    </style>
+    <style name="a15" parent="@style/a0m">
+        <item name="android:textColor">@color/selector_text_primary_dark</item>
+    </style>
+    <style name="a17" parent="@style/a16">
+        <item name="android:textColor">@color/color_ff03a9f4</item>
+    </style>
+    <style name="a18" parent="@style/a16">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="a1_" parent="@style/a16">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="a1a" parent="@style/a16">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="a1d" parent="@style/a16">
+        <item name="android:textColor">@color/color_ffd92155</item>
+    </style>
+    <style name="a1i" parent="@style/a16">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="a1n" parent="@style/a16">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+    </style>
+    <style name="a1q" parent="@style/a16">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a1v" parent="@style/a16">
+        <item name="android:textColor">@color/color_deffffff_deffffff</item>
+    </style>
+    <style name="a1w" parent="@style/a16">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+    </style>
+    <style name="a1y" parent="@style/a16">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a26" parent="@style/a16">
+        <item name="android:textColor">@color/color_8affffff</item>
+        <item name="android:textColorHint">#8cffffff</item>
+    </style>
+    <style name="a2d" parent="@style/a2c">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="a2e" parent="@style/a2c">
+        <item name="android:textColor">@color/color_8ab2ccd5</item>
+    </style>
+    <style name="a2f" parent="@style/a2c">
+        <item name="android:textColor">@color/color_ffd92155</item>
+    </style>
+    <style name="a2h" parent="@style/a2c">
+        <item name="android:textColor">@color/color_8a03a9f4</item>
+    </style>
+    <style name="a2i" parent="@style/a2c">
+        <item name="android:textColor">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a2j" parent="@style/a2c">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a2k" parent="@style/a2c">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="a2n" parent="@style/a2c">
+        <item name="android:textColor">@color/color_de000000_deffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a2o" parent="@style/a2c">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a2p" parent="@style/lb">
+        <item name="android:textSize">@dimen/rl</item>
+        <item name="android:textColor">@color/text_color_secondary_selectable_dark</item>
+    </style>
+    <style name="a2t" parent="@style/a2h">
+        <item name="android:textColor">@color/color_8affffff</item>
+    </style>
+    <style name="a32" parent="@style/nz">
+        <item name="android:windowBackground">@drawable/q9</item>
+        <item name="android:borderlessButtonStyle">@style/a3i</item>
+        <item name="android:buttonBarButtonStyle">@style/a3i</item>
+        <item name="em">@style/a3i</item>
+        <item name="fa">@style/a3i</item>
+        <item name="fc">@style/xx</item>
+    </style>
+    <style name="a33" parent="@style/nz">
+        <item name="android:colorBackground">@color/color_ff37474f</item>
+        <item name="android:windowBackground">@drawable/q9</item>
+        <item name="hd">@color/color_ff0077d9</item>
+        <item name="hq">@color/color_ff1e8ae8</item>
+        <item name="hr">@color/color_ff176eb9</item>
+    </style>
+    <style name="a37" parent="@style/px">
+        <item name="hg">@color/color_ffffffff_ffffffff</item>
+        <item name="hi">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="a3c" parent="@style/a3a">
+        <item name="android:textColor">@color/color_ffffffff_ffffffff</item>
+        <item name="android:textColorHint">@color/color_de000000_4dffffff</item>
+    </style>
+    <style name="a3k" parent="@style/dz">
+        <item name="android:colorForeground">@color/color_ffffffff_ffffffff</item>
+        <item name="hg">@color/color_ff33c9ff</item>
+        <item name="hx">@color/color_ffffffff_ffffffff</item>
+    </style>
+    <style name="a4g">
+        <item name="android:alpha">0.3</item>
+    </style>
+    <style name="a56">
+        <item name="hg">@color/color_ff33c9ff</item>
+        <item name="hh">@color/color_ff33c9ff</item>
+        <item name="hi">@color/color_4cffffff</item>
+    </style>
+</resources>

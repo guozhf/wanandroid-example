@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/layout_settings_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/bottom_func_layout" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="58.0dip" android:foreground="?a3i">
+        <com.zhihu.android.base.view.ZHView android:id="@id/divider_top" android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" android:layout_alignParentTop="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/rj" android:gravity="center" android:id="@id/func_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.zhihu.android.base.view.ZHView android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" android:layout_alignParentBottom="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/rl" android:textColor="@color/color_40000000" android:gravity="center" android:id="@id/bottom_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fa" android:layout_marginBottom="56.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

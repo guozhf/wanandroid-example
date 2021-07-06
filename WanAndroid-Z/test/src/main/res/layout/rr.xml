@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="@dimen/fe"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/tv_num_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zhihu.android.invite.widget.InvitedHeaderListLayout android:gravity="center|right" android:id="@id/layout_header_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_centerVertical="true" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

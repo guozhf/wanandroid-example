@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_use_prod" android:title="@string/dw9" app:showAsAction="never" />
+    <item android:id="@id/action_use_dev" android:title="@string/dw8" app:showAsAction="never" />
+    <item android:id="@id/action_clear_branch_deploy" android:title="@string/nw" app:showAsAction="never" />
+</menu>

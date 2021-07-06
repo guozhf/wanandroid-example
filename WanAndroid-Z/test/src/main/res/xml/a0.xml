@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ceq" android:key="@string/c2q" android:summary="@string/cd1" android:defaultValue="false" />
+    <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/ces" android:key="@string/c2s" android:summary="@string/cd3" />
+    <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/cer" android:key="@string/c2r" android:summary="@string/cd2" />
+    <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ch1" android:key="@string/c90" android:summary="@string/cdi" android:defaultValue="false" />
+    <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/chk" android:key="@string/c_3" android:summary="@string/cdp" android:defaultValue="false" />
+    <PreferenceScreen android:title="@string/cgw" android:key="@string/c7n" />
+    <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/chm" android:key="@string/c_m" android:summary="@string/cdr" android:defaultValue="false" />
+    <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfe" android:key="@string/c53" android:summary="@string/cdb" android:defaultValue="false" />
+</PreferenceScreen>

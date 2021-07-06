@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_barrage" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/fast_input_space" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:alpha="0.6" />
+        <include android:id="@id/fast_input_widget" layout="@layout/b27" />
+        <include android:id="@id/fast_input_layout" layout="@layout/b26" />
+    </LinearLayout>
+</FrameLayout>

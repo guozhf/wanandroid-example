@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingTop="@dimen/sq" android:paddingBottom="@dimen/sq" android:layout_width="@dimen/sm" android:layout_height="wrap_content" android:layout_alignTop="@id/ll_et_container" android:layout_alignBottom="@id/ll_et_container">
+        <FrameLayout android:id="@id/fl_image" android:layout_width="@dimen/sm" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_horizontal" android:id="@id/image" android:layout_width="@dimen/sl" android:layout_height="@dimen/sk" android:layout_marginTop="0.5dip" android:scaleType="fitXY" app:roundedCornerRadius="4.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_type" android:background="@drawable/akc" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="16.0dip" android:text="@string/e41" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/iv_img_auto_set" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_image_line" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:background="@drawable/ah8" android:layout_width="15.0dip" android:layout_height="1.5dip" android:layout_marginTop="2.0dip" />
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:background="@drawable/ah8" android:layout_width="15.0dip" android:layout_height="1.5dip" android:layout_marginBottom="2.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <include android:id="@id/rl_cover" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/b4r" />
+    <com.zhihu.android.vessay.outline.ui.widget.OutlineEditTextContainer android:orientation="vertical" android:id="@id/ll_et_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sk" />
+</RelativeLayout>

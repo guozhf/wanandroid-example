@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="r">0</integer>
+    <integer name="a6">1</integer>
+    <integer name="a_">8</integer>
+    <integer name="aa">9</integer>
+    <integer name="ac">6</integer>
+    <integer name="ad">7</integer>
+    <integer name="ai">11</integer>
+    <integer name="aj">12</integer>
+</resources>

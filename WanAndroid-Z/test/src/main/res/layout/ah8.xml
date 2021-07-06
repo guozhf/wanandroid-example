@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/badge_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/c16" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBL05A" android:id="@id/baike" android:paddingBottom="2.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cko" android:layout_marginStart="8.0dip" />
+</LinearLayout>

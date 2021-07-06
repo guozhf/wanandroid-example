@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/cf9" android:key="@string/c42">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfn" android:key="@string/c5k" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cf3" android:key="@string/c3u">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfo" android:key="@string/c5l" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfq" android:key="@string/c5n" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cf8" android:key="@string/c41">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfs" android:key="@string/c5o" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cfp" android:key="@string/c5m" />
+    </PreferenceCategory>
+</PreferenceScreen>

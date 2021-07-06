@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="@dimen/ew" android:layout_alignParentBottom="true" android:layout_marginStart="68.0dip" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/column_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentStart="true" app:businessType="community" app:roundedCornerRadius="3.0dip" />
+    <com.zhihu.android.base.widget.ZHRadioButton android:id="@id/radio_box" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/column_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:maxLines="1" android:layout_centerVertical="true" android:layout_toStartOf="@id/radio_box" android:layout_toEndOf="@id/column_avatar" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:padding="@dimen/f7" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fc" android:layout_marginBottom="@dimen/fc" android:foreground="?a3i" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:id="@id/answer_or_article_title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="0.0sp" />
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/f7" />
+    <ProgressBar android:id="@id/video_uploading_progressbar" android:layout_width="fill_parent" android:layout_height="@dimen/f8" android:maxHeight="@dimen/f8" android:indeterminate="false" android:minHeight="@dimen/f8" style="@style/jj" />
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/f7" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1b" android:id="@id/cancel_post_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cxu" android:lineSpacingExtra="0.0sp" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.market.widget.ApproveButton android:layout_gravity="center_vertical" android:id="@id/approveButton" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginStart="25.0dip" app:ab_backgroundColor="@color/kmvideo_detail_bottom_approve_bg_color" app:ab_backgroundRadius="20.0dip" app:ab_dividerColor="#33ffffff" app:ab_foregroundColor="@color/BK99" app:ab_negativePadding="16.0dip" app:ab_positivePadding="12.0dip" />
+</FrameLayout>

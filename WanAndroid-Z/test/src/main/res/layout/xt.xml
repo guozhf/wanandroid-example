@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/hash_tag_recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="168.0dip" />
+    <com.zhihu.android.base.widget.ZHImageButton android:layout_gravity="end|center|top" android:id="@id/hash_tag_close" android:background="?a3j" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bdc" android:scaleType="center" app:tintColor="@color/GBK04A" />
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/vessay_drag_blue_cover_color" />
+    <corners android:radius="4.0dip" />
+    <stroke android:width="0.5dip" android:color="@color/vessay_drag_item_cover_end_color" />
+</shape>

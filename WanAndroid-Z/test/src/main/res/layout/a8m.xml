@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/content_image" android:layout_width="fill_parent" android:layout_height="145.0dip" app:autoMask="true" app:businessType="community" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundedCornerRadius="4.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingExtra="1.0sp" android:layout_marginStart="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content_image" />
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/tag" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" app:actualImageScaleType="fitCenter" app:layout_constraintStart_toStartOf="@id/content_image" app:layout_constraintTop_toTopOf="@id/content_image" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK07A" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="1.0sp" app:layout_constraintTop_toBottomOf="@id/content_image" />
+    </LinearLayout>
+</merge>

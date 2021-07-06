@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/imageTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.zhihu.android.app.market.newhome.ui.view.SemicircleView android:id="@id/red_point2" android:visibility="visible" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginBottom="-5.0dip" android:layout_above="@id/imageTitle" android:layout_marginStart="-5.0dip" android:layout_toEndOf="@id/imageTitle" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

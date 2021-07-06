@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/error_image" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_marginTop="140.0dip" android:src="@drawable/bqn" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBL05A_85" android:id="@id/error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/don" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/error_image" />
+    <Button android:textSize="13.0sp" android:textColor="@color/GBK99A" android:id="@id/error_retry_button" android:background="@drawable/co" android:layout_width="72.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:text="@string/dom" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/error_text" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

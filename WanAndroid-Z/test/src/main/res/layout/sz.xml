@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.ProgressView android:id="@id/progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK04A" android:id="@id/text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dds" android:layout_centerInParent="true" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

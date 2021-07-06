@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.profile.page.widget.ProfileTabLayout android:id="@id/profile_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.zhihu.android.profile.page.widget.NestedScrollableHost android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.zhihu.android.profile.page.widget.NestedScrollableHost>
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/skeleton" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zuiSkeleton="t01,t01,t01" />
+</merge>

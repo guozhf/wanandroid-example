@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/img_cover" android:layout_width="56.0dip" android:layout_height="70.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundedCornerRadius="5.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="14.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/img_cover" app:layout_constraintLeft_toRightOf="@id/img_cover" app:layout_constraintRight_toLeftOf="@id/btn_join" app:layout_constraintTop_toTopOf="@id/img_cover">
+        <TextView android:textSize="16.0sp" android:textColor="@color/BK99" android:ellipsize="end" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/BK06" android:ellipsize="end" android:id="@id/text_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lines="2" />
+    </LinearLayout>
+    <Button android:textSize="13.0sp" android:textColor="@color/BK99" android:id="@id/btn_join" android:background="@drawable/av8" android:layout_width="66.0dip" android:layout_height="30.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="10.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/pick_image_from_camcare_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="从相机选择图片" android:layout_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/image_title" />
+                    <Button android:id="@id/pick_image_from_galley_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="从相册选择图片" android:layout_weight="1.0" app:layout_constraintLeft_toRightOf="@id/pick_image_from_camcare_btn" app:layout_constraintTop_toBottomOf="@id/image_title" />
+                    <Button android:id="@id/upload_image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="上传图片" android:layout_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/image_count" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/image_progressbar" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="10.0dip" android:elevation="10.0dip" app:layout_constraintBottom_toBottomOf="@id/upload_image" app:layout_constraintLeft_toLeftOf="@id/upload_image" app:layout_constraintRight_toRightOf="@id/upload_image" app:layout_constraintTop_toTopOf="@id/upload_image" />
+                    <TextView android:textSize="20.0dip" android:textStyle="bold" android:id="@id/image_title" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="图片上传器" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:id="@id/image_count" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="已经选择图片：" app:layout_constraintTop_toBottomOf="@id/pick_image_from_camcare_btn" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="已经上传：0 张" app:layout_constraintBottom_toBottomOf="@id/upload_image" app:layout_constraintLeft_toRightOf="@id/upload_image" app:layout_constraintTop_toTopOf="@id/upload_image" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="10.0dip">
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0dip" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="表情包UI服务" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Button android:id="@id/check_emoticion" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="同步服务器数据" android:layout_weight="1.0" />
+                        <Button android:id="@id/get_emoticion" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="获取本地数据" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Switch android:id="@id/isvip_switch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="false" android:text="开启vip表情" android:layout_weight="2.0" android:switchPadding="8.0dip" />
+                        <Switch android:id="@id/openemoji_switch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="false" android:text="开启emoji表情" android:layout_weight="2.0" android:switchPadding="8.0dip" />
+                    </LinearLayout>
+                    <Switch android:id="@id/emoticon_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="false" android:text="展开收起表情mainboard" android:layout_weight="2.0" android:switchPadding="8.0dip" />
+                    <com.zhihu.android.zim.emoticon.ui.EmoticonPanel android:id="@id/emoticon_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="10.0dip">
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20.0dip" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="ImInputPanel 输入面板 " />
+                        <Button android:id="@id/init_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="刷新" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <Switch android:id="@id/is_support_image_switch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="true" android:text="是否支持选择图片" android:layout_weight="2.0" android:switchPadding="8.0dip" />
+                        <Switch android:id="@id/is_support_emocation_switch" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="true" android:text="是否支持选择表情" android:layout_weight="2.0" android:switchPadding="8.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    <com.zhihu.android.zim.uikit.ImInputPanel android:id="@id/input_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

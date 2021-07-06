@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/settings_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="top" android:id="@id/systemBarContainer" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <com.zhihu.android.app.ui.widget.SystemBar android:id="@id/system_bar" android:layout_width="fill_parent" android:layout_height="?au" android:elevation="0.0dip" />
+                </com.zhihu.android.base.widget.ZHFrameLayout>
+            </com.zhihu.android.base.widget.ZHFrameLayout>
+            <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="start" android:id="@id/drawer_left" android:layout_width="300.0dip" android:layout_height="fill_parent" />
+            <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="end" android:id="@id/drawer_right" android:layout_width="300.0dip" android:layout_height="fill_parent" />
+        </androidx.drawerlayout.widget.DrawerLayout>
+        <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="end" android:id="@id/drawer_setting" android:layout_width="300.0dip" android:layout_height="fill_parent" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <include android:id="@id/loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ra" />
+    <include android:id="@id/error_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/r_" />
+</androidx.constraintlayout.widget.ConstraintLayout>

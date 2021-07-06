@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout android:id="@id/channelAvatarContainer" android:layout_width="30.0dip" android:layout_height="30.0dip" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBK10A_06" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/channelAvatar" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        </com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/channelName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/fi" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/channelPrice" app:layout_constraintStart_toEndOf="@id/channelAvatarContainer" app:layout_constraintTop_toTopOf="parent" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0dip" android:textColor="@color/GRD08A" android:gravity="center" android:id="@id/channelPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/baq" android:layout_marginStart="@dimen/fi" android:drawableTint="@color/GRD08A" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/channelName" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/bottomDivider" android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

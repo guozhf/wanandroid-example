@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="600.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/lp" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/close" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/bvd" android:scaleType="centerInside" android:tint="@color/GBK05A" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="44.0dip" android:maxLines="1" android:layout_marginStart="44.0dip" android:layout_marginEnd="44.0dip" />
+    <FrameLayout android:id="@id/web_containter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dialog_title" />
+</RelativeLayout>

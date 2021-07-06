@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/answer_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.answer.module.content.AnswerContentView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/video_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="200.0dip" android:minHeight="300.0dip" />
+    <ViewStub android:id="@id/empty_view_stub" android:visibility="gone" android:layout="@layout/vq" android:inflatedId="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

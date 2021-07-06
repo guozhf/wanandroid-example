@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.FrameInterceptLayout android:id="@id/intercept" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.db.widget.DbRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.db.widget.DbRefreshLayout>
+    <com.zhihu.android.db.widget.DbFab android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="53.0dip" android:layout_marginEnd="7.0dip" app:backgroundTint="@color/GBL01A" app:elevation="6.0dip" app:fabSize="normal" app:rippleColor="@color/db_ripple_mask" app:srcCompat="@drawable/bdj" app:useCompatPadding="true" />
+</com.zhihu.android.app.ui.widget.FrameInterceptLayout>

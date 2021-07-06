@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" android:layout_marginRight="@dimen/fi" android:layout_marginBottom="@dimen/fi" android:src="@drawable/bwz" android:layout_alignParentRight="true" zhihu:tintColor="@color/GBK05A" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/yv" android:textSize="20.0dip" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/br0" android:maxLines="2" android:layout_below="@id/btn_close" android:layout_centerHorizontal="true" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wechat_door" android:background="@drawable/a33" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="30.0dip">
+                <com.zhihu.android.base.widget.ZHImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/bxe" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/bt9" android:lineSpacingExtra="9.0sp" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/qq_door" android:background="@drawable/a34" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="30.0dip">
+                <com.zhihu.android.base.widget.ZHImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/bx8" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/bt6" android:lineSpacingExtra="9.0sp" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sina_door" android:background="@drawable/a35" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="30.0dip">
+                <com.zhihu.android.base.widget.ZHImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/bxa" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/bt8" android:lineSpacingExtra="9.0sp" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mobile_door" android:background="@drawable/a32" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="30.0dip">
+                <com.zhihu.android.base.widget.ZHImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/bx5" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/bt5" android:lineSpacingExtra="9.0sp" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:id="@id/email_door" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/br4" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

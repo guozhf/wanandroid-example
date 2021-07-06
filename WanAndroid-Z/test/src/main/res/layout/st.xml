@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:id="@id/text" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="28.0dip" android:paddingStart="12.0dip" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

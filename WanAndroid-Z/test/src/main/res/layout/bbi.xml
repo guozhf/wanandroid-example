@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back" android:background="@drawable/aoa" android:layout_width="fill_parent" android:layout_height="800.0dip" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" />
+    <ImageView android:id="@id/arrow" android:layout_width="20.0dip" android:layout_height="75.0dip" android:layout_marginBottom="94.5dip" android:src="@drawable/c9o" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <ImageView android:id="@id/hand" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="64.5dip" android:src="@drawable/as_" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/line" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/BK99" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="210.0dip" android:lineSpacingExtra="7.0sp" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</merge>

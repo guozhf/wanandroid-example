@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/be8" android:id="@id/action_delete" android:title="@string/bd9" />
+    <item android:icon="@mipmap/a" android:id="@id/action_copy" android:title="@string/bd7" />
+    <item android:icon="@mipmap/b" android:id="@id/action_report" android:title="@string/bda" />
+</menu>

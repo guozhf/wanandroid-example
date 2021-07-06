@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_error_page" android:background="@color/color_ffffffff_ff37474f" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/normal_error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bf7" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0t" android:gravity="center" android:id="@id/error_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dbe" android:layout_below="@id/error_image" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/zp" android:id="@id/action_positive" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重新加载" android:layout_below="@id/error_title" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_back" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/u9" android:tint="@color/black" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/account_error_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/backgroud_pic" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="178.0dip" />
+        <com.zhihu.android.base.widget.ZHToolBar android:id="@id/toolbar" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+        <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/avatar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="-30.0dip" android:layout_below="@id/backgroud_pic" android:layout_marginStart="@dimen/f7" app:placeholderImage="@drawable/be6" app:placeholderImageScaleType="centerCrop" app:roundAsCircle="true" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundedCornerRadius="5.0dip" app:roundingBorderColor="@color/color_ffffffff" app:roundingBorderWidth="3.0dip" />
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/c11" android:tint="@color/BK06" android:layout_below="@id/avatar" android:layout_marginStart="@dimen/f7" />
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/error_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/cqs" android:layout_below="@id/avatar" android:lineSpacingExtra="4.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="@dimen/f7" android:layout_toEndOf="@id/icon" app:tintColor="@color/BK06" />
+    </RelativeLayout>
+</RelativeLayout>

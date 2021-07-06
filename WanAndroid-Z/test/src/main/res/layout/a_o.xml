@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="54.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/ivBack" android:padding="12.0dip" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/axf" android:scaleType="fitXY" zhihu:layout_constraintLeft_toLeftOf="parent" zhihu:layout_constraintTop_toTopOf="parent" zhihu:tintColor="@color/GBK03A" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/tvTopRightTitle" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="44.0dip" zhihu:layout_constraintRight_toRightOf="parent" zhihu:layout_constraintTop_toTopOf="@id/ivBack" />
+    <TextView android:textSize="27.0sp" android:textColor="@color/GBK02A" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="24.0dip" zhihu:layout_constraintLeft_toLeftOf="parent" zhihu:layout_constraintTop_toBottomOf="@id/ivBack" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:id="@id/tvSubTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" zhihu:layout_constraintLeft_toLeftOf="@id/tvTitle" zhihu:layout_constraintTop_toBottomOf="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

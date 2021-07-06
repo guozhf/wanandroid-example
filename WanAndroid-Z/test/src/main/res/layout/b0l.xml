@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:background="@color/color_ff1e8ae8_ff263238" android:layout_width="fill_parent" android:layout_height="?au" zhihu:contentInsetStartWithNavigation="48.0dip" zhihu:popupTheme="@style/a37" zhihu:subtitleTextAppearance="@style/a3_" zhihu:theme="@style/a39" zhihu:tintColor="@android:color/white" zhihu:titleTextAppearance="@style/a3a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto" />

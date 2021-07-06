@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/inline_play" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.0dip" android:layout_alignParentTop="true" zhihu:autoMask="false" zhihu:cardBackgroundColor="@android:color/white" zhihu:cardElevation="0.0dip" />
+    <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/inline_play_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" zhihu:autoMask="false" zhihu:cardBackgroundColor="@android:color/white" zhihu:cardElevation="0.0dip" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

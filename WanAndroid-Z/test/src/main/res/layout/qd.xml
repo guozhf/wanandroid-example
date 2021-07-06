@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/fragment_paging_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title_layout" layout="@layout/yp" />
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/f7" app:layout_constraintBottom_toTopOf="@id/action_btn" app:layout_constraintTop_toBottomOf="@id/title_layout">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <com.zhihu.android.app.base.ui.widget.DrawableCenterTextView android:enabled="true" android:textSize="@dimen/rk" android:textColor="@color/color_live_action_btn_text" android:gravity="center" android:id="@id/action_btn" android:background="@drawable/hp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginBottom="6.0dip" android:drawablePadding="4.0dip" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

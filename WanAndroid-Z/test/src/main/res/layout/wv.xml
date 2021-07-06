@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/color_50_percent_transparent_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/canvas_form_image_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fd" android:layout_marginRight="@dimen/fd" android:layout_centerInParent="true" app:aspectRatio="1.0" app:businessType="commerce" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/canvas_form_image_preview_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginRight="15.0dip" android:src="@drawable/b0r" android:layout_alignTop="@id/canvas_form_image_preview" android:layout_alignParentRight="true" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

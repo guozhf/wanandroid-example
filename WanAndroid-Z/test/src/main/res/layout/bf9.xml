@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/input_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <EditText android:textSize="16.0sp" android:textColor="@color/GBK03A" android:textColorHint="@color/GBK07B" android:gravity="center_vertical" android:id="@id/input" android:background="@null" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="5" android:lineSpacingMultiplier="1.2" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48.0dip">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/add_sticker" android:background="?android:selectableItemBackground" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="12.0dip" android:src="@mipmap/f" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <TextView android:textSize="9.0dip" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/sticker_tips" android:background="@color/GBK99A" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="-13.0dip" android:text="New" android:layout_alignRight="@id/add_sticker" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:gravity="center" android:layout_gravity="center" android:id="@id/send" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="32.0dip" android:text="发送" android:inputType="none" android:layout_marginEnd="12.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/add_img" android:background="?android:selectableItemBackground" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="@dimen/fa" android:src="@mipmap/g" android:scaleType="fitCenter" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

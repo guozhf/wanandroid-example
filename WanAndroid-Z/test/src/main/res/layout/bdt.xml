@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/coupon_use_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/BL01" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ef4" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ca6" zhihu:tintColor="@color/BL01" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/img_coupon_invalid" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</merge>

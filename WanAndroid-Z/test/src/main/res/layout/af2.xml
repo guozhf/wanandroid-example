@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="19.0sp" android:textColor="@color/GBK03A" android:id="@id/entrance_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:fontFamily="@font/b" app:layout_constraintEnd_toEndOf="@id/entrance_name" app:layout_constraintStart_toStartOf="@id/entrance_name" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/entrance_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="18.0dip" android:minWidth="66.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/entrance_count" />
+</com.zhihu.android.zui.widget.ZUIConstraintLayout>

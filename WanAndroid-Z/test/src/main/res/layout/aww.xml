@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:tag="layout/recycler_item_search_question_empty_0" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/no_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/bvw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ce" android:layout_marginRight="@dimen/ce" android:layout_toLeftOf="@id/no_question" android:layout_centerVertical="true">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/ye" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d2v" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/d2u" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/za" android:id="@id/ask_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/d2t" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

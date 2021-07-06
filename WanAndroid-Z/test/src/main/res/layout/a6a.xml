@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:elevation="6.0dip" app:bg_cornerRadius="2.0dip" app:bg_fillColor="@color/GBK99A">
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/btn_download" android:background="?a3i" android:layout_width="128.0dip" android:layout_height="48.0dip" android:text="@string/bcm" android:maxLines="1" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+</LinearLayout>

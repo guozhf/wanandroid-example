@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:id="@id/intro_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:ellipsize="end" android:id="@id/intro_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:maxLines="3" android:lineSpacingExtra="6.0sp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/intro_title" />
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textColor="@color/GBK99A_60" android:id="@id/intro_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dsl" app:layout_constraintBottom_toBottomOf="@id/intro_content" app:layout_constraintRight_toRightOf="@id/intro_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

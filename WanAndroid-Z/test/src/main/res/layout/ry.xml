@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/search_widget_layout" android:tag="layout/search_widget_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="52.0dip" android:elevation="@dimen/fc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:id="@id/card_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:cardBackgroundColor="@color/GBK09A" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip">
+        <com.zhihu.android.base.widget.ZHSpace android:id="@id/menu_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="10.0dip" android:layout_marginStart="175.0dip" />
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:foreground="?a3i" android:src="@drawable/b25" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:tintColor="@color/GBK04A" />
+            <FrameLayout android:id="@id/right_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <com.zhihu.android.base.widget.ZHImageView android:id="@id/clear" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:src="@drawable/bbw" app:tintColor="@color/GBK04A" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/tab_tip_area" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:gravity="center_vertical" android:id="@id/search_type_tips" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="全部" />
+                    <com.zhihu.android.base.widget.ZHImageView android:gravity="center_vertical" android:id="@id/search_type_arrow" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5l" app:tintColor="@color/GBK05A" />
+                </LinearLayout>
+            </FrameLayout>
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK04A" android:textColorHint="@color/GBK04A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/input" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/aqz" android:maxLines="1" android:layout_centerVertical="true" android:layout_toStartOf="@id/right_container" android:layout_toEndOf="@id/up" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+    </com.zhihu.android.base.widget.ZHCardView>
+</com.zhihu.android.base.widget.ZHFrameLayout>

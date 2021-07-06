@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/fe" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/recommend_pin_container" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="6.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/be1" />
+        <com.zhihu.android.db.widget.shimmer.ShimmerTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/recommend_pin_title_update" android:layout_width="84.0dip" android:layout_height="22.0dip" android:text="@string/a5_" android:layout_marginStart="8.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK09A" android:layout_width="@dimen/ew" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/recommend_people_container" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="8.0dip">
+        <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="32.0dip" android:layout_height="32.0dip">
+            <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="center" android:id="@id/relation_member_hint_avatar" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <com.zhihu.android.base.view.ZHView android:layout_gravity="end|center|top" android:id="@id/relation_member_hint_dot" android:background="@drawable/fs" android:visibility="invisible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="3.0dip" android:layout_marginEnd="3.0dip" />
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/recommend_people_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/be0" />
+        </com.zhihu.android.base.widget.ZHFrameLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a58" android:layout_marginStart="8.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

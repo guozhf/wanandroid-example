@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_phone" android:visible="false" android:title="@string/de9" />
+    <item android:id="@id/action_email" android:visible="false" android:title="@string/dc5" />
+    <item android:id="@id/action_password" android:visible="false" android:title="@string/ddy" />
+    <item android:id="@id/action_artificial_appeal" android:visible="true" android:title="@string/dae" />
+</menu>

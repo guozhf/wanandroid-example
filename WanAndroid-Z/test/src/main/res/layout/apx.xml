@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/empty_view" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zuiEmpty_desc="新内容还在路上，去看看其他板块吧" app:zuiEmpty_image="normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

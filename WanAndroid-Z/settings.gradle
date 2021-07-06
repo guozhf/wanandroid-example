@@ -1,0 +1,6 @@
+include ':trainingground'
+include ':base_ui'
+include ':base_http'
+include ':baselib'
+include ':app'
+rootProject.name = "WanAndroid-Z"

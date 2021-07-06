@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/bw_" android:id="@id/notification_action_delete" android:title="@string/bop" />
+    <item android:icon="@drawable/bw7" android:id="@id/notification_action_setting" android:title="@string/bot" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/main_tab_more_tool_bar" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.topic.widget.TopicMoreSwitchButton android:layout_gravity="center" android:id="@id/main_tab_more_switch_button" android:layout_width="176.0dip" android:layout_height="32.0dip" app:TopicSwitchButtonItemHeight="28.0dip" app:TopicSwitchButtonItemWidth="86.0dip" app:TopicSwitchButtonTextColor="@color/GBK02A" app:TopicSwitchButtonTextSize="13.0sp" />
+    </com.zhihu.android.base.widget.ZHToolBar>
+    <com.zhihu.android.topic.widget.TopicNoScrollViewPager android:id="@id/main_tab_more_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/main_tab_more_tool_bar" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="-4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHAppBarLayout android:orientation="vertical" android:id="@id/app_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/km" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_scrollFlags="scroll">
+            <com.zhihu.android.app.feed.ui.widget.RecommendTabLayout android:id="@id/tab_layout" android:background="@drawable/km" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tab_manager" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabIndicatorColor="@color/GBK99B" app:tabIndicatorHeight="0.0dip" app:tabMinWidth="10.0dip" app:tabRippleColor="@android:color/transparent" />
+            <View android:background="@drawable/bv3" android:layout_width="32.0dip" android:layout_height="50.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="@id/tab_manager" app:layout_constraintEnd_toStartOf="@id/tab_manager" app:layout_constraintTop_toTopOf="@id/tab_manager" />
+            <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/tab_manager" android:background="@drawable/km" android:layout_width="34.0dip" android:layout_height="50.0dip" android:src="@drawable/bv0" android:paddingEnd="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tab_layout" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.zhihu.android.base.widget.ZHAppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

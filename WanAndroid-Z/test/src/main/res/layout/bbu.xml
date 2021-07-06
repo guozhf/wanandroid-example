@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/anchor_shell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.5dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip">
+        <View android:id="@id/select_circle" android:background="@drawable/apd" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_centerInParent="true" />
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/anchor_avatar" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" app:placeholderImage="@drawable/be6" app:roundingBorderWidth="0.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_ll" android:background="@drawable/apz" android:layout_width="44.0dip" android:layout_height="15.0dip">
+        <TextView android:textSize="8.0sp" android:textColor="@color/BK99" android:ellipsize="end" android:id="@id/anchor_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" android:layout_toStartOf="@id/anchor_host" />
+        <ImageView android:id="@id/anchor_host" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atu" android:layout_centerVertical="true" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

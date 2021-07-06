@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/loadingLayout" android:background="@color/GBK99A" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/loadingLottie" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="55.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loadingPrg" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="27.0dip" />
+</FrameLayout>

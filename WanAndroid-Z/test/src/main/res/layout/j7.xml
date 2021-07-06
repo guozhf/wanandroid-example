@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:background="@drawable/sk" android:paddingTop="10.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/g5" android:paddingEnd="@dimen/g5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:id="@id/repin_origin_deleted" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/ajf" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/repin_origin_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/repin_origin_avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:roundAsCircle="true" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/repin_origin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/repin_origin_avatar" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+        <com.zhihu.android.base.widget.MultilineEllipsisTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/repin_origin_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" android:lineSpacingMultiplier="@dimen/ck" />
+        <ViewStub android:id="@id/quote_stub" android:layout="@layout/jd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        <ViewStub android:id="@id/link_stub" android:layout="@layout/je" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        <ViewStub android:id="@id/images_stub" android:layout="@layout/jb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        <com.zhihu.android.moments.widget.MomentsPinInlinePlayerView android:id="@id/repin_origin_video2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/repin_origin_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHFrameLayout>

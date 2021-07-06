@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:tag="layout/edulive_fragment_ended_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/backgroundView" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="#5c000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.app.edulive.widget.StatusBarMaskView2 android:id="@id/statusBarMaskView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHImageButton android:id="@id/closeButton" android:background="?a3j" android:padding="@dimen/f4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/be_" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/statusBarMaskView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

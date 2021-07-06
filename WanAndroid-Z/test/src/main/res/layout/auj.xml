@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/comment_count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:id="@id/claps_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ns" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="end" android:id="@id/avatar1" android:layout_width="22.0dip" android:layout_height="22.0dip" app:roundingBorderColor="@color/GBK99A" app:roundingBorderWidth="1.0dip" />
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="end" android:id="@id/avatar2" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginEnd="12.0dip" app:roundingBorderColor="@color/GBK99A" app:roundingBorderWidth="1.0dip" />
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="end" android:id="@id/avatar3" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginEnd="24.0dip" app:roundingBorderColor="@color/GBK99A" app:roundingBorderWidth="1.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/btn_alipay" android:paddingLeft="@dimen/f_" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/f_" android:paddingBottom="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_alipay" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ca9" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHRadioButton android:id="@id/btn_alipay_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginRight="@dimen/fi" android:text="@string/aw3" android:layout_toLeftOf="@id/btn_alipay_radio" android:layout_toRightOf="@id/icon_alipay" android:layout_centerVertical="true" />
+</RelativeLayout>

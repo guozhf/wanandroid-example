@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIFrameLayout android:gravity="center" android:id="@id/write_db" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center|left" android:background="@color/GBK08A" android:layout_width="1.0dip" android:layout_height="16.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK04A" android:gravity="center" android:layout_gravity="center" android:id="@id/write_db_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/drd" android:maxLines="1" android:drawablePadding="4.0dip" android:lineSpacingExtra="2.0sp" android:drawableStart="@drawable/bf9" />
+</com.zhihu.android.zui.widget.ZUIFrameLayout>

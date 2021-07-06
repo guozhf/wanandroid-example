@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/cashier_common_view_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/br" />
+    <include android:visibility="gone" layout="@layout/bo" />
+    <View android:id="@id/phone_address_divider" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <include layout="@layout/c2" />
+    <View android:id="@id/address_divider" android:background="@color/GBK09B" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+    <include layout="@layout/bm" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/flex_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="0.0px" android:animateLayoutChanges="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK02A" android:background="@color/GBK10C" android:paddingLeft="16.0dip" android:paddingTop="18.5dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="选择支付方式" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/pay_type_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" />
+</LinearLayout>

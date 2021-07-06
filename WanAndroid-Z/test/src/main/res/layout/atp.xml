@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/recycler_item_market_personal_store_section_bottom_0" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/check_all_line" android:background="@color/color_ffe6e6e6_ff2e3e45" android:paddingBottom="@dimen/cl" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/BL01" android:layout_gravity="center_horizontal" android:id="@id/check_all_tv" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

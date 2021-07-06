@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/channel_detail_bottom_root" android:layout_width="fill_parent" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/channel_detail_bottom_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blu" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/channel_detail_bottom_text" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/channel_detail_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dpa" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/channel_detail_bottom_icon" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

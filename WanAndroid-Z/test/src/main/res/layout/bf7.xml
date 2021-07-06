@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/loading_view" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateTint="@color/GBL01A" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/error_view" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cd1" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击页面重新加载" android:layout_below="@id/image" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

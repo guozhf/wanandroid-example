@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="14.0dip" android:text="@string/cl5" />
+    <TextView android:textColor="@color/GBL01A" android:id="@id/sure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="14.0dip" android:text="@string/cqy" android:layout_alignParentEnd="true" />
+</RelativeLayout>

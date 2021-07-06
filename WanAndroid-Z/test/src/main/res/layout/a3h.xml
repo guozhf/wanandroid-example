@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:orientation="vertical" android:id="@id/tab_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.search.ui.widget.SearchTabsTabLayout android:id="@id/tab_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="40.0dip" zhihu:tabGravity="fill" zhihu:tabIndicatorColor="@null" zhihu:tabMinWidth="52.0dip" zhihu:tabMode="scrollable" zhihu:tabSelectedTextColor="@color/GBK06A" zhihu:tabTextColor="@color/GBK06A" />
+    <View android:id="@id/divide_line" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" zhihu:layout_constraintBottom_toBottomOf="@id/tab_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_clarify" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:layout_constraintTop_toBottomOf="@id/tab_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_vip" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:layout_constraintTop_toBottomOf="@id/tab_layout" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

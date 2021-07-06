@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/active_answerer_toolbar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/active_answerer_toolbar_back" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/u9" android:tint="@color/GBK05A" android:layout_centerVertical="true" />
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center" android:id="@id/active_answerer_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:layout_toLeftOf="@id/active_answerer_toolbar_share" android:layout_toRightOf="@id/active_answerer_toolbar_back" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/active_answerer_toolbar_share" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/bpk" android:tint="@color/GBK05A" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

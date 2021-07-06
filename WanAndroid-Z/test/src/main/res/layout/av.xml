@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ali_auth_nqrview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ali_auth_nqrview_lay_errortips" android:background="#fffbfbfb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ali_auth_nqrview_lay_error_pic" android:paddingTop="@dimen/bo" android:layout_width="@android:dimen/notification_large_icon_height" android:layout_height="@android:dimen/notification_large_icon_height" android:src="@android:drawable/ic_delete" />
+            <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/ali_auth_nqrview_error_main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/k4" android:ems="10" android:inputType="textPersonName" />
+            <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/ali_auth_nqrview_error_sub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm" android:text="@string/k5" android:ems="10" android:inputType="textPersonName" />
+            <Button android:id="@id/ali_auth_nqrview_error_refresh" android:background="@drawable/ax" android:layout_width="@dimen/bn" android:layout_height="36.0dip" android:layout_marginTop="@dimen/bm" android:text="@string/k7" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ali_auth_nqrview_lay_scanedtips" android:background="#fffbfbfb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ali_auth_nqrview_lay_scaned_pic" android:layout_width="@dimen/br" android:layout_height="@dimen/br" android:layout_marginTop="@dimen/bo" android:src="@android:drawable/presence_online" android:cropToPadding="false" />
+            <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/ali_auth_nqrview_scaned_main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm" android:text="@string/k8" android:ems="10" android:inputType="textPersonName" />
+            <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/ali_auth_nqrview_scaned_sub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm" android:text="@string/k9" android:ems="10" android:inputType="textPersonName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ali_auth_nqrview_lay_successedtips" android:background="#fffbfbfb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/br" android:layout_height="@dimen/br" android:layout_marginTop="@dimen/bo" android:src="@android:drawable/presence_online" android:cropToPadding="false" />
+            <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm" android:text="@string/k6" android:ems="10" android:inputType="textPersonName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ali_auth_nqrview_lay_qr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ali_auth_nqrview_qr_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:color/darker_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ali_auth_verify_rl" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

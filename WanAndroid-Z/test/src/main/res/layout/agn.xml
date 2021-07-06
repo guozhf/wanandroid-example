@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/GBK99A" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/layout_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/layout_select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBL05A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全选" android:lineSpacingExtra="3.2999878sp" />
+                <com.zhihu.android.base.widget.ZHImageView android:id="@id/ic_select_all" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/c3r" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="32.0sp" android:textStyle="bold" android:textColor="#ff606a80" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="你可能感兴趣的用户" android:layout_below="@id/layout_select_all" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBL05A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="关注后，随时查看他们的最新优质内容" android:layout_below="@id/title" android:lineSpacingExtra="1.2999878sp" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/user_list_recyclerview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_weight="1.0" android:layout_above="@id/layout_button" android:layout_below="@id/layout_head" android:nestedScrollingEnabled="false" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/layout_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/btn_follow" android:background="@drawable/a5v" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="关注他们" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="4.0dip" android:text="暂不关注" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.view.ZHView android:background="@drawable/a5u" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_above="@id/layout_button" />
+        <com.zhihu.android.base.view.ZHView android:background="@drawable/a5w" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/layout_head" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

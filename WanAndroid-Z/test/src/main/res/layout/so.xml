@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/comment_placeholder" android:layout_width="120.0dip" android:layout_height="80.0dip" app:layout_constraintBottom_toTopOf="@id/empty_comment_list" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" app:srcCompat="@drawable/bc6" app:tint="@color/GBK09A" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK07A" android:layout_gravity="center" android:id="@id/empty_comment_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/dc9" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/comment_placeholder" app:layout_constraintRight_toRightOf="@id/comment_placeholder" app:layout_constraintTop_toBottomOf="@id/comment_placeholder" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

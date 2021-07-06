@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:layout_gravity="center_vertical" android:id="@id/tab_area" android:background="@drawable/ez" android:layout_width="wrap_content" android:layout_height="32.0dip" android:paddingStart="8.0dip" android:paddingEnd="12.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/tab_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" app:autoMask="false" app:autoPlaceholder="true" app:businessType="community" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK06A" android:id="@id/tab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/tab_icon" app:layout_constraintTop_toTopOf="parent" />
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+</com.zhihu.android.base.widget.ZHFrameLayout>

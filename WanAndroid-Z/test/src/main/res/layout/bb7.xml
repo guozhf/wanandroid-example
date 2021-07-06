@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:background="@drawable/auw" android:layout_width="wrap_content" android:layout_height="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/c9v" android:layout_marginStart="4.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/BK99" android:layout_gravity="center_vertical" android:id="@id/text_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多直播" android:layout_marginEnd="4.0dip" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ar1" android:layout_marginEnd="6.0dip" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

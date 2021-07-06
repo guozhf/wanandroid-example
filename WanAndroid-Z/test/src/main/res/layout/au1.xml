@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/prevue_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:paddingStart="@dimen/f7">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK03A" android:id="@id/prevue_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bfm" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/GBK06A" android:id="@id/prevue_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" android:elevation="1.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.video.player2.widget.VideoInlineVideoView android:id="@id/inline_play" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/BK99" android:gravity="right" android:layout_gravity="bottom|center|right" android:id="@id/duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/f4" android:maxLines="1" android:shadowColor="#66000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="6.0" android:lineSpacingExtra="-4.0dip" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/z8" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:maxLines="1" android:lineSpacingExtra="-2.0sp" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <com.zhihu.android.base.view.ZHView android:id="@id/photo_line" android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="@dimen/ew" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="@dimen/f7" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/recycler_item_suggest_magi_0" android:layout_width="fill_parent" android:layout_height="40.0dip" android:foreground="?a3i"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ic_magi_suggest" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentStart="true" zhihu:placeholderImage="@drawable/boy" zhihu:roundedCornerRadius="3.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/magi_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="10.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/tag" android:background="@drawable/mn" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="18.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="16.0dip" />
+    <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/magi_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="288K 关注.7K问题" android:maxLines="1" android:layout_centerVertical="true" android:paddingEnd="4.0dip" android:layout_toStartOf="@id/arrow" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/arrow" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a_k" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" zhihu:tintColor="@color/GBK08B" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/refresh" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/GBK99A" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="8.0dip" android:overScrollMode="never" android:layout_marginStart="9.0dip" android:layout_marginEnd="7.0dip" app:tabIndicatorColor="@color/GBK03A" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="2.0dip" app:tabMode="scrollable" app:tabPaddingBottom="8.0dip" app:tabPaddingEnd="7.0dip" app:tabPaddingStart="7.0dip" app:tabPaddingTop="8.0dip" app:tabRippleColor="@android:color/transparent" />
+    </FrameLayout>
+    <com.zhihu.android.moments.combine.widget.FeedCombineFrameLayout android:id="@id/recycler_wrapper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="-8.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/fragment_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.moments.combine.widget.FeedCombineFrameLayout>
+</LinearLayout>

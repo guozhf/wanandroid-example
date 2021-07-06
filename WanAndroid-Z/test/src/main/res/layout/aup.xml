@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginStart="@dimen/g2" android:layout_marginEnd="11.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg6" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_hat_recommend_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_hat_del_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bfw" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</merge>

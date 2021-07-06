@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.library.sharecore.widget.ShareGridItemView android:gravity="center" android:orientation="vertical" android:background="?a3i" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="8.0dip" android:adjustViewBounds="true" app:layout_constraintBottom_toTopOf="@id/label" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/img_tip" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="13.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/bmc" app:layout_constraintLeft_toLeftOf="@id/icon" app:layout_constraintTop_toTopOf="@id/icon" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK04A" android:ellipsize="end" android:layout_gravity="center" android:id="@id/label" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/icon" />
+</com.zhihu.android.library.sharecore.widget.ShareGridItemView>

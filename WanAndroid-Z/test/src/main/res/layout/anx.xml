@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_coupon_item" android:tag="layout/recycler_item_coupon_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/text_coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+    <TextView android:id="@id/text_coupon_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fc" android:lines="1" android:layout_below="@id/text_coupon_title" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:id="@id/coupon_info" android:paddingLeft="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:drawableLeft="@drawable/ca4" android:drawablePadding="3.0dip" android:layout_below="@id/text_coupon_time" app:tintColor="@color/GBK06A" />
+    <TextView android:id="@id/text_coupon_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/text_coupon_title" android:layout_alignParentRight="true" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider" android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/f_" android:layout_below="@id/text_coupon_time" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignTop="@id/divider" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <com.zhihu.android.app.ui.widget.CouponListStatusView android:id="@id/coupon_status_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="@style/zo" android:id="@id/coupon_discount_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_coupon_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/coupon_status_view" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:id="@id/text_coupon_discount" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:ellipsize="end" android:id="@id/text_coupon_limit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

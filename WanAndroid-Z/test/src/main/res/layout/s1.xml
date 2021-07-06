@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="13.0sp" android:textColor="@color/GBL01A" android:id="@id/tv_load_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ddg" android:layout_centerInParent="true" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/iv_expand" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/awa" android:tint="@color/GBL01A" android:layout_centerInParent="true" android:layout_marginStart="3.5dip" android:layout_toEndOf="@id/tv_load_more" />
+    <ProgressBar android:id="@id/pb_progress" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:indeterminate="true" android:layout_centerInParent="true" android:indeterminateTint="@color/GBL01A" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@color/GBL01A" android:id="@id/tv_load_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ddf" android:layout_centerInParent="true" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

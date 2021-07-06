@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="215.0dip" android:layout_marginStart="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/topic_cover" android:layout_width="90.0dip" android:layout_height="135.0dip" zhihu:actualImageScaleType="centerCrop" zhihu:autoMask="true" zhihu:autoPlaceholder="false" zhihu:businessType="community" zhihu:placeholderImageScaleType="centerCrop" zhihu:roundedCornerRadius="5.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/topic_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

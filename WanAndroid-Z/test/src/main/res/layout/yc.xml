@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:tag="layout/layout_dot_mult_view_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="15.0dip" />
+    <com.zhihu.android.base.widget.MarginBetweenLinearLayout android:layout_gravity="center_vertical" android:id="@id/multi_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" zhihu:mblMarginBetween="12.0dip" zhihu:mblOrientation="right" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="@dimen/fc" android:layout_marginRight="@dimen/fc" android:text="@string/awc" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

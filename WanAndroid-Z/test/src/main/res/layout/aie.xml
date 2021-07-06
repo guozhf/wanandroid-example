@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/batch_delete_panel">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <RelativeLayout android:id="@id/batch_delete_panel" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="10.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/select_all_button" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/a7e" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK04A" android:id="@id/select_all_text" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cpk" android:layout_centerVertical="true" android:lineSpacingExtra="4.0sp" android:paddingStart="6.0dip" android:paddingEnd="10.0dip" android:layout_toEndOf="@id/select_all_button" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/delete_button" android:background="@drawable/a7d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" android:text="@string/cpi" android:layout_centerVertical="true" android:lineSpacingExtra="4.0sp" android:alpha="0.3" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/anch_view" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

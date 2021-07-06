@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:background="@drawable/abe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.ZUIFrameLayout android:id="@id/fl_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/iv_back" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/b5p" android:tint="@color/GBK06A" />
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="17.0sp" android:textColor="@color/GBK02A" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="end|center" android:id="@id/iv_close" android:visibility="gone" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:src="@drawable/ayu" android:tint="@color/GBK06A" />
+    </com.zhihu.android.zui.widget.ZUIFrameLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/comment_editor" android:layout_below="@id/fl_header">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHAppBarLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <com.zhihu.android.comment_for_v7.widget.CommentBarView android:id="@id/view_comment_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll|snap" />
+            </com.zhihu.android.base.widget.ZHAppBarLayout>
+            <com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht">
+                <View android:id="@id/view_divider" android:background="@color/GBK09A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/rl_comment_bar" />
+                <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.zhihu.android.zui.widget.ZUILinearLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.zhihu.android.comment.widget.CommentEditorView android:id="@id/comment_editor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fl_header" />
+    <com.zhihu.android.app.ui.widget.SystemBar android:id="@id/system_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

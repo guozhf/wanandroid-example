@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/edulive_cart_tips_start_color" android:endColor="@color/edulive_cart_tips_end_color" android:angle="315.0" android:type="linear" />
+    <size android:height="26.0dip" />
+    <corners android:radius="16.0dip" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/oe" android:paddingTop="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.edulive.widget.EduLiveTopInfoView android:id="@id/top_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.app.edulive.widget.EduLiveHotView android:id="@id/hot_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/top_info_view" app:layout_constraintEnd_toStartOf="@id/video_player_close_btn" app:layout_constraintTop_toTopOf="@id/top_info_view" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/video_player_close_btn" android:layout_width="28.0dip" android:layout_height="28.0dip" app:layout_constraintBottom_toBottomOf="@id/top_info_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/top_info_view" app:srcCompat="@drawable/b5a" />
+</androidx.constraintlayout.widget.ConstraintLayout>

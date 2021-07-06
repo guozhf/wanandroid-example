@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/maskBg" android:background="@drawable/k7" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/artwork" android:layout_width="fill_parent" android:layout_height="wrap_content" app:actualImageScaleType="fitXY" app:businessType="kmarket" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@drawable/am8" app:viewAspectRatio="2.0" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

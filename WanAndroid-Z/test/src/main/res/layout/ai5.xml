@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.bootstrap.BottomSheetLayout android:id="@id/sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" app:backgroundMask="@android:color/black" app:dragToCloseOffset="240.0dip" app:hangingOffset="44.0dip" app:sensitivity="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/webView_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="8.0dip" />
+</com.zhihu.android.bootstrap.BottomSheetLayout>

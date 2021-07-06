@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/id_coordinator_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toTopOf="@id/bottom_layout" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/appBarLayout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="@dimen/f2" app:layout_behavior="com.google.android.material.appbar.AppBarLayoutOffsetBehavior">
+            <include layout="@layout/xi" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/web_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/bottom_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="48.0dip" android:elevation="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_coordinator_layout">
+        <com.zhihu.android.app.subscribe.ui.view.BottomBarA android:id="@id/bottom_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="48.0dip" android:elevation="3.0dip" />
+        <com.zhihu.android.app.base.ui.widget.progressbar.MDProgressBar android:layout_gravity="center" android:id="@id/bottom_loading" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" app:indeterminate_progress_color="@color/GBK06A" />
+    </FrameLayout>
+    <com.zhihu.android.app.market.widget.StatusBarShadowView android:id="@id/statusBarMask" android:layout_width="fill_parent" android:layout_height="24.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <include app:layout_constraintTop_toBottomOf="@id/statusBarMask" layout="@layout/xk" />
+</androidx.constraintlayout.widget.ConstraintLayout>

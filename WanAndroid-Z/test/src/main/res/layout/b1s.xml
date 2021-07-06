@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonsContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/actionButtonsContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@drawable/adf" android:showDividers="beginning|middle" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/shapeButtonsContainer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:divider="@drawable/adf" android:layout_weight="1.0" android:showDividers="beginning|end|middle" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/loadingView" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminateTint="@color/GBK06A" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/retryButton" android:background="?a3j" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dut" android:drawablePadding="5.0dip" app:drawableStartCompat="@drawable/adj" app:drawableTint="@color/GBK06A" />
+</merge>

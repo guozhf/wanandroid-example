@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toggle_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/close_bg" android:background="@drawable/a5y" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignBottom="@id/content_view" />
+    <RelativeLayout android:id="@id/open_bg" android:background="@color/GBK99A" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/content_view">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/toggle_btn" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c14" android:tint="@color/GBK07B" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

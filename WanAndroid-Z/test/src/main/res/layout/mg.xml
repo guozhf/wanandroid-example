@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_horizontal" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0t" android:textColor="@color/GBK07A" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce" android:lineSpacingMultiplier="@dimen/ck" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/za" android:textColor="@color/GBL01A" android:layout_gravity="center_horizontal" android:id="@id/button" android:padding="@dimen/ce" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/loading_content" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="200.0dip" android:src="@drawable/ceq" android:scaleType="centerInside" android:alpha="0.5" />
+    </FrameLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

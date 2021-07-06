@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/canvas_view_pager_image" android:layout_width="fill_parent" android:layout_height="wrap_content" app:businessType="commerce" />
+    <View android:id="@id/canvas_title_back" android:background="@drawable/c9" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.3" />
+    <com.zhihu.android.base.widget.ZHTextView android:ellipsize="end" android:id="@id/canvas_view_pager_title" android:paddingLeft="15.0dip" android:paddingTop="6.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/aq8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_content" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/aq9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/c99" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <com.zhihu.android.videox.widget.FoldableText android:layout_gravity="center_vertical" android:id="@id/fold_able_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/BK04" android:ellipsize="end" android:id="@id/text_desc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" />
+        </FrameLayout>
+        <View android:id="@id/view_gap" android:background="@color/BK05" android:layout_width="0.5dip" android:layout_height="16.0dip" android:layout_marginStart="8.0dip" />
+        <com.zhihu.android.zui.widget.ZUILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/c_8" android:tint="@color/BL01" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/BL01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebg" android:lineSpacingExtra="0.0sp" />
+        </com.zhihu.android.zui.widget.ZUILinearLayout>
+    </LinearLayout>
+</FrameLayout>

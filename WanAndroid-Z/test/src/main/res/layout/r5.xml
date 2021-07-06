@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/guest_entry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/bsy" android:drawablePadding="8.0dip" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminateDrawable="@drawable/a8c" style="?ph" />
+</merge>

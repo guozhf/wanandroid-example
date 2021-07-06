@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/b5q" android:tint="@color/GBK05A" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择分享到的圈子" />
+    </FrameLayout>
+    <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/GBK05A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="已加入的圈子" android:layout_marginStart="16.0dip" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/paging_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

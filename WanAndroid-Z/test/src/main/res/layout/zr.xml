@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/color_50_percent_transparent_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.ad.canvas.widget.DrawableCenterLoadingView android:id="@id/canvas_form_loading" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_centerInParent="true" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

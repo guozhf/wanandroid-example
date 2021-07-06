@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/yc" />
+    <item>
+        <bitmap android:src="@drawable/cao" android:tint="@color/BK08" />
+    </item>
+</layer-list>

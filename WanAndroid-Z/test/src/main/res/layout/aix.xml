@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.profile.page.widget.ProfileHeaderView android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.profile.page.widget.ProfileRecommendView android:id="@id/recommendView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="14.0dip" app:layout_constraintTop_toBottomOf="@id/header" />
+    <com.zhihu.android.profile.page.widget.ProfileTabsCard android:id="@id/tabsCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:layout_constraintTop_toBottomOf="@id/recommendView" />
+</merge>

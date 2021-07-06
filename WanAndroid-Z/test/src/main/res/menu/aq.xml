@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_share" android:title="@string/b1w" app:showAsAction="never" />
+    <item android:id="@id/action_gift" android:title="@string/b1t" app:showAsAction="never" />
+    <item android:id="@id/action_anonymous_open" android:visible="false" android:title="@string/bc1" app:showAsAction="never" />
+    <item android:id="@id/action_anonymous_close" android:visible="false" android:title="@string/bc0" app:showAsAction="never" />
+    <item android:id="@id/action_steward" android:title="@string/b1x" app:showAsAction="never" />
+</menu>

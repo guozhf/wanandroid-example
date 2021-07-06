@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.media.scaffold.widget.IconProgressBar android:id="@id/top_layout" android:layout_width="187.0dip" android:layout_height="26.0dip" android:layout_marginTop="16.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:bg_cornerRadius="16.0dip" app:bg_fillColor="#cc000000" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/top_icon" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/bzl" android:layout_centerVertical="true" />
+    <com.zhihu.android.media.scaffold.widget.HorizontalProgressBar android:id="@id/top_progress" android:layout_width="135.0dip" android:layout_height="3.0dip" android:max="100" android:progress="100" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/top_icon" app:progressColor="#ffffffff" app:secondProgressColor="#80ffffff" />
+</com.zhihu.android.media.scaffold.widget.IconProgressBar>

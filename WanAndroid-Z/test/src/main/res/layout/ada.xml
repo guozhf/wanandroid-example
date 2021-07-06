@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="21.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/e4n" />
+        <ToggleButton android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/BL01" android:gravity="center" android:id="@id/toggleCompletePlay" android:background="@color/transparent" android:layout_width="36.0dip" android:layout_height="fill_parent" android:textOn="@string/e4q" android:textOff="@string/e4p" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/e4o" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/optionsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+</LinearLayout>

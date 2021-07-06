@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/g9" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" android:lineSpacingMultiplier="@dimen/ck" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" android:layout_weight="1.0" android:lineSpacingMultiplier="@dimen/ck" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:id="@id/question_detail_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lineSpacingExtra="2.0sp" />
+        <FrameLayout android:id="@id/question_menu_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

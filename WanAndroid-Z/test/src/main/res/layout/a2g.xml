@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:orientation="horizontal" android:layout_width="105.0dip" android:layout_height="34.0dip" android:elevation="6.0dip" app:bg_cornerRadius="8.0dip" app:bg_fillColor="@color/G_BK01"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/textViewCurrent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingExtra="4.0sp" />
+    <View android:layout_gravity="center" android:background="#4cffffff" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/textViewTotal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingExtra="4.0sp" />
+</com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>

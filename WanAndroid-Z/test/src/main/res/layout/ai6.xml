@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/more_scroll_view" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/head_bg" android:background="@drawable/a7j" android:layout_width="fill_parent" android:layout_height="350.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/head" android:background="@drawable/c4i" android:layout_width="fill_parent" android:layout_height="230.0dip" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar_shell" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <include android:id="@id/more_new_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/ai8" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <Space android:id="@id/guide_line" android:tag="0" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="150.0dip" app:layout_constraintBottom_toBottomOf="@id/header_barrier" app:layout_constraintStart_toStartOf="parent" />
+            <FrameLayout android:id="@id/dynamic_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/guide_line">
+                <com.zhihu.android.app.ui.fragment.more.more.widget.VipEntranceView android:id="@id/vip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.zhihu.android.app.ui.fragment.more.more.widget.NewUserEntranceView android:id="@id/new_user" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <ViewStub android:id="@id/guest_header" android:layout="@layout/ai7" android:inflatedId="@id/guest_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:minHeight="182.0dip" app:layout_constraintTop_toBottomOf="@id/toolbar_shell" />
+            <ViewStub android:id="@id/user_header" android:layout="@layout/aib" android:inflatedId="@id/user_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="182.0dip" app:layout_constraintTop_toBottomOf="@id/toolbar_shell" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/header_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="user_header,guest_header" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/bottom_of_dynamic_header" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="header_barrier,dynamic_container" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/new_common_items" android:background="@drawable/a7c" android:paddingTop="7.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:overScrollMode="never" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/bottom_of_dynamic_header" />
+            <com.zhihu.android.app.ui.fragment.more.more.widget.MoreHybridView android:id="@id/hybrid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/new_common_items">
+                <ProgressBar android:id="@id/loading" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="44.0dip" android:maxHeight="20.0dip" android:minWidth="20.0dip" style="?android:progressBarStyleSmall" />
+                <TextView android:gravity="center" android:id="@id/error" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="加载出错 请点击重试" />
+            </com.zhihu.android.app.ui.fragment.more.more.widget.MoreHybridView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ViewStub android:id="@id/new_float_toolbar" android:layout="@layout/ai8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

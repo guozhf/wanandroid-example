@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/resource_loading_container" android:background="@color/vessay_preview_base_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?au">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="255.0dip" android:layout_height="wrap_content" android:layout_marginTop="172.5dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/BK99" android:gravity="center_horizontal" android:id="@id/load_draft_title" android:layout_width="242.0dip" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/e3b" />
+            <Button android:textSize="15.0sp" android:textColor="@color/BK99" android:id="@id/load_draft_use_draft" android:background="@drawable/ajt" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="22.0dip" android:text="@string/e3c" />
+            <Button android:textSize="15.0sp" android:textColor="@color/BK99" android:id="@id/load_draft_create_new" android:background="@drawable/aju" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="18.0dip" android:text="@string/e3a" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

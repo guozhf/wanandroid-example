@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bg_image" android:background="@drawable/b58" android:layout_width="28.0dip" android:layout_height="31.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/top_image" android:background="@drawable/c90" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/bg_image" app:layout_constraintEnd_toEndOf="@id/bg_image" app:layout_constraintStart_toStartOf="@id/bg_image" app:layout_constraintTop_toTopOf="@id/bg_image" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK06A" android:id="@id/top_Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.6" android:fontFamily="@font/b" app:layout_constraintBottom_toBottomOf="@id/bg_image" app:layout_constraintEnd_toEndOf="@id/bg_image" app:layout_constraintStart_toStartOf="@id/bg_image" app:layout_constraintTop_toTopOf="@id/bg_image" />
+    <View android:id="@id/line" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_image" app:layout_constraintEnd_toStartOf="@id/bg_image" app:layout_constraintTop_toTopOf="@id/bg_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

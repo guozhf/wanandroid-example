@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bj" android:paddingTop="@dimen/bk" android:paddingRight="@dimen/bj" android:paddingBottom="@dimen/bk" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Spinner android:id="@id/unlock_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="10.0dip" />
+    <com.zhihu.android.base.widget.ZHTextInputLayout android:id="@id/password_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="10.0dip" android:hint="@string/ap1">
+        <com.zhihu.android.app.ui.widget.DrawableClickEditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:animateLayoutChanges="true" />
+    </com.zhihu.android.base.widget.ZHTextInputLayout>
+    <include android:id="@id/captcha_image" layout="@layout/x2" />
+    <include android:id="@id/captcha_code" layout="@layout/x1" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <com.zhihu.android.base.widget.ZHButton android:textAppearance="@style/xw" android:id="@id/btn_have_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:text="@string/a_d" android:layout_alignParentLeft="true" style="?android:borderlessButtonStyle" />
+        <com.zhihu.android.app.ui.widget.ProgressButton android:id="@id/btn_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/btn_have_question" android:layout_alignParentRight="true" app:btnText="@string/a_4" style="?android:borderlessButtonStyle" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

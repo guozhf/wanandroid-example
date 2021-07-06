@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/search_card" android:tag="layout/recycler_item_search_pin_0" android:background="@color/color_ffffffff_ff37474f" android:padding="@dimen/ce" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/a2_" android:ellipsize="end" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/ab" android:lineSpacingMultiplier="@dimen/ck" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/pin_gallery" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <TextView android:textAppearance="@style/a2_" android:ellipsize="end" android:orientation="horizontal" android:id="@id/pin_uri" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:drawableLeft="@drawable/bhc" android:drawablePadding="4.0dip" android:alpha="0.54" app:tintColor="@color/color_cc000000_ccffffff" />
+    <TextView android:textAppearance="@style/a1b" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

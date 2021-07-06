@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/sharecore_icon_ripple_color">
+            <item>
+                <shape android:tint="#ff0084ff" android:shape="oval" />
+            </item>
+        </ripple>
+    </item>
+    <item android:left="11.0dip" android:top="11.0dip" android:right="11.0dip" android:bottom="11.0dip">
+        <bitmap android:src="@drawable/c70" android:antialias="true" android:filter="true" android:dither="true" android:tint="@color/BK99" />
+    </item>
+</layer-list>

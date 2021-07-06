@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/color_ffffffff_ff37474f" android:padding="@dimen/ce" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/avatar" android:layout_alignTop="@id/avatar" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a26" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:layout_below="@id/name" android:layout_alignLeft="@id/name" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

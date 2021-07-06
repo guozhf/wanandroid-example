@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toolbar_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.topic.widget.SimpleToolBar android:id="@id/simple_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="@dimen/r5" android:layout_marginRight="14.0dip" app:SimpleToolBarBackSrcTint="@color/GBK05A" app:SimpleToolBarTitleColor="@color/GBK02A" app:SimpleToolBarTitleSize="17.0sp" />
+    <View android:id="@id/toolbar_line" android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/simple_toolbar" />
+</RelativeLayout>

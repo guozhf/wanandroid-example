@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/verify_enter" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK09C" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="0.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK03A" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个人认证" android:layout_centerVertical="true" android:lineSpacingExtra="6.0sp" />
+        <ImageView android:id="@id/verify_red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/a6k" android:layout_toRightOf="@id/label" android:layout_centerVertical="true" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/next_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/baq" android:tint="@color/color_8a334957_8ab2ccd5" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/left_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="14.0dip" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@id/right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="14.0dip" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/vip_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="vip,data_view" />
+
+    <View
+        android:id="@id/bg"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:background="@drawable/a7c"
+        app:layout_constraintBottom_toBottomOf="@id/data_bottom"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.zhihu.android.app.ui.widget.CircleAvatarView
+        android:id="@id/avatar"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginTop="12.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:autoMask="true"
+        app:businessType="community"
+        app:layout_constraintLeft_toRightOf="@id/left_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ViewStub
+        android:id="@id/avatar_medal_view_stub"
+        android:layout_width="14.0dip"
+        android:layout_height="14.0dip"
+        android:layout="@layout/ai4"
+        app:layout_constraintBottom_toBottomOf="@id/avatar"
+        app:layout_constraintRight_toRightOf="@id/avatar" />
+
+    <TextView
+        android:id="@id/name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="3.0dip"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/GBK02A"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/avatar"
+        app:layout_constraintStart_toEndOf="@id/avatar"
+        app:layout_constraintTop_toTopOf="@id/avatar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.zhihu.android.app.ui.fragment.more.more.widget.CommunityVipIcon
+        android:id="@id/vip_icon"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginLeft="4.0dip"
+        app:businessType="community"
+        app:hasMask="false"
+        app:layout_constraintBottom_toBottomOf="@id/name"
+        app:layout_constraintLeft_toRightOf="@id/name"
+        app:layout_constraintTop_toTopOf="@id/name" />
+
+    <ViewStub
+        android:id="@id/salt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout="@layout/aip"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <com.zhihu.android.app.ui.fragment.more.more.widget.LevelInfoView
+        android:id="@id/level_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <TextView
+        android:id="@id/head_line"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.0dip"
+        android:ellipsize="end"
+        android:lineSpacingExtra="2.0sp"
+        android:maxLines="1"
+        android:textColor="@color/GBK03A"
+        android:textSize="16.0sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@id/personal_home"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <com.zhihu.android.base.widget.ZHImageView
+        android:id="@id/personal_home_text"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10.0dip"
+        android:src="@drawable/c4p"
+        android:tint="@color/GBK06A"
+        app:layout_constraintBottom_toBottomOf="@id/avatar"
+        app:layout_constraintRight_toLeftOf="@id/right_guideline"
+        app:layout_constraintTop_toTopOf="@id/avatar" />
+
+    <TextView
+        android:id="@id/personal_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="个人主页"
+        android:textColor="@color/GBK03A"
+        android:textSize="14.0sp"
+        app:layout_constraintBottom_toBottomOf="@id/personal_home_text"
+        app:layout_constraintRight_toLeftOf="@id/personal_home_text"
+        app:layout_constraintTop_toTopOf="@id/personal_home_text" />
+
+    <include
+        android:id="@id/data_view"
+        layout="@layout/air"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/bg"
+        app:layout_constraintRight_toRightOf="@id/bg"
+        app:layout_constraintTop_toBottomOf="@id/avatar" />
+
+    <include
+        android:id="@id/upload_list_view"
+        layout="@layout/ai_"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/left_guideline"
+        app:layout_constraintRight_toRightOf="@id/right_guideline"
+        app:layout_constraintTop_toBottomOf="@id/data_view" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/data_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="upload_list_view,data_view" />
+</com.zhihu.android.zui.widget.ZUIConstraintLayout>

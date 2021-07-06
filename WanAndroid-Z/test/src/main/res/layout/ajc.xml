@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/profile_recycler_item_profession_subtopic_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginRight="@dimen/f7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:gravity="center|left" android:id="@id/profession_sub_topic" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:layout_marginBottom="@dimen/f7" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider" android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

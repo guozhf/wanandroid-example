@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/image_text_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/morph_image_text_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image_text_img" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="70.0dip" android:layout_marginRight="@dimen/f3" android:layout_toLeftOf="@id/image_text_icon" app:businessType="commerce" app:roundedCornerRadius="5.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:ellipsize="end" android:id="@id/image_text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/f3" android:maxLines="3" android:layout_toLeftOf="@id/image_text_img" android:layout_centerVertical="true" />
+</merge>

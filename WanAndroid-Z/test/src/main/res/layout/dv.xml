@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="start|center" android:id="@id/close" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="10.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/uz" android:maxLines="1" />
+        <com.zhihu.android.base.view.ZHView android:layout_gravity="bottom" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_alignParentBottom="true">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/publish_confirm" android:background="@drawable/pl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip" android:text="@string/v2" />
+        <com.zhihu.android.base.view.ZHView android:layout_gravity="top" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/publish_columns" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer" android:layout_below="@id/header" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

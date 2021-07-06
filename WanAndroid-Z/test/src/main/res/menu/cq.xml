@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_orderby_votenum" android:title="@string/ej8" app:showAsAction="never" />
+    <item android:id="@id/action_orderby_createtime" android:title="@string/ej9" app:showAsAction="never" />
+</menu>

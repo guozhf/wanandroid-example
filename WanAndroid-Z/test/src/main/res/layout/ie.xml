@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_mask" android:background="#80000000" android:visibility="invisible" android:clickable="true" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_centerInParent="true" app:actualImageScaleType="fitCenter" app:businessType="community" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/top_cancel" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" app:layout_constraintRight_toRightOf="@id/image" app:layout_constraintTop_toTopOf="@id/image" />
+    <ImageView android:id="@id/cancel" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/cdi" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/image" />
+    <View android:id="@id/dark_mask" android:background="#33000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

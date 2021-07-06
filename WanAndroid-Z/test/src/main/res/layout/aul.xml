@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.moments.widget.MomentsClubImageView android:id="@id/club_like_btn" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/tg" />
+    <com.zhihu.android.moments.widget.MomentsClubTextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="start|center" android:id="@id/club_like_count" android:layout_width="wrap_content" android:layout_height="40.0dip" android:minWidth="54.0dip" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/vote_btn" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/th" />
+    <com.zhihu.android.moments.widget.MomentsVoteTextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="start|center" android:id="@id/vote_count" android:layout_width="wrap_content" android:layout_height="40.0dip" android:minWidth="54.0dip" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/forward_btn" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/b9t" />
+    <com.zhihu.android.moments.widget.MomentsVoteTextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="start|center" android:id="@id/forward_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="54.0dip" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/comment_btn" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/b9s" />
+    <com.zhihu.android.moments.widget.MomentsVoteTextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="start|center" android:id="@id/comment_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="54.0dip" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+    <com.zhihu.android.moments.widget.MomentsClapButton android:id="@id/clap_btn" android:layout_width="24.0dip" android:layout_height="fill_parent" />
+    <com.zhihu.android.moments.widget.MomentsVoteTextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:gravity="start|center" android:id="@id/clap_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="54.0dip" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+</LinearLayout>

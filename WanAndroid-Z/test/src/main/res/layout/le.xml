@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/combine_detail_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingBottom="54.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.app.subscribe.ui.view.CombineDetailHeaderView android:id="@id/combine_detail_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.zhihu.android.app.subscribe.ui.view.CombineDetailHybridView android:id="@id/combine_detail_hybrid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <com.zhihu.android.app.subscribe.ui.view.CombineDetailBottomView android:id="@id/combine_detail_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

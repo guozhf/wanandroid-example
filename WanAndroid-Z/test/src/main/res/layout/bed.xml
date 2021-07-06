@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.FrameInterceptLayout android:id="@id/intercept" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/web_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/empty" android:visibility="gone" layout="@layout/bei" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <include android:layout_gravity="bottom" android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/beh" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/view_stub_layout_font" android:layout="@layout/zo" android:inflatedId="@id/font" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    <com.zhihu.android.article.widget.ArticleFloatingTipsView android:textAppearance="@style/a0s" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tips" android:background="@drawable/yx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/elk" android:maxLines="1" android:drawablePadding="2.0dip" android:translationY="-72.0dip" android:drawableStart="@drawable/bqk" app:tintColor="@color/color_ff0077d9_8a03a9f4" />
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/skeleton_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zuiSkeleton="H01,P01,T01" />
+</com.zhihu.android.app.ui.widget.FrameInterceptLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/video_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.video.player2.middle.SimpleVideoView android:layout_gravity="center_vertical" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/close_video_player_button" android:padding="13.0dip" android:visibility="visible" android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:layout_margin="@dimen/fi" app:srcCompat="@drawable/akz" />
+</FrameLayout>

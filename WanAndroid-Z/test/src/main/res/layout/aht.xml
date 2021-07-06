@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/both_follow_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/both_follow_avatar" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/both_follow_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/job_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/job_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/job_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/industry_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/industry_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/industry_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/education_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/education_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/education_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/location_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/location_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/location_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/interest_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/interest_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/interest_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/approval_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/approval_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/approval_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/answer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/answer_icon" android:layout_width="@dimen/px" android:layout_height="@dimen/px" android:src="@drawable/bax" />
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/answer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

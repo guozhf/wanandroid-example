@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/avatar_view" android:layout_width="36.0dip" android:layout_height="36.0dip" app:autoMask="true" app:businessType="community" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@drawable/be6" app:roundAsCircle="true" />
+    <View android:id="@id/anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="4.0dip" android:layout_marginStart="4.0dip" app:layout_constraintStart_toEndOf="@id/avatar_view" app:layout_constraintTop_toBottomOf="@id/avatar_view" />
+    <com.zhihu.android.app.ui.widget.MultiDrawableView android:id="@id/badge_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/anchor" app:layout_constraintEnd_toStartOf="@id/anchor" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="1.0sp" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toTopOf="@id/tv_content" app:layout_constraintStart_toEndOf="@id/avatar_view" app:layout_constraintTop_toTopOf="@id/avatar_view" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK07A" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="1.0sp" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/avatar_view" app:layout_constraintStart_toEndOf="@id/avatar_view" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+</merge>

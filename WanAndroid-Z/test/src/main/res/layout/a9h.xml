@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root" android:background="@color/GBK99A" android:paddingBottom="80.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a09" android:textColor="@color/GBK05A" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:textColor="@color/GBK07A" android:gravity="center" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingMultiplier="1.2" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/xp" android:textStyle="bold" android:gravity="center" android:id="@id/tv_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:minWidth="108.0dip" android:minHeight="36.0dip" android:text="@string/ao0" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

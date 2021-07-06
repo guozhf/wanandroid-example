@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rv_topbar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/pl" android:textColor="@drawable/a80" android:gravity="center|left" android:id="@id/btnCancel" android:background="@color/transparent" android:paddingLeft="@dimen/pn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="取消" />
+    <TextView android:textSize="@dimen/pq" android:textColor="@color/GBK02B" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btnSubmit" android:layout_toRightOf="@id/btnCancel" android:layout_centerVertical="true" />
+    <Button android:textSize="@dimen/pl" android:textColor="@drawable/a80" android:gravity="center|right" android:id="@id/btnSubmit" android:background="@android:color/transparent" android:paddingRight="@dimen/pn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="确定" android:layout_alignParentRight="true" />
+</RelativeLayout>

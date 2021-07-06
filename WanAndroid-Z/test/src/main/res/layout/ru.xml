@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" app:autoMask="true" app:businessType="community" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

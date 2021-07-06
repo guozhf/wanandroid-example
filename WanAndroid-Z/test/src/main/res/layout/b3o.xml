@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="102.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.video_entity.video_tab.widget.LoopViewPager android:id="@id/lvp_banner" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="102.0dip" />
+    <com.zhihu.android.morph.extension.widget.viewpager.Indicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

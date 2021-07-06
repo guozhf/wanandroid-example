@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@android:color/black" android:id="@id/ali_auth_mobile_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm" />
+        <com.ali.auth.third.ui.iv.AliUserSmsCodeView android:id="@id/ali_auth_sms_code_view" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="@dimen/bo" app:scDividerWidth="8.0dip" app:scNextUnderLineColor="@color/aliuser_edittext_bg_color_activated" app:scTextColor="@color/aliuser_default_text_color" app:scTextCount="6" app:scTextSize="16.0sp" app:scUnderLineColor="@color/aliuser_color_light_gray" app:scUnderLineStrokeWidth="2.0dip" />
+        <com.ali.auth.third.ui.iv.CountDownButton android:enabled="false" android:textSize="13.0sp" android:textColor="@color/aliuser_send_sms_text_color_new" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ali_auth_send_smscode_btn" android:background="@drawable/aw" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="@dimen/bo" android:text="@string/ep" android:textAllCaps="false" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</ScrollView>

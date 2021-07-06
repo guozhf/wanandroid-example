@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:gravity="center_vertical" android:background="@drawable/a95" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.content.widget.ZHFloatingTipsView android:textAppearance="@style/a0s" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" zhihu:tintColor="@color/color_ff0077d9_8a03a9f4" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/icon_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fi" android:src="@drawable/bbw" android:layout_toRightOf="@id/message" zhihu:tintColor="@color/color_ff0077d9_8a03a9f4" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

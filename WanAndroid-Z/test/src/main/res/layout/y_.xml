@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bcf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GRD01A" android:gravity="center" android:id="@id/discount_tv" android:paddingLeft="18.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bch" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.5dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center" android:id="@id/note_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK99B" android:id="@id/receive_btn" android:background="@drawable/dd" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+</merge>

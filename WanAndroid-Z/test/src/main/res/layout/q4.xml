@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@color/GBK10A" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/titleBar" app:layout_constraintBottom_toTopOf="@id/coordinatorLayout" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/b02" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomLayout" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/titleBar">
+        <ScrollView android:id="@id/cardShareRoot" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.zhihu.android.library.sharecore.card.CardContentView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginTop="37.0dip" android:layout_marginRight="29.0dip" android:layout_marginBottom="37.0dip">
+                    <include android:id="@id/cardShareLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/x4" />
+                </com.zhihu.android.library.sharecore.card.CardContentView>
+            </FrameLayout>
+        </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottomLayout" android:background="@color/GBK99A" android:layout_width="0.0dip" android:layout_height="@dimen/qf" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <View android:id="@id/topLine" android:background="@color/GBK08A" android:layout_width="0.0dip" android:layout_height="0.5dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:id="@id/templateTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/qh" android:layout_marginTop="25.0dip" android:text="@string/d6d" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/topLine" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/templatesList" android:layout_width="0.0dip" android:layout_height="90.0dip" app:layout_constraintBottom_toTopOf="@id/bottomLine" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/templateTitle" />
+        <View android:id="@id/bottomLine" android:background="@color/GBK08A" android:layout_width="0.0dip" android:layout_height="0.5dip" android:alpha="0.5" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/templatesList" />
+        <TextView android:id="@id/saveButton" android:text="@string/d6b" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/shareButton" app:layout_constraintTop_toBottomOf="@id/bottomLine" style="@style/ku" />
+        <TextView android:textColor="@color/GBL01A" android:id="@id/shareButton" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/d6c" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/saveButton" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/saveButton" style="@style/ku" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:layout_width="0.0dip" android:layout_height="@dimen/qn" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <include android:id="@id/sharePanel" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" layout="@layout/x6" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

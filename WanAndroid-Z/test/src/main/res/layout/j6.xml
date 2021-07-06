@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.moments.widget.LinearInterceptLayout android:orientation="vertical" android:id="@id/wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:ellipsize="none" android:id="@id/content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/ck" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBL07A" android:id="@id/full" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56.0dip" />
+    <ViewStub android:id="@id/quote_stub" android:layout="@layout/jd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <ViewStub android:id="@id/link_stub" android:layout="@layout/jc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <ViewStub android:id="@id/images_stub" android:layout="@layout/jb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <com.zhihu.android.moments.widget.MomentsPinInlinePlayerView android:id="@id/video2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="start|center" android:id="@id/hash_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="8.0dip" android:singleLine="true" android:paddingStart="10.0dip" android:paddingEnd="12.0dip" />
+</com.zhihu.android.moments.widget.LinearInterceptLayout>

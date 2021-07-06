@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/volume_board" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="156.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/video_topic_volume_progress" android:layout_width="3.0dip" android:layout_height="128.0dip" android:layout_marginLeft="6.0dip" android:progressDrawable="@drawable/a57" style="@style/el" />
+    <ImageView android:id="@id/video_topic_volume_img" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/bz9" />
+</LinearLayout>

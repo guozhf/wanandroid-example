@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bj" android:paddingTop="@dimen/bk" android:paddingRight="@dimen/bj" android:paddingBottom="@dimen/bk" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/b_" android:gravity="left" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="16.0dip" />
+    <com.zhihu.android.base.widget.ZHTextInputLayout android:id="@id/username_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="10.0dip" android:hint="@string/apa">
+        <com.zhihu.android.app.ui.widget.ZHInlineAutoCompleteTextView android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+    </com.zhihu.android.base.widget.ZHTextInputLayout>
+    <include android:id="@id/captcha_image" layout="@layout/x2" />
+    <include android:id="@id/captcha_code" layout="@layout/x1" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <com.zhihu.android.app.ui.widget.ProgressButton android:id="@id/btn_next_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:btnText="@string/a9t" app:enabled="false" style="?android:borderlessButtonStyle" />
+        <com.zhihu.android.base.widget.ZHButton android:textAppearance="@style/xw" android:id="@id/btn_email_change" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:text="@string/a_5" android:layout_alignParentLeft="@id/btn_confirm" style="?android:borderlessButtonStyle" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

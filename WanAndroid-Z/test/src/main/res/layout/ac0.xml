@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.picture.editor.widget.GestureHostLayout android:id="@id/gesture_host_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.picture.editor.widget.CropImageView android:id="@id/content_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.zhihu.android.picture.editor.widget.GestureHostLayout>
+    <ProgressBar android:id="@id/progress_view" android:visibility="gone" android:layout_width="@dimen/n7" android:layout_height="@dimen/n7" android:indeterminateTint="@android:color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyleSmall" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

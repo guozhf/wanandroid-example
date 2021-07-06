@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:paddingTop="@dimen/fa" android:paddingBottom="@dimen/fa" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccj" />
+    <TextView android:textAppearance="@style/yc" android:textSize="@dimen/rh" android:textStyle="bold" android:ellipsize="end" android:id="@id/pay_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginTop="@dimen/fa" android:layout_marginRight="@dimen/f7" android:layout_marginBottom="@dimen/f_" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="@dimen/f_" android:layout_marginRight="48.0dip" android:layout_marginBottom="@dimen/f_">
+        <View android:background="@color/color_ffe9e9e9_1ae9e9e9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toLeftOf="@id/success_to_share" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="@style/a2i" android:textSize="@dimen/rl" android:id="@id/success_to_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fi" android:layout_marginRight="@dimen/fi" android:text="@string/ele" android:layout_centerInParent="true" />
+        <View android:background="@color/color_ffe9e9e9_1ae9e9e9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_toRightOf="@id/success_to_share" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bp_" />
+            <TextView android:textAppearance="@style/a2i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/elg" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_wechatgroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fa" android:layout_marginRight="@dimen/fa">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bpa" />
+            <TextView android:textAppearance="@style/a2i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/elh" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_weibo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bpb" />
+            <TextView android:textAppearance="@style/a2i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/eli" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

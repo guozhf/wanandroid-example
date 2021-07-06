@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/recycler_item_feed_hybrid_card_0" android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/G_BK02_BK08" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/menu_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHSpace android:layout_gravity="right" android:id="@id/menu_anchor" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+            <com.zhihu.android.base.widget.ZHImageView android:gravity="center_vertical" android:id="@id/menu" android:paddingLeft="8.0dip" android:paddingTop="@dimen/fc" android:paddingRight="8.0dip" android:paddingBottom="@dimen/fc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bnf" app:tintColor="@color/color_ff929ea5_ff7d949c" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

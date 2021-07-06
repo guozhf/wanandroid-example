@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_active_region_price_range" android:background="@drawable/acc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingStart="17.0dip" android:layout_marginStart="@dimen/f9" android:layout_marginEnd="@dimen/f9" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c8z" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip" app:layout_constraintBottom_toTopOf="@id/desc_container" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginBottom="16.0dip">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_price_range_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/bsv" />
+            <TextView android:textSize="17.0sp" android:id="@id/tv_price_range_big" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:id="@id/tv_price_range_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/desc_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView android:id="@id/fl_web_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="@dimen/f9" android:layout_marginEnd="@dimen/f9" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip" app:layout_constraintDimensionRatio="335:70" app:layout_constraintTop_toBottomOf="@id/ll_active_region_price_range">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/sd_load_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@drawable/bns" app:placeholderImageScaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

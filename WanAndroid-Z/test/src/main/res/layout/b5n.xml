@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#3f000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/wifito4g" android:layout_width="249.0dip" android:layout_height="90.5dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/BK99" android:gravity="center" android:layout_width="249.0dip" android:layout_height="42.0dip" android:text="@string/e4u" android:maxLines="2" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:gravity="center" android:id="@id/mobile_cancel" android:background="@drawable/akt" android:layout_width="90.5dip" android:layout_height="32.0dip" android:layout_marginLeft="26.0dip" android:text="@android:string/cancel" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:gravity="center" android:id="@id/mobile_confirm" android:background="@drawable/akv" android:paddingLeft="12.0dip" android:layout_width="92.0dip" android:layout_height="32.0dip" android:text="@string/e4g" android:maxLines="1" android:drawablePadding="-8.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="27.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="center" android:id="@id/play_in_mobile" android:background="@drawable/al6" android:visibility="gone" android:layout_width="138.0dip" android:layout_height="42.0dip" android:text="@string/e4t" />
+</FrameLayout>

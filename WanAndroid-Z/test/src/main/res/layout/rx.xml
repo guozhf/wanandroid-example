@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:background="@color/GBK09C" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fi" app:cardBackgroundColor="@color/GBK99A" app:cardCornerRadius="6.0dip" app:cardElevation="@dimen/f2">
+        <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/f_" android:paddingBottom="@dimen/f_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aqy" />
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f4">
+                <ImageView android:id="@id/iv_invite_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginRight="@dimen/f3" android:src="@drawable/bvc" />
+                <ImageView android:id="@id/iv_invite_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginRight="@dimen/f3" android:src="@drawable/bv9" />
+                <ImageView android:id="@id/iv_invite_qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginRight="@dimen/f3" android:src="@drawable/bva" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+        </com.zhihu.android.base.widget.ZHLinearLayout2>
+    </com.zhihu.android.base.widget.ZHCardView>
+</com.zhihu.android.base.widget.ZHLinearLayout2>

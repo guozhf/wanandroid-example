@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="12.0dip" app:placeholderImage="@drawable/be6" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/layout_desc" android:background="@drawable/aog" android:paddingTop="5.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="8.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/temp_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/img_view_point_top_close">
+            <TextView android:textSize="9.0sp" android:textColor="@color/BK99" android:gravity="center" android:id="@id/anchor_identity" android:background="@drawable/amg" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="16.0dip" android:text="@string/e5b" android:lineSpacingExtra="3.0sp" android:layout_marginEnd="5.0dip" />
+            <TextView android:textColor="@color/BK99" android:id="@id/text_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="6.0sp" android:alpha="0.8" />
+            <com.zhihu.android.videox.widget.UserLevelView android:id="@id/level" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/BK99" android:ellipsize="end" android:id="@id/text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" android:layout_below="@id/temp_ll" />
+        <ImageView android:id="@id/img_view_point_top_close" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/bbx" android:layout_alignTop="@id/temp_ll" android:layout_alignBottom="@id/temp_ll" android:layout_alignParentEnd="true" />
+    </RelativeLayout> r </LinearLayout>

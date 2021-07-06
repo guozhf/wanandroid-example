@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.base.ui.widget.view.SlidingTabLayout android:id="@id/id_certificate_indicator" android:layout_width="fill_parent" android:layout_height="44.0dip" app:tl_indicator_color="@color/GBL01A" app:tl_indicator_width_equal_title="true" app:tl_textSelectColor="@color/GBL01A" app:tl_textUnselectColor="@color/GBK02A" />
+</LinearLayout>

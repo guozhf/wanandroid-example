@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.fragment.more.more.widget.MoreNewToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhihu.android.zui.widget.image.ZUIImageView
+        android:id="@id/scan_btn"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginLeft="14.0dip"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:src="@drawable/c33"
+        android:tint="@color/GBK99B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/search_box"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.zhihu.android.zui.widget.ZUIFrameLayout
+        android:id="@id/search_box"
+        android:layout_width="0.0dip"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="14.0dip"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginRight="17.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:alpha="0.8"
+        android:paddingTop="5.0dip"
+        android:paddingBottom="5.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/scan_btn"
+        app:layout_constraintRight_toLeftOf="@id/switch_theme"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@id/search_content_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/search_box"
+        app:layout_constraintLeft_toLeftOf="@id/search_box"
+        app:layout_constraintRight_toRightOf="@id/search_box"
+        app:layout_constraintTop_toTopOf="@id/search_box">
+
+        <com.zhihu.android.base.widget.ZHImageView
+            android:id="@id/search_icon"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.5"
+            android:src="@drawable/box"
+            android:tint="@color/GBK99B" />
+
+        <com.zhihu.android.base.widget.ZHTextView
+            android:id="@id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4.0dip"
+            android:alpha="0.5"
+            android:lineSpacingExtra="1.0sp"
+            android:text="搜索知乎内容"
+            android:textColor="@color/GBK99B"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <com.zhihu.android.zui.widget.image.ZUIImageView
+        android:id="@id/switch_theme"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginRight="15.0dip"
+        android:src="@drawable/c4z"
+        app:layout_constraintBottom_toBottomOf="@id/search_box"
+        app:layout_constraintRight_toLeftOf="@id/setting_btn"
+        app:layout_constraintTop_toTopOf="@id/search_box" />
+
+    <com.zhihu.android.zui.widget.image.ZUIImageView
+        android:id="@id/setting_btn"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginRight="18.0dip"
+        android:src="@drawable/c53"
+        android:tint="@color/GBK99A"
+        app:layout_constraintBottom_toBottomOf="@id/search_box"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/search_box" />
+</com.zhihu.android.app.ui.fragment.more.more.widget.MoreNewToolbar>

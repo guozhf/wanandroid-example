@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:orientation="vertical" android:id="@id/root" android:tag="layout/recycler_item_feed_km_model_card_base_0" android:paddingTop="14.0dip" android:paddingBottom="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl" android:elevation="@dimen/ci" app:bg_fillColor="@color/GBK99A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_container" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <com.zhihu.android.app.feed.ui.holder.marketcard.widget.DotJointTextViewLayout android:gravity="center_vertical" android:id="@id/dot_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:childTextColor="@color/GBK06A" app:childTextSize="14.0sp" />
+        <androidx.legacy.widget.Space android:id="@id/space" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/menu_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.legacy.widget.Space android:layout_gravity="right" android:id="@id/menu_anchor" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+            <ImageView android:gravity="center_vertical" android:id="@id/menu" android:paddingLeft="8.0dip" android:paddingTop="@dimen/fc" android:paddingRight="8.0dip" android:paddingBottom="@dimen/fc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bnf" app:tintColor="@color/color_ff929ea5_ff7d949c" />
+        </FrameLayout>
+    </LinearLayout>
+</com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>

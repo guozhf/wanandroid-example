@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="2" android:lineSpacingMultiplier="@dimen/ck" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBK03A" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lineSpacingMultiplier="@dimen/ck" />
+    <RelativeLayout android:id="@id/images_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/club_images" android:layout="@layout/j_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </RelativeLayout>
+    <include android:id="@id/club_extra" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/a14" />
+</LinearLayout>

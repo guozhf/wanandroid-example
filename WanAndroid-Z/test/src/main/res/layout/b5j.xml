@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/base_plugin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/color_ffffffff" android:indeterminateTintMode="src_in" />
+    <ImageView android:layout_gravity="center" android:id="@id/video_play_icon" android:visibility="visible" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" android:src="@drawable/c8s" android:scaleType="fitXY" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/BK99" android:gravity="end" android:layout_gravity="end|bottom|center" android:id="@id/duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/f4" android:maxLines="1" android:shadowColor="#66000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="6.0" android:lineSpacingExtra="-4.0dip" />
+</FrameLayout>

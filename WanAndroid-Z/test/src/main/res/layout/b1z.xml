@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:tint="@color/GRD10A" android:alpha="0.2" app:srcCompat="@drawable/c8a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

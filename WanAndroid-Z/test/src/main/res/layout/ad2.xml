@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/more_panel_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="fill_parent" android:layout_height="30.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="start" android:id="@id/more_tools_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginStart="30.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/byp" style="@style/i6" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/background_playback_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" app:showText="false" app:thumbTint="@color/player_scaffold_thumb" app:trackTint="@color/player_scaffold_track" />
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

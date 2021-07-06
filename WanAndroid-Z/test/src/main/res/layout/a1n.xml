@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/like_item_root" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/like_item_image" android:layout_width="90.0dip" android:layout_height="120.0dip" app:actualImageScaleType="centerCrop" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:placeholderImage="@drawable/bxs" app:placeholderImageScaleType="centerCrop" app:roundedCornerRadius="4.0dip" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:ellipsize="end" android:gravity="center|left" android:id="@id/like_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" android:layout_below="@id/like_item_image" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK99B_60" android:ellipsize="end" android:gravity="center|left" android:id="@id/like_item_score" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" android:layout_below="@id/like_item_title" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@drawable/shape_loading_dialog_bg"
+    android:gravity="center_horizontal"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/common_progress_drawable_circle"
+        android:indeterminateDuration="1000"
+        android:minWidth="32dp"
+        android:minHeight="32dp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="请求中..."
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

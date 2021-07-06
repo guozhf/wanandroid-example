@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/live_payment_panel_view" android:tag="layout/zh_coin_recharge_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/a0j" android:id="@id/title" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/eei" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/notice_button" android:background="?a3i" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="充值须知" android:drawableLeft="@drawable/ca4" android:drawablePadding="4.0dip" />
+    </LinearLayout>
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+    <GridView android:id="@id/coin_container" android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/ew" android:verticalSpacing="@dimen/ew" android:numColumns="3" />
+</androidx.appcompat.widget.LinearLayoutCompat>

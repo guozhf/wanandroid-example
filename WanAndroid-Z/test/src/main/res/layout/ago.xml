@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/profile_fragment_label_detail_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/emply" android:layout_width="fill_parent" android:layout_height="@dimen/r5" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/top_vote_count_view" android:background="@color/GBK99A" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.5dip" android:elevation="1.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/BK03" android:id="@id/top_vote_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="24" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/top_close_btn" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/a6t" android:tint="@color/GBK08A" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ProgressBar android:id="@id/loading_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/vote_recyclerview" android:background="@drawable/a7u" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+    </RelativeLayout>
+</LinearLayout>

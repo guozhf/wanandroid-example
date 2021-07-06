@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:orientation="vertical" android:padding="@dimen/f7" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_marginRight="@dimen/f7" app:bg_cornerRadius="@dimen/fi" app:bg_fillColor="@color/GBK99A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" app:businessType="kmarket" app:roundAsCircle="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/f7" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/f3" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GBK06A" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f8" android:layout_marginStart="@dimen/f3" />
+        </LinearLayout>
+        <com.zhihu.android.app.ui.widget.button.ZHFollowPeopleButton2 android:layout_gravity="center_vertical" android:id="@id/followButton" android:layout_width="wrap_content" android:layout_height="@dimen/fa" app:followBackground="@drawable/a3m" app:followDrawableLeftTintColor="@color/GBL01A" app:followTextAppearance="@style/he" app:followTitle="关注" app:unfollowTextAppearance="@style/a21" />
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/f7" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="@dimen/f9" android:maxLines="1" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GBK06A" android:id="@id/upvoteCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GBK06A" android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text=" · " />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GBK06A" android:id="@id/commentCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    </LinearLayout>
+</com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>

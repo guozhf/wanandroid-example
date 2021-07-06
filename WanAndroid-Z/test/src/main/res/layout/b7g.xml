@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.mvvm.ChildView android:id="@id/coverChildView" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView android:id="@id/webCv" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="@dimen/f9" android:layout_marginEnd="@dimen/f9" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip" app:layout_constraintDimensionRatio="335:70" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/coverChildView">
+        <FrameLayout android:id="@id/webFl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/placeholderDv" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@drawable/bns" app:placeholderImageScaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+    <com.zhihu.android.base.mvvm.ChildView android:id="@id/recommendChildView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/webCv" />
+    <View android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recommendChildView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

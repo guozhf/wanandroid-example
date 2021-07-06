@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/search_root" android:background="@color/color_ffffffff_ff37474f" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_widget" android:layout_width="fill_parent" android:layout_height="52.0dip" layout="@layout/azk" />
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_widget">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

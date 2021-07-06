@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:tag="layout/kmarket_player_indicator_seekbar_selected_0" android:padding="@dimen/f3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBK10A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:lineSpacingExtra="-2.0sp" android:letterSpacing="-0.03" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="-2.0sp" android:letterSpacing="-0.03" />
+</com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>

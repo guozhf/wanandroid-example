@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cc5" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/cc6" android:layout_width="fill_parent" android:layout_height="258.0dip" android:layout_marginTop="49.0dip" android:layout_marginBottom="@dimen/f4" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:elevation="1.0dip">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/BK02" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+            <com.zhihu.android.app.market.ui.view.MemberShareLayout android:id="@id/member_share_layout" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f4" android:paddingEnd="@dimen/f4" android:layout_marginStart="@dimen/f4" android:layout_marginEnd="@dimen/f4" app:bg_cornerRadius="8.0dip" app:bg_fillColor="#fffdf8f4" />
+            <com.zhihu.android.app.base.ui.widget.DrawableCenterTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/BK03" android:gravity="center_vertical" android:id="@id/share_btn" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="17.0dip" android:text="分享至朋友圈" android:drawableLeft="@drawable/cc1" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

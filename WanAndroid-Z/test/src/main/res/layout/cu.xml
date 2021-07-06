@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/search_widget_layout" android:tag="layout/search_widget_0" android:background="@color/GBK99A" android:paddingTop="16.0dip" android:paddingBottom="4.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:id="@id/card_root" android:layout_width="fill_parent" android:layout_height="29.0dip" app:cardBackgroundColor="@color/GBK09A" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip">
+        <com.zhihu.android.base.widget.ZHSpace android:id="@id/menu_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="10.0dip" android:layout_marginStart="175.0dip" />
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/up" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/box" android:layout_centerVertical="true" android:layout_marginStart="7.0dip" android:layout_marginEnd="5.0dip" app:tint="@color/GBK06A" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/clear" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bbw" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentEnd="true" app:tint="@color/GBK06A" />
+            <com.zhihu.android.base.widget.ZHEditText android:textSize="15.0sp" android:textColor="@color/GBK03A" android:textColorHint="@color/GBK06A" android:id="@id/input" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="搜索圈子" android:singleLine="true" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:layout_toStartOf="@id/clear" android:layout_toEndOf="@id/up" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+    </com.zhihu.android.base.widget.ZHCardView>
+</com.zhihu.android.base.widget.ZHFrameLayout>

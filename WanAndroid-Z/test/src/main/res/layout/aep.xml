@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/premium_layout_vip_pay_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/card_container" android:paddingLeft="@dimen/oz" android:paddingRight="@dimen/oz" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginTop="20.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:text="@string/cj_" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pay_methods_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    <RelativeLayout android:id="@id/expand_all_methods" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="50.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBL01A" android:gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="展开更多支付方式" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/placeholder_more_pkg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="20.0dip" />
+    <include android:id="@id/label_layout" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="27.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" layout="@layout/af0" />
+</LinearLayout>

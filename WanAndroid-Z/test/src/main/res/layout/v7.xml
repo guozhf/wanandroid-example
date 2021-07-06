@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.kmarket.videodetail.ui.KmVideoBackLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.base.ui.widget.ShapedDrawableCenterTextView android:textSize="15.0sp" android:textColor="@color/BK99" android:layout_gravity="center_horizontal" android:id="@id/replay" android:layout_width="116.0dip" android:layout_height="36.0dip" android:layout_marginTop="15.0dip" android:text="重新播放" android:drawablePadding="4.0dip" app:bg_cornerRadius="18.0dip" app:bg_fillColor="@color/BL01" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.kmarket.videodetail.ui.KmVideoBackLayout>

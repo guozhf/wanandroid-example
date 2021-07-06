@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="az" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+    <style name="b0" parent="@android:style/TextAppearance.Material.Widget.Button.Colored" />
+    <style name="cm" parent="@style/cn">
+        <item name="android:colorBackground">@color/design_dark_default_color_background</item>
+        <item name="android:buttonBarButtonStyle">?fa</item>
+        <item name="android:timePickerDialogTheme">@style/qi</item>
+        <item name="android:datePickerDialogTheme">@style/qi</item>
+        <item name="android:contextPopupMenuStyle">@style/w_</item>
+        <item name="at">@style/qf</item>
+        <item name="au">@dimen/lo</item>
+        <item name="aw">@style/uj</item>
+        <item name="b0">@style/q7</item>
+        <item name="bk">@style/wb</item>
+        <item name="c5">@style/qj</item>
+        <item name="ch">@style/um</item>
+        <item name="em">@style/v4</item>
+        <item name="eo">@style/uv</item>
+        <item name="ep">@style/qe</item>
+        <item name="fa">@style/v4</item>
+        <item name="g6">@style/vi</item>
+        <item name="hd">?hu</item>
+        <item name="hj">@color/design_dark_default_color_error</item>
+        <item name="hq">@color/design_dark_default_color_primary</item>
+        <item name="hr">@color/design_dark_default_color_primary_dark</item>
+        <item name="n9">@style/vn</item>
+        <item name="u5">@style/wa</item>
+        <item name="va">@style/qo</item>
+        <item name="vi">@style/qw</item>
+        <item name="vp">@style/vq</item>
+        <item name="vq">@style/qv</item>
+        <item name="xc">@style/w8</item>
+        <item name="z5">@style/w9</item>
+        <item name="a1n">@style/vj</item>
+        <item name="a55">@style/v9</item>
+        <item name="a56">@style/we</item>
+        <item name="a57">@style/wg</item>
+        <item name="a6k">@style/vk</item>
+        <item name="a7_">@style/wh</item>
+        <item name="a7q">?a80</item>
+        <item name="a7z">?a80</item>
+        <item name="a88">@style/wo</item>
+        <item name="a_8">@style/wx</item>
+        <item name="ab8">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="co" parent="@style/cp">
+        <item name="android:colorBackground">@color/design_dark_default_color_background</item>
+        <item name="android:contextPopupMenuStyle">@style/w_</item>
+        <item name="at">@style/qf</item>
+        <item name="au">@dimen/lo</item>
+        <item name="aw">@style/uj</item>
+        <item name="b0">@style/q7</item>
+        <item name="bk">@style/wb</item>
+        <item name="c5">@style/qj</item>
+        <item name="ch">@style/um</item>
+        <item name="em">@style/v4</item>
+        <item name="eo">@style/uv</item>
+        <item name="fa">@style/v6</item>
+        <item name="g6">@style/vi</item>
+        <item name="hd">?hu</item>
+        <item name="hj">@color/design_dark_default_color_error</item>
+        <item name="hq">@color/design_dark_default_color_primary</item>
+        <item name="hr">@color/design_dark_default_color_primary_dark</item>
+        <item name="hu">@color/design_dark_default_color_secondary</item>
+        <item name="n9">@style/vn</item>
+        <item name="u5">@style/wa</item>
+        <item name="va">@style/qo</item>
+        <item name="xc">@style/w8</item>
+        <item name="z5">@style/w9</item>
+        <item name="a1n">@style/vj</item>
+        <item name="a55">@style/v9</item>
+        <item name="a56">@style/we</item>
+        <item name="a57">@style/wg</item>
+        <item name="a6k">@style/vk</item>
+        <item name="a7_">@style/wh</item>
+        <item name="a7q">?a80</item>
+        <item name="a7z">?a80</item>
+        <item name="a88">@style/wo</item>
+        <item name="a_8">@style/wx</item>
+        <item name="ab8">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="cq" parent="@style/cr">
+        <item name="android:colorBackground">@color/design_default_color_background</item>
+        <item name="android:buttonBarButtonStyle">?fa</item>
+        <item name="android:timePickerDialogTheme">@style/qi</item>
+        <item name="android:datePickerDialogTheme">@style/qi</item>
+        <item name="android:contextPopupMenuStyle">@style/w_</item>
+        <item name="at">@style/ql</item>
+        <item name="au">@dimen/lo</item>
+        <item name="aw">@style/vo</item>
+        <item name="bk">@style/wb</item>
+        <item name="c5">@style/qj</item>
+        <item name="ch">@style/uk</item>
+        <item name="em">@style/v4</item>
+        <item name="eo">@style/uv</item>
+        <item name="ep">@style/qm</item>
+        <item name="fa">@style/v4</item>
+        <item name="g6">@style/vi</item>
+        <item name="hd">?hu</item>
+        <item name="hj">@color/design_default_color_error</item>
+        <item name="hq">@color/design_default_color_primary</item>
+        <item name="hr">@color/design_default_color_primary_dark</item>
+        <item name="n9">@style/vn</item>
+        <item name="u5">@style/wa</item>
+        <item name="va">@style/qo</item>
+        <item name="vi">@style/qw</item>
+        <item name="vp">@style/vq</item>
+        <item name="vq">@style/qv</item>
+        <item name="xc">@style/w8</item>
+        <item name="z5">@style/w9</item>
+        <item name="a1n">@style/vj</item>
+        <item name="a55">@style/v9</item>
+        <item name="a56">@style/we</item>
+        <item name="a57">@style/wg</item>
+        <item name="a6k">@style/vk</item>
+        <item name="a7_">@style/wh</item>
+        <item name="a7q">?a80</item>
+        <item name="a7z">?a80</item>
+        <item name="a88">@style/wo</item>
+        <item name="a_8">@style/wx</item>
+        <item name="ab8">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="ct" parent="@style/cu">
+        <item name="android:colorBackground">@color/design_default_color_background</item>
+        <item name="android:contextPopupMenuStyle">@style/w_</item>
+        <item name="at">@style/ql</item>
+        <item name="au">@dimen/lo</item>
+        <item name="aw">@style/vo</item>
+        <item name="bk">@style/wb</item>
+        <item name="c5">@style/qj</item>
+        <item name="ch">@style/uk</item>
+        <item name="em">@style/v4</item>
+        <item name="eo">@style/uv</item>
+        <item name="fa">@style/v6</item>
+        <item name="g6">@style/vi</item>
+        <item name="hd">?hu</item>
+        <item name="hj">@color/design_default_color_error</item>
+        <item name="hq">@color/design_default_color_primary</item>
+        <item name="hr">@color/design_default_color_primary_dark</item>
+        <item name="hu">@color/design_default_color_secondary</item>
+        <item name="n9">@style/vn</item>
+        <item name="u5">@style/wa</item>
+        <item name="va">@style/qo</item>
+        <item name="xc">@style/w8</item>
+        <item name="z5">@style/w9</item>
+        <item name="a1n">@style/vj</item>
+        <item name="a55">@style/v9</item>
+        <item name="a56">@style/we</item>
+        <item name="a57">@style/wg</item>
+        <item name="a6k">@style/vk</item>
+        <item name="a7_">@style/wh</item>
+        <item name="a7q">?a80</item>
+        <item name="a7z">?a80</item>
+        <item name="a88">@style/wo</item>
+        <item name="a_8">@style/wx</item>
+        <item name="ab8">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="mo" parent="@style/mn" />
+    <style name="mr" parent="@style/mm" />
+    <style name="mt" parent="@style/ms" />
+    <style name="mv" parent="@style/mu" />
+</resources>

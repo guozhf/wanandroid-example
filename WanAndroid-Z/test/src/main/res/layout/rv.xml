@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/GBK09C" android:padding="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:cardBackgroundColor="@color/GBK99A" zhihu:cardCornerRadius="6.0dip" zhihu:cardElevation="@dimen/f2">
+        <RelativeLayout android:gravity="center_vertical" android:paddingLeft="10.0dip" android:paddingTop="12.0dip" android:paddingRight="13.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/avatar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="36.0dip" android:layout_height="36.0dip" style="@style/ji" />
+                <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="center" android:id="@id/avatar" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true" zhihu:autoMask="true" zhihu:businessType="community" />
+            </FrameLayout>
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title" android:paddingLeft="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/avatar_layout" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/headline" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_toRightOf="@id/avatar_layout" android:layout_below="@id/title" />
+            <com.zhihu.android.base.widget.ZHSwitch android:theme="@style/a3k" android:id="@id/delegate_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </com.zhihu.android.base.widget.ZHCardView>
+</RelativeLayout>

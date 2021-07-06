@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/font_download_start" android:layout_width="44.0dip" android:layout_height="24.0dip" android:text="@string/ad5" app:bg_cornerRadius="4.0dip" app:bg_fillColor="@color/transparent" app:bg_strokeWidth="1.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/font_download_finish" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bta" android:layout_centerInParent="true" />
+</merge>

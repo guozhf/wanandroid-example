@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/j8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/GBL01A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="暂无回答，点击查看其他推荐内容" android:layout_marginStart="16.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bms" android:tint="@color/GBL01A" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

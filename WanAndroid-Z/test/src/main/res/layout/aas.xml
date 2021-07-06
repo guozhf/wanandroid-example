@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/GBK99A" android:padding="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.view.CycleViewPager android:id="@id/vp" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    <com.zhihu.android.view.CirclePageIndicator android:layout_gravity="bottom" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="@dimen/f3" app:fillColor="@color/GBK99A" app:pageColor="#80000000" app:radius="3.0dip" app:snap="true" app:strokeWidth="@dimen/f2" />
+</FrameLayout>

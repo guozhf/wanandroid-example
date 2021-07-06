@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <ViewStub android:id="@id/slide_empty_layout" android:visibility="gone" android:layout="@layout/all" android:inflatedId="@id/slide_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

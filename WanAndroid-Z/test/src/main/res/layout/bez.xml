@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/error" android:visibility="gone" android:layout_width="@dimen/f7" android:layout_height="@dimen/f7" android:layout_marginRight="6.0dip" android:src="@drawable/cd0" />
+    <RelativeLayout android:id="@id/sticker_card" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginRight="10.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/sticker" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoMask="false" app:autoPlaceholder="false" app:businessType="community" />
+        <RelativeLayout android:id="@id/loading_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerInParent="true" android:indeterminateTint="@color/GBK07B" style="?android:progressBarStyleSmall" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="@dimen/h1" android:layout_height="@dimen/h1" android:layout_marginRight="10.0dip" android:src="@drawable/be6" app:autoMask="false" app:autoPlaceholder="false" app:businessType="community" app:placeholderImage="@drawable/be6" />
+</LinearLayout>

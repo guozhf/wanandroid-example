@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/content" layout="@layout/a26" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_interest_pick" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="33.0dip" android:overScrollMode="never" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" app:layout_constraintBottom_toTopOf="@id/img_next_page" app:layout_constraintTop_toBottomOf="@id/content" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/img_next_page" android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/bmd" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.picture.editor.widget.AdjustPanel android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/n8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/actionsLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toTopOf="@id/bottom_layout" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/highLight" layout="@layout/abp" style="@style/hh" />
+        <include android:id="@id/light" layout="@layout/abp" style="@style/hh" />
+        <include android:id="@id/contrast" layout="@layout/abp" style="@style/hh" />
+        <include android:id="@id/saturation" layout="@layout/abp" style="@style/hh" />
+        <include android:id="@id/tone" layout="@layout/abp" style="@style/hh" />
+        <include android:id="@id/temperature" layout="@layout/abp" style="@style/hh" />
+    </LinearLayout>
+    <include android:id="@id/bottom_layout" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" layout="@layout/abs" />
+    <include android:id="@id/seekBarPanel" android:visibility="gone" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/aby" />
+</com.zhihu.android.picture.editor.widget.AdjustPanel>

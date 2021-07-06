@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?au" zhihu:contentInsetStartWithNavigation="48.0dip" zhihu:popupTheme="@style/a37" zhihu:subtitleTextAppearance="@style/a3_" zhihu:theme="@style/a39" zhihu:tintColor="@color/GBK04A" zhihu:titleTextAppearance="@style/a3a" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/actionBar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au">
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:id="@id/manager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="管理" android:layout_marginStart="20.0dip" zhihu:layout_constraintBottom_toBottomOf="parent" zhihu:layout_constraintStart_toStartOf="parent" zhihu:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textAppearance="@style/a3a" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="学习清单" zhihu:layout_constraintBottom_toBottomOf="parent" zhihu:layout_constraintEnd_toEndOf="parent" zhihu:layout_constraintStart_toStartOf="parent" zhihu:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bbw" android:tint="@color/GBK04A" android:layout_marginEnd="20.0dip" zhihu:layout_constraintBottom_toBottomOf="parent" zhihu:layout_constraintEnd_toEndOf="parent" zhihu:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/a02" />
+</LinearLayout>

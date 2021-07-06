@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:id="@id/card_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:cardBackgroundColor="@color/GBK09B" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip">
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/search_ic" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/box" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:tintColor="@color/GBK06A" />
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/clear" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:src="@drawable/bbw" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:tintColor="@color/GBK06A" />
+            <com.zhihu.android.base.widget.ZHEditText android:textAppearance="@style/a11" android:textColor="@color/GBK02A" android:textColorHint="@color/GBK06A" android:id="@id/input" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginRight="40.0dip" android:hint="搜索话题" android:singleLine="true" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/aef" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+    </com.zhihu.android.base.widget.ZHCardView>
+</com.zhihu.android.base.widget.ZHFrameLayout>

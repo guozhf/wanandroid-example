@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.comment.widget.InterceptBottomSheetParent android:id="@id/fl_intercept" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.comment.widget.sheet.CommentSheetLayout android:id="@id/bottom_sheet" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/fl_content" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.comment.widget.sheet.CommentSheetLayout>
+</com.zhihu.android.comment.widget.InterceptBottomSheetParent>

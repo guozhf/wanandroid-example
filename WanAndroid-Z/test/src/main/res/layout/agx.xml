@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIFrameLayout android:id="@id/card" android:background="@drawable/a68" android:layout_width="wrap_content" android:layout_height="@dimen/ps" android:layout_marginBottom="@dimen/pt" android:layout_marginEnd="@dimen/pt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" app:businessType="community" />
+</com.zhihu.android.zui.widget.ZUIFrameLayout>

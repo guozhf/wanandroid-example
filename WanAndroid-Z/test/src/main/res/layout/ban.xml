@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/self_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="132.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK04A" android:gravity="center|left" android:id="@id/self" android:background="@drawable/apf" android:paddingLeft="10.0dip" android:layout_width="100.0dip" android:layout_height="25.0dip" android:text="@string/eag" android:lineSpacingExtra="5.0sp" android:paddingEnd="10.0dip" app:layout_constraintBottom_toBottomOf="@id/self_avatar" app:layout_constraintRight_toRightOf="@id/self_avatar" app:layout_constraintTop_toTopOf="@id/self_avatar" />
+    <ImageView android:id="@id/block" android:background="@color/GBK99A" android:layout_width="45.0dip" android:layout_height="fill_parent" app:layout_constraintRight_toRightOf="parent" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/self_avatar" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginEnd="32.0dip" app:autoMask="true" app:businessType="community" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="@id/block" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@drawable/be6" app:roundAsCircle="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

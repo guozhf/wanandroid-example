@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/head_content_tencent_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/head_content_tencent_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/brg" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@color/GBK04A" android:layout_gravity="center_vertical" android:id="@id/head_content_tencent_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/di3" android:includeFontPadding="false" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/head_content_tencent_arrow" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/bra" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/back" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/u9" android:tint="@color/GBK03A" zhihu:tintColor="@color/GBK03A" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/GBK09C" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b7m" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:textColor="@color/QUESTION_GBL05A_08" android:gravity="center" android:layout_gravity="center" android:id="@id/error_message" android:paddingLeft="40.0dip" android:paddingTop="16.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cvt" android:lineSpacingMultiplier="@dimen/ck" />
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/error_message_retry_text" android:paddingLeft="19.0dip" android:paddingRight="19.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:minHeight="36.0dip" android:text="@string/dbh" />
+    </LinearLayout>
+</RelativeLayout>

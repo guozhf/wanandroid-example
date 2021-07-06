@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layer_root" android:background="@color/BK99" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:enabled="false" android:textSize="16.0sp" android:textColor="@color/BK99" android:gravity="center" android:id="@id/qr_share_btn" android:background="@drawable/a82" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="20.0dip" android:text="@string/cl2" android:layout_marginStart="100.0dip" android:layout_marginEnd="100.0dip" android:elevation="3.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <include android:id="@id/bottom_layer" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/qr_share_btn" app:layout_constraintTop_toTopOf="parent" layout="@layout/aj5" />
+    <include android:id="@id/top_layer" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/qr_share_btn" app:layout_constraintTop_toTopOf="parent" layout="@layout/aj5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/px" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:collapsedTitleTextAppearance="@style/jl" app:contentScrim="@color/GBK99A" app:expandedTitleGravity="bottom|center" app:expandedTitleMarginBottom="15.0dip" app:expandedTitleTextAppearance="@style/jl" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:title="选择要引用的文章">
+            <com.zhihu.android.base.widget.ZHToolBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?au" app:layout_collapseMode="pin" app:tintColor="@color/GBK04A" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht">
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="内容" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:id="@id/sort" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

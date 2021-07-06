@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/bpk" android:id="@id/action_share" android:title="@string/d9k" app:showAsAction="never" />
+    <item android:id="@id/action_anonymous_switch" android:title="@string/ase" app:showAsAction="never" />
+    <item android:id="@id/action_steward" android:title="@string/d9l" app:showAsAction="never" />
+</menu>

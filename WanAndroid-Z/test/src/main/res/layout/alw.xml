@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="52.5dip" android:layout_height="52.5dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/creator_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:businessType="community" app:roundAsCircle="true" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/creator_crown" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginTop="-9.5dip" android:src="@drawable/b98" android:layout_marginStart="-9.5dip" />
+        <com.zhihu.android.app.ui.widget.MultiDrawableView android:layout_gravity="end|bottom|center" android:id="@id/creator_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/creator_name" android:layout_width="60.0dip" android:layout_height="18.0dip" android:layout_marginTop="8.0dip" />
+</com.zhihu.android.zui.widget.ZUILinearLayout>

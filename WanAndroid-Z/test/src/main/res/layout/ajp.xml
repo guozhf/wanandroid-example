@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="@dimen/f3" android:layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="17.5dip" android:layout_height="17.5dip" android:layout_marginTop="2.0dip" app:autoMask="true" app:businessType="community" app:roundingBorderColor="@color/GBK99A" app:roundingBorderWidth="1.5dip" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/badge" android:visibility="gone" android:layout_width="@dimen/f7" android:layout_height="@dimen/f7" android:layout_marginTop="2.0dip" app:businessType="community" app:hasMask="false" />
+    <com.zhihu.android.profile.newprofile.ui.card.social.ProfileMultiViewLayout android:id="@id/multi_draw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/shell" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:layout_gravity="center_vertical" android:id="@id/text_view_prefix" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_marginStart="4.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:layout_gravity="center_vertical" android:id="@id/text_view_single_line" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:layout_gravity="center_vertical" android:id="@id/text_view_suffix" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

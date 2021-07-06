@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tipsBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/vg" />
+    <ImageView android:id="@id/tipsBackground_1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/vf" android:translationX="25.0dip" android:translationY="-18.0dip" app:layout_constraintDimensionRatio="1" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.18" />
+    <ImageView android:id="@id/tipsBackground_2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="50.0dip" android:src="@drawable/vf" app:layout_constraintDimensionRatio="1" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.3" />
+    <ImageView android:id="@id/tipsBackground_3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/vf" android:translationX="-20.0dip" android:translationY="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintWidth_percent="0.3" />
+    <androidx.constraintlayout.widget.Group android:id="@id/groupBackground" android:layout_width="0.0dip" android:layout_height="0.0dip" app:constraint_referenced_ids="tipsBackground_1,tipsBackground_2,tipsBackground_3,tipsBackground" />
+</androidx.constraintlayout.widget.ConstraintLayout>

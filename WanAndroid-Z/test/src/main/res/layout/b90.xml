@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:id="@id/comment_guide_root_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.videox.fragment.gift.panel.widget.liveemoji.LiveEmojiRecycleView android:id="@id/live_emoji_list" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

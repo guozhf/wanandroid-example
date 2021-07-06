@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:id="@id/normalLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.kmarket.videodetail.ui.widget.ScrollableLinearLayout android:orientation="vertical" android:id="@id/scrollableLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/headerLayout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="80.0dip" app:layout_constraintTop_toTopOf="parent">
+                <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/videoViewContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspectRatio="1.78">
+                    <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoMask="false" />
+                </com.zhihu.android.base.widget.ZHFrameLayout>
+                <ViewStub android:id="@id/errorLayoutStub" android:layout="@layout/u_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/backButton" android:layout_marginTop="@dimen/nr" android:src="@drawable/axe" android:tint="@color/BK99" android:layout_marginStart="@dimen/nq" style="@style/k7" />
+            </FrameLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/headerLayout">
+                <com.zhihu.android.app.market.widget.MarketPurchaseBar android:id="@id/purchaseBar" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+                <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintTop_toBottomOf="@id/purchaseBar" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="2.0dip" app:tabMinWidth="68.0dip" app:tabMode="scrollable" app:tabRippleColor="@color/transparent" />
+                <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+                <FrameLayout android:id="@id/popupFragmentContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/tabLayout" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.zhihu.android.kmarket.videodetail.ui.widget.ScrollableLinearLayout>
+        <include android:visibility="invisible" layout="@layout/uz" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fullScreenLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

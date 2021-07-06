@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@color/BK99" android:ellipsize="end" android:gravity="center" android:id="@id/pb_button" android:paddingLeft="@dimen/f3" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/f3" android:paddingBottom="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/BK02" android:ellipsize="end" android:id="@id/pb_desc" android:paddingRight="@dimen/f_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/pb_button" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/pb_foreground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:autoMask="false" app:businessType="commerce" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.answer.widget.AnswerContentEmptyLayout android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:translationY="-24.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0t" android:id="@id/message" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/ck" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/za" android:gravity="center" android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.answer.widget.AnswerContentEmptyLayout>

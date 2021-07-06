@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ll_shield" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:id="@id/tv_shield_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:letterSpacing="-0.03" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/aeh" />
+    </LinearLayout>
+    <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

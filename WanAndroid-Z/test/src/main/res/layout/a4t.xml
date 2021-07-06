@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmb" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:textColor="@color/GBK07A" android:gravity="center" android:id="@id/message" android:paddingLeft="40.0dip" android:paddingTop="@dimen/cg" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dbe" android:lineSpacingMultiplier="@dimen/ck" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/za" android:gravity="center" android:id="@id/button" android:paddingLeft="19.0dip" android:paddingRight="19.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:minHeight="36.0dip" android:text="重新加载" />
+</androidx.appcompat.widget.LinearLayoutCompat>

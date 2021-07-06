@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="80.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/apt" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:paddingStart="12.0dip" android:paddingEnd="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.videox.fragment.function.screenrecord.widget.SRProgressView android:id="@id/progress_view" android:layout_width="16.0dip" android:layout_height="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:layout_width="9.0dip" android:layout_height="9.0dip" android:src="@drawable/avs" app:layout_constraintBottom_toBottomOf="@id/progress_view" app:layout_constraintEnd_toEndOf="@id/progress_view" app:layout_constraintStart_toStartOf="@id/progress_view" app:layout_constraintTop_toTopOf="@id/progress_view" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/BK99" android:gravity="center_vertical" android:id="@id/sr_progress_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toBottomOf="@id/progress_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/progress_view" app:layout_constraintTop_toTopOf="@id/progress_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/layout_count" android:background="@drawable/aq7" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="9.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="center" android:id="@id/text_count" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="0.5dip" android:text="3" android:lineSpacingExtra="0.0sp" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

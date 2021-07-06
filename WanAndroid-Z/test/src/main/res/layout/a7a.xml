@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/month_navigation_bar" android:paddingTop="@dimen/j9" android:paddingBottom="@dimen/j7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.material.button.MaterialButton android:gravity="start|center" android:layout_gravity="start" android:id="@id/month_navigation_fragment_toggle" android:layout_width="wrap_content" android:layout_height="@dimen/j8" android:insetTop="0.0dip" android:insetBottom="0.0dip" app:icon="@drawable/z3" app:iconGravity="textEnd" app:iconPadding="4.0dip" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/month_navigation_previous" android:layout_width="@dimen/kr" android:layout_height="@dimen/j8" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/bhx" app:icon="@drawable/z1" />
+    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/month_navigation_next" android:layout_width="@dimen/kr" android:layout_height="@dimen/j8" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/bhw" app:icon="@drawable/z2" />
+</LinearLayout>

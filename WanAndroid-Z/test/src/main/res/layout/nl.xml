@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_market_manga_viewer_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.kmarket.manga.ui.widget.MatrixLayout android:id="@id/manga_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.kmarket.manga.ui.widget.MangaContainerView android:id="@id/manga_viewer_list" android:tag="binding_1" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.kmarket.manga.ui.widget.MatrixLayout>
+    <com.zhihu.android.kmarket.manga.ui.widget.MangaBottomView android:id="@id/bottom" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.zhihu.android.kmarket.manga.ui.widget.FullScreenMangaProgress android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="10.0dip" app:elevation="0.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" app:aspectRatio="1.658">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a3q" android:scaleType="fitCenter" />
+            </com.zhihu.android.base.widget.ZHFrameLayout>
+            <TextView android:textSize="17.0sp" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="成功加入书架" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="已加入书架，可在“我的-我的书架”查看，\n快去看看吧！" />
+            <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="15.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/btnOK" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="20.0dip" android:foreground="?android:selectableItemBackground" android:text="我知道了" android:lineSpacingExtra="2.0sp" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBL01A" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView android:layout_gravity="center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/be_" android:tint="@color/GBK06A" />
+</LinearLayout>

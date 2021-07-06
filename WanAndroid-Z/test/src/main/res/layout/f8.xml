@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/dialog_image" android:layout_width="200.0dip" android:layout_height="391.0dip" android:scaleType="center" app:autoMask="false" app:businessType="commerce" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundedCornerRadius="10.0dip" />
+    <ImageView android:id="@id/dialog_close" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="22.0dip" android:src="@drawable/ba0" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/dialog_image" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_width="34.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/bcb" android:scaleType="fitXY" android:layout_marginEnd="10.0dip" app:layout_constraintRight_toRightOf="@id/dialog_image" app:layout_constraintTop_toTopOf="@id/dialog_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

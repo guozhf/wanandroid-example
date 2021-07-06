@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:tag="layout/fragment_top_tabs_2_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/px" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" zhihu:expandedTitleMarginEnd="64.0dip" zhihu:expandedTitleMarginStart="48.0dip" zhihu:layout_scrollFlags="exitUntilCollapsed|scroll" zhihu:scrimAnimationDuration="@android:integer/config_shortAnimTime">
+            <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" zhihu:layout_collapseMode="parallax" zhihu:layout_collapseParallaxMultiplier="0.7">
+                <com.zhihu.android.app.ui.widget.RhombusDreamView android:id="@id/dream_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.zhihu.android.base.view.ZHView android:id="@id/view_mask" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.9" />
+                <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/extended_info_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.zhihu.android.base.widget.ZHFrameLayout>
+            <com.zhihu.android.base.widget.ZHToolBar android:gravity="top" android:id="@id/awesome_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:contentInsetStartWithNavigation="48.0dip" zhihu:layout_collapseMode="pin" zhihu:popupTheme="@style/a37" zhihu:subtitleTextAppearance="@style/a3_" zhihu:theme="@style/a39" zhihu:tintColor="@color/color_ffffffff_ffffffff" zhihu:titleMarginTop="15.0dip" zhihu:titleTextAppearance="@style/a3d" />
+            <com.zhihu.android.base.widget.ZHToolBar android:gravity="top" android:id="@id/region_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?au" zhihu:contentInsetStartWithNavigation="48.0dip" zhihu:layout_collapseMode="pin" zhihu:popupTheme="@style/a37" zhihu:subtitleTextAppearance="@style/a3_" zhihu:theme="@style/a39" zhihu:tintColor="@color/GBK04A" zhihu:titleMarginTop="15.0dip" zhihu:titleTextAppearance="@style/a3d">
+                <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/title_layout" android:tag="binding_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?au" android:animateLayoutChanges="true">
+                    <include android:id="@id/limit_tips" android:background="@color/GBK10C" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="28.0dip" layout="@layout/ahm" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK07B" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ap_" android:maxLines="1" android:layout_marginStart="9.0dip" />
+                </com.zhihu.android.base.widget.ZHLinearLayout>
+            </com.zhihu.android.base.widget.ZHToolBar>
+            <com.zhihu.android.base.widget.ZHTabLayout android:layout_gravity="bottom|center" android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:tabGravity="fill" style="@style/xj" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.zhihu.android.base.widget.ZHViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" zhihu:layout_behavior="@string/ht" />
+    <FrameLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

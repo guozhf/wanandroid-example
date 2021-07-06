@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="3.0dip" android:layout_centerHorizontal="true" app:autoMask="true" app:autoPlaceholder="true" app:businessType="community" app:viewAspectRatio="1.0" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/GBK99A" android:layout_gravity="center|right|top" android:id="@id/unread_tip_num" android:background="@drawable/mq" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5.25dip" android:paddingEnd="5.25dip" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center|right|top" android:id="@id/unread_tip_dot" android:visibility="gone" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/st" android:scaleType="fitXY" />
+    </FrameLayout>
+    <com.airbnb.lottie.LottieAnimationView android:gravity="center_vertical" android:id="@id/lottie" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="13.0dip" android:layout_alignBottom="@id/fl_avatar" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_loop="true" />
+</RelativeLayout>

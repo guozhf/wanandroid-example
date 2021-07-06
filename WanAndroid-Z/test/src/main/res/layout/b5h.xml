@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/middle_play_button" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/c8s" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/color_ffffffff" android:indeterminateTintMode="src_in" />
+</FrameLayout>

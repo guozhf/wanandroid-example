@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/b6d" android:id="@id/top" android:title="@string/ra" app:iconTint="@color/GBK04A" app:showAsAction="never" />
+    <item android:icon="@drawable/b6e" android:id="@id/cancel_add" android:title="@string/q3" app:iconTint="@color/GBK04A" app:showAsAction="never" />
+    <item android:icon="@drawable/b6f" android:id="@id/report" android:title="@string/qu" app:iconTint="@color/GBK04A" app:showAsAction="never" />
+    <item android:icon="@drawable/p0" android:id="@id/share" android:title="@string/c2" app:iconTint="@color/GBK04A" app:showAsAction="never" />
+</menu>

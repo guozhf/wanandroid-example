@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/c11">
+        <CheckBoxPreference android:title="@string/chc" android:key="@string/c9g" android:summary="@string/cdo" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/ch8" android:key="@string/c9n" />
+        <CheckBoxPreference android:title="@string/chb" android:key="@string/c9r" />
+        <CheckBoxPreference android:title="@string/ch7" android:key="@string/c9m" />
+        <CheckBoxPreference android:title="@string/chf" android:key="@string/c9v" />
+        <CheckBoxPreference android:title="@string/cha" android:key="@string/c9q" />
+        <CheckBoxPreference android:title="@string/chd" android:key="@string/c9s" />
+        <Preference android:title="@string/ch3" android:key="@string/c0w" />
+        <Preference android:title="@string/ch6" android:key="@string/c0x" />
+        <Preference android:title="@string/ch_" android:key="@string/c0y" />
+        <CheckBoxPreference android:title="@string/ch9" android:key="@string/c9o" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c10">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ch2" android:key="@string/c9h" android:defaultValue="false" />
+        <PreferenceScreen android:title="开始时间" android:key="@string/c9j" android:summary="22:00" android:dependency="@string/c9h" />
+        <PreferenceScreen android:title="结束时间" android:key="@string/c9i" android:summary="08:00" android:dependency="@string/c9h" />
+    </PreferenceCategory>
+    <Preference />
+</PreferenceScreen>

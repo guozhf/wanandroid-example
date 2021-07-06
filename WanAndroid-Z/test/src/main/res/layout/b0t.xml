@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/v_red_dot" android:background="@drawable/a0p" android:visibility="invisible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginStart="-4.0dip" android:layout_toEndOf="@id/tv_tab_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

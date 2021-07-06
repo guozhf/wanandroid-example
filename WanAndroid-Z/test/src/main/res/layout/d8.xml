@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:paddingStart="4.0dip" android:paddingEnd="2.0dip" app:contentInsetStartWithNavigation="10.0dip" app:layout_collapseMode="pin" app:popupTheme="@style/q2" app:theme="@style/px" app:tintColor="@color/GBK04A" app:title="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center" android:id="@id/column_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="数码产品日常推荐" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/more" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b6g" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/GBK04A" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.zhihu.android.base.widget.ZHToolBar>

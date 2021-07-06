@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/f7" android:text="广告位: " />
+    <Spinner android:id="@id/morph_style_debug_zone_spinner" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/f7" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/f7" android:text="样式: " />
+    <Spinner android:id="@id/morph_style_debug_style_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/f7" />
+    <TextView android:textColor="@android:color/white" android:id="@id/morph_style_debug_confirm" android:background="@color/BL02" android:paddingLeft="@dimen/f7" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/f7" android:paddingBottom="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/f7" android:text="确定" android:textAlignment="center" />
+</LinearLayout>

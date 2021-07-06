@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="50.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/GBK99A" />
+        </shape>
+    </item>
+    <item android:gravity="bottom" android:height="50.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/profile_GBK99A_00" android:endColor="@color/GBK99A" android:angle="90.0" />
+        </shape>
+    </item>
+</layer-list>

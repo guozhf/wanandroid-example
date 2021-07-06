@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/bw_" android:id="@id/notification_action_delete" android:title="@string/bn2" />
+    <item android:icon="@drawable/bwb" android:id="@id/notification_action_set_shield" android:title="@string/bov" />
+    <item android:icon="@drawable/bwj" android:id="@id/notification_action_cancel_shield" android:title="@string/bon" />
+    <item android:icon="@drawable/bwh" android:id="@id/notification_action_top" android:title="@string/bow" />
+    <item android:icon="@drawable/bwh" android:id="@id/notification_action_untop" android:title="@string/box" />
+</menu>

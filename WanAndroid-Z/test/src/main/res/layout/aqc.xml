@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/recycler_item_feed_ebook_rating_card_0" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.EllipsisTextView android:textAppearance="@style/a26" android:ellipsize="end" android:id="@id/rating_content" android:paddingTop="@dimen/fx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:lineSpacingMultiplier="1.5" app:ellipsisText="@string/dc1" app:ellipsisTextColor="@color/color_ff9197a3_ff7b8596" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/ebook_layout" android:paddingTop="@dimen/f4" android:paddingBottom="@dimen/fc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/book_cover" android:background="@drawable/b4u" android:layout_width="74.0dip" android:layout_height="74.0dip" app:actualImageScaleType="fitXY" app:overlayImage="@color/color_0d000000_26000000" app:roundedCornerRadius="2.0dip" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:ellipsize="end" android:id="@id/title" android:paddingTop="@dimen/fc" android:paddingRight="@dimen/fi" android:paddingBottom="@dimen/fc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="@dimen/ck" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2_" android:id="@id/source" android:paddingTop="@dimen/fc" android:paddingBottom="@dimen/fc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingMultiplier="@dimen/ck" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

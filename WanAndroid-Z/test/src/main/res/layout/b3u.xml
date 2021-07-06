@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout android:layout_width="fill_parent" android:layout_height="182.0dip" app:aspectRatio="1.0" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBK99A">
+        <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip">
+            <com.zhihu.android.base.widget.label.ZHShapeDrawableImageView android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:bg_cornerRadius="2.0dip" app:bg_fillColor="@color/white" />
+            <com.zhihu.android.base.widget.label.ZHShapeDrawableImageView android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="62.5dip" app:bg_cornerRadius="2.0dip" app:bg_fillColor="@color/white" />
+        </com.zhihu.android.zui.widget.skeleton.ZUISkeletonView>
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout>
+</FrameLayout>

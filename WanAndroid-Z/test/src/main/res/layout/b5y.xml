@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="end|center" android:orientation="horizontal" android:paddingBottom="@dimen/f8" android:layout_width="wrap_content" android:layout_height="48.0dip" android:paddingStart="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/alpha_view" android:background="@drawable/avz" android:visibility="visible" android:layout_width="46.0dip" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="end|center" android:orientation="horizontal" android:id="@id/container" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="10.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c_r" android:tint="@color/GBK02A" android:layout_marginEnd="6.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:gravity="center_vertical" android:id="@id/tv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ecx" />
+    </com.zhihu.android.base.widget.ZHLinearLayout2>
+</com.zhihu.android.base.widget.ZHLinearLayout2>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/root" android:tag="layout/recycler_item_profile_blocked_followees_empty_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a09" android:textSize="20.0sp" android:textColor="@color/GBK05A" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dhn" android:layout_centerHorizontal="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:textSize="15.0sp" android:textColor="@color/GBK07A" android:gravity="center" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="33.0dip" android:text="@string/dho" android:layout_below="@id/title" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="@dimen/ck" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

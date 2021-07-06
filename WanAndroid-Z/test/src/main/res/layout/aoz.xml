@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/GBK99A" android:paddingTop="16.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/master_creation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/drb" android:maxLines="1" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/master_creation_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" />
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/master_creation_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/master_creation_title" android:nestedScrollingEnabled="false" />
+</RelativeLayout>

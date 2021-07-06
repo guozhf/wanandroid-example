@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/efp" />
+        <com.zhihu.android.base.widget.ZHTextView android:textStyle="bold" android:textColor="@color/GBL01A" android:gravity="center" android:layout_gravity="right" android:id="@id/confirm_button" android:background="?a3i" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/eew" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.app.ui.view.FixedRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_coupon" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="100.0dip" android:layout_marginBottom="100.0dip" android:indeterminateTint="@color/GBL01A" style="?ph" />
+    </FrameLayout>
+</LinearLayout>

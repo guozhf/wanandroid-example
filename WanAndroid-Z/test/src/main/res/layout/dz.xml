@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hlHintColor="@color/GRD03A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.editor.question_rev.widget.NoCompleteEditText android:theme="@style/a56" android:textAppearance="@style/yv" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:hint="输入问题并以问号结尾" android:maxLines="5" android:inputType="textMultiLine" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_marginTop="0.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

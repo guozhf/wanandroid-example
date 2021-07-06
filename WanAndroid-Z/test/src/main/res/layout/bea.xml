@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:paddingTop="@dimen/f_" android:paddingBottom="@dimen/f_" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f_" android:layout_marginRight="@dimen/f_"> UserListFragment <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/el8" android:layout_centerHorizontal="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.app.ui.widget.CashInputLayout android:textAppearance="@style/yj" android:textSize="@dimen/rd" android:id="@id/custom_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="@dimen/fa" android:layout_marginRight="48.0dip" android:layout_marginBottom="@dimen/fi" android:textCursorDrawable="@color/color_ffff3366_ffd92155" app:tintColor="@color/color_ffff3366_ffd92155" />
+    <View android:background="@color/color_ffe9e9e9_1ae9e9e9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/be_" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

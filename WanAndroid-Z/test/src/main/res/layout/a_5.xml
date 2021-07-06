@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar_view" android:layout_width="36.0dip" android:layout_height="36.0dip" app:businessType="community" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@drawable/be6" />
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/left_small_avatar_view" android:layout_width="24.0dip" android:layout_height="24.0dip" app:businessType="community" app:layout_constraintStart_toStartOf="@id/avatar_view" app:layout_constraintTop_toTopOf="@id/avatar_view" app:placeholderImage="@drawable/be6" app:roundingBorderColor="@color/GBK99A" app:roundingBorderWidth="1.0dip" />
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/right_small_avatar_view" android:layout_width="24.0dip" android:layout_height="24.0dip" app:businessType="community" app:layout_constraintBottom_toBottomOf="@id/avatar_view" app:layout_constraintEnd_toEndOf="@id/avatar_view" app:placeholderImage="@drawable/be6" app:roundingBorderColor="@color/GBK99A" app:roundingBorderWidth="1.0dip" />
+    <View android:id="@id/badge_anch" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="2.0dip" android:layout_marginStart="3.0dip" app:layout_constraintStart_toEndOf="@id/avatar_view" app:layout_constraintTop_toBottomOf="@id/avatar_view" />
+    <com.zhihu.android.app.ui.widget.MultiDrawableView android:id="@id/multi_drawable_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/badge_anch" app:layout_constraintEnd_toEndOf="@id/badge_anch" />
+</merge>

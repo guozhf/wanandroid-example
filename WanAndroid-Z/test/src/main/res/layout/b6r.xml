@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.comment_for_v7.widget.media_content.MediaImageView android:id="@id/media_image" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fadeDuration="0" app:roundedCornerRadius="6.0dip" />
+    <com.zhihu.android.comment_for_v7.widget.media_content.MediaUploadingView android:id="@id/media_uploading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/media_image" android:layout_alignBottom="@id/media_image" android:layout_alignStart="@id/media_image" android:layout_alignEnd="@id/media_image" app:cornerRadius="6.0dip" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/media_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/awm" app:tint="@color/GBK99B" />
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="11.0sp" android:textColor="@color/GBK99A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/tm" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/media_delete" android:background="@drawable/ew" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/be_" android:layout_alignTop="@id/media_image" android:layout_marginEnd="8.0dip" android:layout_alignEnd="@id/media_image" app:tint="@color/GBK99B" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

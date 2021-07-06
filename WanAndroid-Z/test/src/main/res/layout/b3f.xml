@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIConstraintLayout android:layout_width="fill_parent" android:layout_height="95.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/rl_container" android:layout_width="fill_parent" android:layout_height="95.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/zdv_cover" android:layout_width="112.0dip" android:layout_height="70.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" app:autoMask="true" app:businessType="community" app:roundedCornerRadius="6.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0dip" android:textColor="@color/GBK99A" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:layout_alignRight="@id/zdv_cover" android:layout_alignBottom="@id/zdv_cover" android:alpha="0.9" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0dip" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:maxLines="2" android:layout_toRightOf="@id/zdv_cover" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0dip" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/tv_suffix_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:maxLines="1" android:layout_toRightOf="@id/zdv_cover" android:layout_alignParentBottom="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.zui.widget.ZUIConstraintLayout>

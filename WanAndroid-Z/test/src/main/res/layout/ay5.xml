@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="72.0dip" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/avatar_with_medal" android:layout_width="42.0dip" android:layout_height="43.5dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" />
+        <com.zhihu.android.app.ui.widget.AvatarMultiDrawableView android:id="@id/avatar_single_medal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginStart="24.0dip" app:drawable_height="16.0dip" app:drawable_width="16.5dip" app:factor="3:14" />
+        <com.zhihu.android.app.ui.widget.AvatarMultiDrawableView android:id="@id/avatar_double_medals" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginStart="22.0dip" app:drawable_height="16.0dip" app:drawable_width="16.5dip" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/btn_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.zhihu.android.app.ui.widget.button.ZHFollowPeopleButton2 android:id="@id/btn_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" app:roundedCornerRadius="4.0dip" />
+        <com.zhihu.android.base.widget.ZHImageButton android:id="@id/btn_special_follow" android:background="@color/color_ffffffff_ff37474f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/btn_group" android:layout_toRightOf="@id/avatar_with_medal" android:layout_alignParentTop="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/btn_group" android:layout_toEndOf="@id/avatar_with_medal">
+        <com.zhihu.android.app.ui.widget.ActUserNameView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="4.0dip" />
+        <com.zhihu.android.app.ui.widget.MultiDrawableView android:id="@id/multi_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_toLeftOf="@id/btn_group" android:layout_toRightOf="@id/avatar_with_medal" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="@style/a2n" android:id="@id/badge_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/a2q" android:id="@id/headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

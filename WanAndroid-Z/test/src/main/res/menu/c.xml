@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_orderby_num" android:title="@string/bc2" app:showAsAction="never" />
+    <item android:id="@id/action_orderby_timeline" android:title="@string/bc3" app:showAsAction="never" />
+</menu>

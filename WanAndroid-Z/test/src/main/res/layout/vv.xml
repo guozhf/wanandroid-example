@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/bac" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:tintColor="@color/color_ff0f88eb_ff03a9f4" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

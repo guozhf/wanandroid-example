@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/pheidi_fragment_recommend_bottomsheet_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/parentContainer" android:background="#80000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableConstraintLayout android:layout_gravity="bottom" android:id="@id/roundCardContainer" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="800.0dip" app:bg_cornerRadius="12.0dip" app:bg_fillColor="@color/GBK99A" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <View android:background="@color/GBK10C" android:layout_width="@dimen/f4" android:layout_height="@dimen/f4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+            <View android:background="@color/GBK10C" android:layout_width="@dimen/f4" android:layout_height="@dimen/f4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+            <include android:id="@id/toolbarTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/ab5" />
+            <include android:id="@id/promotionHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginRight="@dimen/f7" android:layout_marginBottom="@dimen/fa" android:layout_marginHorizontal="@dimen/f7" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbarTitle" layout="@layout/ab3" />
+            <FrameLayout android:id="@id/fragmentContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/promotionHeader" />
+        </com.zhihu.android.base.widget.label.ZHShapeDrawableConstraintLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

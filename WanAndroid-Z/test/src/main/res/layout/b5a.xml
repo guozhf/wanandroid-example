@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/group_thumbnail" android:background="@drawable/ajx" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.zui.widget.ZUIConstraintLayout>

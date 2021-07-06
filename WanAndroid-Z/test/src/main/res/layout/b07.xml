@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fireworkLayout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="-12.0dip" android:src="@drawable/acm" android:layout_marginStart="-12.0dip" />
+    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="25.0dip" android:src="@drawable/acl" android:layout_marginStart="35.0dip" />
+    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="-26.0dip" android:src="@drawable/ack" android:layout_marginStart="62.0dip" />
+    <ImageView android:layout_width="28.5dip" android:layout_height="28.5dip" android:layout_marginTop="-17.0dip" android:src="@drawable/acj" android:layout_marginStart="117.0dip" />
+    <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="19.0dip" android:src="@drawable/aci" android:layout_marginStart="158.0dip" />
+    <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="-11.5dip" android:src="@drawable/ach" android:layout_marginStart="201.0dip" />
+</FrameLayout>

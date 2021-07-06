@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.FontSizeLayout android:layout_gravity="bottom" android:background="@color/color_ffffffff_ff37474f" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.view.ZHView android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.view.ZHView android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" android:layout_alignParentTop="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:enabled="false" android:textAppearance="@style/a1y" android:id="@id/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ax_" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:enabled="false" android:textAppearance="@style/a0j" android:id="@id/huge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ax9" android:layout_centerInParent="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="3" android:progress="1" android:layout_centerInParent="true" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+</widget.FontSizeLayout>

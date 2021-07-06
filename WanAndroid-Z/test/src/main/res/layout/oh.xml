@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/intro_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="80.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.topic.movie.cards.MovieMetaIntroCard android:id="@id/intro_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="14.0dip" />
+        <com.zhihu.android.topic.movie.cards.MovieMetaPerformerCard android:id="@id/performer_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+        <com.zhihu.android.topic.movie.cards.MovieMetaFilmDynamicCard android:id="@id/dynamic_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="14.0dip" />
+        <com.zhihu.android.topic.movie.cards.MovieMetaPrizeRecordCard android:id="@id/prize_record_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="14.0dip" />
+        <com.zhihu.android.topic.movie.cards.MovieMetaLikeTooCard android:id="@id/like_too_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center" android:id="@id/intro_bottom_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/dsj" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/like_too_card" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

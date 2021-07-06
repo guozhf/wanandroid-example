@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/ch4" android:key="@string/c9k" />
+    <CheckBoxPreference android:title="@string/ch5" android:key="@string/c9l" />
+    <CheckBoxPreference android:title="@string/cfm" android:key="@string/c5h" />
+    <CheckBoxPreference android:title="@string/cfg" android:key="@string/c5b" />
+    <CheckBoxPreference android:title="@string/cfh" android:key="@string/c5c" />
+    <CheckBoxPreference android:title="@string/cfi" android:key="@string/c5d" />
+    <CheckBoxPreference android:title="@string/cfj" android:key="@string/c5e" />
+    <CheckBoxPreference android:title="@string/cfk" android:key="@string/c5f" />
+    <CheckBoxPreference android:title="@string/cfl" android:key="@string/c5g" />
+    <CheckBoxPreference android:title="@string/chh" android:key="@string/c9w" />
+    <CheckBoxPreference android:title="@string/cgy" android:key="@string/c8r" />
+</PreferenceScreen>

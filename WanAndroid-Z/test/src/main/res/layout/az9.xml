@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBK05A" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="诊断失败，请重试" android:layout_marginStart="14.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:gravity="center_horizontal" android:id="@id/detect_again" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="再次诊断" android:layout_below="@id/title" android:layout_alignParentEnd="true" android:letterSpacing="0.04" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:gravity="center_horizontal" android:id="@id/cancel" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" android:layout_alignBottom="@id/detect_again" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/detect_again" android:letterSpacing="0.04" />
+</RelativeLayout>

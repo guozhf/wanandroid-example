@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/window_full_screen" android:padding="@dimen/op" android:layout_width="@dimen/oq" android:layout_height="@dimen/oq" android:src="@drawable/bzq" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/window_close" android:layout_width="@dimen/oq" android:layout_height="@dimen/oq" android:src="@drawable/be_" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.media.scaffold.widget.PlaybackControl android:id="@id/playback_control" android:layout_width="@dimen/or" android:layout_height="@dimen/or" app:compact_mode="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/bottom_progress_bar" android:progressBackgroundTint="@android:color/transparent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/k5" />
+    <FrameLayout android:id="@id/loading_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/fullscreen_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

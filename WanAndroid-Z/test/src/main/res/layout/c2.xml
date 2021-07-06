@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/phone_number_layout" android:paddingBottom="13.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/phone_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mw" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:gravity="end" android:id="@id/phone_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/icon_arrow_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baq" app:tintColor="@color/GBK07A" />
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBL01A" android:gravity="center_vertical" android:id="@id/phone_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/mv" android:drawablePadding="5.0dip" android:layout_below="@id/top_layout" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" app:drawableStartCompat="@drawable/c_w" app:drawableTint="@color/GBL01A" />
+</RelativeLayout>

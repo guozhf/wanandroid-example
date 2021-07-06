@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ad_img" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:actualImageScaleType="centerCrop" zhihu:autoMask="true" zhihu:businessType="commerce" zhihu:viewAspectRatio="2.4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto" />

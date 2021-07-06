@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.dialog.DialogRootView android:id="@id/root" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" app:zuiCoverAlpha="0.4" app:zuiCoverColor="@color/G_BK01">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="315.0dip" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/drawee_view" android:layout_width="fill_parent" android:layout_height="200.0dip" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundedCornerRadius="12.0dip" />
+            <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@drawable/a9v" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/d0b" android:maxLines="1" android:lineSpacingExtra="4.0sp" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/d0a" android:lineSpacingExtra="6.0sp" />
+                <com.zhihu.android.base.widget.ZHButton android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK99A" android:gravity="center" android:id="@id/btn_confirm" android:background="@drawable/a9w" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="23.0dip" android:text="@string/d0_" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:gravity="center_horizontal" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/d09" android:lineSpacingExtra="3.0sp" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.zui.widget.dialog.DialogRootView>
+</com.zhihu.android.base.widget.ZHFrameLayout>

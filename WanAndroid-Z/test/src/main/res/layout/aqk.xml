@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/recycler_item_feed_follow_no_more_card_0" android:paddingTop="20.0dip" android:paddingBottom="65.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBK04A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="没有更多了，去推荐看看吧" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:gravity="center_horizontal" android:id="@id/go_recommend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="前往推荐" />
+</LinearLayout>

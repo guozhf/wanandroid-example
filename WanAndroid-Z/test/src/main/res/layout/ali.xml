@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au" app:contentInsetStartWithNavigation="10.0dip" app:popupTheme="@style/a37" app:subtitle="@null" app:subtitleTextAppearance="@style/a3_" app:theme="@style/a39" app:tintColor="@color/GBK04A" app:title="@null" app:titleTextAppearance="@style/a3a">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/rk" android:textColor="@color/GBK07B" android:ellipsize="end" android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/zy" android:ellipsize="end" android:id="@id/subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHToolBar>
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar_for_anim" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?au" app:contentInsetStartWithNavigation="48.0dip" app:popupTheme="@style/a37" app:subtitleTextAppearance="@style/a3_" app:theme="@style/a39" app:tintColor="@color/GBK04A" app:titleTextAppearance="@style/a3a" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="290.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/icon_big" android:layout_width="290.0dip" android:layout_height="150.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textColor="@color/GBK03A" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/ei3" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/ei0" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="@dimen/ew" android:layout_marginTop="20.0dip" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/open_refuse" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ei2" android:layout_weight="1.0" />
+        <com.zhihu.android.base.view.ZHView android:background="@color/GBK08A" android:layout_width="@dimen/ew" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/open_now" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ei1" android:layout_weight="1.0" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

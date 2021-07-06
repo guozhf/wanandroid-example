@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.profile.newprofile.ui.card.header.ProfileHeaderCard android:id="@id/header_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider_for_medal" android:background="@color/GBK09C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/f7" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+    <com.zhihu.android.profile.newprofile.ui.card.badge.ProfileMedalCard android:id="@id/medal_card" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" />
+    <com.zhihu.android.profile.newprofile.ui.card.achievement.ProfileAchievementCard android:id="@id/achievement_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider_for_label" android:background="@color/GBK09C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/f7" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+    <ViewStub android:id="@id/mcn_in" android:visibility="gone" android:layout="@layout/ahn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider_for_mcn" android:background="@color/GBK09C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+    <com.zhihu.android.profile.newprofile.ui.card.label.ProfileLabelCard android:id="@id/label_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider_for_consult" android:background="@color/GBK09C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/f7" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+    <com.zhihu.android.profile.newprofile.ui.card.social.ProfileSocialCard android:id="@id/social_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/consult_card_view_stub" android:layout="@layout/afo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK09C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/f7" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+    <ViewStub android:id="@id/works_card_view_stub" android:layout="@layout/ajv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.view.ZHView android:background="@color/GBK09C" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/f7" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f7" />
+</merge>

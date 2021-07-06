@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/settings_view" android:background="@color/GBK99A" android:layout_width="0.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toStartOf="@id/add_shelf_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:enabled="false" android:textSize="12.0sp" android:textColor="@color/GBK03A" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/setting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bgb" android:drawableTop="@drawable/vb" android:alpha="0.5" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/add_shelf_view" android:background="@color/GBK99A" android:layout_width="0.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toStartOf="@id/download_view" app:layout_constraintStart_toEndOf="@id/settings_view" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.app.market.shelf.AddShelfTextView android:textSize="12.0sp" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/add_shelf_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ayb" app:addedText="已加入" app:addedTextColorResource="@color/GBK03A" app:normalText="加入书架" app:normalTextColorResource="@color/GBK03A" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/download_view" android:background="@color/GBK99A" android:layout_width="0.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toStartOf="@id/more_view" app:layout_constraintStart_toEndOf="@id/add_shelf_view" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:enabled="false" android:textSize="12.0sp" android:textColor="@color/GBK03A" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/download_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bg_" android:drawableTop="@drawable/zl" android:alpha="0.5" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/more_view" android:background="@color/GBK99A" android:layout_width="0.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toEndOf="@id/download_view" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:layout_gravity="center" android:id="@id/more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bga" android:drawableTop="@drawable/ayp" android:lineSpacingExtra="0.0sp" android:letterSpacing="-0.03" />
+    </FrameLayout>
+    <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

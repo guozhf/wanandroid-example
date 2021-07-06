@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/layout_market_personal_store_page_header_0" android:layout_width="fill_parent" android:layout_height="156.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/header_bg_image_view" android:background="#ff543a37" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/image_view" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" zhihu:roundedCornerRadius="4.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@id/image_view" android:layout_marginStart="12.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/image_view" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/description_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignBottom="@id/image_view" android:layout_marginEnd="16.0dip" android:layout_alignStart="@id/name_tv" />
+</RelativeLayout>

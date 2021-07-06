@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="3.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/n_" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="3.0dip">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginStart="4.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:id="@id/msg_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0sp" android:layout_marginStart="5.0dip" />
+        <ImageView android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/baq" android:tint="@color/GBK08A" />
+    </LinearLayout>
+</FrameLayout>

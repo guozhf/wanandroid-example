@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootView" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <ImageView android:id="@id/avatar" android:background="@drawable/afv" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <View android:id="@id/name" android:background="@color/GBK10A" android:layout_width="60.0dip" android:layout_height="15.0dip" android:layout_marginTop="11.0dip" />
+            <View android:id="@id/info" android:background="@color/GBK10A" android:layout_width="186.0dip" android:layout_height="13.0dip" android:layout_marginTop="11.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="end|center" android:background="@drawable/afw" android:layout_width="72.0dip" android:layout_height="32.0dip" />
+    </LinearLayout>
+    <View android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="5.5dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <View android:background="@color/GBK10A" android:layout_width="210.0dip" android:layout_height="14.0dip" android:layout_marginTop="11.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <View android:background="@color/GBK09C" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginTop="48.5dip" />
+    <View android:background="@color/GBK10A" android:layout_width="68.0dip" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="95.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <View android:background="@drawable/afw" android:layout_width="112.0dip" android:layout_height="70.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginStart="12.0dip" />
+            <View android:background="@color/GBK10A" android:layout_width="70.0dip" android:layout_height="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="12.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="12.0dip">
+                <View android:background="@drawable/afv" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                <View android:background="@color/GBK10A" android:layout_width="176.0dip" android:layout_height="12.0dip" android:layout_marginStart="1.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="95.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <View android:background="@drawable/afw" android:layout_width="112.0dip" android:layout_height="70.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginStart="12.0dip" />
+            <View android:background="@color/GBK10A" android:layout_width="70.0dip" android:layout_height="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="12.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="12.0dip">
+                <View android:background="@drawable/afv" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                <View android:background="@color/GBK10A" android:layout_width="176.0dip" android:layout_height="12.0dip" android:layout_marginStart="1.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="95.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <View android:background="@drawable/afw" android:layout_width="112.0dip" android:layout_height="70.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginStart="12.0dip" />
+            <View android:background="@color/GBK10A" android:layout_width="70.0dip" android:layout_height="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="12.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="12.0dip">
+                <View android:background="@drawable/afv" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                <View android:background="@color/GBK10A" android:layout_width="176.0dip" android:layout_height="12.0dip" android:layout_marginStart="1.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="95.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <View android:background="@drawable/afw" android:layout_width="112.0dip" android:layout_height="70.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginStart="12.0dip" />
+            <View android:background="@color/GBK10A" android:layout_width="70.0dip" android:layout_height="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="12.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="12.0dip">
+                <View android:background="@drawable/afv" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+                <View android:background="@color/GBK10A" android:layout_width="176.0dip" android:layout_height="12.0dip" android:layout_marginStart="1.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

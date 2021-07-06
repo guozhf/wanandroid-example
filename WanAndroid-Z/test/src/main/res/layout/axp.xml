@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/topic_module_bottom" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/topic_module_more" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="8.0dip" android:lineSpacingExtra="2.0sp" android:drawableEnd="@drawable/brj" app:tintColor="@color/GBK06A" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/slim_iv_loading" android:layout_width="240.0dip" android:layout_height="180.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_loop="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBL05A" android:gravity="center" android:id="@id/slim_tv_Loading" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/d7o" app:layout_constraintLeft_toRightOf="parent" app:layout_constraintRight_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/slim_iv_loading" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

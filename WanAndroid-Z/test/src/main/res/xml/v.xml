@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/b8f" android:key="@string/b_z" android:summary="@string/b8e" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/bbr" android:key="@string/ba1" android:summary="@string/bbq" android:defaultValue="false" />
+</PreferenceScreen>

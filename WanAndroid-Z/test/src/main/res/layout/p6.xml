@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/GBK99A" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center_vertical" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fa">
+                <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0b" android:textColor="@color/GBK06A" android:id="@id/text_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/db0" android:drawablePadding="@dimen/fi" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1i" android:textColor="@color/GBK06A" android:id="@id/need_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dg9" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </com.zhihu.android.base.widget.ZHRelativeLayout>
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1j" android:textColor="@color/GBK07A" android:gravity="center" android:id="@id/view_tips" android:paddingLeft="@dimen/fa" android:paddingRight="@dimen/fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ff" />
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.zhihu.android.app.ui.widget.PasscodeInputLayout android:id="@id/passcode_input_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="36.0dip">
+                    <requestFocus />
+                </com.zhihu.android.app.ui.widget.PasscodeInputLayout>
+                <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7">
+                    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1j" android:textColor="@color/GBK07A" android:id="@id/view_count_down" android:padding="@dimen/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1i" android:textColor="@color/GBL01A" android:id="@id/view_first_send" android:padding="@dimen/f7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dg_" />
+                </com.zhihu.android.base.widget.ZHFrameLayout>
+                <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1i" android:textColor="@color/GBL01A" android:id="@id/view_second_send" android:paddingBottom="@dimen/f7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.zhihu.android.base.widget.ZHScrollView>
+    <com.zhihu.android.app.ui.widget.ProgressButton android:textSize="18.0sp" android:id="@id/btn_confirm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="@dimen/f7" android:layout_alignParentBottom="true" android:elevation="@dimen/f2" zhihu:btnText="@string/a_k" zhihu:enabled="false" />
+    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK99B" android:gravity="center|left" android:id="@id/error_text" android:background="@color/GRD03A" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="@dimen/f7" android:text="@string/hq" android:layout_alignParentBottom="true" android:elevation="@dimen/fc" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

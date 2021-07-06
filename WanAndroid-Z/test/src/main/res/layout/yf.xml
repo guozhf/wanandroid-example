@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/shareOptions" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/cancel_share" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_db" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:src="@drawable/boe" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_db_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae2" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_wechat" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:src="@drawable/bp_" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_wechat_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae4" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_wechatgroup" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:src="@drawable/bpa" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_wechatgroup_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae5" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_weibo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:src="@drawable/bpb" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_weibo_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae6" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/save_to_device" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:src="@drawable/c_z" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/save_to_device_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/bjb" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cancel_share" android:padding="@dimen/f3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_" android:layout_marginBottom="@dimen/fc" android:text="取消" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shareOptions" />
+</androidx.constraintlayout.widget.ConstraintLayout>

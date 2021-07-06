@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.5dip" android:layout_marginBottom="16.5dip">
+        <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/multi_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK05A" android:id="@id/tips_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/add_invite" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ec" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK05A" android:gravity="center" android:id="@id/ignore" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/diu" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</merge>

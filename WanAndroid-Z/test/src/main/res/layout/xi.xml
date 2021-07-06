@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:layout_scrollFlags="scroll"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/head_top_space" android:layout_width="fill_parent" android:layout_height="72.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/blur_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:overlayImage="@drawable/pg" />
+    <com.zhihu.android.app.subscribe.ui.view.CommonHeaderView android:id="@id/commonHead" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/head_top_space" />
+</androidx.constraintlayout.widget.ConstraintLayout>

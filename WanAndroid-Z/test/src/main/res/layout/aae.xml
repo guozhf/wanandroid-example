@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingLeft="@dimen/f_" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/f_" android:paddingBottom="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon_coin" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/caj" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHRadioButton android:id="@id/btn_coin_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginRight="@dimen/fi" android:layout_toLeftOf="@id/btn_coin_radio" android:layout_toRightOf="@id/icon_coin" android:layout_centerVertical="true">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fc" android:text="@string/aw4" />
+            <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="10.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/method_coin_label" android:background="@drawable/az0" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" app:bg_cornerRadius="2.0dip" app:bg_fillColor="@color/white" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView android:textSize="10.0sp" android:textColor="@color/GBK07B" android:id="@id/method_coin_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

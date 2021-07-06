@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/banner_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+                <View android:id="@id/top_space" android:layout_width="fill_parent" android:layout_height="65.0dip" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.zhihu.android.app.market.newhome.ui.view.CycleViewPager android:id="@id/banner_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="375:211" />
+                    <View android:background="@drawable/b57" android:layout_width="fill_parent" android:layout_height="15.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <Space android:id="@id/space" android:layout_width="10.0dip" android:layout_height="57.0dip" app:layout_constraintBottom_toBottomOf="@id/banner_bg" app:layout_constraintStart_toStartOf="parent" />
+            <com.zhihu.android.app.market.newhome.ui.view.CirclePageIndicator android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="10.0dip" android:translationY="15.0dip" app:fillColor="@color/GBK99C" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/space" app:pageColor="#80000000" app:radius="3.0dip" app:snap="true" app:strokeWidth="@dimen/f2" />
+            <com.zhihu.android.app.market.newhome.ui.view.WelfareSignInView android:id="@id/welfareSignInView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/indicator" />
+            <com.zhihu.android.app.market.newhome.ui.view.MarketHomeMarqueeView android:id="@id/marketHomeMarqueeView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/welfareSignInView" />
+            <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/webFrameLayout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/marketHomeMarqueeView" />
+        </com.zhihu.android.base.widget.ZHConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/zuiSkeletonView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="75.0dip" />
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:id="@id/error_view" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

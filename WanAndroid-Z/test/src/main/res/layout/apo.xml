@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/font_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btc" android:tint="@color/GBK02A" bind:layout_constraintBottom_toTopOf="@id/bottomDivider" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/font_download_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" bind:layout_constraintBottom_toBottomOf="@id/font_img" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintTop_toTopOf="@id/font_img">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:id="@id/font_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.app.nextebook.ui.view.NextEBookDownloadSimpleButton android:id="@id/font_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/font_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bta" bind:layout_constraintBottom_toBottomOf="@id/font_img" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintTop_toTopOf="@id/font_img" />
+    <View android:id="@id/bottomDivider" android:layout_width="0.0dip" android:layout_height="0.5dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

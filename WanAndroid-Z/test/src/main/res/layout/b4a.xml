@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/s4" android:orientation="vertical" android:background="@color/BK02" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="?au">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/vessay_selector_editor_bottom_menu_text_color" android:gravity="center" android:id="@id/editor_bottom_action_negative" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/BK06" android:gravity="center" android:id="@id/editor_bottom_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/vessay_selector_editor_bottom_menu_text_color" android:gravity="center" android:id="@id/editor_bottom_action_customize" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="12.0dip" android:layout_toStartOf="@id/editor_bottom_action_positive" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/vessay_selector_editor_bottom_menu_text_color" android:gravity="center" android:id="@id/editor_bottom_action_positive" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="12.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/BK01" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+    <FrameLayout android:id="@id/editor_bottom_view" android:layout_width="fill_parent" android:layout_height="172.0dip" />
+</LinearLayout>

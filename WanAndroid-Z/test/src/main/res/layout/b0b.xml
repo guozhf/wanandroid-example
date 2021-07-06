@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:layout_gravity="bottom" android:paddingBottom="@dimen/fa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/acx" android:layout_width="355.0dip" android:layout_height="54.0dip" android:layout_centerHorizontal="true" android:elevation="1.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/super_topic_button_avatar" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" zhihu:autoMask="true" zhihu:autoPlaceholder="false" zhihu:businessType="community" zhihu:roundAsCircle="true" />
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:id="@id/bottom_text" android:background="@drawable/acy" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:layout_toRightOf="@id/super_topic_button_avatar" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

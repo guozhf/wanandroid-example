@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/ad_focus_full_panorama_viewstub" android:layout="@layout/a_l" android:inflatedId="@id/ad_focus_inflated_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/ad_focus_full_normal_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.app.ui.widget.AdSmallCenterBottomView android:layout_gravity="bottom" android:id="@id/ad_focus_full_goto_default" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="130.0dip" />
+    <ImageView android:id="@id/close_ad_focus_full" android:visibility="invisible" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:srcCompat="@drawable/a4b" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

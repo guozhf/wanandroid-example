@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.AvatarMultiDrawableView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/avatar_medal"
+    android:layout_width="14.0dip"
+    android:layout_height="14.0dip"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="@id/avatar"
+    app:layout_constraintRight_toRightOf="@id/avatar" />

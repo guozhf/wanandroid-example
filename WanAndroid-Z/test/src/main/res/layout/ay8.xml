@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.kmarket.manga.ui.widget.MangaView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="100.0sp" android:textStyle="bold|italic" android:textColor="@color/GBK07A" android:gravity="center" android:id="@id/index" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.3" />
+    <include android:id="@id/refresh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ra" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/error" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBL01A" android:layout_gravity="center" android:id="@id/error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b_d" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+</com.zhihu.android.base.widget.ZHFrameLayout>

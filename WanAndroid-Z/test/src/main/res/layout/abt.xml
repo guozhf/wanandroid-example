@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.picture.editor.widget.ToolButton android:id="@id/icon_button" style="@style/hm" />
+    <com.zhihu.android.base.widget.ZHTextView android:id="@id/desc_button" style="@style/hl" />
+</merge>

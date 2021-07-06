@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:id="@id/tv_collapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看被折叠评论" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/aw8" android:tint="@color/GBK06A" android:layout_marginStart="4.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

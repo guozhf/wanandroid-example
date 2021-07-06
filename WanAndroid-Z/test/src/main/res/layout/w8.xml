@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.market.shelf.AddShelfTextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/follow_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="24.0dip" bind:addedText="已关注" bind:addedTextColorResource="@color/GBK06A" bind:layout_constraintEnd_toStartOf="@id/follow_img" bind:normalText="关注" bind:normalTextColorResource="@color/GBK03A" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/follow_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aya" android:layout_marginEnd="15.0dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintTop_toTopOf="parent" bind:tintColor="@color/GBK03A" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:lines="1" android:alpha="0.0" android:layout_marginEnd="20.0dip" bind:layout_constraintEnd_toStartOf="@id/follow_btn" bind:layout_constraintStart_toStartOf="parent" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="none" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.zhihu.android.zui.widget.ZUITextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="none" android:id="@id/split" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/awc" android:singleLine="true" />
+    <com.zhihu.android.comment_for_v7.widget.CommentTagListView android:id="@id/comment_tag_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/view_occupy" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/approve" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/cbu" android:tint="@color/GBK06A" />
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s9" android:singleLine="true" android:layout_marginStart="4.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</merge>

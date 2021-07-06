@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIConstraintLayout android:id="@id/card" android:background="@drawable/a68" android:layout_width="wrap_content" android:layout_height="@dimen/ps" android:layout_marginBottom="@dimen/pt" android:layout_marginEnd="@dimen/pt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0sp" android:textColor="@color/BK99" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部资料" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/awb" android:tint="@color/BK99" android:layout_marginStart="2.0dip" android:layout_marginEnd="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/text" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.zui.widget.ZUIConstraintLayout>

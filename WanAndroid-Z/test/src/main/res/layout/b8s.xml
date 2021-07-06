@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_bg" android:background="@color/BK01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/BK99" android:id="@id/text_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/img_arrow" android:layout_width="78.5dip" android:layout_height="20.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/c9h" android:alpha="0.0" app:layout_constraintLeft_toLeftOf="@id/text_tips" app:layout_constraintRight_toRightOf="@id/text_tips" app:layout_constraintTop_toBottomOf="@id/text_tips" />
+        <View android:id="@id/view_guide" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="@id/img_arrow" app:layout_constraintLeft_toLeftOf="@id/img_arrow" app:layout_constraintRight_toRightOf="@id/img_arrow" app:layout_constraintTop_toTopOf="@id/img_arrow" />
+        <ImageView android:id="@id/img_hand" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/as_" android:alpha="0.0" app:layout_constraintLeft_toRightOf="@id/view_guide" app:layout_constraintTop_toBottomOf="@id/view_guide" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

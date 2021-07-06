@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/pp" android:showDividers="middle">
+            <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/column_layout" android:background="?a3i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.zhihu.android.zui.widget.ZUITextView android:textAppearance="@style/a11" android:id="@id/column_include_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收录到专栏" android:drawablePadding="5.0dip" />
+                    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:id="@id/column_include_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未收录" />
+                </LinearLayout>
+                <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/tv_modify_column" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wv" android:layout_alignParentRight="true" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+            <LinearLayout android:orientation="vertical" android:id="@id/reward_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reward_switch_layout" android:background="?a3i" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                    <TextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/w0" android:layout_weight="0.0" />
+                    <View android:id="@id/badge" android:background="@drawable/pq" android:visibility="gone" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginLeft="8.0dip" />
+                    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/reward_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" app:theme="@style/a3k" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reward_desc_layout" android:background="?a3i" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d1m" />
+                        <TextView android:textAppearance="@style/a2i" android:id="@id/text_reward_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a7p" />
+                    </LinearLayout>
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bq" android:layout_weight="0.0" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+            <com.zhihu.android.base.widget.ZHFrameLayout android:gravity="center_vertical" android:id="@id/follow_layout" android:background="?a3i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_gravity="center_vertical" android:id="@id/follow_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x3" android:drawablePadding="5.0dip" android:drawableEnd="@drawable/rs" />
+                <com.zhihu.android.base.widget.ZHSwitch android:layout_gravity="end|center" android:id="@id/follow_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" app:theme="@style/a3k" />
+            </com.zhihu.android.base.widget.ZHFrameLayout>
+            <com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center_vertical" android:id="@id/censor_layout" android:background="?a3i" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/a11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/x0" />
+                    <TextView android:textAppearance="@style/a2i" android:id="@id/permission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wx" />
+                </LinearLayout>
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/modify_permission_text" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wv" android:layout_alignParentRight="true" />
+            </com.zhihu.android.base.widget.ZHRelativeLayout>
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/copyable_layout" android:background="?a3i" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <TextView android:textAppearance="@style/a11" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/x1" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/copyable_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" app:theme="@style/a3k" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/anonymous_layout" android:background="?a3i" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <TextView android:textAppearance="@style/a11" android:id="@id/anonymous_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/x5" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/anonymous_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" app:theme="@style/a3k" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_disclaimer_layout" android:background="?a3i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.zhihu.android.zui.widget.ZUITextView android:textAppearance="@style/a11" android:id="@id/creation_disclaimer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x2" android:drawableRight="@drawable/rs" android:drawablePadding="5.0dip" />
+                    <TextView android:textAppearance="@style/a2i" android:id="@id/creation_disclaimer_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wz" />
+                </LinearLayout>
+                <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/tv_modify_disclaimer" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wv" android:layout_alignParentRight="true" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/infinity_layout" android:background="?a3i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:id="@id/infinity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x4" android:drawableRight="@drawable/b7h" android:drawablePadding="5.0dip" />
+                    <TextView android:textAppearance="@style/a2i" android:id="@id/infinity_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wy" />
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/infinity_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" app:theme="@style/a3k" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/push_to_followers_layout" android:background="?a3i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <TextView android:textAppearance="@style/a11" android:id="@id/push_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/x6" android:layout_weight="1.0" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/push_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_weight="0.0" app:theme="@style/a3k" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+            <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

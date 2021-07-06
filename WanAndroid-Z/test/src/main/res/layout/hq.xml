@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:bg_cornerRadius="15.0dip" app:bg_fillColor="@color/GBK99A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:layout_gravity="center_vertical" android:id="@id/hybridToolBar" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="start|bottom|center" android:id="@id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/close" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/close" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/close" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/b8e" android:scaleType="fitXY" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/hybridToolBar">
+        <FrameLayout android:id="@id/hybridContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.zhihu.android.base.widget.label.ZHShapeDrawableConstraintLayout>

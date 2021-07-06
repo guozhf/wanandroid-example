@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ad9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/dv_club_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="26.0dip" app:placeholderImage="@drawable/be6" app:roundedCornerRadius="4.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBK03A" android:id="@id/tv_club_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="44.0dip">
+            <ImageView android:background="@drawable/ad8" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/dv_avatar3" android:layout_width="20.0dip" android:layout_height="20.0dip" app:placeholderImage="@drawable/be6" app:roundAsCircle="true" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="27.0dip">
+            <ImageView android:background="@drawable/ad8" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/dv_avatar2" android:layout_width="20.0dip" android:layout_height="20.0dip" app:placeholderImage="@drawable/be6" app:roundAsCircle="true" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip">
+            <ImageView android:background="@drawable/ad8" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center" android:id="@id/dv_avatar1" android:layout_width="20.0dip" android:layout_height="20.0dip" app:placeholderImage="@drawable/be6" app:roundAsCircle="true" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/bra" android:tint="@color/GBK07B" android:layout_marginStart="4.0dip" android:layout_marginEnd="24.0dip" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

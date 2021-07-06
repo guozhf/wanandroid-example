@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/main_control_button" android:padding="@dimen/ok" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/bzo" android:contentDescription="@string/by4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="0.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/next_button" android:padding="@dimen/ok" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/bzm" android:contentDescription="@string/by5" android:layout_marginStart="@dimen/om" android:layout_marginEnd="@dimen/om" app:layout_constraintBottom_toBottomOf="@id/main_control_button" app:layout_constraintDimensionRatio="1:1" app:layout_constraintLeft_toRightOf="@id/main_control_button" app:layout_constraintTop_toTopOf="@id/main_control_button" />
+</merge>

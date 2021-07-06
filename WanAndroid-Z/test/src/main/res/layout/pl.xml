@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root" android:background="@color/red_bag_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/big_red_bag_container" android:layout_width="295.0dip" android:layout_height="412.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:businessType="community" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="12.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.5" />
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/popup_image" android:layout_width="120.0dip" android:layout_height="120.0dip" app:businessType="community" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="5.0dip" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="18.0sp" android:textColor="@color/BK99" android:id="@id/popup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/BK99" android:gravity="center_horizontal" android:id="@id/popup_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/bog" />
+    <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

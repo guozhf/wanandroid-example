@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.feed.ui.widget.floatad.ZHFloatAdFrameLayout android:id="@id/fragment_paging_layout" android:tag="layout/fragment_float_advance_paging_0" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.feed.ui.widget.floatad.ZHFloatAdFloatView android:id="@id/ad_float" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_gravity="end|bottom|center" android:id="@id/ad_package" android:paddingRight="18.0dip" android:paddingBottom="70.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.zhihu.android.app.feed.ui.widget.floatad.ZHFloatAdFrameLayout>

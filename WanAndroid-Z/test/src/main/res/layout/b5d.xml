@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:background="@color/BK01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/pluginVideoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/close_video_player_button" android:padding="13.0dip" android:visibility="visible" android:layout_width="@dimen/fe" android:layout_height="@dimen/fe" android:layout_margin="@dimen/fi" app:srcCompat="@drawable/akw" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

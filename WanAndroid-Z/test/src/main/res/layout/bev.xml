@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="@dimen/h1" android:layout_height="@dimen/h1" android:layout_marginLeft="10.0dip" android:src="@drawable/be6" app:autoMask="false" app:autoPlaceholder="false" app:businessType="community" app:placeholderImage="@drawable/be6" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/sticker" android:background="@null" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginLeft="10.0dip" app:autoMask="false" app:autoPlaceholder="false" app:businessType="community" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_down_arrow_container" android:background="@drawable/ajf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_down_arrow_bg" android:background="@drawable/ajg" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <ImageView android:id="@id/iv_click" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_top_down_arrow" android:background="@drawable/ahp" android:layout_width="54.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/aho" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_top_text_menu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/BK99" android:id="@id/tv_select_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e2k" android:layout_weight="1.0" android:layout_marginStart="@dimen/sn" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/BL01" android:id="@id/tv_cancel_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e27" android:layout_marginEnd="@dimen/sn" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/RD03" android:gravity="center" android:id="@id/tv_count_limit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/e2l" />
+</merge>

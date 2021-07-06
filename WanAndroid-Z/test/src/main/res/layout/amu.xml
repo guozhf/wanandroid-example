@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:tag="layout/recycler_item_base_template_0" android:background="@color/color_ffffffff_ff37474f" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl" android:foreground="?a3i" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header_container" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.app.feed.template.component.TemplateLineContainer android:orientation="horizontal" android:id="@id/header_line" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/content_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/macrame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ce" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/ce" android:layout_marginBottom="8.0dip" layout="@layout/z0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_container" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="10.0dip">
+        <com.zhihu.android.app.feed.template.component.TemplateLineContainer android:orientation="horizontal" android:id="@id/bottom_line" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/menu_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHSpace android:layout_gravity="right" android:id="@id/menu_anchor" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+            <com.zhihu.android.base.widget.ZHImageView android:gravity="center_vertical" android:id="@id/menu" android:paddingLeft="8.0dip" android:paddingTop="@dimen/fc" android:paddingRight="8.0dip" android:paddingBottom="@dimen/fc" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bnf" app:tintColor="@color/color_ff929ea5_ff7d949c" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

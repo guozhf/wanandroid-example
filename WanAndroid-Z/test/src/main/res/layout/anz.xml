@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:tag="layout/recycler_item_coupon_header_0" android:background="?a3i" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginRight="@dimen/fi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:textColor="@color/GBK03A" android:id="@id/text_coupon_head_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/go_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/baq" android:layout_alignParentRight="true" android:layout_centerVertical="true" zhihu:tintColor="@color/GBK03A" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:gravity="center_vertical" android:id="@id/text_coupon_use_notice" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/zh" android:layout_toLeftOf="@id/go_arrow" android:layout_toStartOf="@id/go_arrow" zhihu:tintColor="@color/GBK03A" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

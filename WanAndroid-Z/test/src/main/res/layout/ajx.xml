@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolBar" android:background="@color/BL01" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll" app:title="@string/cup" app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:background="#fff0f0f0" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cu4" android:letterSpacing="0.06" />
+            <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <TextView android:text="@string/cu7" style="@style/j9" />
+                <TextView android:id="@id/cloudIdText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="Cloud id = " />
+                <Button android:id="@id/cloudIdButton" android:text="@string/cu3" style="@style/j8" />
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cuj" style="@style/j9" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/pushTypeGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/pushType0Button">
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/pushType0Button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cuh" />
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/pushType1Button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/cui" />
+                </RadioGroup>
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/productionTypeButton" android:visibility="gone" android:text="@string/ctv" style="@style/jd" />
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cu2" style="@style/j9" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/urlText" android:text="https://www.zhihu.com/question/298734974/answer/520747897" android:hint="@string/cuq" style="@style/jb" />
+                    <ImageView android:id="@id/contentUrlClearButton" style="@style/ja" />
+                </LinearLayout>
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cun" style="@style/j9" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/titleText" android:text="Test title" android:hint="@string/cuo" style="@style/jb" />
+                    <ImageView android:id="@id/titleClearButton" style="@style/ja" />
+                </LinearLayout>
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cu0" style="@style/j9" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/contentText" android:text="Test body" android:hint="@string/cu1" style="@style/jb" />
+                    <ImageView android:id="@id/contentClearButton" style="@style/ja" />
+                </LinearLayout>
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cuk" style="@style/j9" />
+                <TextView android:id="@id/channelListText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="Channels are: " />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/ctz" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/fetchProvidersButton" android:text="@string/cu6" style="@style/j8" />
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cum" style="@style/j9" />
+                <Button android:id="@id/channelButton" android:text="Channel" style="@style/jd" />
+                <TextView android:layout_marginTop="16.0dip" android:text="@string/cty" style="@style/j9" />
+                <TextView android:id="@id/sendBodyOutputText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="" android:textIsSelectable="true" />
+                <Space android:layout_width="fill_parent" android:layout_height="100.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/sendFab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/b_y" app:backgroundTint="#ffffc107" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/alipay_bind_confirm_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bg_cornerRadius="2.0dip" app:bg_fillColor="@color/GBK99A"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/ba6" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:src="@drawable/ba7" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/es" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="24.0dip" android:text="@string/er" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK99A" android:gravity="center" android:id="@id/yes_btn" android:background="@drawable/ne" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="24.0dip" android:foreground="?a3i" android:text="@string/eq" />
+</com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>

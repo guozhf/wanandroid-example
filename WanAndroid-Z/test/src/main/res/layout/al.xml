@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/u6" android:focusable="true" android:clickable="true" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/container_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/container_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="当前为非 WIFI 环境，是否使用流量继续下载？" />
+        <FrameLayout android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:paddingStart="@dimen/f_" android:paddingEnd="@dimen/f_">
+            <Button android:textSize="12.0sp" android:textColor="@color/GBK05A" android:id="@id/hint_disagree" android:background="@drawable/qi" android:layout_width="104.0dip" android:layout_height="32.0dip" android:text="不同意" style="?android:borderlessButtonStyle" />
+            <Button android:textSize="12.0sp" android:textColor="@color/GBK99C" android:layout_gravity="right" android:id="@id/hint_agree" android:background="@drawable/qh" android:layout_width="104.0dip" android:layout_height="32.0dip" android:text="我同意" style="?android:borderlessButtonStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

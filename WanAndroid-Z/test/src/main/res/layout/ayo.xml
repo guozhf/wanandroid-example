@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="32.0dip" android:paddingEnd="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awh" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:tint="@color/GBK07A" />
+    <View android:background="#ffebeef5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

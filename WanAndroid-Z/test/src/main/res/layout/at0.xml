@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center" android:id="@id/message" android:padding="16.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="没有更多内容" android:singleLine="true" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

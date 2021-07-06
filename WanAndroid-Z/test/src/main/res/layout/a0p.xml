@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/head_content_recommend_list_layout" android:background="@drawable/ik" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/head_content_recommend_list_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bre" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/head_content_recommend_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:maxLines="1" android:lines="1" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/head_content_recommend_list_arrow" android:layout_width="9.0dip" android:layout_height="9.0dip" android:src="@drawable/bra" app:tint="@color/GBL01A" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

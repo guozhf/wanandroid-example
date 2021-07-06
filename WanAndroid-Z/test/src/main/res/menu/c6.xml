@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/report_aciton_setting" android:title="清空错误" app:showAsAction="never" />
+    <item android:id="@id/report_action_checkbox" android:title="检查" android:checkable="true" app:actionViewClass="android.widget.CheckBox" app:showAsAction="always" />
+</menu>

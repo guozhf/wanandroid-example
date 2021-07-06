@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="3.0dip" android:width="12.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ve_tab_indicator_color" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+</layer-list>

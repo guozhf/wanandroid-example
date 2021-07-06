@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="13.0sp" android:textColor="@color/BK99" android:id="@id/indicator" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:lineSpacingExtra="2.0sp" android:alpha="0.7" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:bg_cornerRadius="15.0dip" app:bg_fillColor="@color/BK03" app:bg_shape="roundrect" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

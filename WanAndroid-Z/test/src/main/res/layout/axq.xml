@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/common_container" android:background="@color/color_fff2f4f7_ff212b30" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/ce" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="44.0dip" android:foreground="?android:selectableItemBackground">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a29" android:textSize="@dimen/rk" android:gravity="center" android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <com.zhihu.android.topic.widget.PopupAnchorTextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/right_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/di0" android:drawablePadding="8.0dip" android:layout_centerInParent="true" android:drawableEnd="@drawable/brj" android:layout_alignParentEnd="true" app:tintColor="@color/GBL01A" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:id="@id/right_container" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.base.view.ZHView android:id="@id/head_divider" android:background="@color/GBK10C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</com.zhihu.android.zui.widget.ZUIFrameLayout>

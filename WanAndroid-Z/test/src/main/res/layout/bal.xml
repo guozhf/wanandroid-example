@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/cover" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="7.5dip" android:layout_marginEnd="7.5dip" app:autoMask="true" app:autoPlaceholder="true" app:businessType="community" app:layout_constraintDimensionRatio="w,5:12" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundedCornerRadius="6.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

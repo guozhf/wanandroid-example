@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ts_end_root" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/GBK06A_60" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:layout_gravity="center" android:id="@id/ts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </com.zhihu.android.base.widget.ZHCardView>
+</RelativeLayout>

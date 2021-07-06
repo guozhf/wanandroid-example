@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/recycler_item_topics_relative_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/zs" android:ellipsize="end" android:gravity="center|left" android:id="@id/subtitle" android:paddingLeft="@dimen/ce" android:paddingTop="@dimen/ce" android:paddingBottom="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/relative_topic_layout" android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

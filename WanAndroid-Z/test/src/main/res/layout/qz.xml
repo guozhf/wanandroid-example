@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_withdraw_amount_input_0" android:background="#89000000" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:padding="@dimen/f_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="4.0dip">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azx" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f_" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/f_">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azz" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f_" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/f_">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b05" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f_" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/f_" android:text="@string/azy" />
+        <com.zhihu.android.app.ui.widget.CashInputLayout android:textSize="28.0sp" android:id="@id/cash_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="20.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1j" android:gravity="left" android:id="@id/tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/b02" />
+        <com.zhihu.android.base.widget.ZHButton android:textAppearance="@style/a1x" android:gravity="center" android:id="@id/submit" android:background="@drawable/eb" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="@dimen/f7" android:foreground="?a3i" android:minWidth="240.0dip" android:text="@string/azw" android:elevation="@dimen/fi" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</RelativeLayout>

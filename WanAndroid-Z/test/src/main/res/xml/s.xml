@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="@string/c3v">
+        <CheckBoxPreference android:title="@string/cg_" android:key="@string/c64" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c0v" android:key="@string/c3w">
+        <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/cga" android:key="@string/c65" android:dependency="@string/c64" />
+        <com.zhihu.android.app.ui.widget.RadioPreference android:title="@string/cgb" android:key="@string/c66" android:dependency="@string/c64" />
+    </PreferenceCategory>
+    <CheckBoxPreference android:title="@string/cg8" android:key="@string/c63" android:summary="@string/ce5" />
+</PreferenceScreen>

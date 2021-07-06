@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/frame_debug" android:background="#30ff0000" android:layout_width="300.0dip" android:layout_height="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/GBK99A" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="debug 面板" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:layout_gravity="end|center" android:id="@id/debug_close" android:background="#ffff0000" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    </LinearLayout>
+    <SeekBar android:id="@id/change_height_seekBar" android:layout_width="300.0dip" android:layout_height="wrap_content" />
+    <Button android:id="@id/change_height_btn_to_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="改变视频高度到最大值" />
+    <Button android:id="@id/change_height_btn_to_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="改变视频高度到最小值" />
+    <Button android:id="@id/open_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开评论" />
+    <Button android:id="@id/open_collect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跳转收藏" />
+    <Button android:id="@id/open_serial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跳转联播页" />
+</LinearLayout>

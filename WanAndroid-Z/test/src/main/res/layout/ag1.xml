@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/college_iv" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/a6l" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <com.zhihu.android.base.widget.ZHTextInputLayout android:textColorHint="@color/color_ff999999_ffffffff" android:id="@id/input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fc" android:hint="@string/cml" android:layout_toStartOf="@id/reset_college_iv" android:layout_toEndOf="@id/college_iv">
+        <com.zhihu.android.base.widget.ZHEditText android:textSize="16.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/college_et" android:paddingBottom="@dimen/f9" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:maxEms="17" android:singleLine="true" />
+    </com.zhihu.android.base.widget.ZHTextInputLayout>
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/reset_college_iv" android:visibility="invisible" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="@dimen/fc" android:src="@drawable/c0y" android:layout_alignBottom="@id/input_layout" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

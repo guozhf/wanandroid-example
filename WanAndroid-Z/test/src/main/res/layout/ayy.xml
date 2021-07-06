@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_view_album" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@mipmap/j" android:scaleType="centerCrop" />
+    <FrameLayout android:id="@id/button_close" android:background="@drawable/a_o" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@id/image_view_close" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vt" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/text_view_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginTop="12.0dip" android:singleLine="true" android:layout_alignParentTop="true" android:layout_toStartOf="@id/button_close" android:layout_toEndOf="@id/image_view_album" />
+    <TextView android:textSize="14.0sp" android:textColor="#ab000000" android:id="@id/text_view_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_below="@id/text_view_name" android:layout_alignLeft="@id/text_view_name" android:layout_alignStart="@id/text_view_name" />
+    <LinearLayout android:id="@id/layout_play_controls" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_toRightOf="@id/image_view_album" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/image_view_album">
+        <FrameLayout android:id="@id/button_play_backward" android:background="@drawable/a_o" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/image_view_play_backward" android:layout_width="fill_parent" android:layout_height="28.0dip" android:src="@drawable/bol" android:tint="@color/black" android:layout_weight="1.0" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/button_play_last" android:background="@drawable/a_o" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/image_view_play_last" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vw" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/button_play_toggle" android:background="@drawable/a_o" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center" android:id="@id/image_view_play_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vv" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/button_play_next" android:background="@drawable/a_o" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/image_view_play_next" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vx" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/button_play_forward" android:background="@drawable/a_o" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/image_view_play_forward" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/boj" android:tint="@color/black" android:layout_weight="1.0" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

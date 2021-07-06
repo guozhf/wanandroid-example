@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/d1l" />
+    <com.zhihu.android.answer.widget.HintLayout android:layout_gravity="top" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" app:hlHintColor="@color/color_4c000000_4cffffff">
+        <com.zhihu.android.base.widget.ZHAutoCompleteTextView android:textAppearance="@style/a11" android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" />
+    </com.zhihu.android.answer.widget.HintLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="@style/a1g" android:id="@id/btn_cancel" android:background="?a3i" android:layout_width="74.0dip" android:layout_height="36.0dip" android:text="@string/h2" />
+        <Button android:textAppearance="@style/a1g" android:id="@id/btn_complete" android:background="?a3i" android:layout_width="74.0dip" android:layout_height="36.0dip" android:text="@string/ky" />
+    </LinearLayout>
+</LinearLayout>

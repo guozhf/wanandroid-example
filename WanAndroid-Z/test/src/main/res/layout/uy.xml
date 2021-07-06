@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/GBK10A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/cover" android:background="@color/GBK99A" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.9" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/centerLine" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.35" />
+    <ImageView android:id="@id/lock" android:layout_width="15.0dip" android:layout_height="19.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/bpj" android:tint="@color/GYL10A" app:layout_constraintBottom_toTopOf="@id/hint" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GYL10A" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/centerLine" />
+    <androidx.constraintlayout.widget.Group android:id="@id/coverGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="cover,lock,hint" />
+</androidx.constraintlayout.widget.ConstraintLayout>

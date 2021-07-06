@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:layout_width="fill_parent" android:layout_height="?au" app:contentInsetStart="8.0dip" app:popupTheme="@style/a37" app:theme="@style/a39"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="8.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/back" android:layout_width="?au" android:layout_height="fill_parent" android:src="@drawable/u9" android:scaleType="center" android:contentDescription="@null" android:layout_alignParentStart="true" app:tintColor="@color/GBK04A" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/clear" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/bdq" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@null" android:layout_alignParentEnd="true" app:tintColor="@color/GBK04A" />
+        <com.zhihu.android.base.widget.ZHEditText android:textSize="16.0sp" android:textColor="@color/GBK04A" android:textColorHint="@color/GBK04A" android:gravity="start|center" android:id="@id/search" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/a7h" android:singleLine="true" android:imeOptions="actionSearch" android:layout_toStartOf="@id/clear" android:layout_toEndOf="@id/back" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHToolBar>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.media.scaffold.widget.TitleBar android:id="@id/title_bar" android:layout_width="0.0dip" android:layout_height="@dimen/oj" android:layout_marginTop="@dimen/nr" android:layout_marginStart="@dimen/nq" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/top_toolbar" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

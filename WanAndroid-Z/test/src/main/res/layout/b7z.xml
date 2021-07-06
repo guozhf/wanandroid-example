@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/avatar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginEnd="8.0dip" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:placeholderImage="@drawable/b0c" app:roundAsCircle="true" />
+    <com.zhihu.android.base.widget.ZHEditText android:textSize="12.0sp" android:textColorHint="@color/GBK07A" android:gravity="start|center" android:id="@id/comment" android:background="@drawable/ml" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/dtz" android:maxLength="0" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</LinearLayout>

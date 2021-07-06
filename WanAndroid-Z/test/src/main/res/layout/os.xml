@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/content" layout="@layout/a26" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_pick_user" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" android:overScrollMode="never" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toTopOf="@id/txt_next_step" app:layout_constraintTop_toBottomOf="@id/content" />
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/txt_next_step" android:background="@drawable/aa_" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="16.0dip" android:text="@string/bj9" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_top_divider" android:background="@color/GBK10A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginTop="10.0dip" />
+    <com.zhihu.android.zui.widget.ZUIRelativeLayout android:id="@id/rl_comment_bar" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_below="@id/view_top_divider" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/tv_comment_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/u4" android:layout_centerVertical="true" />
+        <com.zhihu.android.comment_for_v7.widget.SortToggleView android:id="@id/view_sort_toggle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </com.zhihu.android.zui.widget.ZUIRelativeLayout>
+</merge>

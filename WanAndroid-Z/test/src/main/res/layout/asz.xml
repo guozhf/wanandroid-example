@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK10C" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/m_" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/list_follow_no_data_tip" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="@string/dua" android:maxLines="1" android:drawableLeft="@drawable/bqx" android:drawablePadding="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

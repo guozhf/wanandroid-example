@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.SwitchPreference android:key="@string/c3h" android:defaultValue="false" android:switchTextOn="开启" android:switchTextOff="关闭" />
+    <PreferenceCategory android:title="切换的时间">
+        <PreferenceScreen android:title="夜间模式开始时间" android:key="@string/c3i" android:summary="19:00" android:dependency="@string/c3h" />
+        <PreferenceScreen android:title="日间模式开始时间" android:key="@string/c3j" android:summary="9:00" android:dependency="@string/c3h" />
+    </PreferenceCategory>
+</PreferenceScreen>

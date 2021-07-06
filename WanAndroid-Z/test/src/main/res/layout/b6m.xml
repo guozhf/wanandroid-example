@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/image_view_container" android:tag="layout/view_live_description_ellipsis_0" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image_view1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" fresco:viewAspectRatio="1.0" />
+        <androidx.legacy.widget.Space android:layout_width="6.0dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image_view2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" fresco:viewAspectRatio="1.0" />
+        <androidx.legacy.widget.Space android:layout_width="6.0dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image_view3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" fresco:viewAspectRatio="1.0" />
+        <androidx.legacy.widget.Space android:layout_width="6.0dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image_view4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" fresco:viewAspectRatio="1.0" />
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image_view" android:tag="layout/view_live_description_ellipsis_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" fresco:viewAspectRatio="2.2" />
+    <androidx.legacy.widget.Space android:id="@id/divider_space" android:tag="layout/view_live_description_ellipsis_2" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.zhihu.android.app.ui.widget.EllipsisTextView android:textAppearance="@style/a2_" android:id="@id/short_summary" android:tag="layout/view_live_description_ellipsis_3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:lineSpacingMultiplier="@dimen/ck" fresco:ellipsisText="@string/l5" fresco:ellipsisTextColor="@color/color_ff0077d9_8a03a9f4" />
+</merge>

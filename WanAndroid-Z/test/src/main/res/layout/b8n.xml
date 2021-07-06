@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:orientation="vertical" android:paddingBottom="22.0dip" android:layout_width="wrap_content" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_gravity="center_horizontal" android:id="@id/toolbar_img" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/c_0" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/BK99" android:layout_gravity="center_horizontal" android:id="@id/toolbar_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e9g" android:shadowColor="#33000000" android:shadowDy="2.0" android:shadowRadius="4.0" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

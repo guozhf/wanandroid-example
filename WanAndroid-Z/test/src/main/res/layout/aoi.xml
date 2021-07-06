@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="?a3i" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bdp" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@null" android:layout_alignParentEnd="true" app:tintColor="@color/GBL01A" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="14.0dip" android:layout_toStartOf="@id/check" android:layout_alignParentStart="true">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:gravity="start|center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/ck" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:gravity="start|center" android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/ck" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

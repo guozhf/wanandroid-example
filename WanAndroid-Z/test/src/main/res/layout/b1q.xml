@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/training_fragment_detail_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.google.android.material.appbar.AppBarLayout android:tag="binding_2" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                    <include layout="@layout/b1u" />
+                    <include layout="@layout/b1y" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+                <com.zhihu.android.app.training.widght.TrainingTabLayout android:id="@id/tabLayout" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="41.0dip" app:tl_indicator_color="@color/GRD10A" app:tl_indicator_corner_radius="2.0dip" app:tl_indicator_height="2.0dip" app:tl_indicator_margin_bottom="10.5dip" app:tl_indicator_width_equal_title="true" app:tl_tab_space_equal="true" app:tl_textBold="SELECT" app:tl_textSelectColor="@color/GBK02A" app:tl_textUnselectColor="@color/GBK05A" app:tl_textsize="14.0dip" />
+                <View android:id="@id/tabDivider" android:tag="binding_5" android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="0.5dip" android:alpha="0.8" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.zhihu.android.app.training.bottombar.SimpleBottomBar android:id="@id/bottomBar" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/b1v" />
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

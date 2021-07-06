@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/GBK99A" android:paddingLeft="13.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/c7s" android:alpha="@dimen/gv" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:id="@id/tv_title" android:layout_width="86.0dip" android:layout_height="wrap_content" android:text="@string/b0a" android:layout_marginStart="7.0dip" />
+    <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/c7s" android:alpha="@dimen/gv" android:layout_marginStart="-3.0dip" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/tv_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.5dip" android:text="42" android:layout_weight="1.0" />
+    <Button android:gravity="center" android:id="@id/bt_click" android:background="@drawable/aw5" android:visibility="visible" android:layout_width="@dimen/lw" android:layout_height="@dimen/lv" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:foreground="?a3i" android:text="@string/b07" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/a53" />
+</LinearLayout>

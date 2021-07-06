@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:orientation="horizontal" android:id="@id/rl_root" android:background="@drawable/abd" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:paddingStart="10.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/iv_filter" android:background="@drawable/awo" android:layout_width="16.0dip" android:layout_height="16.0dip" android:tint="@color/GBL01A" android:layout_centerVertical="true" />
+    <com.zhihu.android.zui.widget.ZUITextView android:textColor="@color/GBL01A" android:id="@id/tv_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/iv_filter" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/iv_arrow" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/aw8" android:tint="@color/GBL01A" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

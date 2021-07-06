@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/achievement_topic_layout" android:tag="layout/profile_layout_achievement_topic_0" android:paddingTop="@dimen/f_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/f7" android:layout_marginRight="@dimen/f7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:ellipsize="marquee" android:gravity="center" android:tag="binding_1" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fc" android:singleLine="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a26" android:gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="@dimen/fc" android:layout_centerInParent="true">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="center" android:id="@id/topic_avatar" android:layout_width="72.0dip" android:layout_height="72.0dip" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="bottom|center|right" android:id="@id/achievement_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/bb0" android:elevation="@dimen/f7" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

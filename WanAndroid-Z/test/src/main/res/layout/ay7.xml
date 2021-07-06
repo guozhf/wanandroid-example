@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/recycler_item_vertical_extended_card_0" android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl" android:foreground="?a3i" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/zs" android:id="@id/view_card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:lineSpacingMultiplier="@dimen/ck" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/extended_layout_without_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/extended_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/GBK99A" android:paddingLeft="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_huabei" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/bhf" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHRadioButton android:id="@id/btn_huabei_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginRight="@dimen/fi" android:layout_toLeftOf="@id/btn_huabei_radio" android:layout_toRightOf="@id/icon_huabei" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fc" android:text="@string/aw5" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/label_container" android:layout_width="fill_parent" android:layout_height="13.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:id="@id/divider_line" android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/icon_huabei" />
+</RelativeLayout>

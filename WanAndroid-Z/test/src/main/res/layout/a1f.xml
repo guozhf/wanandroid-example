@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/morph_video_player_bottom_panel" android:background="@drawable/morph_video_player_bg_bottom_panel" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/morph_video_player_play" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="52.0dip" android:layout_height="20.0dip" android:src="@drawable/bs2" android:scaleType="fitXY" android:tint="@color/BK99" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/BK99" android:id="@id/morph_video_player_current_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <SeekBar android:id="@id/morph_video_player_seekbar" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="4.0dip" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/morph_video_player_progress_see" android:minHeight="4.0dip" android:thumb="@drawable/b0x" android:layout_weight="1.0" android:thumbTint="@color/BK99" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/BK99" android:id="@id/morph_video_player_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <ImageView android:id="@id/morph_video_playerscreen_switch" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="52.0dip" android:layout_height="20.0dip" android:src="@drawable/b1_" android:scaleType="fitXY" android:tint="@color/color_ffffffff" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/morph_middle_play_button" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ba1" />
+</FrameLayout>

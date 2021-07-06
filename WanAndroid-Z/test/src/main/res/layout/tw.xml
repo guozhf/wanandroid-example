@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sheetContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_de000000_deffffff" android:gravity="center_vertical" android:id="@id/cancel" android:background="?a3i" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/m9" android:maxLines="1" />
+</LinearLayout>

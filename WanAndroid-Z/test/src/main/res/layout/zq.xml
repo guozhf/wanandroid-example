@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textColor="@color/BK03" android:gravity="center_vertical" android:id="@id/choice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/choice_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/b0w" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/webfrg_refreshlayout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:id="@id/webview_bg" android:background="@color/GBK99A" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <FrameLayout android:id="@id/comment_container" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/editor_cover_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="0.0dip" />
+        <com.zhihu.android.kmarket.rating.widget.MarketCommentEditorLayout android:layout_gravity="bottom" android:id="@id/editor_real_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+    </FrameLayout>
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/rating_direct" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <com.zhihu.android.app.market.widget.MarketRatingBar android:enabled="false" android:id="@id/ratingBar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/go_rating" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mrb_numStars="5" app:mrb_rating="0.0" app:mrb_spacing="8.0dip" app:mrb_starBackgroundTint="@color/GBK08B" app:mrb_starEmpty="@drawable/c7m" app:mrb_starFull="@drawable/acg" app:mrb_starSize="22.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GRD10A" android:id="@id/go_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我要评价" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ratingBar" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/imgReadMore" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/awb" android:tint="@color/GRD10A" app:layout_constraintBottom_toBottomOf="@id/go_rating" app:layout_constraintStart_toEndOf="@id/go_rating" app:layout_constraintTop_toTopOf="@id/go_rating" />
+        <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toTopOf="parent" />
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

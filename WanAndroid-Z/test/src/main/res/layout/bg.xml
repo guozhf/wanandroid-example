@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bh0" android:scaleType="centerCrop" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a10" android:textColor="@color/color_ff0f88eb" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b2o" android:includeFontPadding="false" />
+    </FrameLayout>
+    <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="12.0dip" />
+    <TextView android:textAppearance="@style/a13" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b2l" android:lineSpacingExtra="8.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1v" android:gravity="center" android:id="@id/live_gift_intro_next" android:background="@drawable/yq" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:text="@string/b2m" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

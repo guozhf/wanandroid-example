@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@drawable/c6" android:padding="@dimen/f4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/canvas_download_info_logo" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_centerVertical="true" app:businessType="commerce" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/canvas_download_content" android:paddingLeft="@dimen/fd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.google.android.flexbox.FlexboxLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_toLeftOf="@id/canvas_download_content" android:layout_toRightOf="@id/canvas_download_info_logo" android:layout_centerVertical="true" app:flexDirection="column">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/canvas_download_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.zhihu.android.base.widget.ZHSpace android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_flexGrow="1.0" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/canvas_download_info_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </com.google.android.flexbox.FlexboxLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

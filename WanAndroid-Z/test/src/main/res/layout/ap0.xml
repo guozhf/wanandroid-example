@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/hover_layer_image" android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:alpha="0.6" android:layout_marginStart="@dimen/f4" android:layout_marginEnd="@dimen/fi" android:layout_alignParentStart="true" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/hover_layer_image">
+            <com.zhihu.android.base.widget.ZHImageView android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="70.0dip" android:layout_height="@dimen/f3" android:alpha="0.6" />
+            <com.zhihu.android.base.widget.ZHImageView android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="140.0dip" android:layout_height="@dimen/fi" android:layout_marginTop="10.0dip" android:alpha="0.6" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <View android:id="@id/divider" android:background="@color/GBK09C" android:layout_width="220.0dip" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

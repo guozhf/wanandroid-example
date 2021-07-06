@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/wifito4g" android:layout_width="wrap_content" android:layout_height="66.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/BK99" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bxz" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/mobile_confirm" android:background="@drawable/a4m" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <View android:id="@id/play_icon" android:background="@drawable/a58" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="13.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="13.0sp" android:textStyle="normal" android:textColor="@color/BK99" android:id="@id/left_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="15.0dip" android:lineSpacingExtra="3.0sp" android:fontFamily="sans-serif-medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/play_icon" app:layout_constraintRight_toRightOf="@id/mobile_confirm" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</FrameLayout>

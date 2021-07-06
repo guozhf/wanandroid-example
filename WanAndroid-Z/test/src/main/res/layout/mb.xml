@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_marginTop="10.0dip">
+            <EditText android:textSize="14.0sp" android:textColorHint="@color/GBK06A" android:gravity="center|left|top" android:id="@id/edit_description_text" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="120.0dip" android:hint="@string/am4" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:layout_gravity="end|bottom|center" android:id="@id/available_char_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/attached_phone_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/f7" />
+    </LinearLayout>
+</ScrollView>

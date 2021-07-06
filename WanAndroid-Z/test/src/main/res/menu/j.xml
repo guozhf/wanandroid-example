@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/pd" android:id="@id/action_share" android:title="@string/se" />
+    <item android:icon="@drawable/cdp" android:id="@id/action_copy" android:title="@string/s4" />
+    <item android:icon="@drawable/cdr" android:id="@id/action_feature" android:title="@string/s7" />
+    <item android:icon="@drawable/cdr" android:id="@id/action_cancel_feature" android:title="@string/rz" />
+    <item android:icon="@drawable/cdk" android:id="@id/action_collapse" android:title="@string/s2" />
+    <item android:icon="@drawable/cdk" android:id="@id/action_cancel_collapse" android:title="@string/rx" />
+    <item android:icon="@drawable/cdj" android:id="@id/action_dislike" android:title="@string/s6" />
+    <item android:icon="@drawable/cdj" android:id="@id/action_cancel_dislike" android:title="@string/ry" />
+    <group android:id="@id/report_action">
+        <item android:icon="@drawable/cdt" android:id="@id/action_report" android:title="@string/sc" />
+        <item android:icon="@drawable/cdq" android:id="@id/action_screen" android:title="@string/sd" />
+        <item android:icon="@drawable/cdq" android:id="@id/action_delete" android:title="@string/s5" />
+    </group>
+</menu>

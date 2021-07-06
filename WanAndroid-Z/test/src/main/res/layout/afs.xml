@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/profile_dialog_taken_photo_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:showDividers="middle" style="?android:borderlessButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_camera" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csi" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_gallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csj" style="?android:borderlessButtonStyle" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

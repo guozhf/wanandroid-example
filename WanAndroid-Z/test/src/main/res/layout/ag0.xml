@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="职业经历" android:lineSpacingExtra="4.0sp" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/add_job" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:text="添加职业经历" android:lineSpacingExtra="6.0sp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/job_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="教育经历" android:lineSpacingExtra="4.0sp" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/add_education" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:text="添加教育经历" android:lineSpacingExtra="6.0sp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/edu_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/add_certification_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个人认证" android:lineSpacingExtra="4.0sp" />
+        <ImageView android:id="@id/next_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/c0u" android:tint="@color/GBK08A" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/add_certification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:text="添加个人认证" android:lineSpacingExtra="6.0sp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/certifications_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="个人简介" android:lineSpacingExtra="4.0sp" />
+    <EditText android:textSize="15.0sp" android:textColor="@color/GBK03A" android:textColorHint="@color/GBK07A" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:hint="@string/clo" android:lineSpacingExtra="6.0sp" />
+</LinearLayout>

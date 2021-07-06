@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="37.0dip" android:width="90.0dip" />
+    <solid android:color="@color/card_collect_shape_red" />
+    <corners android:topRightRadius="19.0dip" android:bottomRightRadius="19.0dip" />
+</shape>

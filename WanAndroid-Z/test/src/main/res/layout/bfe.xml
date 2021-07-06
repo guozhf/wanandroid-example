@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ev_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4">
+        <FrameLayout android:id="@id/ev_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/ev_image" android:layout_width="160.0dip" android:layout_height="160.0dip" android:src="@drawable/b8l" />
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ev_network_image" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="160.0dip" app:failureImage="@drawable/b8l" />
+        </FrameLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/ev_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lines="1" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/ev_single_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lines="1" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/ev_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@color/GBL01A" android:ellipsize="end" android:gravity="center" android:id="@id/ev_action" android:background="@drawable/b01" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="24.0dip" android:maxLines="1" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/create_success_tips" android:background="@color/GBK99A" android:paddingTop="22.0dip" android:paddingBottom="22.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cvd" android:drawableLeft="@drawable/c60" android:drawablePadding="4.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="你可以邀请下面用户，快速获得回答" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/invite_tips" android:background="@color/GBK99A" android:paddingLeft="@dimen/ce" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cvf" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK05A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/cvg" />
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/invite_tips_with_one_step" android:background="@color/GBK99A" android:paddingLeft="@dimen/ce" android:paddingTop="12.0dip" android:paddingRight="@dimen/ce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/tv_tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cvh" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK05A" android:id="@id/tv_one_step_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="你可以邀请下面用户，快速获得回答" android:lines="1" android:layout_below="@id/tv_tips_title" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@drawable/a9j" android:gravity="center" android:id="@id/btn_one_step_invite" android:background="@drawable/a9k" android:layout_width="72.0dip" android:layout_height="36.0dip" android:text="@string/cwm" android:lines="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.zhihu.android.base.view.ZHView android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/f4" android:layout_below="@id/tv_one_step_tips" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/people_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.ZUIFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.comment_for_v7.widget.TextContentView android:id="@id/text_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textColor="@color/GBK04A" android:gravity="center_vertical" android:layout_gravity="end|bottom|center" android:id="@id/tv_expand" android:background="@drawable/abb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="展开" android:drawablePadding="4.0dip" android:drawableEnd="@drawable/aw9" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" app:drawableTint="@color/GBK04A" />
+    </com.zhihu.android.zui.widget.ZUIFrameLayout>
+    <com.zhihu.android.comment_for_v7.widget.media_content.MediaImageView android:id="@id/sticker_content" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="10.0dip" />
+    <com.zhihu.android.comment_for_v7.widget.media_content.MediaContentView android:id="@id/media_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:businessType="community" />
+</merge>

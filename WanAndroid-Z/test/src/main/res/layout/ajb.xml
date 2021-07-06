@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/profile_recycler_item_more_page_0" android:background="@color/GBK09C" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cl" android:foreground="?a3i">
+        <RelativeLayout android:id="@id/layout_question" android:background="?a3i" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/fi">
+            <TextView android:textAppearance="@style/a13" android:gravity="start|center" android:id="@id/text_question" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" app:tintColor="@color/color_ffb9b9b9_ff697f84" />
+            <TextView android:textAppearance="@style/a13" android:gravity="end|center" android:id="@id/count_question" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/f7" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+        <RelativeLayout android:id="@id/layout_collection" android:tag="binding_3" android:background="?a3i" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/fi">
+            <TextView android:textAppearance="@style/a13" android:gravity="start|center" android:id="@id/text_favorite" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" app:tintColor="@color/color_ffb9b9b9_ff697f84" />
+            <TextView android:textAppearance="@style/a13" android:gravity="end|center" android:id="@id/count_collection" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/f7" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:foreground="?a3i">
+        <RelativeLayout android:id="@id/layout_following_column" android:background="?a3i" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/fi">
+            <TextView android:textAppearance="@style/a13" android:gravity="start|center" android:id="@id/text_following_column" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cm6" android:layout_alignParentStart="true" app:tintColor="@color/color_ffb9b9b9_ff697f84" />
+            <LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/f7" android:layout_alignParentEnd="true">
+                <TextView android:textAppearance="@style/a13" android:id="@id/count_following_column" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+        <RelativeLayout android:id="@id/layout_following_topic" android:background="?a3i" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/fi">
+            <TextView android:textAppearance="@style/a13" android:gravity="start|center" android:id="@id/text_following_topic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cm7" android:layout_alignParentStart="true" app:tintColor="@color/color_ffb9b9b9_ff697f84" />
+            <LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/f7" android:layout_alignParentEnd="true">
+                <TextView android:textAppearance="@style/a13" android:id="@id/count_following_topic" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+        <RelativeLayout android:id="@id/layout_following_question" android:background="?a3i" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/fi">
+            <TextView android:textAppearance="@style/a13" android:gravity="start|center" android:id="@id/text_following_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cm9" android:layout_alignParentStart="true" app:tintColor="@color/color_ffb9b9b9_ff697f84" />
+            <LinearLayout android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/f7" android:layout_alignParentEnd="true">
+                <TextView android:textAppearance="@style/a13" android:id="@id/count_following_question" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+        <RelativeLayout android:id="@id/layout_following_collection" android:background="?a3i" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/fi">
+            <TextView android:textAppearance="@style/a13" android:gravity="start|center" android:id="@id/text_following_collection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cm8" android:layout_alignParentStart="true" app:tintColor="@color/color_ffb9b9b9_ff697f84" />
+            <LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/f7" android:layout_alignParentEnd="true">
+                <TextView android:textAppearance="@style/a13" android:id="@id/count_following_collection" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

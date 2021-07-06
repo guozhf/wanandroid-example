@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a">24.0dip</dimen>
+    <dimen name="b">80.0dip</dimen>
+    <dimen name="c">64.0dip</dimen>
+    <dimen name="d">8.0dip</dimen>
+    <dimen name="e">8.0dip</dimen>
+    <dimen name="x">580.0dip</dimen>
+    <dimen name="bb">16.0dip</dimen>
+    <dimen name="bd">20.0dip</dimen>
+    <dimen name="c1">56.0dip</dimen>
+    <dimen name="c3">446.0dip</dimen>
+    <dimen name="eb">320.0dip</dimen>
+    <dimen name="ee">0.0dip</dimen>
+    <dimen name="eg">2.0dip</dimen>
+    <dimen name="ei">24.0dip</dimen>
+    <dimen name="ej">576.0dip</dimen>
+    <dimen name="ek">320.0dip</dimen>
+    <item type="dimen" name="en">@dimen/em</item>
+    <dimen name="eq">160.0dip</dimen>
+    <dimen name="hw">64.0dip</dimen>
+    <dimen name="lo">64.0dip</dimen>
+</resources>

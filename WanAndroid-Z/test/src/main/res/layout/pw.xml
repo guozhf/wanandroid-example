@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_search_result_hybrid_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.search.ui.widget.SearchResultLayout android:id="@id/search_hybrid_content" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/empty_search_hybrid" android:visibility="gone" layout="@layout/a3e" />
+    </com.zhihu.android.app.search.ui.widget.SearchResultLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="end|bottom|center" android:id="@id/red_bag" android:visibility="gone" android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginBottom="40.0dip" android:layout_marginEnd="12.0dip" app:businessType="community" />
+</FrameLayout>

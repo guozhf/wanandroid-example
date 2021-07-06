@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableConstraintLayout android:id="@id/promotion_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bg_fillColor="@color/GBK99A">
+        <View android:id="@id/promotion_tv_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:ellipsize="end" android:id="@id/promotion_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/promotion_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/promotion_tv" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/promotion_triangle" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="6.0dip" android:src="@drawable/cdz" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/promotion_tv" app:layout_constraintTop_toTopOf="parent" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableConstraintLayout>
+    <View android:id="@id/promotion_divider" android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

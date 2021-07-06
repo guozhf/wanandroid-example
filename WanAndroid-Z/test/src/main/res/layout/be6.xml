@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/tipjar_info_container" android:background="@color/color_ffffffff_ff37474f" android:paddingTop="@dimen/f_" android:paddingBottom="@dimen/f_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/f_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1j" android:id="@id/bio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:text="「真诚赞赏，手留余香」" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.article.tipjar.WeChatPayView android:id="@id/wechat_pay" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/color_ffe9e9e9_1ae9e9e9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="@dimen/f7" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccq" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:id="@id/action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fc" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.article.tipjar.CircleAvatarListHorizontalGridView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tipjarors_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fa" android:layout_marginTop="@dimen/f7" android:layout_marginRight="@dimen/fa" android:horizontalSpacing="@dimen/f7" android:verticalSpacing="@dimen/f7" android:columnWidth="30.0dip" android:numColumns="auto_fit" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.article.tipjar.WeChatPayCustomPriceView android:id="@id/custom_price_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.article.tipjar.TipjarPaySuccessView android:id="@id/success_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

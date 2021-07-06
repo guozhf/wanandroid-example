@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:background="@color/GBK10A" android:layout_width="200.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/iv_state" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="6.0dip" android:src="@drawable/c3y" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/lottie_view" android:layout_width="50.0dip" android:layout_height="20.0dip" android:layout_weight="1.0" app:lottie_rawRes="@raw/b2" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="20.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="@color/GBK06A" android:layout_gravity="center_vertical" android:id="@id/tv_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="&quot; " android:layout_marginEnd="6.0dip" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/iv_close" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:visibility="visible" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/axf" android:tint="@color/GBK06A" android:paddingStart="3.0dip" android:paddingEnd="9.0dip" />
+</merge>

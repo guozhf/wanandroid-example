@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fi" app:layout_constraintEnd_toStartOf="@id/firstLine" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:layout_width="70.0dip" android:layout_height="93.0dip" android:src="@color/GBK08A" app:roundedCornerRadius="6.0dip" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/firstLine" android:layout_width="0.0dip" android:layout_height="@dimen/f7" android:layout_marginRight="72.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cover" app:layout_constraintTop_toTopOf="parent" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/secondLine" android:layout_width="0.0dip" android:layout_height="@dimen/f7" android:layout_marginTop="@dimen/fi" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/firstLine" app:layout_constraintTop_toBottomOf="@id/firstLine" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/thirdLine" android:layout_width="0.0dip" android:layout_height="@dimen/f7" android:layout_marginTop="@dimen/fi" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/firstLine" app:layout_constraintTop_toBottomOf="@id/secondLine" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/centerGuideline" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.5" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/rightGuideline" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.65" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/lastLine" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/f7" android:layout_marginTop="@dimen/fa" app:layout_constraintEnd_toStartOf="@id/centerGuideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/thirdLine" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/coverModeLastLine" android:layout_width="0.0dip" android:layout_height="@dimen/f7" android:layout_marginTop="@dimen/fa" app:layout_constraintEnd_toEndOf="@id/rightGuideline" app:layout_constraintStart_toStartOf="@id/firstLine" app:layout_constraintTop_toBottomOf="@id/thirdLine" app:shimmer_auto_start="false" app:shimmer_duration="2000">
+        <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

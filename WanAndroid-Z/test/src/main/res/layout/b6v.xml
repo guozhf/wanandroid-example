@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="73.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/meta_review_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:orientation="horizontal" android:id="@id/view_meta_review_card_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="15.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/left_click_hot_area" android:layout_width="wrap_content" android:layout_height="58.0dip" android:layout_marginBottom="15.0dip" android:layout_weight="3.0" android:paddingStart="8.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="27.0sp" android:textColor="@color/GBL01A" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout android:id="@id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/rate" app:layout_constraintTop_toTopOf="parent">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK04A" android:id="@id/rate_statement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drp" android:maxLines="1" android:includeFontPadding="false" />
+            <ImageView android:id="@id/rate_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bql" android:layout_toRightOf="@id/rate_statement" android:layout_marginStart="10.0dip" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:gravity="start|center|top" android:id="@id/num_comment" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginTop="3.0dip" android:includeFontPadding="false" android:layout_below="@id/rate_statement" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="15.0dip" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/like" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginStart="12.0dip" app:lottie_autoPlay="false" app:lottie_loop="false" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/unlike" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginStart="-10.0dip" app:lottie_autoPlay="false" app:lottie_loop="false" />
+    </LinearLayout>
+</RelativeLayout>

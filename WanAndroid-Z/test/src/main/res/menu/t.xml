@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/share" android:title="@string/a1n" app:showAsAction="never" />
+    <item android:id="@id/collect" android:title="@string/a19" app:showAsAction="never" />
+    <item android:id="@id/collected" android:title="@string/a1_" app:showAsAction="never" />
+    <item android:id="@id/uninterest" android:title="@string/a1o" app:showAsAction="never" />
+    <item android:id="@id/report" android:title="@string/a1k" app:showAsAction="never" />
+    <item android:id="@id/delete" android:title="@string/a1c" app:showAsAction="never" />
+</menu>

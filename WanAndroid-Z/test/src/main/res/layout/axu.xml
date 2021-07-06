@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:id="@id/topic_index_header_click_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/chapter_head_divider" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:layout_gravity="center_vertical" android:id="@id/topic_index_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ce" android:paddingEnd="@dimen/ce" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/topic_fold_btn_layout" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a18" android:gravity="center_horizontal" android:id="@id/topic_index_module_fold_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <com.zhihu.android.base.widget.ZHImageView android:id="@id/chapter_unfold_icon" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/brj" android:scaleType="centerInside" android:layout_toRightOf="@id/topic_index_module_fold_btn" android:layout_centerVertical="true" zhihu:tintColor="@color/color_8a334957_8ab2ccd5" />
+            </com.zhihu.android.base.widget.ZHRelativeLayout>
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/topic_module_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.zui.widget.ZUIFrameLayout android:id="@id/topic_module_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/topic_module_more" android:layout_width="wrap_content" android:layout_height="40.0dip" android:drawablePadding="8.0dip" android:lineSpacingExtra="2.0sp" android:drawableEnd="@drawable/brj" zhihu:tintColor="@color/GBK06A" />
+    </com.zhihu.android.zui.widget.ZUIFrameLayout>
+</com.zhihu.android.zui.widget.ZUILinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialog_root" android:background="@drawable/d5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dialog_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dst" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/dialog_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/blk" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/dialog_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dialog_title_layout" />
+</RelativeLayout>

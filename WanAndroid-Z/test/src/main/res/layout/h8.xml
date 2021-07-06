@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/rv" android:paddingLeft="@dimen/fi" android:paddingRight="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@color/GBL01A" android:layout_gravity="center_vertical" android:id="@id/editor_topic_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f8" android:layout_marginBottom="@dimen/f8" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/editor_topic_remove_ic" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/b7o" android:paddingStart="@dimen/f8" app:tintColor="@color/GBL01A" />
+</LinearLayout>

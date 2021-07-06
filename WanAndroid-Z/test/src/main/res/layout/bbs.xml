@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout android:id="@id/record_state" android:background="@drawable/apt" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="80.0dip" android:layout_height="28.0dip" android:paddingStart="8.0dip" android:paddingEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/avt" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/BK99" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="视频录制" />
+</com.zhihu.android.zui.widget.ZUILinearLayout>

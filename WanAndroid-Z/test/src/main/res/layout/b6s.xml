@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.topic.widget.ZHTopicFollowButton android:gravity="center" android:id="@id/follow_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:followBackground="@drawable/ka" app:followDrawableLeft="@drawable/bo3" app:followDrawableLeftTintColor="@color/BK99" app:followTextAppearance="@style/rd" app:followTitle="@string/l2" app:unfollowBackground="@drawable/kc" app:unfollowTextAppearance="@style/ri" app:unfollowTitle="@string/l1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

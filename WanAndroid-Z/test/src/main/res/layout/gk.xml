@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:tag="layout/ebook_downloading_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/downloading_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/loadingLottie" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_loop="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a29" android:id="@id/download_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/loadingLottie" android:layout_centerHorizontal="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/download_failed_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/download_failed_image" android:layout_width="75.0dip" android:layout_height="88.0dip" android:layout_marginBottom="32.0dip" android:layout_above="@id/download_failed_prompt" android:layout_centerHorizontal="true" android:alpha="0.1" app:srcCompat="@drawable/uj" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0m" android:textColor="@color/EBW04" android:id="@id/download_failed_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad2" android:layout_centerInParent="true" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_below="@id/download_failed_prompt" android:layout_centerHorizontal="true">
+            <RelativeLayout android:gravity="center" android:id="@id/download_failed_retry" android:background="@drawable/nz" android:layout_width="90.0dip" android:layout_height="34.0dip" android:foreground="?a3i" android:layout_centerInParent="true">
+                <TextView android:textAppearance="@style/a16" android:textColor="@color/EBW05" android:id="@id/download_failed_retry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad3" />
+            </RelativeLayout>
+            <com.zhihu.android.base.widget.ZHSpace android:layout_width="10.0dip" android:layout_height="wrap_content" />
+            <com.zhihu.android.base.widget.ZHRelativeLayout android:gravity="center" android:id="@id/download_failed_return" android:background="@drawable/o5" android:layout_width="90.0dip" android:layout_height="34.0dip" android:foreground="?a3i" android:layout_centerInParent="true">
+                <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a16" android:textColor="#80444444" android:id="@id/download_failed_return_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad4" />
+            </com.zhihu.android.base.widget.ZHRelativeLayout>
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a16" android:textColor="@color/EBW05" android:id="@id/download_failed_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/ad1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_start_live" android:visible="false" android:title="@string/b5n" app:showAsAction="always" />
+    <item android:id="@id/action_enter_qa" android:visible="false" android:title="@string/b5l" app:showAsAction="always" />
+    <item android:id="@id/action_end_live" android:visible="false" android:title="@string/b5k" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="155.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBL01A" android:id="@id/tv_cancel" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" android:lineSpacingExtra="6.0sp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBL01A" android:layout_gravity="right" android:id="@id/tv_save" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" android:lineSpacingExtra="6.0sp" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:text="添加卡片" android:lineSpacingExtra="0.0sp" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="109.0dip" android:text="添加喜爱的卡片，定制你的个性化页面。" android:lineSpacingExtra="0.0sp" />
+    <View android:layout_gravity="bottom" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/feed_head" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="8.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/head_avatar" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_marginEnd="8.0dip" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:roundAsCircle="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/head_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:lineSpacingExtra="4.0sp" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:id="@id/head_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:lineSpacingExtra="4.0sp" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/feed_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/body_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/body_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:lineSpacingExtra="6.0sp" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/body_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:lineSpacingExtra="6.0sp" />
+            <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/body_foot" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="8.0dip">
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/foot_statement" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:lineSpacingExtra="4.0sp" android:fontFamily="sans-serif" />
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:ellipsize="end" android:gravity="top" android:id="@id/foot_ask" android:layout_width="wrap_content" android:layout_height="fill_parent" android:tint="@color/GBL01A" android:text="@string/dre" android:maxLines="1" android:drawablePadding="4.0dip" android:drawableStart="@drawable/bm2" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/image_layer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="top" android:id="@id/body_img" android:layout_width="106.0dip" android:layout_height="70.0dip" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:roundedCornerRadius="4.0dip" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="start|bottom|center" android:id="@id/video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:src="@drawable/blz" android:layout_marginStart="2.0dip" />
+        </com.zhihu.android.base.widget.ZHFrameLayout>
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.zui.widget.ZUILinearLayout>

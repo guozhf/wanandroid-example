@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/drag_converview" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/center_line" android:layout_width="2.0dip" android:layout_height="60.0dip" app:cardBackgroundColor="@color/BK99" app:cardCornerRadius="2.0dip" app:cardElevation="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_handle" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="15.25dip">
+        <FrameLayout android:id="@id/fl_up_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/up_arrow" android:background="@drawable/ahe" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/aia" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_blank" android:background="@drawable/ahf" android:layout_width="wrap_content" android:layout_height="52.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/BK99" android:layout_gravity="center" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1s" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_down_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/down_arrow" android:background="@drawable/ahg" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/aia" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/topic_recommend_follow_holder_root" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/shell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dtt" android:drawablePadding="8.0dip" android:lineSpacingExtra="3.0sp" android:drawableStart="@drawable/c88" android:layout_marginStart="14.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/close" />
+        <com.zhihu.android.zui.widget.image.ZUIImageView android:id="@id/close" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/c86" android:layout_alignTop="@id/title" android:layout_alignBottom="@id/title" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+</LinearLayout>

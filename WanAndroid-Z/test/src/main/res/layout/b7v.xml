@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:gravity="center" android:id="@id/feedback_container" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/line">
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK04A" android:gravity="center" android:layout_gravity="center" android:id="@id/feedback_text_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/doo" android:maxLines="1" android:drawablePadding="4.0dip" android:lineSpacingExtra="2.0sp" android:drawableStart="@drawable/bll" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/btn_container" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/line">
+        <com.zhihu.android.zui.widget.ZUIFrameLayout android:gravity="center" android:id="@id/write_question" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK04A" android:gravity="center" android:layout_gravity="center" android:id="@id/create_video_entity_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dr_" android:maxLines="1" android:drawablePadding="4.0dip" android:lineSpacingExtra="2.0sp" android:drawableStart="@drawable/wt" />
+            <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK04A" android:gravity="center" android:layout_gravity="center" android:id="@id/write_question_text_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/drc" android:maxLines="1" android:drawablePadding="4.0dip" android:lineSpacingExtra="2.0sp" android:drawableStart="@drawable/blu" />
+        </com.zhihu.android.zui.widget.ZUIFrameLayout>
+    </LinearLayout>
+</RelativeLayout>

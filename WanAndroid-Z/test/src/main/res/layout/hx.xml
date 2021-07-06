@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHCardView android:layout_width="wrap_content" android:layout_height="@dimen/f_" app:cardBackgroundColor="@color/GBK10A" app:cardCornerRadius="@dimen/f4" app:cardElevation="@dimen/f2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:scaleType="fitXY" app:srcCompat="@drawable/b7w" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK03A" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:layout_marginStart="6.0dip" android:layout_marginEnd="@dimen/fi" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHCardView>

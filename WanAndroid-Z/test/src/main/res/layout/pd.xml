@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.question.widget.QuestionRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.question.page.ui.container.QuestionContainerView android:id="@id/question_container" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.zhihu.android.support.widget.AppBarLayout$ScrollingViewBehavior">
+            <com.zhihu.android.question.widget.CustomScrollViewPager android:id="@id/question_pager" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/question_tab_layout_wrapper" />
+        </com.zhihu.android.question.page.ui.container.QuestionContainerView>
+        <com.zhihu.android.support.widget.ZHAppBarLayout android:id="@id/question_header_appbar" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.zhihu.android.question.widget.QuestionAppBarLayoutBehavior">
+            <com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                <include layout="@layout/akc" />
+                <com.zhihu.android.question.page.ui.header.QuestionHeaderView android:id="@id/question_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.zhihu.android.question.widget.QuestionTabWrapperLayout android:id="@id/question_tab_layout_wrapper" android:background="@color/GBK99C" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+            </com.zhihu.android.base.widget.ZHLinearLayout2>
+        </com.zhihu.android.support.widget.ZHAppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.zhihu.android.question.widget.QuestionRefreshLayout>

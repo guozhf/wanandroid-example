@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:autoMask="true" app:autoPlaceholder="true" app:roundedCornerRadius="6.0dip" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/iconLabel" android:layout_width="27.0dip" android:layout_height="17.0dip" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundTopLeft="true" app:roundTopRight="false" app:roundedCornerRadius="6.0dip" />
+    <LinearLayout android:layout_gravity="end|bottom|center" android:id="@id/tagLayout" android:background="@drawable/y9" android:padding="1.5dip" android:paddingTop="1.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_vertical" android:id="@id/mediaIcon" android:layout_width="8.0dip" android:layout_height="8.0dip" android:tint="@color/BK02" android:layout_marginEnd="3.0dip" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/BK02" android:gravity="end" android:id="@id/tagName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+</FrameLayout>

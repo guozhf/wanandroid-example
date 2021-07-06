@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/cashier_gift_pay_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <View android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/icon_alipay" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bv9" android:layout_centerVertical="true" />
+        <com.zhihu.android.base.widget.ZHImageButton android:id="@id/btn_more" android:background="?a3j" android:padding="16.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/bnr" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="+" zhihu:tintColor="@color/color_ff0f88eb_ff0f88eb" />
+        <com.zhihu.android.base.widget.ZHEditText android:textAppearance="@style/a11" android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/count" android:background="@drawable/hx" android:layout_width="56.0dip" android:layout_height="32.0dip" android:selectAllOnFocus="true" android:layout_toLeftOf="@id/btn_more" android:layout_centerVertical="true" android:inputType="number" />
+        <com.zhihu.android.base.widget.ZHImageButton android:id="@id/btn_less" android:background="?a3j" android:padding="16.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/bpt" android:scaleType="fitXY" android:layout_toLeftOf="@id/count" android:layout_centerVertical="true" android:contentDescription="-" zhihu:tintColor="@color/color_ff0f88eb_ff0f88eb" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:background="@color/GBK10C" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/amy" />
+</androidx.appcompat.widget.LinearLayoutCompat>

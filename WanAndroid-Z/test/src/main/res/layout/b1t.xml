@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="仅剩" android:alpha="0.8" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0dip" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/day" android:background="@drawable/ada" android:layout_width="wrap_content" android:layout_height="17.0dip" android:minWidth="17.0dip" android:fontFamily="@font/b" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天" android:alpha="0.8" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0dip" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/hour" android:background="@drawable/ada" android:layout_width="wrap_content" android:layout_height="17.0dip" android:minWidth="17.0dip" android:fontFamily="@font/b" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="时" android:alpha="0.8" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0dip" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/minute" android:background="@drawable/ada" android:layout_width="wrap_content" android:layout_height="17.0dip" android:minWidth="17.0dip" android:fontFamily="@font/b" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分" android:alpha="0.8" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0dip" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/second" android:background="@drawable/ada" android:layout_width="wrap_content" android:layout_height="17.0dip" android:minWidth="17.0dip" android:fontFamily="@font/b" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="秒" android:alpha="0.8" />
+</merge>

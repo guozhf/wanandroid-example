@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/fragment_wallet_settings_0" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" android:elevation="@dimen/ci">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/btn_phone_setting" android:tag="binding_1" android:padding="@dimen/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:padding="@dimen/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azt" android:maxLines="1" android:layout_toLeftOf="@id/btn_phone_setting" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="1.0dip" android:elevation="@dimen/ci" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/btn_password_setting" android:tag="binding_2" android:padding="@dimen/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:padding="@dimen/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azs" android:maxLines="1" android:layout_toLeftOf="@id/btn_password_setting" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="1.0dip" android:elevation="@dimen/ci" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/rl_wechat_setting" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/btn_wechat_setting" android:tag="binding_3" android:padding="@dimen/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:ellipsize="end" android:tag="binding_4" android:padding="@dimen/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/btn_wechat_setting" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <View android:id="@id/view_wechat_setting" android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

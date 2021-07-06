@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="34.0dip" android:textColor="@color/BK99" android:layout_gravity="bottom" android:id="@id/tv_adjust_outline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="28.5dip" android:text="@string/e0g" />
+</FrameLayout>

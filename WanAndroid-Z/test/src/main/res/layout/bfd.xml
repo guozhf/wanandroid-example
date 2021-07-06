@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_horizontal" android:id="@id/sticker" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.5dip" android:layout_marginRight="12.0dip" app:actualImageScaleType="fitCenter" app:autoMask="false" app:autoPlaceholder="false" app:businessType="community" app:roundedCornerRadius="5.0dip" app:viewAspectRatio="1.0" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.5dip" android:singleLine="true" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

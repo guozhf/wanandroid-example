@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/footer_area" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <com.zhihu.android.app.feed.ui.fragment.profileRecent.widget.insIndicator.InsIndicator android:id="@id/dot_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/GBK08A" android:id="@id/scroll_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ajb" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

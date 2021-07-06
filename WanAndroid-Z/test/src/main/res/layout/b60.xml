@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="211.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/imgCover" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:businessType="kmarket" />
+    <FrameLayout android:id="@id/layoutVideoContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/layoutFakeCover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="10.0sp" android:textColor="@color/BK99" android:gravity="center" android:layout_gravity="start|center|top" android:id="@id/tagLive" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="直播中" android:drawableLeft="@drawable/wv" android:drawablePadding="3.5dip" android:paddingStart="4.5dip" android:paddingEnd="5.0dip" android:layout_marginStart="20.0dip" app:bg_cornerRadius="4.0dip" app:bg_fillColor="@color/GYL10A" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/BK99" android:layout_gravity="bottom|center|left" android:id="@id/textTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="50.5dip" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/btnPause" android:visibility="invisible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="45.0dip" android:src="@drawable/bup" />
+</FrameLayout>

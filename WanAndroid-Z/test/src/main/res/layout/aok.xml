@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.db.widget.DbTouchDetectLayout android:background="@drawable/fk" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/source_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+        <com.zhihu.android.db.widget.DbDraweeView android:id="@id/source_image" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" app:actualImageScaleType="centerCrop" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/color_de000000_deffffff" android:ellipsize="end" android:id="@id/source_text" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:maxLines="3" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_toStartOf="@id/source_layout" android:layout_toEndOf="@id/avatar">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="6" android:lineSpacingMultiplier="@dimen/ck" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:ellipsize="none" android:id="@id/db_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.db.widget.DbTouchDetectLayout>

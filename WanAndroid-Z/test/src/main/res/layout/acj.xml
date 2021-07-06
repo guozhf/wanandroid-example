@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.UninterestedReasonView android:textAppearance="@style/a26" android:gravity="center" android:id="@id/uninterest_reason" android:background="@drawable/i4" android:paddingLeft="@dimen/f4" android:paddingTop="6.0dip" android:paddingRight="@dimen/f4" android:paddingBottom="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:checked="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

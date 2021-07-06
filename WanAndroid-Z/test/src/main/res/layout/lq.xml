@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.FrameInterceptLayout android:id="@id/intercept" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.zhihu.android.base.view.ZHView android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/panel" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/camera_layout" android:background="?a3i" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK04A" android:gravity="center" android:id="@id/camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a00" android:drawablePadding="8.0dip" android:drawableStart="@drawable/bdb" app:tintColor="@color/GBK04A" />
+                </com.zhihu.android.base.widget.ZHLinearLayout>
+                <com.zhihu.android.base.view.ZHView android:id="@id/panel_divider" android:background="@color/GBK09B" android:layout_width="@dimen/ew" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+                <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/gallery" android:background="?a3i" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK04A" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a04" android:drawablePadding="8.0dip" android:drawableStart="@drawable/bdg" app:tintColor="@color/GBK04A" />
+                </com.zhihu.android.base.widget.ZHLinearLayout>
+                <com.zhihu.android.base.widget.ZHImageView android:id="@id/comment_image" android:background="?a3j" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bd4" android:scaleType="center" android:contentDescription="@null" android:layout_marginEnd="-4.0dip" app:tintColor="@color/GBK04A" />
+                <com.zhihu.android.base.widget.ZHImageView android:id="@id/comment_sticker" android:background="?a3j" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bd6" android:scaleType="center" android:layout_marginEnd="4.0dip" app:tintColor="@color/GBK04A" />
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <com.zhihu.android.zim.emoticon.ui.EmoticonPanel android:id="@id/comment_sticker_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.db.widget.DbBottomDrawerLayout android:id="@id/drawer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/wrapper">
+            <androidx.core.widget.NestedScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_club_location">
+                <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/editor" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                    <com.zhihu.android.db.widget.DbEditText android:textSize="16.0sp" android:textColor="@color/db_text_primary" android:textColorHint="@color/db_text_hint" android:gravity="start|center|top" android:id="@id/content" android:background="@color/GBK99A" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="96.0dip" android:hint="@string/a14" android:maxLength="9999" android:lineSpacingMultiplier="@dimen/ck" android:inputType="textMultiLine" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+                    <com.zhihu.android.db.widget.DbQuoteLayout android:id="@id/quote" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+                    <com.zhihu.android.db.widget.DbLinkLayout2 android:id="@id/link" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/custom_link_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                    <com.zhihu.android.db.fragment.customview.DbEditorImagePreviewCustomView android:id="@id/customview_image_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.zhihu.android.db.fragment.customview.DbEditorVideoPreviewCustomView android:id="@id/customview_video_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.zhihu.android.db.widget.DbEditorOriginPinLayout android:id="@id/origin_pin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                </com.zhihu.android.base.widget.ZHLinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_club_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true">
+                <ViewStub android:id="@id/view_stub_layout_sync_club" android:layout="@layout/ee" android:inflatedId="@id/fl_sync_club" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+                <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="40.0dip" android:layout_marginEnd="16.0dip">
+                    <com.zhihu.android.db.fragment.customview.DbEditorLocationCustomView android:layout_gravity="end" android:id="@id/customview_location" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </com.zhihu.android.base.widget.ZHFrameLayout>
+            </com.zhihu.android.base.widget.ZHLinearLayout>
+            <com.zhihu.android.db.fragment.customview.DbEditorSuggestTagCustomView android:id="@id/customview_suggest_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </com.zhihu.android.db.widget.DbBottomDrawerLayout>
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.app.ui.widget.FrameInterceptLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_fff2f4f7_ff212b30" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/write" android:background="@color/color_ffffffff_ff37474f" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:foreground="?a3i" android:elevation="@dimen/ci"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView android:textAppearance="@style/a0n" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cvc" android:drawableLeft="@drawable/c5y" android:drawablePadding="6.0dip" android:layout_centerVertical="true" app:tintColor="@color/color_8a334957_8ab2ccd5" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/order" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="4.0dip">
+        <TextView android:textAppearance="@style/a29" android:gravity="center_vertical" android:id="@id/answer_count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+        <TextView android:textAppearance="@style/a29" android:gravity="center" android:id="@id/answer_sort" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="8.0dip" android:drawableEnd="@drawable/c5l" android:layout_marginEnd="16.0dip" app:tintColor="@color/color_4d000000_54ffffff" />
+    </LinearLayout>
+</LinearLayout>

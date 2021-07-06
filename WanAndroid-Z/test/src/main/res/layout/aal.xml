@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="177.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:collapsedTitleGravity="center" app:contentScrim="@color/GBL01A" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:scrimAnimationDuration="100" app:statusBarScrim="@android:color/transparent">
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/headerCover" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoMask="true" app:businessType="kmarket" app:layout_collapseMode="parallax" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="22.0dip" android:textColor="@color/GBK99B" android:layout_gravity="start|center" android:id="@id/expandTitle" android:paddingLeft="@dimen/fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_" android:lineSpacingMultiplier="1.2" />
+            <com.zhihu.android.base.widget.ZHToolBar android:gravity="center" android:id="@id/toolBar" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="?au" android:contentInsetStart="0.0dip" android:contentInsetLeft="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:layout_collapseMode="pin" app:navigationIcon="@drawable/u9">
+                <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/f9" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/collapseTitle" android:paddingRight="@dimen/fa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="北京标题" />
+            </com.zhihu.android.base.widget.ZHToolBar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

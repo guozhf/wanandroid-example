@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="26.0dip" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:bg_cornerRadius="18.0dip" app:bg_fillColor="#cc000000" app:bg_strokeColor="@color/YL08" app:bg_strokeWidth="1.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wb" android:tint="@color/GYL08A" android:layout_marginEnd="5.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/YL08" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/note" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/YL08" android:gravity="bottom" android:layout_gravity="center" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wc" android:tint="@color/YL08" android:layout_marginStart="5.0dip" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+</merge>

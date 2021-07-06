@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.content.widget.FlowView android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/gif_img" android:layout_width="48.5dip" android:layout_height="46.5dip" app:autoMask="false" app:businessType="community" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/close_img" android:background="@drawable/ps" android:layout_width="11.5dip" android:layout_height="11.5dip" android:layout_marginTop="8.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/gif_img" />
+</com.zhihu.android.content.widget.FlowView>

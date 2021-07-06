@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootContainer" android:tag="layout/fragment_star_cashier_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout android:orientation="vertical" android:tag="binding_1" android:paddingLeft="@dimen/f7" android:paddingTop="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bg_cornerRadius="12.0dip" app:bg_fillColor="@color/GBK99A" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/a4_" />
+            <include layout="@layout/a46" />
+            <include layout="@layout/a49" />
+            <include layout="@layout/a48" />
+            <include layout="@layout/a45" />
+            <include layout="@layout/a47" />
+            <Space android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <Space android:id="@id/bottomPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        </LinearLayout>
+        <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/a4a" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

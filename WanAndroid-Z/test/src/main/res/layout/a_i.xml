@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="406.0dip" android:src="@drawable/a29" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/fl_hand" android:layout_width="115.0dip" android:layout_height="143.0dip" android:layout_marginTop="358.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:layout_gravity="center" android:id="@id/v_finger" android:background="@drawable/a1y" android:layout_width="24.0dip" android:layout_height="24.0dip" android:alpha="0.5" android:scaleX="0.0" android:scaleY="0.0" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a2_" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="604.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_left" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/a2b" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+        <ImageView android:id="@id/iv_right" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/a2a" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

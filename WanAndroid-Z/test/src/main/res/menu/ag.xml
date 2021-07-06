@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/share" android:visible="true" android:orderInCategory="1" android:title="@string/akz" />
+    <item android:id="@id/uninterest_to_question" android:visible="false" android:orderInCategory="1" android:title="@string/al3" />
+    <item android:id="@id/uninterest_to_article" android:visible="false" android:orderInCategory="1" android:title="@string/al2" />
+    <item android:id="@id/follow" android:visible="false" android:orderInCategory="2" android:title="@string/akw" />
+    <item android:id="@id/unfollow" android:visible="false" android:orderInCategory="2" android:title="@string/al0" />
+    <item android:id="@id/report" android:visible="false" android:orderInCategory="3" android:title="@string/aky" />
+    <item android:id="@id/delete" android:visible="false" android:orderInCategory="3" android:title="@string/aku" />
+    <item android:id="@id/delete_action" android:visible="false" android:orderInCategory="3" android:title="@string/akv" />
+</menu>

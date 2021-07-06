@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.comment.widget.CommentRatingBar android:enabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.2" app:crb_numStars="5" app:crb_spacing="5.0dip" app:crb_starBackgroundTint="@color/GRD10A" app:crb_starEmpty="@drawable/b6m" app:crb_starFull="@color/GBK99A" app:crb_starSize="10.0dip" />
+    <com.zhihu.android.comment.widget.CommentRatingBar android:enabled="false" android:id="@id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:crb_numStars="5" app:crb_rating="3.0" app:crb_spacing="5.0dip" app:crb_starFull="@drawable/b6m" app:crb_starSize="10.0dip" app:crb_starTint="@color/GRD10A" />
+</merge>

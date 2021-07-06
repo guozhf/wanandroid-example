@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:ellipsize="end" android:id="@id/prize_record_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dsy" android:maxLines="1" android:includeFontPadding="false" />
+        <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textColor="@color/GBK99B_60" android:ellipsize="end" android:gravity="center" android:id="@id/prize_record_more" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/dt8" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/prize_record_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/head" />
+</RelativeLayout>

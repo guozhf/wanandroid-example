@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="24.0dip" android:paddingTop="8.0dip" android:paddingRight="24.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_alipay" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ca9" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHRadioButton android:id="@id/btn_alipay_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/btn_alipay_radio" android:layout_toEndOf="@id/icon_alipay">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/color_de000000_deffffff" android:textColorHint="@color/color_4d000000" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/efe" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/label_view" android:paddingLeft="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:text="@string/efj" android:layout_alignTop="@id/title" android:layout_alignBottom="@id/title" android:paddingEnd="3.0dip" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/title" />
+        </LinearLayout>
+        <TextView android:textSize="10.0sp" android:textColor="@color/GBK07B" android:id="@id/tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

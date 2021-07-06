@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:orientation="vertical" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_widget" layout="@layout/rd" />
+    <FrameLayout android:id="@id/invited_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_widget" android:elevation="@dimen/f8" />
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/invited_layout">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:background="@color/GBK99A" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <FrameLayout android:id="@id/fl_animator_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_widget" android:elevation="@dimen/f8" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

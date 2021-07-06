@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root_view" android:tag="layout/ebook_review_share_panel_0" android:background="@drawable/r1" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/yh" android:textSize="@dimen/rj" android:textColor="@color/GBK02A" android:id="@id/share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/ae3" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/share_items" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_db" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boe" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_db_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae2" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_wechat" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bp_" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_wechat_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae4" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_wechatgroup" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bpa" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_wechatgroup_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae5" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/share_to_weibo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bpb" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:textColor="@color/GBK02A" android:id="@id/share_to_weibo_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ae6" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </LinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

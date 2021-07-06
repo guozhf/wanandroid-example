@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.videox.widget.LandscapeBgView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="193.0dip" app:vxBgColor="@color/BK99" app:vxIsFull="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.zhihu.android.zui.widget.ZUIButton2 android:textSize="15.0sp" android:textColor="@color/BK99" android:gravity="center" android:id="@id/btn_follow" android:background="@drawable/aob" android:layout_width="0.0dip" android:layout_height="37.0dip" android:text="@string/e8h" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+            <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_marginBottom="36.0dip" app:layout_constraintBottom_toTopOf="@id/btn_follow" app:layout_constraintLeft_toLeftOf="@id/btn_follow" app:placeholderImage="@drawable/be6" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/BK05" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintLeft_toRightOf="@id/img_avatar" app:layout_constraintTop_toTopOf="@id/img_avatar" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/BK03" android:id="@id/text_tips" android:background="@drawable/aoc" android:padding="11.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/e8j" android:lineSpacingExtra="0.0sp" app:layout_constraintBottom_toBottomOf="@id/img_avatar" app:layout_constraintLeft_toLeftOf="@id/text_name" app:layout_constraintRight_toRightOf="@id/btn_follow" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/BK03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/e8i" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+                <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar_left" android:layout_width="60.0dip" android:layout_height="60.0dip" app:placeholderImage="@drawable/be6" app:roundingBorderColor="@color/BK99" app:roundingBorderWidth="3.0dip" />
+                <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar_right" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginStart="45.0dip" app:placeholderImage="@drawable/be6" app:roundingBorderColor="@color/BK99" app:roundingBorderWidth="3.0dip" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ViewSwitcher>
+</com.zhihu.android.videox.widget.LandscapeBgView>

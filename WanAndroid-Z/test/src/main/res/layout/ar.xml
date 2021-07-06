@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/ad_video_pause_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ad_video_pause_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:businessType="commerce" app:roundedCornerRadius="6.0dip" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ad_video_pause_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:actualImageResource="@drawable/b4h" app:businessType="commerce" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="9.0sp" android:textColor="@color/GBK99A" android:id="@id/ad_video_pause_logo_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.sku.detailview.ui.widget.view.header.HeaderCoverView2 android:id="@id/header_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.app.sku.detailview.ui.widget.view.header.ActiveRegionView android:id="@id/active_regionView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/view_person_read_top_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+    <TextView android:id="@id/tv_person_read" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableStart="@drawable/bsu" android:layout_marginStart="20.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <View android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</merge>

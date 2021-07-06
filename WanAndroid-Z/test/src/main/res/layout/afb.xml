@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIFrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:orientation="vertical" android:layout_width="76.0dip" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" app:bg_cornerRadius="10.0dip" app:bg_fillColor="@color/premium_vip_right_bg">
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_horizontal" android:id="@id/right_icon" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginTop="7.5dip" app:businessType="kmarket" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/premium_vip_right_title_color" android:gravity="center_horizontal" android:id="@id/right_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.5dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/GYL10A" android:gravity="center_horizontal" android:id="@id/right_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+</com.zhihu.android.zui.widget.ZUIFrameLayout>

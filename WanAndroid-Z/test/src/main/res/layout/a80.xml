@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_gravity="start|center" android:id="@id/iv_noti_settings_left" android:padding="16.0dip" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/bwc" android:tint="@color/GBK04A" />
+    <com.zhihu.android.base.widget.ZHTabLayout android:layout_gravity="center" android:id="@id/tab_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" app:tabGravity="center" app:tabIndicatorColor="@color/GBK02A" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="3.0dip" app:tabPaddingEnd="20.0dip" app:tabPaddingStart="20.0dip" app:tabRippleColor="@android:color/transparent" />
+    <com.zhihu.android.zui.widget.image.ZUIImageView android:layout_gravity="end|center" android:id="@id/iv_write_msg" android:padding="16.0dip" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/bwg" android:tint="@color/GBK04A" />
+</merge>

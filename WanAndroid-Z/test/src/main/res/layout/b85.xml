@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.videox.widget.LandscapeBgView android:layout_width="fill_parent" android:layout_height="wrap_content" app:vxBgColor="@color/vx_bottom_panel_bg_d918191d" app:vxIsFull="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lbv" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/b_i" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.zhihu.android.videox.widget.LandscapeBgView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/go" android:id="@id/prevChapter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b_2" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/seekbar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.app.market.widget.ReaderSeekBar android:colorBackground="@color/GBK09A" android:id="@id/seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:colorPrimary="@color/GBK03A" android:colorAccent="@color/GBK09A" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/nextChapter" app:layout_constraintStart_toEndOf="@id/prevChapter" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/go" android:id="@id/nextChapter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b_1" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/seekbar" app:layout_constraintTop_toTopOf="parent" />
+</merge>

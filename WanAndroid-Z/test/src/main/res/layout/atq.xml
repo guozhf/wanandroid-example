@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/recycler_item_market_personal_store_section_header_0" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/z6" android:gravity="center_vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginTop="@dimen/cl" android:paddingStart="16.0dip" />
+    <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

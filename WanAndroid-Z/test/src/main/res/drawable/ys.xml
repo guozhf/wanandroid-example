@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/transparent" />
+            <size android:height="12.0dip" android:width="12.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:id="@id/pressed" android:drawable="@drawable/yt" />
+    <item android:id="@id/unpressed" android:drawable="@drawable/yv" />
+    <transition android:drawable="@drawable/yw" android:toId="@id/pressed" android:fromId="@id/unpressed" />
+    <transition android:drawable="@drawable/yu" android:toId="@id/unpressed" android:fromId="@id/pressed" />
+</animated-selector>

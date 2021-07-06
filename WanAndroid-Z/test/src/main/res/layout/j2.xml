@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="91.0dip" android:layout_height="47.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/tab_title" android:background="@drawable/t1" android:layout_width="80.0dip" android:layout_height="36.0dip" android:foreground="?a3i" android:text="ddd" android:layout_centerInParent="true" android:lineSpacingExtra="5.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/tab_delete" android:background="@drawable/t0" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

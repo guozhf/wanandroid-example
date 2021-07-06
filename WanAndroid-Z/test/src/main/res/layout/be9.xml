@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <GridView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/choose_price_gridview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:horizontalSpacing="@dimen/f_" android:verticalSpacing="@dimen/f7" android:stretchMode="columnWidth" android:numColumns="3" />
+    <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/color_ffff3366_ffd92155" android:id="@id/btn_custom_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_" android:text="@string/eig" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/be_" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/pay_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fi" android:src="@drawable/cci" zhihu:tintColor="@color/GBK05A" />
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK05A" android:id="@id/pay_type_tip" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ej3" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1i" android:textColor="@color/color_ffff3366_ffd92155" android:id="@id/btn_pay_type_change" android:paddingTop="@dimen/f7" android:paddingBottom="@dimen/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ej2" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

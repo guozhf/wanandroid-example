@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/my_label_header" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/my_image_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cqn" android:layout_centerVertical="true" />
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/my_image_text" android:layout_centerVertical="true" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/layout_reviewing" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/badge" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/a7z" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="@style/a16" android:textColor="@color/color_8a334957_8ab2ccd5" android:gravity="center_vertical" android:id="@id/text_reviewing_label_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/crl" android:layout_toRightOf="@id/badge" android:layout_centerVertical="true" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="16.0dip" android:layout_height="fill_parent" android:src="@drawable/baq" android:tint="@color/color_8a334957_8ab2ccd5" android:layout_toRightOf="@id/text_reviewing_label_count" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.zhihu.android.base.view.ZHView android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/puclic_labels_layout" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/null_state_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="104.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/add_label_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+            <com.zhihu.android.profile.label.widget.LabelView android:id="@id/add_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/add_label_tip_text" android:layout_centerHorizontal="true" app:profile_labelName="@string/ck_" />
+        </RelativeLayout>
+        <com.zhihu.android.profile.label.widget.ToggleLayout android:id="@id/toggle_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </RelativeLayout>
+</LinearLayout>

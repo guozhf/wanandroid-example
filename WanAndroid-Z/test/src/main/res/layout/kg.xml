@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_layout" android:tag="layout/fragment_alert_bottom_sheet_0" android:background="#89000000" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container_layout" android:background="@color/color_ffffffff_ff37474f" android:paddingLeft="@dimen/ce" android:paddingTop="@dimen/fd" android:paddingRight="@dimen/ce" android:paddingBottom="@dimen/fd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.zhihu.android.base.widget.ZHImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0j" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fa" android:maxLines="2" />
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:id="@id/detail_title" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/ce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ays" android:layout_centerInParent="true" />
+            <com.zhihu.android.base.view.ZHView android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_toLeftOf="@id/detail_title" android:layout_centerVertical="true" />
+            <com.zhihu.android.base.view.ZHView android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_toRightOf="@id/detail_title" android:layout_centerVertical="true" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayq" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:gravity="right" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bj" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayr" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:gravity="right" android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bj" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayu" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:gravity="right" android:tag="binding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bj" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:tag="binding_11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayt" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:gravity="right" android:tag="binding_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bj" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

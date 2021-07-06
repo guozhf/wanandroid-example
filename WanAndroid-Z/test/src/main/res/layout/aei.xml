@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/premium_fragment_vip_my_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/footer" android:background="@color/GBK10C" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="186.0dip" android:layout_alignParentBottom="true" layout="@layout/aet" />
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:id="@id/emptyView" android:tag="binding_1" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.premium.view.FooterInScrollView android:id="@id/scroll_view" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" app:premium_footer_max_height="136.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:tag="binding_3" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/head_layout" layout="@layout/af3" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/tools_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <include android:id="@id/label_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" layout="@layout/af0" />
+            <include android:id="@id/privilege_layout" layout="@layout/af5" />
+            <include android:id="@id/vip_feature" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" layout="@layout/aew" />
+            <include android:id="@id/service_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="40.0dip" layout="@layout/af6" />
+        </LinearLayout>
+    </com.zhihu.android.premium.view.FooterInScrollView>
+    <FrameLayout android:id="@id/bottom_layout" android:tag="binding_4" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.zhihu.android.kmarket.kmbutton.KmButton android:id="@id/buy_view" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:kb_themeStr="BVFA01" />
+    </FrameLayout>
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/loading_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zuiSkeleton="i01,h01,t01" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/media_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoPlaceholder="true" app:businessType="base" app:displayOption="loopAnimation" app:placeholderImage="?q0" />
+    <com.zhihu.matisse.v2.widget.CheckView android:layout_gravity="center|right|top" android:id="@id/check_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zhihu.matisse.internal.ui.widget.CheckBorderView android:id="@id/check_border_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/gif" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/bgy" />
+    <TextView android:textSize="12.0sp" android:textColor="?la" android:layout_gravity="bottom|center|right" android:id="@id/video_duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" />
+</merge>

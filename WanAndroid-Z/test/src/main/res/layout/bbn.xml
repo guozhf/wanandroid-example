@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/app" android:layout_width="wrap_content" android:layout_height="30.0dip" android:paddingStart="3.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/img_avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/BK99" android:id="@id/text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#80000000" android:shadowDy="2.0" android:shadowRadius="4.0" android:layout_marginStart="4.0dip" />
+</LinearLayout>

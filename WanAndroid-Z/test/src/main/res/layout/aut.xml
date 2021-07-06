@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:gravity="center" android:orientation="vertical" android:tag="layout/recycler_item_new_popular_topics_item_0" android:background="@color/GBK09C" android:paddingTop="20.0dip" android:paddingBottom="65.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d01" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBL05A" android:gravity="center" android:id="@id/about_rank_feed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/a1" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/z0" android:textColor="@color/GBK02A" android:id="@id/sticky_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:text="@string/bff" android:paddingStart="@dimen/f7" android:paddingEnd="@dimen/f7" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sticky_recycler" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/y5" android:ellipsize="end" android:gravity="center" android:id="@id/find_more" android:background="@color/color_ffffffff_ff37474f" android:paddingTop="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/amt" android:maxLines="1" />
+</LinearLayout>

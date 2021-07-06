@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:layout_width="wrap_content" android:layout_height="48.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/more_btn" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="fill_parent" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/write_btn" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center|right" android:id="@id/more" android:layout_width="@dimen/f_" android:layout_height="fill_parent" android:src="@drawable/v_" android:layout_marginEnd="12.0dip" />
+    </FrameLayout>
+</com.zhihu.android.base.widget.ZHConstraintLayout>

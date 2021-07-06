@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:background="#140084ff" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:id="@id/verify_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:lineSpacingExtra="8.0sp" android:layout_marginStart="8.0dip" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看详情" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/verify_desc" />
+    <ImageView android:textColor="@color/GBL01A" android:id="@id/certification_close" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bbw" android:tint="@color/GBL01A" android:text="X" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBL01A" android:id="@id/certification_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHScrollView android:background="@color/transparent" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHFrameLayout android:orientation="vertical" android:id="@id/webFrame" android:paddingBottom="200.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.zhihu.android.base.widget.ZHScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ImageView android:id="@id/web_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutBottom" android:background="@drawable/ace" android:layout_width="fill_parent" android:layout_height="200.0dip" android:elevation="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/GBK02A" android:id="@id/shareTitle" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_margin="16.0dip" android:text="选择卡片的分享方式" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="end|center|top" android:id="@id/close" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/blh" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="#ff8f8d99" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutShareIcon" android:clickable="false" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/shareTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shareTitle">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/shareWechat" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bp_" />
+                <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:text="微信" android:drawablePadding="3.5dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareWechatMoment" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bpa" />
+                <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:text="朋友圈" android:drawablePadding="3.5dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareWeibo" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/bpb" />
+                <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:text="微博" android:drawablePadding="3.5dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/saveToLocal" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/c_z" />
+                <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:text="保存" android:drawablePadding="3.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="6.0dip" android:alpha="0.5" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintTop_toBottomOf="@id/layoutShareIcon" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:id="@id/labelAnonymous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.5dip" android:layout_marginBottom="17.5dip" android:text="开启匿名" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/anonymousSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/labelAnonymous" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/labelAnonymous" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

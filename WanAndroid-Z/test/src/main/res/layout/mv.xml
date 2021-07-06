@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/id_coordinator_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toTopOf="@id/bottom_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/id_abl_topview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.app.subscribe.ui.view.KmMixtapeDetailHeaderView android:id="@id/header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" />
+            <View android:id="@id/tab_divider" android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="8.0dip" app:layout_scrollFlags="scroll" />
+            <com.zhihu.android.app.base.ui.widget.view.SlidingTabLayout android:id="@id/id_tab_indicator" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_scrollFlags="snap" app:tl_indicator_color="@color/GYL02A" app:tl_indicator_width_equal_title="true" app:tl_textSelectColor="@color/GYL02A" app:tl_textUnselectColor="@color/GBK02A" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <View android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/id_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.zhihu.android.app.subscribe.ui.view.KmMixtapeDetailBottomView android:layout_gravity="bottom" android:id="@id/bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_coordinator_layout" />
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/skeletonView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

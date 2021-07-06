@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:gravity="center_horizontal" android:id="@id/tvOtherLoginType" android:padding="@dimen/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/br5" zhihu:layout_constraintBottom_toTopOf="@id/socialLayout" zhihu:layout_constraintLeft_toLeftOf="parent" zhihu:layout_constraintRight_toRightOf="parent" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/socialLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:weightSum="3.0" android:layout_centerHorizontal="true" zhihu:layout_constraintBottom_toTopOf="@id/bottomText" zhihu:layout_constraintLeft_toLeftOf="parent" zhihu:layout_constraintRight_toRightOf="parent">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/wechatDoor" android:src="@drawable/bxf" style="@style/a4b" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/qqDoor" android:src="@drawable/bx9" style="@style/a4b" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/sinaDoor" android:src="@drawable/bxb" style="@style/a4b" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/bottomText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="15.5dip" zhihu:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

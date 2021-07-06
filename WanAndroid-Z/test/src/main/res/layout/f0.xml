@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:paddingBottom="20.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/icon_big" android:layout_width="300.0dip" android:layout_height="186.0dip" android:adjustViewBounds="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="上下滑动切换回答" android:lineSpacingExtra="4.0sp" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textColor="@color/GBK05A" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="滑动到底部切换下一个回答" />
+    <com.zhihu.android.answer.widget.AnswerFloatBtnView android:layout_gravity="center_horizontal" android:layout_width="260.0dip" android:layout_height="36.0dip" android:layout_marginTop="24.0dip" app:cardBackgroundColor="@color/GBL01A" app:cardCornerRadius="3.0dip" app:cardElevation="@dimen/f8">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK99B" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我知道了" />
+    </com.zhihu.android.answer.widget.AnswerFloatBtnView>
+</com.zhihu.android.base.widget.ZHLinearLayout>

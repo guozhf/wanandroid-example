@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@drawable/b0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="16.0dip" android:text="什么是付费咨询名片？" android:lineSpacingExtra="4.0sp" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="开启后，用户可在此回答底部点击卡片向你发起付费咨询，亦可在写回答时选择关闭，如需修改自己的付费咨询描述，可前往「我的」-「付费咨询」中进行设置。" android:lineSpacingExtra="4.0sp" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <View android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/confirm" android:layout_width="fill_parent" android:layout_height="46.0dip" android:foreground="?a3i" android:text="我知道了" android:lineSpacingExtra="0.0sp" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

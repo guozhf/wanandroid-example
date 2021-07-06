@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_share" android:title="@string/dun" app:showAsAction="never" />
+    <item android:id="@id/action_anonymous_on" android:title="@string/dum" app:showAsAction="never" />
+    <item android:id="@id/action_anonymous_off" android:title="@string/dul" app:showAsAction="never" />
+    <item android:id="@id/action_steward" android:title="@string/duo" app:showAsAction="never" />
+</menu>

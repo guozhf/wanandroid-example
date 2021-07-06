@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/quote_text" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:maxLines="1" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:gravity="center_vertical" android:id="@id/quote" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="去看看" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/quote_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/b0f" android:scaleX="0.5" android:scaleY="0.5" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

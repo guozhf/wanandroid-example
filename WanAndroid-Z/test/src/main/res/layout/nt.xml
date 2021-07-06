@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/fragment_market_rating_meta_editor_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="16.0sp" android:textColor="@color/GBK03A" android:textColorHint="@color/GBK06A" android:gravity="start|center|top" android:tag="binding_1" android:background="@null" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="96.0dip" android:lineSpacingMultiplier="@dimen/ck" android:inputType="textMultiLine" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+        <com.zhihu.android.base.mvvm.ChildView android:layout_gravity="center_vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

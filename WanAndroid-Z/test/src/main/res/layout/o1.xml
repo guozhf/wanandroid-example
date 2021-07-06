@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewSwitcher android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="0.0dip" android:inAnimation="@null" android:outAnimation="@null" app:layout_constraintBottom_toBottomOf="@id/tabLayout" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.ZHDraweeView android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:placeholderImage="@drawable/adl" />
+        <com.zhihu.android.base.widget.ZHDraweeView android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:placeholderImage="@drawable/adl" />
+    </ViewSwitcher>
+    <ImageView android:id="@id/bannerMask" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/banner" app:layout_constraintTop_toTopOf="@id/banner" />
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/toolBar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/u9">
+        <TextView android:textSize="17.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:layout_gravity="center" android:id="@id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="故事" />
+    </com.zhihu.android.base.widget.ZHToolBar>
+    <com.zhihu.android.app.market.ui.view.DynamicModeTabLayout android:layout_gravity="center_horizontal" android:id="@id/tabLayout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintTop_toBottomOf="@id/toolBar" app:tabGravity="fill" app:tabIndicatorColor="@color/GBK99B" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="3.0dip" app:tabMaxWidth="0.0dip" app:tabMinWidth="61.5dip" app:tabMode="scrollable" app:tabSelectedTextColor="@color/GBK99B" app:tabTextAppearance="@style/ky" app:tabTextColor="@color/GBK06A" />
+    <View android:id="@id/divider2" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/divider2" />
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:id="@id/errorView" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

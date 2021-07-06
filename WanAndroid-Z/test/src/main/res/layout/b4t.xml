@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/vessay_outline_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_outline_toolbar" />
+    <FrameLayout android:id="@id/fl_outline_bg" android:background="@drawable/ajb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_outline_toolbar" />
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/rv_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_outline_toolbar" />
+    <com.zhihu.android.vessay.outline.ui.widget.DragHandleView android:id="@id/drag_handleview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.vessay.outline.ui.widget.QuickOperateRLayout android:id="@id/rl_quick_operate" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.zhihu.android.vessay.outline.ui.widget.OutlineToolRLayout android:id="@id/rl_outline_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/fl_middle_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_line_icon" android:layout_width="16.0dip" android:layout_height="15.0dip" android:src="@drawable/aid" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_middle_line" android:background="@color/vessay_outline_middle_line_bg_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+    </FrameLayout>
+</RelativeLayout>

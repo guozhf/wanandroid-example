@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/G_BK10_BK02" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerVertical="true" app:autoMask="true" app:businessType="community" />
+    <TextView android:textAppearance="@style/a11" android:textStyle="bold" android:ellipsize="end" android:id="@id/title" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/avatar" />
+    <TextView android:textAppearance="@style/a26" android:ellipsize="end" android:id="@id/headline" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:layout_toRightOf="@id/avatar" android:layout_below="@id/title" />
+    <com.zhihu.android.base.widget.ZHSwitch android:theme="@style/a3k" android:id="@id/delegate_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

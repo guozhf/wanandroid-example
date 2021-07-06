@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">> <item>
+        <shape android:shape="rectangle">
+            <size android:height="160.0dip" android:width="70.0dip" />
+        </shape>
+    </item>
+    <item>
+        <rotate android:fromDegrees="180.0">
+            <bitmap android:gravity="bottom" android:src="@drawable/bm3" />
+        </rotate>
+    </item>
+    <item>
+        <bitmap android:gravity="bottom" android:src="@drawable/bm3" />
+    </item>
+</layer-list>

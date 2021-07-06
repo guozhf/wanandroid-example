@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="21.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textAppearance="@style/yv" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="见到就怪了" android:layout_marginStart="2.0dip" />
+    <RadioGroup android:id="@id/noti_scope" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+        <RadioButton android:id="@id/scope_all" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bo7" />
+        <RadioButton android:id="@id/scope_follow" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bo8" />
+        <RadioButton android:id="@id/scope_no_more_message" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bo6" />
+    </RadioGroup>
+    <Switch android:id="@id/no_more_receive_noti" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/bou" android:layout_below="@id/noti_scope" />
+    <TextView android:textAppearance="@style/a0m" android:textColor="@color/GBL01A" android:id="@id/confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/bm7" android:layout_below="@id/no_more_receive_noti" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="@style/a0m" android:textColor="@color/GBL01A" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bm6" android:layout_alignBottom="@id/confirm" android:layout_marginEnd="32.0dip" android:layout_toStartOf="@id/confirm" />
+</RelativeLayout>

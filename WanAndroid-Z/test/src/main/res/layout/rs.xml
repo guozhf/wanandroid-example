@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/GBK10A" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textColor="@color/GBK06A" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/GBL01A" android:ellipsize="end" android:id="@id/btn_invite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aqr" android:lines="1" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

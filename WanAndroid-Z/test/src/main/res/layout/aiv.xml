@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/coverView" android:layout_width="fill_parent" android:layout_height="@dimen/pr" app:businessType="community" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/pageBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Space android:id="@id/coverSpace" android:layout_width="fill_parent" android:layout_height="@dimen/pr" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/coverBottomMask" android:layout_width="fill_parent" android:layout_height="110.0dip" app:layout_constraintBottom_toBottomOf="@id/coverSpace" />
+        <View android:id="@id/pureBackground" android:layout_width="fill_parent" android:layout_height="200.0dip" app:layout_constraintTop_toBottomOf="@id/coverSpace" />
+        <View android:id="@id/gradientBackground" android:layout_width="fill_parent" android:layout_height="150.0dip" app:layout_constraintTop_toBottomOf="@id/pureBackground" />
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+    <com.zhihu.android.profile.page.widget.ProfileContentScrollView android:id="@id/profile_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <com.zhihu.android.profile.page.widget.ProfileToolbar android:id="@id/profile_static_toolbar" android:paddingTop="@dimen/r5" android:layout_width="fill_parent" android:layout_height="@dimen/pv" />
+    <com.zhihu.android.profile.newprofile.ui.error.NewProfileErrorPage android:id="@id/profile_error_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

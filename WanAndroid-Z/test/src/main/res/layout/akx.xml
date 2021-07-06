@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:paddingTop="@dimen/f9" android:paddingBottom="@dimen/fc" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_horizontal" android:id="@id/ad_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" zhihu:autoMask="true" zhihu:businessType="commerce" zhihu:overlayImage="@color/color_0d000000_26000000" zhihu:roundedCornerRadius="@dimen/fc" zhihu:viewAspectRatio="1.48" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2_" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fc" android:maxLines="1" android:lineSpacingMultiplier="@dimen/ck" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1b" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/ad_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f8" android:maxLines="1" android:lineSpacingMultiplier="@dimen/ck" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

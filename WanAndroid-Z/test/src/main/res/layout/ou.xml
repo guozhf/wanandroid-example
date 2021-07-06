@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/live_chat_action_goto_profile" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bjx" android:maxLines="1" />
+    <TextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/live_chat_action_banned" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bju" android:maxLines="1" />
+    <TextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/live_chat_action_muted" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bjw" android:maxLines="1" />
+    <TextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/live_chat_action_cancel" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bjv" android:maxLines="1" />
+</LinearLayout>

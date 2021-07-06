@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/layout_recharge_title_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="充值知乎币" android:maxLines="1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/acknowledgementIcon" android:tag="binding_1" android:layout_width="@dimen/f4" android:layout_height="@dimen/f4" android:layout_marginLeft="@dimen/f4" android:src="@drawable/cbb" android:tint="@color/GBK06A" app:layout_constraintBottom_toBottomOf="@id/subTitle" app:layout_constraintStart_toEndOf="@id/title" app:layout_constraintTop_toTopOf="@id/subTitle" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GBK06A" android:id="@id/subTitle" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="充值须知" android:layout_marginStart="3.0dip" app:layout_constraintBaseline_toBaselineOf="@id/title" app:layout_constraintStart_toEndOf="@id/acknowledgementIcon" />
+    <FrameLayout android:layout_width="60.0dip" android:layout_height="27.0dip" app:layout_constraintBottom_toBottomOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/title">
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableFrameLayout android:layout_width="60.0dip" android:layout_height="27.0dip" android:alpha="0.1" app:bg_cornerRadius="13.5dip" app:bg_fillColor="@color/GBK06A" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textColor="@color/GBK03A" android:gravity="center" android:layout_gravity="center" android:id="@id/backBtn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="返回" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="49.0dip" android:layout_marginTop="5.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textColor="@color/GBK02A" android:id="@id/rechargeSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/b" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

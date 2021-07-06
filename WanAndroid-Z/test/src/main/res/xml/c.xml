@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/u">
+        <intent android:action="android.intent.action.VIEW" android:data="zhihu://search" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/n">
+        <intent android:action="android.intent.action.VIEW" android:data="zhihu://explore" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/o">
+        <intent android:action="android.intent.action.VIEW" android:data="zhihu://inbox" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/q">
+        <intent android:action="android.intent.action.VIEW" android:data="zhihu://lives/public" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

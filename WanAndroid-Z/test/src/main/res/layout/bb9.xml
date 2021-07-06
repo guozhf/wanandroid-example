@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/BK99" android:id="@id/text_new_link" android:background="@drawable/amw" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+    <ImageView android:background="@drawable/aot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_create" android:title="上传新视频" app:showAsAction="collapseActionView" />
+    <item android:id="@id/action_insert" android:title="插入已发布的视频" app:showAsAction="collapseActionView" />
+</menu>

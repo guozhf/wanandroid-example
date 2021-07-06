@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.db.widget.ZHFloatingTipsView android:textAppearance="@style/a0s" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/message" android:background="@drawable/yx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:elevation="2.0dip" app:tintColor="@color/color_ff0077d9_8a03a9f4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

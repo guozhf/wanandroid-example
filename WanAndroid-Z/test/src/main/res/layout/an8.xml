@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layoutContainer" android:layout_width="fill_parent" android:layout_height="74.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="15.0dip" android:paddingEnd="15.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:id="@id/textIndex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/textTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="end|center|top" android:id="@id/imgTagRightTop" android:layout_width="27.0dip" android:layout_height="17.0dip" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/imgLock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/cbo" android:tint="@color/GBK08A" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

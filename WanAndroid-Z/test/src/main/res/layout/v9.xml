@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.kmarket.videodetail.ui.KmVideoBackLayout android:background="#b3444444" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/loading_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/GBK99B" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载失败，点击重试" />
+    </LinearLayout>
+    <com.zhihu.android.kmarket.videoedu.interaction.SingleCheckView android:id="@id/single_check_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.zhihu.android.kmarket.videodetail.ui.KmVideoBackLayout>

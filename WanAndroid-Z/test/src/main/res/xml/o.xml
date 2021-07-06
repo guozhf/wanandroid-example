@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/cey" android:key="@string/c3o" />
+    <PreferenceScreen android:title="@string/cex" android:key="@string/cak" android:summary="@string/c0u" />
+    <PreferenceScreen android:title="@string/cf0" android:key="@string/cal" />
+</PreferenceScreen>

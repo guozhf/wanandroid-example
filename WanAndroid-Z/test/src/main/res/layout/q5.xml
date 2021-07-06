@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomLayout" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ScrollView android:id="@id/commentShareRoot" android:background="@color/sharecore_long_img_share_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/commentShareLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" layout="@layout/xg" />
+            </FrameLayout>
+        </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <androidx.cardview.widget.CardView android:id="@id/bottomLayout" android:layout_width="0.0dip" android:layout_height="145.0dip" app:cardBackgroundColor="@color/GBK99A" app:cardElevation="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/GBK03A" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/d6n" android:layout_centerHorizontal="true" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/channelsList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" android:overScrollMode="never" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

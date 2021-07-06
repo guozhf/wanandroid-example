@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/campus_banner_item_background" android:background="@drawable/m9" android:layout_width="fill_parent" android:layout_height="150.0dip" app:autoMask="true" app:businessType="community" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="22.0sp" android:textColor="@color/GBK99A" android:gravity="start" android:layout_gravity="bottom" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="title" android:layout_marginStart="16.0dip" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a02" android:textSize="14.0sp" android:textColor="@color/GBK04A" android:id="@id/banner_introduction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:maxLines="22" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

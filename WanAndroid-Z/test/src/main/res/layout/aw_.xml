@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:orientation="vertical" android:layout_width="105.0dip" android:layout_height="130.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/topic_cover" android:layout_width="105.0dip" android:layout_height="70.0dip" zhihu:actualImageScaleType="centerCrop" zhihu:autoMask="true" zhihu:autoPlaceholder="false" zhihu:businessType="community" zhihu:placeholderImage="@drawable/b1l" zhihu:placeholderImageScaleType="centerCrop" zhihu:roundedCornerRadius="2.0dip" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/topic_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:singleLine="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:singleLine="true" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true">
+        <layer-list>
+            <item android:gravity="center" android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
+                <shape android:shape="rectangle">
+                    <size android:height="14.0dip" android:width="14.0dip" />
+                    <corners android:radius="2.0dip" />
+                    <solid android:color="@color/bg_market_manga_read_mode_icon_active" />
+                </shape>
+            </item>
+            <item>
+                <rotate android:drawable="@drawable/x0" android:fromDegrees="180.0" android:toDegrees="180.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_checked="false">
+        <rotate android:drawable="@drawable/wz" android:fromDegrees="180.0" android:toDegrees="180.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+    </item>
+    <item android:state_enabled="false">
+        <rotate android:drawable="@drawable/x1" android:fromDegrees="180.0" android:toDegrees="180.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+    </item>
+</selector>

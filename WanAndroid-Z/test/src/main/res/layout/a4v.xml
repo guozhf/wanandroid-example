@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/toolbar_back_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/u9" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:ellipsize="end" android:id="@id/toolbar_title_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="5.0dip" android:maxLines="1" android:lines="1" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintLeft_toRightOf="@id/toolbar_back_icon" app:layout_constraintRight_toLeftOf="@id/toolbar_right_container" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/toolbar_right_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toLeftOf="@id/toolbar_right_menu" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.zui.widget.ZUITextView android:id="@id/toolbar_see_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/dta" />
+        <TextView android:id="@id/toolbar_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dtb" />
+    </LinearLayout>
+    <ImageView android:id="@id/toolbar_right_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bpk" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

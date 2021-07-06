@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/no_ppt_layout" android:visibility="gone" layout="@layout/n5" />
+    </FrameLayout>
+</com.zhihu.android.app.ui.widget.FixRefreshLayout>

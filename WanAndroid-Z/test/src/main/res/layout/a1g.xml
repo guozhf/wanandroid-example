@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.zui.widget.ZUIConstraintLayout android:id="@id/launch_question_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/icon_launch_question" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/blu" android:tint="@color/GBL01A" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/text_launch_question" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:id="@id/text_launch_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dsm" android:lineSpacingExtra="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/icon_launch_question" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </com.zhihu.android.zui.widget.ZUIConstraintLayout>
+        <com.zhihu.android.zui.widget.ZUIConstraintLayout android:id="@id/write_answer_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/icon_write_movie_meta" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bm2" android:tint="@color/GBL01A" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/text_write_movie_meta" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:id="@id/text_write_movie_meta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/dtj" android:lineSpacingExtra="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/icon_write_movie_meta" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </com.zhihu.android.zui.widget.ZUIConstraintLayout>
+    </LinearLayout>
+    <View android:id="@id/center_line" android:background="@color/GBK08A" android:layout_width="0.5dip" android:layout_height="21.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.CircleAvatarView android:tag="layout/recycler_item_nextlive_message_extract_avatar_0" android:focusable="true" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="centerInside" android:layout_marginStart="12.0dip" bind:roundingBorderColor="#0f000000" bind:roundingBorderWidth="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto" />

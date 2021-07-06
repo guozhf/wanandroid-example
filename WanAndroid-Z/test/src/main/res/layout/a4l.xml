@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.tooltips.TooltipsInterceptLayout android:background="@android:color/transparent" android:visibility="invisible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.tooltips.TooltipsWrapperLayout android:id="@id/wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/arrow" android:layout_width="16.0dip" android:layout_height="8.0dip" />
+</com.zhihu.android.tooltips.TooltipsInterceptLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/fragment_payment_wallet_0" android:background="@color/color_ffffffff_ff37474f" android:padding="@dimen/f_" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/u9" android:tint="@color/color_ff9e9e9e" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a13" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0s" android:id="@id/btn_forget_passcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ayx" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:gravity="center" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" />
+    <com.zhihu.android.app.ui.widget.WalletPasscodeInputLayout android:layout_gravity="center" android:id="@id/passcode_input_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <requestFocus />
+    </com.zhihu.android.app.ui.widget.WalletPasscodeInputLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1j" android:layout_gravity="center" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f_" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

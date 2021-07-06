@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bj" android:paddingTop="@dimen/bk" android:paddingRight="@dimen/bj" android:paddingBottom="@dimen/bk" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/zi" android:gravity="center|left" android:id="@id/unbind_message" android:paddingLeft="@dimen/fi" android:paddingRight="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <com.zhihu.android.base.widget.ZHButton android:textAppearance="@style/xz" android:textColor="@color/color_ffff4722" android:id="@id/btn_account_unbind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:text="@string/a9s" android:layout_alignParentRight="true" style="?android:borderlessButtonStyle" />
+        <com.zhihu.android.base.widget.ZHButton android:textAppearance="@style/xz" android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:text="@string/a_6" android:layout_toLeftOf="@id/btn_account_unbind" style="?android:borderlessButtonStyle" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

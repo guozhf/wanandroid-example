@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:alpha="0.0" android:scaleX="0.8" android:scaleY="0.8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/triangle" android:layout_width="22.0dip" android:layout_height="6.0dip" android:src="@drawable/a6z" android:tint="@color/GBK99C" android:layout_marginEnd="94.0dip" android:layout_alignParentEnd="true" android:elevation="10.0dip" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_below="@id/triangle" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="10.0dip">
+        <RelativeLayout android:background="@color/GBK99C" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/image" android:layout_width="74.0dip" android:layout_height="74.0dip" android:src="@drawable/c23" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK03A" android:id="@id/reason" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="人生在世，有哪些道理或者观念越早知道越好？" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/image" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

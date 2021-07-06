@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout2 android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/rw" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:background="@color/GBK99A" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="420.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout2>

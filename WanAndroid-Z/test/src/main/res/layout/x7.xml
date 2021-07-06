@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:tag="layout/layout_cashier_panel_0" android:padding="@dimen/f7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/panelTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fc" layout="@layout/x8" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/f4" android:textColor="@color/GBK06A" android:id="@id/limitation" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/chapterList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f3" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="2" />
+    <include layout="@layout/w3" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f3" android:layout_marginBottom="@dimen/f3" layout="@layout/wm" />
+</LinearLayout>

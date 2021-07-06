@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:tag="layout/fragment_feed_tabs_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.NonSwipeableViewPager android:id="@id/feed_pager" android:background="@color/GBK10C" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/feed_ad_container" android:paddingBottom="70.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHScrollView android:tag="layout/fragment_billing_0" android:background="@color/color_fff2f4f7_ff212b30" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:padding="@dimen/ce" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ch" android:elevation="@dimen/ci">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/tv_pay_status" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_price_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="32.0sp" android:textColor="@color/GBK02A" android:gravity="end" android:id="@id/tv_symbol_top" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_currency_icon_top" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+            <TextView android:textSize="32.0sp" android:textColor="@color/GBK02A" android:gravity="end" android:id="@id/tv_price_top" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.zhihu.android.base.view.ZHView android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/f_" android:layout_marginBottom="@dimen/f_" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/az9" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aze" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azh" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/az8" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:gravity="end" android:id="@id/tv_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_currency_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:gravity="end" android:id="@id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/fee_amount_layout" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/az_" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azd" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azg" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azb" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:textIsSelectable="true" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="top" android:orientation="horizontal" android:tag="binding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK06A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/azc" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHScrollView>

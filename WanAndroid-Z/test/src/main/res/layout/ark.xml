@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_marginTop="-5.0dip" android:layout_marginBottom="7.0dip" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/GBK09B" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@id/progress" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" android:layout_centerInParent="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/exchange_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?a3i" android:text="@string/b7u" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

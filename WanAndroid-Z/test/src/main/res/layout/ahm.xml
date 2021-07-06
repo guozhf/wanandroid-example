@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="horizontal" android:id="@id/limit_search_tips_layout" android:tag="layout/profile_layout_limit_search_tips_2_0" android:background="@drawable/a5n" android:layout_width="wrap_content" android:layout_height="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK07A" android:layout_gravity="center_vertical" android:id="@id/region_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XXXXX" android:layout_marginStart="8.0dip" />
+    <com.zhihu.android.base.widget.ZHImageButton android:layout_gravity="center_vertical" android:id="@id/cancel" android:background="?a3j" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/c1e" app:tintColor="@color/GBK08B" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

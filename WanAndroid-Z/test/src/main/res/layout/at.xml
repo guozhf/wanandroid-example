@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/scroll_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/adx_look_xf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XunFei缓存" />
+            <Button android:id="@id/adx_look_bd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BaiDu缓存" />
+            <Button android:id="@id/adx_look_gdt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="广点通缓存" />
+            <Button android:id="@id/adx_look_pangolin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="穿山甲缓存" />
+            <Button android:id="@id/adx_get_sdk_launch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拉取sdk launch" />
+            <Button android:id="@id/adx_server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看策略" />
+            <Button android:id="@id/adx_cold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="冷启动" />
+            <Button android:id="@id/adx_hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="热启动" />
+            <Button android:id="@id/hint_one_xunfei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="命中Xunfei" />
+            <Button android:id="@id/hint_one_bd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="命中BaiDu" />
+            <Button android:id="@id/adx_baoguang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="曝光命中" />
+            <Button android:id="@id/adx_dianji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击命中" />
+            <Button android:id="@id/clean_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清理缓存" />
+            <Button android:id="@id/clear_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全清除" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <EditText android:textSize="12.0sp" android:id="@id/adx_edit_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="输入待命中的positionId：" android:layout_below="@id/scroll_layout" />
+    <TextView android:id="@id/adx_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/adx_edit_text_view" android:textIsSelectable="true" />
+    <ListView android:id="@id/adx_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/adx_desc" />
+</RelativeLayout>

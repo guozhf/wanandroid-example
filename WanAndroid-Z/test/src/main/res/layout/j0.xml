@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="47.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/back_ground" android:background="@drawable/t1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.5dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="6.5dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <FrameLayout android:id="@id/tab_add_bg" android:background="@drawable/t9" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/tab_add_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ddd" android:lineSpacingExtra="5.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/tab_add_bg" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/tab_delete" android:background="@drawable/t0" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

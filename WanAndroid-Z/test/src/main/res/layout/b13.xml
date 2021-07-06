@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/buttonTextView" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="第一行文字   eg: ￥#19.9#" />
+    <EditText android:id="@id/supplement" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="第一行后缀" />
+    <EditText android:id="@id/subTextView" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="第二行" />
+    <CheckBox android:id="@id/isSupplementStrikeCB" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第一行后缀是否划线" />
+    <CheckBox android:id="@id/isSubStrikeCB" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第二行后缀是否划线" />
+    <CheckBox android:id="@id/white" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="白底" />
+    <CheckBox android:id="@id/yellow" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="黄底" />
+    <CheckBox android:id="@id/twoBtn" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="两个按钮" />
+    <TextView android:gravity="center" android:id="@id/create" android:background="@color/GYL01A" android:layout_width="200.0dip" android:layout_height="50.0dip" android:text="生成" />
+    <com.zhihu.android.app.subscribe.ui.view.purchasebar.BuyButton android:id="@id/buy" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

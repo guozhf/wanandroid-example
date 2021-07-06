@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bg" android:background="@drawable/acs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.video.player2.widget.ZHPluginVideoView android:id="@id/pluginVideoView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoMask="false" />
+        </FrameLayout>
+        <ImageView android:id="@id/last_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/last_frame_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/widget_image_mask" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/launch_ad_view_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:autoMask="false" app:businessType="commerce" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/rk" android:textColor="@android:color/white" android:id="@id/btn_skip" android:background="@drawable/e_" android:paddingLeft="@dimen/fi" android:paddingTop="5.0dip" android:paddingRight="@dimen/fi" android:paddingBottom="5.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/f7" android:layout_alignParentTop="true" />
+    </FrameLayout>
+    <ImageView android:id="@id/zhihu_logo_image_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:src="@drawable/tw" app:layout_constraintBottom_toBottomOf="parent" />
+    <ImageView android:id="@id/zhihu_logo_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ayv" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

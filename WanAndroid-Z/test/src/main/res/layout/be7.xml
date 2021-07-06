@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/color_ffffffff_ff37474f" android:paddingTop="@dimen/f_" android:paddingBottom="@dimen/fa" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tipjar_author_has_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/a1j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f7" android:text="@string/el_" />
+        <TextView android:textAppearance="@style/a0j" android:textSize="@dimen/rg" android:id="@id/total_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f7" />
+        <View android:background="@color/color_ffe9e9e9_1ae9e9e9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/f_" android:layout_marginRight="@dimen/f_" android:layout_marginBottom="@dimen/f7" />
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f_">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccq" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1j" android:id="@id/action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fc" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.article.tipjar.CircleAvatarListHorizontalGridView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tipjarors_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fa" android:layout_marginRight="@dimen/fa" android:horizontalSpacing="@dimen/f7" android:verticalSpacing="@dimen/f7" android:columnWidth="30.0dip" android:numColumns="auto_fit" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tipjar_author_no_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccp" />
+        <TextView android:textAppearance="@style/zh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:text="@string/ela" />
+        <TextView android:textAppearance="@style/a2i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:text="@string/elb" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <Button android:textColor="#ff33c9ff" android:id="@id/dismiss" android:background="@drawable/azj" android:layout_width="96.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/f_" android:text="@string/elj" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

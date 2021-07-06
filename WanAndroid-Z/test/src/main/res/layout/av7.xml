@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/recycler_item_nextlive_message_extract_extra_0" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:tag="binding_1" android:layout_width="16.0dip" android:layout_height="16.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageView android:layout_gravity="center" android:tag="binding_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/bj9" />
+</FrameLayout>

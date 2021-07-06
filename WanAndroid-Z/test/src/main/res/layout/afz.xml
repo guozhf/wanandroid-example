@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.profile.edit.refactor.widget.ProfileEditInfoItemView android:id="@id/gender" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.profile.edit.refactor.widget.ProfileEditInfoItemView android:id="@id/birthday" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.profile.edit.refactor.widget.ProfileEditInfoItemView android:id="@id/address" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.profile.edit.refactor.widget.ProfileEditInfoItemView android:id="@id/industry" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.profile.edit.refactor.widget.ProfileAudioEditView android:id="@id/profile_audio" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

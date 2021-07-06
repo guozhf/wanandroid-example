@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.club.widget.ClubCommentContainerLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/editor_cover_view" android:background="@color/G_BK01" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.2" android:elevation="0.0dip" />
+    <com.zhihu.android.club.widget.ClubCommentEditorLayout android:layout_gravity="bottom" android:id="@id/editor_real_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.zhihu.android.club.widget.ClubCommentContainerLayout>

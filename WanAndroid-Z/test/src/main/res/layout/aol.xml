@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/GBK99A" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:elevation="@dimen/ci"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/people_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/people_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="end|bottom|center" android:id="@id/people_badge" android:background="@color/color_00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <com.zhihu.android.app.ui.widget.button.ZHFollowPeopleButton2 android:id="@id/follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/follow" android:layout_toEndOf="@id/people_layout">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/color_de000000_deffffff" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.zhihu.android.app.ui.widget.MultiDrawableView android:id="@id/multi_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GBK04A" android:ellipsize="end" android:id="@id/db_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

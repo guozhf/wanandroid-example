@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:enabled="true" android:title="@string/cgz" android:key="@string/c8v" />
+    <Preference android:enabled="true" android:title="@string/chi" android:key="@string/c_2" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/g9" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:maxLines="2" android:lineSpacingMultiplier="@dimen/ck" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK03A" android:ellipsize="end" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="3" android:layout_weight="1.0" android:lineSpacingMultiplier="@dimen/ck" />
+    <com.zhihu.android.video.player2.widget.VideoInlineVideoView android:id="@id/inline_play" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:playerCornerRadius="0.0dip" />
+    <include android:id="@id/club_extra" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/a14" />
+</LinearLayout>

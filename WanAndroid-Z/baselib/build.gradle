@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    viewBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    api "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    api "androidx.core:core-ktx:$rootProject.core_ktx"
+    api "androidx.appcompat:appcompat:$rootProject.appcompat"
+    api "com.google.android.material:material:$rootProject.material"
+    testImplementation "junit:junit:$rootProject.junit"
+    androidTestImplementation "androidx.test.ext:junit:$rootProject.android_junit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espresso_core"
+    api "androidx.constraintlayout:constraintlayout:$rootProject.constraintlayout"
+    api "androidx.navigation:navigation-fragment-ktx:$rootProject.navigation_fragment_ktx"
+    api "androidx.navigation:navigation-ui-ktx:$rootProject.navigation_ui_ktx"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycle_livedata_ktx"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycle_viewmodel_ktx"
+    api "com.github.bumptech.glide:glide:$rootProject.glide"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycle_viewmodel_ktx"
+    api "androidx.lifecycle:lifecycle-runtime-ktx:$rootProject.lifecycle_runtime_ktx"
+    api "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    api 'de.hdodenhof:circleimageview:3.1.0'
+    api 'androidx.preference:preference:1.1.1' // 设置页面
+
+    // banner
+    api "com.youth.banner:banner:$rootProject.banner"
+    // http
+    api project(path: ':base_http')
+    api project(path: ':base_ui')
+
+
+
+}

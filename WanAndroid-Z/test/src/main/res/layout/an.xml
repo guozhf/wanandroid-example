@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@drawable/gi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?a3i" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/ad_notify_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:ellipsize="end" android:gravity="start" android:id="@id/ad_notify_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="标题" android:maxLines="1" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/ad_notify_title" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/ad_notify_image" android:layout_width="fill_parent" android:layout_height="100.0dip" zhihu:actualImageScaleType="centerCrop" zhihu:autoMask="false" zhihu:businessType="commerce" zhihu:placeholderImageScaleType="fitXY" zhihu:roundedCornerRadius="6.0dip" />
+            <Button android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/ad_notify_sign" android:background="@drawable/aq" android:layout_width="34.0dip" android:layout_height="20.0dip" android:layout_marginBottom="5.0dip" android:text="广告" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="5.0dip" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

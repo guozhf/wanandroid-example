@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/b1c" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apg" android:layout_marginStart="8.0dip" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/setting" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bp8" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <RelativeLayout android:id="@id/item_1" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:id="@id/ic_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bgu" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/image_1" android:layout_toEndOf="@id/ic_first" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/GBK04A" android:id="@id/desc_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:layout_below="@id/title_1" android:layout_alignStart="@id/title_1" />
+            <ImageView android:id="@id/image_1" android:background="@color/grey_300" android:layout_width="70.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/divide_line" android:background="#3c999999" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="25.0dip" />
+        <RelativeLayout android:id="@id/item_2" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:id="@id/ic_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bp3" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/image_2" android:layout_toEndOf="@id/ic_second" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/GBK04A" android:id="@id/desc_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:layout_below="@id/title_2" android:layout_alignStart="@id/title_2" />
+            <ImageView android:id="@id/image_2" android:background="@color/grey_300" android:layout_width="70.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

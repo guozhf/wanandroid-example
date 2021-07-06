@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.zui.widget.voter.BaseVoterButton android:id="@id/but_voter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_below="@id/but_voter">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_init_loading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="init LOADING" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_init_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="init NORMAL" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_init_votedup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="init VOTEDUP" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_init_voteddown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="init VOTEDDOWN" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_voteup_fail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="点赞失败" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_voteup_success" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="点赞成功" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_cancel_voteup_fail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="取消点赞失败" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            <Button android:id="@id/btn_cancel_voteup_success" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="取消点赞成功" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/detail_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.zui.widget.ZUIEmptyView android:id="@id/error_view" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

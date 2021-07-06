@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/v_gesture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_video_info" android:background="@drawable/age" android:layout_width="fill_parent" android:layout_height="25.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_playicon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/a4k" android:layout_marginStart="8.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0sp" android:textColor="@color/ve_GBK99A_90" android:id="@id/tv_play_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="2.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0sp" android:textColor="@color/ve_GBK99A_90" android:id="@id/tv_video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:layout_constraintRight_toRightOf="parent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_operate" android:background="@drawable/age" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/fl_barrage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="4.0dip">
+            <Switch android:enabled="true" android:layout_gravity="center" android:id="@id/barrage_switch" android:background="@drawable/ag8" android:layout_width="16.0dip" android:layout_height="16.0dip" android:checked="true" android:button="@null" android:textOn="" android:textOff="" android:thumb="@null" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_vioce" android:layout_width="32.0dip" android:layout_height="24.0dip" android:paddingEnd="8.0dip">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center" android:id="@id/iv_voice" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/aem" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

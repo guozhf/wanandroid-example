@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/settings_panel_container" android:tag="layout/fragment_market_manga_settings_panel_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:layout_gravity="bottom" android:id="@id/setting_panel_background" android:tag="binding_1" android:background="@drawable/aaf" android:paddingLeft="@dimen/f9" android:paddingTop="@dimen/f7" android:paddingRight="@dimen/f9" android:layout_width="fill_parent" android:layout_height="436.0dip">
+        <include layout="@layout/rb" />
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+</FrameLayout>

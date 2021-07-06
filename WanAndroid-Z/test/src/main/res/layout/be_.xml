@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/apply_button" android:background="@drawable/azm" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="48.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="48.0dip" android:foreground="?a3i">
+        <com.zhihu.android.base.widget.ZHTextView android:textColor="@color/zhuanlan_bg_btn_submit_pay_text" android:id="@id/apply_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/ej7" android:layout_marginStart="8.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2i" android:id="@id/pay_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/elc" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

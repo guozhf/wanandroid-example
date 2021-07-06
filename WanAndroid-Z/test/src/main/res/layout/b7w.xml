@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout2 android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/z0" android:textColor="@color/GBK02A" android:gravity="top" android:id="@id/sticky_title" android:paddingTop="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/m7" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sticky_recycler" android:background="@drawable/m2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <com.zhihu.android.base.view.ZHView android:layout_width="fill_parent" android:layout_height="24.0dip" />
+</com.zhihu.android.zui.widget.ZUILinearLayout2>

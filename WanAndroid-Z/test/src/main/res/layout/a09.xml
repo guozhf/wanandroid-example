@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/zhConstraintLayout" android:tag="layout/layout_market_dialog_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" app:businessType="kmarket" app:roundedCornerRadius="10.0dip" />
+        <ViewStub android:id="@id/counpon_layout" android:layout="@layout/a0_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView android:id="@id/dismiss" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/bho" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top" />
+</com.zhihu.android.base.widget.ZHConstraintLayout>

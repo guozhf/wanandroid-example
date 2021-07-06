@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/recycler_item_announcement_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHCardView android:id="@id/cover_card" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:cardBackgroundColor="@color/color_ffffffff_ff37474f" zhihu:cardCornerRadius="0.0dip" zhihu:cardElevation="1.0dip">
+        <com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/cover" android:layout_width="fill_parent" android:layout_height="wrap_content" zhihu:overlayImage="@color/color_0d000000_26000000" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center|right|top" android:id="@id/cover_close" android:padding="@dimen/f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmz" />
+        </com.zhihu.android.base.widget.ZHFrameLayout>
+    </com.zhihu.android.base.widget.ZHCardView>
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/text_container" android:background="@color/color_ffffffff_ff37474f" android:paddingLeft="@dimen/ce" android:paddingTop="@dimen/ce" android:paddingRight="@dimen/fi" android:paddingBottom="@dimen/ce" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cm" android:layout_marginBottom="@dimen/cl" android:elevation="@dimen/ci">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/close" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmy" android:layout_alignParentRight="true" android:layout_centerVertical="true" zhihu:tintColor="@color/color_ff929ea5_ff7d949c" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2_" android:ellipsize="end" android:id="@id/message" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:layout_toLeftOf="@id/close" android:layout_alignParentLeft="true" android:lineSpacingMultiplier="@dimen/ck" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

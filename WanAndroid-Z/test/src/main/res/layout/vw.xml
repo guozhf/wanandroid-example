@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/icon_download_apk" android:layout_width="41.0dip" android:layout_height="41.0dip" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" app:autoMask="false" app:businessType="commerce" app:roundedCornerRadius="9.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/GBK06A" android:id="@id/text_download_apk_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="8.0dip" android:layout_toRightOf="@id/icon_download_apk" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/GBK06A" android:id="@id/text_download_free" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginBottom="13.0dip" android:text="@string/dbt" android:layout_toRightOf="@id/icon_download_apk" android:layout_alignParentBottom="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="13.0dip" android:src="@drawable/b1r" android:layout_toRightOf="@id/text_download_free" android:layout_alignParentBottom="true" />
+    <com.zhihu.android.ad.download.view.AdDwFooterProgressButton android:textSize="12.0dip" android:textColor="@color/GBK99A" android:gravity="center" android:id="@id/btn_download_apk_progress" android:layout_width="150.0dip" android:layout_height="36.0dip" android:layout_marginRight="22.0dip" android:text="@string/dbv" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

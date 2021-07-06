@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/license_fragment_text_color" android:id="@id/tvItemTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bj" android:layout_marginTop="@dimen/bk" android:layout_marginRight="@dimen/bj" android:text="@string/b0h" />
+    <TextView android:textColor="@color/license_fragment_text_color_item" android:id="@id/tvItemLicense" android:background="@color/license_fragment_background_item" android:padding="@dimen/bk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bj" android:layout_marginTop="@dimen/bk" android:layout_marginRight="@dimen/bj" android:layout_marginBottom="@dimen/bk" android:text="@string/b0h" />
+</LinearLayout>

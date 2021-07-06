@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0dip" android:textColor="#ff999999" android:gravity="center" android:id="@id/id_creative_error_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="308.0dip" android:layout_marginLeft="@dimen/fd" android:layout_marginRight="@dimen/fd" android:text="@string/d5" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/id_creative_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.zhihu.android.base.widget.ZHScrollView android:id="@id/id_creative_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/id_creative_close" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/morph_close" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

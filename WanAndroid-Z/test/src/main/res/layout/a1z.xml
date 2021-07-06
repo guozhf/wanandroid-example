@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:id="@id/stills_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/stills_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:placeholderImage="@drawable/bxs" app:placeholderImageScaleType="centerCrop" />
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

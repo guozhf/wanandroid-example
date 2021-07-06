@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/c0t" android:key="@string/c3s">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ci7" android:key="@string/cbx" android:summary="@string/ce4" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/chw" android:key="@string/cb_" android:summary="@string/cdx" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cd9" android:key="@string/c4a" android:summary="@string/cd8" android:defaultValue="true" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/chx" android:key="@string/cba" android:summary="@string/cdy" android:defaultValue="true" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ci6" android:key="@string/cbw" android:summary="@string/ce3" android:defaultValue="true" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/chu" android:key="@string/cb9" android:summary="@string/cdw" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cho" android:key="@string/cau" android:summary="@string/cdt" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/chv" android:key="@string/c5i" />
+        <PreferenceScreen android:title="@string/cgq" android:key="@string/c77" android:summary="@string/cdh" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="夜间模式跟随系统设置" android:key="@string/c3h" android:summary="夜间模式与系统设置的模式一致" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/cf1" android:key="@string/c3r" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/chq" android:key="@string/cb4" android:defaultValue="false" />
+        <PreferenceScreen android:title="@string/ch0" android:key="@string/c8z" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/cev" android:key="@string/c3g" android:summary="@string/cd4" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/cfb" android:key="@string/can" />
+    </PreferenceCategory>
+    <Preference android:enabled="true" android:title="@string/cgp" android:key="@string/c6k" />
+    <PreferenceCategory android:title="@string/c0z">
+        <PreferenceScreen android:title="@string/cgk" android:key="@string/caq" android:summary="@string/cda" />
+        <PreferenceScreen android:title="@string/cfr" android:key="@string/cap" android:summary="@string/cda" />
+        <PreferenceScreen android:title="@string/chn" android:key="@string/cat" android:summary="@string/cd_" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c0q">
+        <PreferenceScreen android:title="@string/cei" android:key="@string/cai" android:summary="@string/cds" />
+        <PreferenceScreen android:title="@string/cez" android:key="@string/c3q" android:summary="@string/cda" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c0o">
+        <PreferenceScreen android:title="@string/cff" android:key="@string/cao" />
+        <PreferenceScreen android:title="@string/cgo" android:key="@string/car" />
+        <PreferenceScreen android:title="@string/chj" android:key="@string/cas" />
+        <PreferenceScreen android:title="@string/ci9" android:key="@string/cc1" />
+        <PreferenceScreen android:title="@string/cia" android:key="@string/cc3" />
+        <PreferenceScreen android:title="@string/cfa" android:key="@string/cam" />
+        <PreferenceScreen android:title="@string/cf_" android:key="@string/c44" />
+        <PreferenceScreen android:title="@string/ci_" android:key="@string/cc2" />
+        <PreferenceScreen android:title="@string/cgu" android:key="@string/c7b" />
+    </PreferenceCategory>
+</PreferenceScreen>

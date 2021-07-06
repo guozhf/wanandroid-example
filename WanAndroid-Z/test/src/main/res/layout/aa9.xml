@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f7" android:layout_marginRight="@dimen/f7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/phone_region_info_layout" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f7" android:layout_marginBottom="@dimen/f7">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:textColor="@color/GBK03A" android:gravity="center|left" android:id="@id/phone_region_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a0s" android:textColor="@color/GBL01A" android:gravity="center|left" android:id="@id/phone_region_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+    <com.zhihu.android.base.view.ZHView android:id="@id/divider" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

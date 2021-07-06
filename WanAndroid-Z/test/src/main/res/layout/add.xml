@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/toolbar_item_icon_view" android:contentDescription="@string/by9" style="@style/k7" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/toolbar_item_text_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:shadowColor="@color/player_scaffold_text_shadow_color" android:shadowRadius="4.0" android:paddingStart="@dimen/oi" android:paddingEnd="@dimen/oi" />
+</merge>

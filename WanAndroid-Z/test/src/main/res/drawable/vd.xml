@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size android:height="160.0dip" android:width="160.0dip" />
+        </shape>
+    </item>
+    <item>
+        <rotate android:fromDegrees="90.0">
+            <layer-list>
+                <item android:drawable="@drawable/vc" />
+            </layer-list>
+        </rotate>
+    </item>
+    <item android:top="60.0dip">
+        <rotate android:fromDegrees="45.0">
+            <bitmap android:gravity="center" android:src="@drawable/bm4" />
+        </rotate>
+    </item>
+</layer-list>

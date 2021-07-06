@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/item_speed_200" android:title="2.0x" android:checkable="true" />
+    <item android:id="@id/item_speed_150" android:title="1.5x" android:checkable="true" />
+    <item android:id="@id/item_speed_125" android:title="1.25x" android:checkable="true" />
+    <item android:id="@id/item_speed_100" android:title="1.0x" android:checkable="true" />
+    <item android:id="@id/item_speed_75" android:title="0.75x" android:checkable="true" />
+    <item android:id="@id/item_speed_50" android:title="0.5x" android:checkable="true" />
+</menu>

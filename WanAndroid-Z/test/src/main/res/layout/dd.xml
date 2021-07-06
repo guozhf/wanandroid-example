@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHDraweeView android:id="@id/thumbnail" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="centerCrop" app:autoMask="true" app:businessType="community" app:roundedCornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

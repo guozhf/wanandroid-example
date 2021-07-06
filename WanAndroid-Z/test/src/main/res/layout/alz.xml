@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/recycler_item_action_card_meta_role_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/fi" android:layout_marginEnd="@dimen/fi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.ui.widget.ZHThemedDraweeView android:id="@id/roles_avatar" android:layout_width="80.0dip" android:layout_height="80.0dip" app:aspectRatio="1.0" app:placeholderImage="@drawable/b51" app:roundedCornerRadius="40.0dip" />
+    <TextView android:textAppearance="@style/yh" android:textSize="12.0sp" android:textColor="@color/GBK03A" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/role_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/GBK06A" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/role_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+</LinearLayout>

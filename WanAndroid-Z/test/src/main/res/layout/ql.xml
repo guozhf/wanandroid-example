@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="@string/ayb" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.zui.widget.ZUIButton android:layout_gravity="center" android:id="@id/next_step" android:background="#ff0084ff" android:layout_width="200.0dip" android:layout_height="32.0dip" android:layout_marginTop="20.0dip" android:alpha="0.5" app:btnRadius="4.0dip" app:btnText="下一步" app:btnTextColor="@color/BK99" app:btnTextSize="16.0sp" app:isTextCustom="false" />
+</LinearLayout>

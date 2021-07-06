@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.profile.edit.EduInputText android:id="@id/college_it" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f9" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f_" />
+    <com.zhihu.android.profile.edit.EduInputText android:id="@id/major_it" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f9" android:layout_below="@id/college_it" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f_" />
+    <com.zhihu.android.profile.edit.EduInputText android:id="@id/time_it" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f9" android:layout_below="@id/major_it" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f_" />
+    <com.zhihu.android.profile.edit.EduInputText android:id="@id/diploma_it" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f9" android:layout_below="@id/time_it" android:layout_marginStart="@dimen/f7" android:layout_marginEnd="@dimen/f_" />
+    <LinearLayout android:gravity="center" android:id="@id/delete_layout" android:background="@drawable/a75" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_margin="@dimen/f7" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0sp" android:textColor="#fff1403c" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除此项" android:lineSpacingExtra="-4.0sp" />
+    </LinearLayout>
+</RelativeLayout>

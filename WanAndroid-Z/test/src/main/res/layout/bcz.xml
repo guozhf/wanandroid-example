@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="1.0px" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/f9" android:buttonTint="@color/GBL01A" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/select_all" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ToggleButton android:textSize="14.0sp" android:textColor="@color/GBK03A" android:id="@id/select_all" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="false" android:textOn="全选" android:textOff="全选" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/checkbox" app:layout_constraintTop_toBottomOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/download_enable_text_color" android:gravity="center" android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/f9" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/layout_star_cashier_item_amount_0" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_marginTop="@dimen/f3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/countTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="购买数量" android:layout_weight="1.0" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="26.0dip" app:bg_cornerRadius="1.0dip" app:bg_fillColor="@color/GBK99A" app:bg_strokeColor="@color/GBK06A" app:bg_strokeWidth="0.5dip">
+        <RelativeLayout android:gravity="center" android:id="@id/purchaseCountMinusBtn" android:tag="binding_1" android:layout_width="25.0dip" android:layout_height="25.0dip">
+            <com.zhihu.android.base.widget.ZHImageView android:tag="binding_2" android:layout_width="@dimen/f4" android:layout_height="@dimen/f4" android:src="@drawable/bbm" android:tint="@color/GBK06A" />
+        </RelativeLayout>
+        <View android:background="@color/GBK06A" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHEditText android:textSize="14.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/amountInput" android:tag="binding_3" android:background="@null" android:layout_width="40.0dip" android:layout_height="26.0dip" android:inputType="number" />
+        <View android:background="@color/GBK06A" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:id="@id/purchaseCountPlusBtn" android:tag="binding_4" android:layout_width="25.0dip" android:layout_height="25.0dip">
+            <com.zhihu.android.base.widget.ZHImageView android:tag="binding_5" android:layout_width="@dimen/f4" android:layout_height="@dimen/f4" android:src="@drawable/bbn" android:tint="@color/GBK06A" />
+        </RelativeLayout>
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+</LinearLayout>

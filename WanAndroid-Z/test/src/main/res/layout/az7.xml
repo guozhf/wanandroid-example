@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/d1c" />
+    <TextView android:textSize="16.0sp" android:id="@id/desc" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/d1e" android:layout_below="@id/title" />
+    <RelativeLayout android:id="@id/date_select_area" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/desc" android:onClick="onClick" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d1g" android:layout_centerVertical="true" />
+        <TextView android:gravity="center" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018-10-24" android:layout_centerVertical="true" android:drawableEnd="@drawable/a_8" android:layout_marginEnd="-8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <Button android:id="@id/uploadBtn" android:background="@drawable/a_c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/d1d" android:layout_below="@id/date_select_area" android:onClick="onClick" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d1f" android:layout_below="@id/uploadBtn" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+</RelativeLayout>

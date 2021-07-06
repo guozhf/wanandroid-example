@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/gesture_container" android:background="@drawable/a3z" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/gesture_control_icon" android:layout_width="@dimen/fa" android:layout_height="@dimen/fa" android:layout_marginTop="@dimen/f7" app:srcCompat="@drawable/a4d" />
+    <com.zhihu.android.player.view.HorizontalProgressBar android:id="@id/gesture_control_progressbar" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="2.0dip" app:progressColor="@color/color_ffffffff" app:secondProgressColor="@color/color_4cffffff" />
+    <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/seek_position_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="horizontal" android:tag="layout/kmarket_player_indicator_chapter_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:lineSpacingExtra="-2.0sp" android:letterSpacing="-0.03" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="-2.0sp" android:letterSpacing="-0.03" />
+</LinearLayout>

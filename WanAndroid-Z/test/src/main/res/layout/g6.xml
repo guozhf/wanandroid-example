@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="315.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="315.0dip" android:layout_height="157.5dip">
+        <ImageView android:id="@id/bg_feedback_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/buy" android:scaleType="fitXY" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/GBK99A" android:gravity="center" android:id="@id/btn_turn_off_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/f7" android:layout_marginLeft="4.0dip" android:text="不再展示" android:alpha="0.64" />
+        <ImageButton android:textColor="@color/GBK99A" android:id="@id/btn_close" android:background="@null" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_margin="@dimen/f7" android:src="@drawable/be_" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ge" android:padding="@dimen/f9" android:layout_width="315.0dip" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="遇到问题了吗？" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="如果你在使用中遇到了问题，可通过「查看帮助」或直接反馈给我们。" />
+        <Button android:textSize="15.0dip" android:textColor="@color/GBL01A" android:id="@id/btn_feedback_now" android:background="@drawable/gg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/f9" android:text="直接反馈" />
+        <Button android:textSize="15.0dip" android:textColor="@color/GBL01A" android:id="@id/btn_auto_capture_feedback" android:background="@drawable/gg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/f3" android:text="自动截图反馈" />
+        <Button android:textSize="15.0dip" android:textColor="@color/GBL01A" android:id="@id/btn_invite_code" android:background="@drawable/gg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/f3" android:text="填写邀请码" />
+        <Button android:textSize="15.0dip" android:textColor="@color/GBK06A" android:id="@id/btn_helper_center" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="4.0dip" android:minHeight="16.0dip" android:text="帮助中心" />
+    </LinearLayout>
+</LinearLayout>

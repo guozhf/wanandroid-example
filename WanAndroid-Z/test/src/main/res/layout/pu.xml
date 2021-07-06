@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/search_scroll" android:tag="layout/fragment_search_index_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.app.search.ui.widget.SearchTopTabLayout android:id="@id/tabs" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:tabBackground="@null" app:tabGravity="fill" app:tabIndicatorColor="@null" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabRippleColor="@color/transparent" app:tabSelectedTextColor="@color/GBK02A" app:tabTextAppearance="@style/a27" app:tabTextColor="@color/GBK05A" />
+        <com.zhihu.android.base.widget.ZHViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/tabs" android:overScrollMode="always" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/empty_search" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pager" android:overScrollMode="always" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

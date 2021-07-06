@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHConstraintLayout android:background="@color/GBK99A" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:id="@id/feed_head_left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/feed_head_right_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/GBK06A" android:layout_gravity="center_vertical" android:id="@id/feed_head_right_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:includeFontPadding="false" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="10.0dip" android:src="@drawable/beg" android:tint="@color/GBK06A" />
+    </LinearLayout>
+</com.zhihu.android.base.widget.ZHConstraintLayout>

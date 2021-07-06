@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/share_icon_view" android:layout_width="@dimen/o9" android:layout_height="@dimen/o9" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:ellipsize="end" android:id="@id/share_text_View" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/share_icon_view" app:layout_constraintRight_toRightOf="@id/share_icon_view" app:layout_constraintTop_toBottomOf="@id/share_icon_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

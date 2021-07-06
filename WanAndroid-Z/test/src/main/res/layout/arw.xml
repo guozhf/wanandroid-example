@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/recycler_item_header_and_text_0" android:paddingBottom="8.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.CircleAvatarView android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="5.0dip" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1y" android:ellipsize="end" android:gravity="center|left" android:id="@id/first_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1y" android:gravity="center|left" android:id="@id/interval_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" • " android:singleLine="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1y" android:gravity="center|left" android:id="@id/second_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

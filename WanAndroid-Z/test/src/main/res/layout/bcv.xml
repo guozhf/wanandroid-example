@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a26" android:gravity="center_vertical" android:id="@id/text" android:background="@drawable/ccx" android:paddingLeft="@dimen/fa" android:paddingTop="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/axb" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHScrollView android:id="@id/scroll_view" android:background="@color/GBK99A" android:scrollbars="none" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/ll_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/view_common_header" layout="@layout/a_o" />
+            <FrameLayout android:id="@id/fl_header" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="36.0dip">
+                <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/sdv_header" android:layout_width="80.0dip" android:layout_height="80.0dip" zhihu:businessType="base" zhihu:placeholderImageScaleType="fitXY" zhihu:roundAsCircle="true" />
+                <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_header_logo" android:visibility="gone" android:layout_width="63.299988dip" android:layout_height="15.5dip" android:src="@drawable/bxi" android:scaleType="fitXY" />
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_wechat_profile" android:background="@drawable/a30" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="36.0dip" android:layout_marginTop="10.0dip">
+                <ImageView android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/bt1" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/GBK04A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.5dip" android:layout_marginRight="8.0dip" android:text="@string/bsw" android:lineSpacingExtra="2.0sp" />
+            </LinearLayout>
+            <TextView android:textSize="10.0sp" android:textColor="@color/GBK04A" android:gravity="center_horizontal" android:id="@id/tv_wechat_fetch_success" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="10.0dip" android:lineSpacingExtra="2.0sp" />
+            <com.zhihu.android.app.ui.widget.DrawableClickEditText android:textSize="16.0sp" android:textColor="@color/GBK03A" android:textColorHint="@color/GBK07B" android:gravity="center_vertical" android:id="@id/fullname" android:background="@drawable/a3d" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginLeft="36.0dip" android:layout_marginTop="44.0dip" android:layout_marginRight="36.0dip" android:hint="@string/bs3" android:inputType="textPersonName" android:textCursorDrawable="@drawable/a3g" />
+            <com.zhihu.android.app.ui.widget.PassProButton android:textSize="16.0sp" android:id="@id/btn_confirm" android:background="@drawable/a2r" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="36.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:elevation="@dimen/f2" zhihu:enabled="false" zhihu:passportTextColorDark="#ffebebeb" zhihu:passportTextColorLight="#ffffffff" />
+        </com.zhihu.android.base.widget.ZHLinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.zhihu.android.base.widget.ZHScrollView>

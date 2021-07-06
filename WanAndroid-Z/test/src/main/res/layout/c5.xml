@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/cashier_recommend_view_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHRadioButton android:layout_gravity="center_vertical" android:id="@id/recommend_ratio" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_label_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.zhihu.android.app.ui.widget.SpannableTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="center_vertical" android:id="@id/recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:id="@id/recommend_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="38.5dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/title_layout" />
+    </RelativeLayout>
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:orientation="vertical" android:id="@id/rights_container" android:paddingTop="8.5dip" android:paddingBottom="11.5dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="38.5dip" android:layout_marginRight="20.0dip" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBK10A" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="14.0dip" layout="@layout/c1" />
+    <View android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

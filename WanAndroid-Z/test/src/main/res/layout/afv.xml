@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toggle_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/f3" android:layout_marginBottom="10.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/close_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignBottom="@id/content_view" />
+    <RelativeLayout android:id="@id/open_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/content_view">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/toggle_btn" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c14" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mask" android:background="@drawable/a69" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <com.zhihu.android.base.widget.ZHImageView android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c14" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:visibility="visible" android:layout_width="@dimen/fh" android:layout_height="@dimen/fh" android:layout_marginBottom="-40.0dip" android:src="@drawable/c0x" android:layout_alignParentBottom="true" android:layout_marginEnd="-20.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

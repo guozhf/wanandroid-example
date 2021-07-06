@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/color_ffe6e6e6_ff2e3e45" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="8.0dip" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/pp" android:showDividers="middle">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_disclaimer_layout" android:background="?a3i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.zhihu.android.zui.widget.ZUITextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/creation_disclaimer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x2" android:drawableRight="@drawable/rs" android:drawablePadding="5.0dip" />
+                    <TextView android:textAppearance="@style/a2i" android:id="@id/creation_disclaimer_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wz" />
+                </LinearLayout>
+                <com.zhihu.android.zui.widget.ZUITextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/tv_modify_disclaimer" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wv" android:layout_alignParentRight="true" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/copyright_permission_layout" android:background="?a3i" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="20.0dip" android:paddingEnd="10.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a11" android:gravity="center_vertical" android:id="@id/copyright_permission_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ww" />
+                    <TextView android:textAppearance="@style/a2i" android:id="@id/copyright_permission_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v_" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/tv_modify_copyright_permission" android:padding="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wv" android:layout_alignParentRight="true" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

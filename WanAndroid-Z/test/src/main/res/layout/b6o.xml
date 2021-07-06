@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a26" android:layout_gravity="center_vertical" android:id="@id/seats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:drawableRight="@drawable/bqh" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:tintColor="@color/color_4d000000_4d000000" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/participants_avatars_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/seats" android:layout_centerVertical="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a1y" android:id="@id/seats_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b22" android:layout_centerInParent="true" />
+</merge>

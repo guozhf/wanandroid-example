@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/be8" android:id="@id/chat_action_delete" android:title="@string/bd9" />
+    <item android:icon="@mipmap/a" android:id="@id/chat_action_copy" android:title="@string/bd7" />
+    <item android:icon="@mipmap/b" android:id="@id/chat_action_report" android:title="@string/bda" />
+    <item android:icon="@mipmap/b" android:id="@id/chat_action_withdraw" android:title="@string/bdc" />
+</menu>

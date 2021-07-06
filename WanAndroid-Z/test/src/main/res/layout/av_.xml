@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.nextlive.ui.widget.LiveMessageBubbleConstraintLayout android:orientation="horizontal" android:tag="layout/recycler_item_nextlive_message_image_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/avatar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginStart="12.0dip" layout="@layout/av6" />
+    <com.zhihu.android.app.nextlive.ui.widget.LiveDraweeView android:id="@id/bubbleContent" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:minHeight="50.0dip" android:layout_marginStart="@dimen/fi" bind:roundedCornerRadius="14.0dip" bind:roundingBorderColor="#0f000000" bind:roundingBorderWidth="1.0px" />
+    <include android:id="@id/extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" bind:layout_constraintBottom_toBottomOf="@id/bubbleContent" bind:layout_constraintStart_toEndOf="@id/bubbleContent" bind:layout_constraintTop_toTopOf="parent" layout="@layout/av7" />
+</com.zhihu.android.app.nextlive.ui.widget.LiveMessageBubbleConstraintLayout>

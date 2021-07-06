@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@color/GYL10A" android:ellipsize="end" android:gravity="center" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" android:drawablePadding="5.0dip" android:lineSpacingExtra="2.0sp" android:drawableStart="@drawable/wb" android:drawableEnd="@drawable/wc" app:layout_constraintBottom_toTopOf="@id/sub_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginBottom="@dimen/f3" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="10.0sp" android:textColor="@color/GYL10A" android:id="@id/sub_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/f3" android:lineSpacingExtra="2.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/content" app:layout_constraintStart_toStartOf="@id/content" app:layout_constraintTop_toBottomOf="@id/content" />
+</merge>

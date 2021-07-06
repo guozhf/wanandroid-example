@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:id="@id/tv_card_feedback_title" android:layout_width="275.0dip" android:layout_height="50.0dip" android:layout_marginTop="31.5dip" />
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/rv_card_feedback" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.5dip" android:overScrollMode="never" />
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="15.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/tv_card_feedback_submit" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="20.0dip" android:text="@string/d69" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBL01A" />
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="15.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/tv_card_feedback_exit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" android:text="@string/d68" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</androidx.cardview.widget.CardView>

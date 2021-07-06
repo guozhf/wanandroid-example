@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:showDividers="middle" style="?android:borderlessButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/GBK02A" android:id="@id/title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置头像" />
+    <TextView android:textSize="12.0sp" android:id="@id/tips" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="使用第三方头像将绑定第三方帐号" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_wechat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csl" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_qq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csk" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_weibo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csm" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/see_large_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cro" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_camera" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csi" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.base.widget.ZHButton android:id="@id/taken_photo_gallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csj" style="?android:borderlessButtonStyle" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

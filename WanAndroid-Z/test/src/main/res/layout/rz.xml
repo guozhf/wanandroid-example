@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/GBK09C" android:paddingBottom="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textColor="@color/GBL05A" android:gravity="center" android:id="@id/title" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/aql" />
+</FrameLayout>

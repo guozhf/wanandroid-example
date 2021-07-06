@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHToolBar android:id="@id/awesome_toolbar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au" zhihu:contentInsetEndWithActions="0.0dip" zhihu:contentInsetLeft="2.0dip" zhihu:contentInsetStart="2.0dip" zhihu:contentInsetStartWithNavigation="0.0dip" zhihu:popupTheme="@style/a37" zhihu:subtitleTextAppearance="@style/a3_" zhihu:theme="@style/a39" zhihu:tintColor="@color/GBK04A" zhihu:titleMarginStart="0.0dip" zhihu:titleTextAppearance="@style/a3a">
+        <FrameLayout android:layout_gravity="center|right" android:id="@id/more_container" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/fi">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center|right" android:id="@id/more" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:src="@drawable/v_" android:layout_marginEnd="12.0dip" />
+        </FrameLayout>
+    </com.zhihu.android.base.widget.ZHToolBar>
+    <com.zhihu.android.article.widget.ArticleToolBar android:id="@id/awesome_toolbar_for_anim" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au" android:alpha="0.0" zhihu:contentInsetEndWithActions="0.0dip" zhihu:contentInsetLeft="2.0dip" zhihu:contentInsetStart="2.0dip" zhihu:contentInsetStartWithNavigation="0.0dip" zhihu:popupTheme="@style/a37" zhihu:subtitleTextAppearance="@style/a3_" zhihu:theme="@style/a39" zhihu:tintColor="@color/GBK04A" zhihu:titleMarginStart="0.0dip" zhihu:titleTextAppearance="@style/a3a">
+        <FrameLayout android:layout_gravity="center|right" android:id="@id/more_container1" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/fc">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center|right" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:src="@drawable/v_" android:layout_marginEnd="12.0dip" />
+        </FrameLayout>
+    </com.zhihu.android.article.widget.ArticleToolBar>
+</FrameLayout>

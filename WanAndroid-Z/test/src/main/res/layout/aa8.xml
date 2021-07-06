@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_passport_equity_icon1" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="11.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/bx3" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/tv_passport_equity_des" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/ml" android:textColor="@color/GYL10A" android:layout_gravity="center_vertical" android:id="@id/tv_passport_equity_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bty" android:lineSpacingExtra="5.0sp" android:letterSpacing="0.05" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/iv_passport_equity_icon1" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

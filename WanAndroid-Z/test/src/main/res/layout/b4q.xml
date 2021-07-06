@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.vessay.outline.ui.widget.OutLineEditText android:textSize="14.0sp" android:textColor="@color/BK99" android:textColorHighlight="@color/BL01" android:textColorHint="@color/transparent" android:id="@id/text" android:background="@null" android:paddingTop="@dimen/sp" android:paddingBottom="@dimen/sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/e2_" android:layout_toLeftOf="@id/fl_checkbox" android:imeOptions="actionDone" android:textSelectHandleLeft="@drawable/aha" android:textSelectHandleRight="@drawable/ahb" android:textSelectHandle="@drawable/ah_" android:textCursorDrawable="@drawable/ahd" />
+    <View android:id="@id/underline" android:background="@color/vessay_outline_text_underline_defcolor" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_toLeftOf="@id/fl_checkbox" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/fl_checkbox" android:layout_width="36.0dip" android:layout_height="fill_parent" android:layout_alignBottom="@id/text" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <com.zhihu.android.base.widget.ZHCheckBox android:layout_gravity="center" android:id="@id/checkbox" android:layout_width="20.0dip" android:layout_height="20.0dip" android:button="@drawable/ah6" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ad_video_finish_root" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.media.scaffold.widget.CompactTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/normal_replay_btn" android:layout_width="@dimen/nv" android:layout_height="@dimen/nv" android:src="@drawable/c8s" android:layout_centerInParent="true" android:contentDescription="@string/by6" />
+    <RelativeLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/logo" android:layout_width="45.0dip" android:layout_height="45.0dip" app:actualImageScaleType="centerCrop" app:autoMask="false" app:businessType="commerce" app:roundAsCircle="true" />
+            <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/nickname" android:paddingTop="4.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.zhihu.android.morph.extension.widget.CanvasDownloadTextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/cta" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="22.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/download_replay_btn" android:paddingLeft="5.0dip" android:paddingBottom="13.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_vertical" android:id="@id/replay_logo" android:layout_width="10.5dip" android:layout_height="10.5dip" app:actualImageScaleType="centerCrop" app:autoMask="false" app:businessType="commerce" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:paddingLeft="4.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e5" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

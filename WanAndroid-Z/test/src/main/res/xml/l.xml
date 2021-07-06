@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/c0s">
+        <com.zhihu.android.app.ui.widget.VerificationPreference android:enabled="false" android:title="@string/cej" android:key="@string/c26" />
+        <com.zhihu.android.app.ui.widget.VerificationPreference android:enabled="false" android:title="@string/cel" android:key="@string/c29" />
+        <Preference android:enabled="false" android:title="@string/cek" android:key="@string/c2c" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c0p">
+        <Preference android:enabled="false" android:title="@string/ci4" android:key="@string/cbg" />
+        <Preference android:enabled="false" android:title="@string/cen" android:key="@string/c2e" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c0r" android:key="@string/c3m">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:enabled="false" android:title="@string/chs" android:key="@string/c3l" android:summary="@string/cdv" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:enabled="false" android:title="@string/cht" android:key="@string/c3n" android:summary="@string/cdv" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:enabled="false" android:title="@string/chr" android:key="@string/c3k" android:summary="@string/cdv" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:enabled="true" android:checked="false" android:title="@string/chl" android:key="@string/cb5" />
+    </PreferenceCategory>
+    <Preference android:enabled="true" android:title="@string/chi" android:key="@string/c_2" />
+</PreferenceScreen>

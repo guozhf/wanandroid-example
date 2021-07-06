@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.zhihu.android.base.widget.ZHAppBarLayout android:orientation="vertical" android:id="@id/app_bar_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <com.zhihu.android.base.widget.ZHCollapsingToolbarLayout android:id="@id/collapsing_toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="110.0dip" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/repeat_bg_view" android:layout_width="fill_parent" android:layout_height="560.0dip" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" />
+                    <View android:id="@id/repeat_bg_view_cover" android:layout_width="fill_parent" android:layout_height="560.0dip" />
+                    <View android:id="@id/repeat_bg_view_dark_cover" android:layout_width="fill_parent" android:layout_height="560.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/top_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="69.0dip" android:layout_marginBottom="41.0dip">
+                        <com.zhihu.android.topic.movie.cards.MovieMetaHeadCard android:id="@id/head_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="14.0dip" />
+                        <com.zhihu.android.topic.movie.cards.MovieMetaReviewCard android:id="@id/review_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="8.0dip" />
+                        <com.zhihu.android.topic.movie.cards.MovieMetaOnlinePlayCard android:id="@id/online_play_card" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="16.0dip" />
+                        <com.zhihu.android.topic.movie.cards.MovieMetaTrailerStillsCard android:id="@id/trailer_stills_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/tab_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.zhihu.android.base.widget.ZHTabLayout android:id="@id/tab_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="40.0dip" app:tabIndicatorColor="@color/GBK02A" app:tabIndicatorHeight="2.0dip" app:tabSelectedTextColor="@color/GBK02A" app:tabTextAppearance="@style/h_" app:tabTextColor="@color/GBK06A" />
+                        <View android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/status_bar_toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin">
+                        <View android:id="@id/top_status_bar_view" android:layout_width="fill_parent" android:layout_height="@dimen/r5" />
+                        <com.zhihu.android.topic.widget.MovieMetaToolBar android:id="@id/top_toolbar" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" app:MovieMetaToolBarBackSrc="@drawable/u9" app:MovieMetaToolBarBackSrcTint="@color/GBK99B" app:MovieMetaToolBarFollowColor="@color/GBK99B" app:MovieMetaToolBarFollowSize="14.0sp" app:MovieMetaToolBarFollowText="@string/dtb" app:MovieMetaToolBarMenuSrc="@drawable/bpk" app:MovieMetaToolBarMenuSrcTint="@color/GBK99B" app:MovieMetaToolBarSeeRecordColor="@color/GBK99B" app:MovieMetaToolBarSeeRecordSize="14.0sp" app:MovieMetaToolBarSeeRecordText="@string/dta" app:MovieMetaToolBarTitleColor="@color/GBK99B" app:MovieMetaToolBarTitleSize="16.0sp" />
+                    </LinearLayout>
+                </com.zhihu.android.base.widget.ZHCollapsingToolbarLayout>
+            </com.zhihu.android.base.widget.ZHAppBarLayout>
+            <com.zhihu.android.topic.widget.MovieTopicViewPager android:id="@id/view_pager" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.zhihu.android.topic.widget.MovieMetaBottomCard android:id="@id/meta_b_bottom_card" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

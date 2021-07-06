@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:id="@id/tv_screen_shot_title" android:layout_width="275.0dip" android:layout_height="24.0dip" android:layout_marginTop="24.0dip" android:text="是否关闭截图分享" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/GBK05A" android:gravity="center_horizontal" android:id="@id/tv_screen_shot_content" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="关闭后截屏将不再提示分享，您需要时可在「设置」-「截屏后分享」开启" />
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="15.0sp" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/tv_screen_shot_close" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:text="确认关闭" app:bg_cornerRadius="6.0dip" app:bg_fillColor="@color/GBL01A" />
+        <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="15.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/tv_screen_shot_exit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" android:text="取消" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHCardView>

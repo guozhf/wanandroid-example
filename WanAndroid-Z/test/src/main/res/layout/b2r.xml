@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/fix_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RadioGroup android:orientation="vertical" android:id="@id/rg_group" android:layout_width="wrap_content" android:layout_height="110.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true">
+            <com.zhihu.android.base.widget.ZHRadioButton android:textSize="15.0dip" android:textColor="@color/GBK03A" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/rb_show" android:layout_width="wrap_content" android:layout_height="55.0dip" android:checked="true" android:button="@drawable/ae3" android:layout_alignParentRight="true" android:buttonTint="@color/ve_checkbox_tint_color_selector" android:buttonTintMode="multiply" />
+            <com.zhihu.android.base.widget.ZHRadioButton android:textSize="15.0dip" android:textColor="@color/GBK03A" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/rb_hide" android:layout_width="wrap_content" android:layout_height="55.0dip" android:checked="false" android:button="@drawable/ae3" android:layout_alignParentRight="true" android:buttonTint="@color/ve_checkbox_tint_color_selector" android:buttonTintMode="multiply" />
+        </RadioGroup>
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/rl_show" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textColor="@color/GBK06A" android:id="@id/tv_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在个人主页「视频」中显示" android:layout_centerInParent="true" />
+            <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+        <com.zhihu.android.base.widget.ZHRelativeLayout android:id="@id/rl_hide" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/rl_show">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textColor="@color/GBK06A" android:id="@id/tv_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在个人主页「视频」中隐藏" android:layout_centerInParent="true" />
+            <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </com.zhihu.android.base.widget.ZHRelativeLayout>
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="取消" android:layout_below="@id/rl_hide" />
+    </com.zhihu.android.base.widget.ZHRelativeLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

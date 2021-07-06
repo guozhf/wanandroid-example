@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIConstraintLayout android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/course_artwork" android:layout_width="76.0dip" android:layout_height="101.0dip" app:autoMask="true" app:businessType="kmarket" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundedCornerRadius="6.0dip" />
+    <include layout="@layout/ba" />
+    <com.zhihu.android.app.market.ui.view.LabelRightBottomLarge android:layout_gravity="end|bottom|center" android:id="@id/label_right_bottom_large" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/course_artwork" app:layout_constraintEnd_toEndOf="@id/course_artwork" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK02A" android:ellipsize="end" android:id="@id/course_title_tv" android:layout_width="76.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="我的商业新思考：八位大人物" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/course_artwork" app:layout_constraintStart_toStartOf="@id/course_artwork" app:layout_constraintTop_toBottomOf="@id/course_artwork" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/GBK06A" android:id="@id/course_origin_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/course_title_tv" />
+</com.zhihu.android.zui.widget.ZUIConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_mask" android:background="#4c000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:gravity="center" android:id="@id/ll_panel" android:background="@color/color_ffffffff_ff37474f" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="62.0dip">
+        <com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/all_container" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@drawable/a_n" android:gravity="center" android:id="@id/tv_all" android:background="@drawable/d7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/alf" android:maxLines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            <com.zhihu.android.base.widget.ZHImageView android:id="@id/unread_tip_dot_all" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:src="@drawable/ss" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </com.zhihu.android.base.widget.ZHConstraintLayout>
+        <View android:id="@id/split_line_1" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/timeline_container" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_weight="1.0">
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@drawable/a_n" android:gravity="center" android:id="@id/tv_timeline" android:background="@drawable/d7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/alm" android:maxLines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        </com.zhihu.android.base.widget.ZHConstraintLayout>
+        <View android:id="@id/split_line_2" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@drawable/a_n" android:gravity="center" android:id="@id/tv_origin" android:background="@drawable/d7" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/alk" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+        <View android:id="@id/split_line_3" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textColor="@drawable/a_n" android:gravity="center" android:id="@id/tv_pin" android:background="@drawable/d7" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/all" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    </com.zhihu.android.base.widget.ZHLinearLayout>
+</com.zhihu.android.base.widget.ZHFrameLayout>

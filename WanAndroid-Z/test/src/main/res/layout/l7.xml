@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/collapse_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/r5" />
+        <FrameLayout android:orientation="vertical" android:background="@drawable/abf" android:layout_width="fill_parent" android:layout_height="38.0dip">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bqp" zhihu:tintColor="@color/GBK08B" />
+            <View android:layout_gravity="bottom" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginLeft="@dimen/bj" android:layout_marginRight="@dimen/bj" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/topic_index_list" android:background="@color/GBK99A" android:paddingBottom="24.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

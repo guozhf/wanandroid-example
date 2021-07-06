@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.button.ZHFollowPeopleButton2 android:id="@id/follow_btn" android:layout_width="72.0dip" android:layout_height="32.0dip" app:followBackground="@drawable/g7" app:unfollowBackground="@drawable/g7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

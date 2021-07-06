@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/acv" android:focusable="true" android:clickable="true" android:layout_width="242.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/super_dialog_image" android:layout_width="fill_parent" android:layout_height="122.0dip" android:src="@color/green_300" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:id="@id/container_title" android:paddingTop="7.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="兰蔻小黑瓶" android:layout_below="@id/super_dialog_image" android:lineSpacingExtra="4.0sp" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/GBK08A" android:gravity="center" android:id="@id/container_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="你推荐吗？" android:layout_below="@id/container_title" />
+        <RelativeLayout android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/container_hint">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/like" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="46.0dip" app:lottie_autoPlay="false" app:lottie_loop="false" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/unlike" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="38.0dip" android:layout_toRightOf="@id/like" app:lottie_autoPlay="false" app:lottie_loop="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

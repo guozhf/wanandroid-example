@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIFrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center|left" android:id="@id/image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" app:businessType="community" app:roundBottomLeft="true" app:roundBottomRight="true" app:roundTopLeft="true" app:roundTopRight="true" app:roundedCornerRadius="4.0dip" />
+    <com.zhihu.android.editor.question_rev.widget.SelectTopicButton android:textAppearance="@style/a0m" android:textSize="12.0sp" android:textColor="@color/G_BK99_BK02" android:gravity="center" android:layout_gravity="center|right" android:id="@id/operator" android:layout_width="64.0dip" android:layout_height="32.0dip" android:text="添加" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.2" android:layout_marginEnd="@dimen/f7" />
+    <LinearLayout android:orientation="vertical" android:layout_width="218.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="@dimen/fh">
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:lineSpacingMultiplier="@dimen/ck" />
+        <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2q" android:ellipsize="none" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:lineSpacingMultiplier="@dimen/ck" />
+    </LinearLayout>
+</com.zhihu.android.zui.widget.ZUIFrameLayout>

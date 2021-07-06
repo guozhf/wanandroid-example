@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_alipay_bind_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bind_layout" android:background="@color/GBK99A" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="@color/GBL01A" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK99B" android:gravity="center" android:id="@id/bind_btn" android:background="@drawable/ne" android:layout_width="fill_parent" android:layout_height="44.0dip" android:foreground="?a3i" android:text="@string/eu" />
+    </FrameLayout>
+    <View android:id="@id/bind_shadow" android:background="@drawable/au" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_above="@id/bind_layout" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bind_layout">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="center_horizontal" android:id="@id/speader_avatar" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="30.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/f1" />
+            <com.zhihu.android.base.widget.ZHEditText android:enabled="false" android:textSize="14.0sp" android:textColor="@color/GBK02A" android:id="@id/speaker_name" android:background="@drawable/xn" android:focusable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="8.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/ez" />
+            <com.zhihu.android.base.widget.ZHEditText android:textSize="14.0sp" android:textColor="@color/GBK02A" android:textColorHint="@color/GBK07A" android:id="@id/id_number_last" android:background="@drawable/xn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="8.0dip" android:hint="@string/f0" android:maxLength="4" android:inputType="text" android:textCursorDrawable="@drawable/pv" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/GRD03A" android:id="@id/id_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingExtra="2.0sp" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/f3" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <com.zhihu.android.base.widget.ZHEditText android:textSize="14.0sp" android:textColor="@color/GBK02A" android:textColorHint="@color/GBK07A" android:id="@id/sms_code" android:background="@drawable/xn" android:layout_width="fill_parent" android:layout_height="50.0dip" android:inputType="number" android:textCursorDrawable="@drawable/pv" />
+                <com.zhihu.android.app.live.ui.widget.SmsCodeCountView android:textColor="@color/GBL01A" android:gravity="center" android:layout_gravity="end" android:id="@id/sms_count_view" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="获取验证码" />
+            </FrameLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/GRD03A" android:id="@id/sms_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingExtra="2.0sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</RelativeLayout>

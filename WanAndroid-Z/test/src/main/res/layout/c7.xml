@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/cashier_single_view_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <com.zhihu.android.base.widget.ZHRadioButton android:layout_gravity="center_vertical" android:id="@id/radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="center_vertical" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:visibility="visible" layout="@layout/bo" />
+    <include android:visibility="visible" layout="@layout/br" />
+    <include android:visibility="visible" layout="@layout/c1" />
+</LinearLayout>

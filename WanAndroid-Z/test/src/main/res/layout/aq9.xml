@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:tag="layout/recycler_item_feed_column_card_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ce" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/fc" android:paddingRight="@dimen/fi" android:paddingBottom="@dimen/fc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="center_vertical" android:id="@id/column_avatar" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:ellipsize="end" android:id="@id/title" android:tag="binding_1" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="@dimen/ck" />
+            <TextView android:textAppearance="@style/a26" android:ellipsize="end" android:id="@id/description" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingMultiplier="@dimen/ck" />
+        </LinearLayout>
+    </LinearLayout>
+</com.zhihu.android.base.widget.ZHLinearLayout>

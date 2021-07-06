@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:background="@drawable/a09" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/bl5" android:layout_marginStart="16.0dip" />
+    <com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:id="@id/flow_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" />
+    <com.zhihu.android.base.widget.ZHButton android:textSize="13.0sp" android:textColor="@color/GBK99A" android:gravity="center" android:id="@id/btn_confirm" android:background="@drawable/a07" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/bl4" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" style="?android:borderlessButtonStyle" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

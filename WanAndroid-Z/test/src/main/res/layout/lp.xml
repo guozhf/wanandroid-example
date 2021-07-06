@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/lh" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/cancel_short_comment" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/bzt" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/GBK02A" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/drz" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/GBK06A" android:gravity="center" android:id="@id/publish_short_comment" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dry" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.db.widget.DbEditText android:textSize="16.0sp" android:textColor="@color/db_text_primary" android:textColorHint="@color/db_text_hint" android:gravity="start|center|top" android:id="@id/content" android:background="@color/GBK99A" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="300.0dip" android:minHeight="96.0dip" android:hint="@string/drx" android:lineSpacingMultiplier="@dimen/ck" android:inputType="textMultiLine" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+        <include layout="@layout/a0t" />
+    </FrameLayout>
+</LinearLayout>

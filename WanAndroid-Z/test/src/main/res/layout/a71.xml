@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_template" style="?vc">
+        <ImageView android:id="@android:id/icon" style="?vb" />
+        <androidx.appcompat.widget.DialogTitle android:id="@id/alertTitle" style="?vd" />
+    </LinearLayout>
+    <android.widget.Space android:id="@id/titleDividerNoCustom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ab" />
+</LinearLayout>

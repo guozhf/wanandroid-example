@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHDraweeView android:id="@id/avatar" android:layout_width="32.0dip" android:layout_height="32.0dip" app:businessType="community" app:placeholderImage="@drawable/be6" app:roundAsCircle="true" app:roundingBorderColor="@color/BK99" app:roundingBorderWidth="1.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

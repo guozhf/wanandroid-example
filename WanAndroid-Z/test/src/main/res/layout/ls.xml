@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHAppBarLayout android:id="@id/appbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/ci">
+            <com.zhihu.android.base.widget.ZHCollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                <com.zhihu.android.base.widget.ZHToolBar android:id="@id/place_holder_toolbar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?au" app:layout_collapseMode="pin" />
+                <include android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/y6" />
+                <com.zhihu.android.base.widget.ZHToolBar android:id="@id/real_toolbar" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="?au" app:contentInsetStartWithNavigation="48.0dip" app:layout_collapseMode="pin" app:popupTheme="@style/a37" app:subtitleTextAppearance="@style/a3_" app:theme="@style/a39" app:tintColor="@color/GBK04A" app:titleTextAppearance="@style/a3a" />
+                <com.zhihu.android.base.view.ZHView android:id="@id/statusbar_bg_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin" />
+            </com.zhihu.android.base.widget.ZHCollapsingToolbarLayout>
+            <com.zhihu.android.base.widget.ZHFrameLayout android:id="@id/tab_container" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.zhihu.android.base.view.ZHView android:layout_gravity="bottom" android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="@dimen/ew" />
+                <com.zhihu.android.base.widget.ZHTabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xk" />
+            </com.zhihu.android.base.widget.ZHFrameLayout>
+        </com.zhihu.android.base.widget.ZHAppBarLayout>
+        <com.zhihu.android.base.widget.ZHViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/ht" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="bottom" android:id="@id/talk_layout" android:background="@drawable/fl" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_margin="16.0dip" android:elevation="3.0dip">
+        <com.zhihu.android.app.ui.widget.CircleAvatarView android:layout_gravity="start|center" android:id="@id/self_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginStart="10.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/GBK06A" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/talk" android:background="@drawable/fm" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/a08" android:paddingStart="16.0dip" android:layout_marginStart="54.0dip" android:layout_marginEnd="16.0dip" />
+    </com.zhihu.android.base.widget.ZHFrameLayout>
+    <include android:id="@id/has_new_moment" android:visibility="invisible" layout="@layout/y1" />
+    <include android:layout_gravity="end|bottom|center" android:id="@id/view_more" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="109.0dip" android:layout_marginEnd="-20.0dip" layout="@layout/y1" />
+    <include android:id="@id/empty_layout" android:visibility="gone" layout="@layout/xn" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/pheidi_meta_layout_ranking_star_info_0" android:paddingLeft="6.0dip" android:paddingTop="@dimen/fc" android:paddingRight="6.0dip" android:paddingBottom="@dimen/fc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bg_cornerRadius="4.0dip" app:bg_fillColor="@color/GBL01A_08"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/head_content_recommend_list_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bxw" />
+    <Space android:layout_width="@dimen/fc" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/GBL01A" android:id="@id/starDescription" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dip" />
+    <Space android:layout_width="@dimen/fc" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHImageView android:layout_width="@dimen/f7" android:layout_height="@dimen/f7" android:src="@drawable/baq" android:tint="@color/GBL01A" />
+</com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>

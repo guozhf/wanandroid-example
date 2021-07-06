@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_comment_allow_all" android:title="@string/tg" android:checkable="true" />
+    <item android:id="@id/action_comment_allow_paid" android:title="@string/yn" android:checkable="true" />
+    <item android:id="@id/action_comment_allow_following" android:title="@string/tj" android:checkable="true" />
+    <item android:id="@id/action_comment_allow_censor" android:title="@string/th" android:checkable="true" />
+    <item android:id="@id/action_comment_allow_followee" android:title="@string/ti" android:checkable="true" />
+    <item android:id="@id/action_comment_allow_nobody" android:title="@string/tk" android:checkable="true" />
+</menu>

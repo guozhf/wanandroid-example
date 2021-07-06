@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:background="@color/BK99" android:padding="@dimen/f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/BK02" android:id="@id/canvas_privacy_dialog_desc" android:paddingRight="@dimen/f9" android:paddingBottom="@dimen/f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cv" android:lineSpacingMultiplier="1.4" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/BL01" android:id="@id/canvas_privacy_dialog_permit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dq" android:layout_below="@id/canvas_privacy_dialog_desc" android:layout_alignParentRight="true" />
+    <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0sp" android:textColor="@color/color_30_percent_transparent_black" android:id="@id/canvas_privacy_dialog_deny" android:paddingRight="@dimen/f9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ds" android:layout_toLeftOf="@id/canvas_privacy_dialog_permit" android:layout_below="@id/canvas_privacy_dialog_desc" />
+</com.zhihu.android.base.widget.ZHRelativeLayout>

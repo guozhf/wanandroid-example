@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/topview" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/srl_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:id="@id/cl_error_container" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.zhihu.android.base.widget.ZHImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmb" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0dip" android:textColor="@color/GBK06A" android:id="@id/tv_load_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dbf" />
+            <com.zhihu.android.base.widget.ZHTextView android:textSize="14.0dip" android:textColor="@color/GBL01A" android:id="@id/tv_retry" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="重新加载" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_load_error" />
+        </LinearLayout>
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+    <com.zhihu.android.video_entity.video_tab.widget.FloatingTipsView android:textAppearance="@style/a0s" android:ellipsize="end" android:gravity="center" android:id="@id/ftv_tip" android:background="@drawable/adx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e0c" android:lines="1" android:drawableLeft="@drawable/bqj" android:drawablePadding="2.0dip" android:elevation="2.0dip" app:drawableTint="@color/GBL03A" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

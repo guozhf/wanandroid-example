@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/progress_downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qe" />
+    <ImageView android:layout_gravity="center" android:id="@id/progress_waiting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qf" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="36.0dip" android:layout_height="36.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/a8b" style="?android:progressBarStyleHorizontal" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableText android:textSize="14.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:layout_gravity="center" android:id="@id/text" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="30.0dip" app:bg_cornerRadius="50.0dip" app:bg_fillColor="@color/GBK10A" />
+</merge>

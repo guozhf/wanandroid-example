@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_interest_item" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/space_interest" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="20.0dip" app:layout_constraintTop_toBottomOf="@id/rv_interest_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

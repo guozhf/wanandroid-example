@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_container" android:tag="layout/layout_feed_template_new_3_0" android:paddingLeft="@dimen/g2" android:paddingRight="@dimen/g2" android:paddingBottom="@dimen/fx" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:ellipsize="end" android:id="@id/title" android:paddingTop="@dimen/fx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="@dimen/g6" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintLeft_toLeftOf="@id/title" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <LinearLayout android:orientation="vertical" android:id="@id/actor_area" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.zhihu.android.app.feed.template.component.TemplateLineContainer android:id="@id/author" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" />
+            <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2_" android:ellipsize="end" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="2" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+        <com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="center_vertical" android:id="@id/thumbnail_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/fz">
+            <com.zhihu.android.base.widget.ZHDraweeView android:layout_gravity="center_vertical" android:id="@id/thumbnail" android:visibility="gone" android:layout_width="84.0dip" android:layout_height="wrap_content" app:autoMask="true" app:autoPlaceholder="true" app:businessType="community" app:placeholderImage="@drawable/b52" app:roundedCornerRadius="4.0dip" app:viewAspectRatio="1.4" />
+            <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="start|bottom|center" android:id="@id/video_tag" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="12.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/b9r" android:layout_marginStart="6.0dip" />
+        </com.zhihu.android.base.widget.ZHFrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

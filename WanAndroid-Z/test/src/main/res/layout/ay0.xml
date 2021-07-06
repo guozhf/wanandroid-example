@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUIRelativeLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/avatar" android:layout_width="@dimen/cc" android:layout_height="@dimen/cc" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" app:autoMask="true" app:autoPlaceholder="false" app:businessType="community" app:roundAsCircle="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/btn_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.zhihu.android.app.ui.widget.button.ZHFollowPeopleButton2 android:id="@id/btn_follow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" app:followBackground="@drawable/m4" app:roundedCornerRadius="4.0dip" />
+        <com.zhihu.android.base.widget.ZHImageButton android:id="@id/btn_special_follow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/btn_group" android:layout_toRightOf="@id/avatar" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/btn_group" android:layout_toEndOf="@id/avatar">
+        <TextView android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="start|center" android:id="@id/name" android:paddingRight="@dimen/fc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.zhihu.android.app.ui.widget.MultiDrawableView android:id="@id/multi_draw" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_toLeftOf="@id/btn_group" android:layout_toRightOf="@id/avatar" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="@style/a2n" android:id="@id/badge_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/a2q" android:id="@id/headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.zhihu.android.zui.widget.ZUIRelativeLayout>

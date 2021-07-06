@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="layout/recycler_item_nextlive_ppt_0" android:layout_width="wrap_content" android:layout_height="fill_parent" bind:cardCornerRadius="10.0dip" bind:cardElevation="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/img" android:tag="binding_1" android:background="@drawable/acr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?a3i" android:alpha="0.8" bind:actualImageScaleType="fitCenter" bind:layout_constraintDimensionRatio="1.77" bind:viewAspectRatio="1.77" />
+    <com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout android:gravity="center" android:layout_gravity="bottom|center|left" android:id="@id/play_btn" android:tag="binding_2" android:paddingLeft="@dimen/f3" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/f3" android:paddingBottom="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginBottom="@dimen/f3">
+        <ProgressBar android:tag="binding_3" android:layout_width="16.0dip" android:layout_height="16.0dip" android:animateLayoutChanges="true" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" />
+    </com.zhihu.android.base.widget.label.ZHShapeDrawableLinearLayout>
+    <ImageView android:tag="binding_5" android:background="@drawable/a1d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bjd" android:scaleType="center" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_category" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ass" android:layout_marginStart="16.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/BK99" android:id="@id/tv_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b1f" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_category" app:layout_constraintLeft_toRightOf="@id/iv_category" app:layout_constraintTop_toTopOf="@id/iv_category" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/category_button" android:background="@drawable/aqk" android:layout_width="wrap_content" android:layout_height="22.0dip" android:paddingStart="12.0dip" android:paddingEnd="6.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_category" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/iv_category">
+        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/BK99" android:layout_gravity="center" android:id="@id/category_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="去选择" />
+        <ImageView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/baq" android:layout_marginStart="2.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

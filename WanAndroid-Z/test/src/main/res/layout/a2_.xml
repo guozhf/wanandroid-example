@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gender_view_root" android:layout_width="fill_parent" android:layout_height="174.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/GBK99A" android:id="@id/gender_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/view_top_half_bg" android:background="@drawable/je" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+    <TextView android:textSize="36.0sp" android:textColor="@android:color/black" android:id="@id/gender_text_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_centerHorizontal="true" />
+    <View android:id="@id/view_bottom_bg" android:background="@drawable/jh" android:layout_width="124.0dip" android:layout_height="88.0dip" android:layout_alignParentBottom="true" android:elevation="-1.0dip" />
+</RelativeLayout>

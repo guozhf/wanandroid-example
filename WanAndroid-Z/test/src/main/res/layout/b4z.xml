@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/BK02" android:layout_width="64.0dip" android:layout_height="92.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/type_cover" android:layout_width="33.299988dip" android:layout_height="35.599976dip" android:layout_marginTop="17.299988dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/BK07" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/type_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0999756dip" android:singleLine="true" android:lineSpacingExtra="3.0sp" android:marqueeRepeatLimit="marquee_forever" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/type_cover" />
+    <ImageView android:id="@id/type_select" android:layout_width="26.0dip" android:layout_height="3.0dip" android:src="@drawable/aj3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.app.ui.widget.FrameInterceptLayout android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.answer.module.pager.AnswerPagerContentView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/view_stub_layout_font" android:layout="@layout/zo" android:inflatedId="@id/font" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    <include android:id="@id/next_answer_animation_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="58.0dip" layout="@layout/a2d" />
+    <include android:layout_gravity="bottom" android:id="@id/float_view" android:visibility="invisible" android:layout_width="102.0dip" android:layout_height="102.0dip" android:layout_marginBottom="56.0dip" android:layout_marginStart="6.0dip" layout="@layout/zi" />
+</com.zhihu.android.app.ui.widget.FrameInterceptLayout>

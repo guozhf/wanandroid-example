@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.app.sku.detailview.ui.widget.view.header.HeaderCoverView android:id="@id/header_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="17.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/buttons" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:gravity="center_vertical" android:id="@id/star_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <View android:background="@color/GBK08A" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:gravity="center" android:id="@id/gift_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7a" android:drawablePadding="5.0dip" android:drawableStart="@drawable/bph" app:tintColor="@color/GBK03A" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <View android:background="@color/GBK08A" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="13.0sp" android:textColor="@color/GBK03A" android:gravity="center_vertical" android:id="@id/share_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7c" android:drawablePadding="5.0dip" android:drawableStart="@drawable/ayp" app:tintColor="@color/GBK03A" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:layout_width="fill_parent" android:layout_height="17.0dip" />
+    <View android:background="@color/GBK10C" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</merge>

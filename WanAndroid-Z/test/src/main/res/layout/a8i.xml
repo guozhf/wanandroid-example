@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/content_image" android:layout_width="60.0dip" android:layout_height="60.0dip" app:autoMask="true" app:businessType="community" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/left_top" android:background="@color/transparent" android:layout_width="27.0dip" android:layout_height="17.0dip" app:actualImageScaleType="fitCenter" app:autoMask="true" app:businessType="community" app:layout_constraintStart_toStartOf="@id/content_image" app:layout_constraintTop_toTopOf="@id/content_image" />
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/right_bottom" android:background="@color/transparent" android:layout_width="30.0dip" android:layout_height="15.0dip" app:actualImageScaleType="fitCenter" app:autoMask="true" app:businessType="community" app:layout_constraintBottom_toBottomOf="@id/content_image" app:layout_constraintEnd_toEndOf="@id/content_image" />
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_video" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/c8s" app:autoMask="true" app:businessType="community" app:layout_constraintBottom_toBottomOf="@id/content_image" app:layout_constraintEnd_toEndOf="@id/content_image" app:layout_constraintStart_toStartOf="@id/content_image" app:layout_constraintTop_toTopOf="@id/content_image" />
+</merge>

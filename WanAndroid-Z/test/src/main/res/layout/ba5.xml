@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_none" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/img_music_cover" app:layout_constraintLeft_toLeftOf="@id/img_music_cover" app:layout_constraintRight_toRightOf="@id/img_music_cover" app:layout_constraintTop_toTopOf="@id/img_music_cover">
+        <ImageView android:background="@drawable/ano" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+        <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/arr" />
+    </FrameLayout>
+    <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/img_music_cover" android:layout_width="60.0dip" android:layout_height="60.0dip" app:layout_constraintBottom_toTopOf="@id/text_music_name" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundAsCircle="true" />
+    <FrameLayout android:id="@id/layout_download" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/img_music_cover" app:layout_constraintLeft_toLeftOf="@id/img_music_cover" app:layout_constraintRight_toRightOf="@id/img_music_cover" app:layout_constraintTop_toTopOf="@id/img_music_cover">
+        <com.zhihu.android.videox.fragment.face_panel.widget.MusicPercentView android:id="@id/percent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/img_download" android:background="@drawable/at6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/layout_check" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/img_music_cover" app:layout_constraintLeft_toLeftOf="@id/img_music_cover" app:layout_constraintRight_toRightOf="@id/img_music_cover" app:layout_constraintTop_toTopOf="@id/img_music_cover">
+        <ImageView android:background="@drawable/ann" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+        <ImageView android:layout_gravity="end|bottom|center" android:background="@drawable/c9w" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lottie_check" android:layout_width="20.0dip" android:layout_height="20.0dip" app:lottie_loop="true" app:lottie_rawRes="@raw/ax" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/vx_selector_face_panel_text" android:id="@id/text_music_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/img_music_cover" />
+</androidx.constraintlayout.widget.ConstraintLayout>

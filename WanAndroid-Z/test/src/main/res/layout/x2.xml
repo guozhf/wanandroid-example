@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHTextInputLayout android:id="@id/captcha_image_text_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="10.0dip" android:hint="@string/ap0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.app.ui.widget.DrawableClickEditText android:id="@id/captcha_image_input_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textVisiblePassword" android:imeOptions="actionDone" android:animateLayoutChanges="true" />
+</com.zhihu.android.base.widget.ZHTextInputLayout>

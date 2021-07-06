@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Jacoco 相关" android:key="@string/c4_">
+        <Preference android:title="生成 EC 文件" android:key="@string/cb7" android:summary="点击停止该次代码覆盖率测试，并生成 EC 文件" />
+        <Preference android:title="上传所有 EC 文件" android:key="@string/cbm" android:summary="点击上传所有 EC 文件" />
+        <Preference android:title="清除所有 EC 文件" android:key="@string/c45" android:summary="建议在开始测试时先清除旧的 EC 文件" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c12" android:key="@string/c49">
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="在图片上显示大小与内存信息" android:key="@string/cb1" android:defaultValue="true" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="使用 SysTrace 监控方法耗时" android:key="@string/c22" android:summary="DroidTelescope 框架监控方法，有 SysTrace 和 DTTrace 两种实现，打开使用 SysTrace，关闭则使用 DTTrace。仅用于 telescope flavor " android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="HTTP DNS" android:key="@string/c4n" android:summary="开启 HTTP DNS" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="HTTP DNS over IPV6" android:key="@string/c4o" android:summary="开启 HTTP DNS over IPV6，尝试通过 httpdns 解析获取 ipv6 地址" android:defaultValue="false" />
+        <EditTextPreference android:title="点击编辑 hybrid 调试url" android:key="@string/c70" android:summary="注意 url 需要添加 scheme" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="关闭启动广告" android:key="@string/c86" android:summary="不在启动时展示广告，方便测试启动耗时" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="允许 App Tracing" android:key="@string/c3b" android:summary="打开后能让 SysTrace 在 Release 包也能跟踪 App 分类的信息" android:defaultValue="false" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="Retrofit 使用 OkHttp 的线程池" android:key="@string/c9y" android:summary="关闭的话会使用 Rx 的 IO Scheduler" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/c13">
+        <PreferenceScreen android:title="@string/c0k" android:key="@string/c38" />
+        <PreferenceScreen android:title="打开 ADI 悬浮控制窗" android:key="@string/c2n" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="开屏广告" android:key="@string/c4p" android:summary="开启调试模式" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/cft" android:key="@string/c5p" android:summary="只需要添加host,将「www.zhihu.com」替换为host" />
+        <EditTextPreference android:title="@string/cgv" android:key="@string/c7m" android:summary="适用于 flavor: alpha, beta, mr 或 build type: debug" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ceu" android:key="@string/c3c" android:defaultValue="true" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="@string/ci5" android:key="@string/cbt" android:summary="@string/ce2" android:defaultValue="true" />
+        <EditTextPreference android:title="@string/ci8" android:key="@string/cby" android:summary="适用范围和扫码设置 ZA 地址一样。必须是以 http:// 开头" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="本地性能数据监控" android:key="@string/c8s" android:summary="开启本地性能数据监控。仅适用于mr、beta、alpha" android:defaultValue="false" />
+        <EditTextPreference android:title="本地数据监控间隔时间" android:key="@string/c8t" android:summary="时间间隔在300毫秒到1分钟之间。仅适用于mr、beta、alpha" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="开发者调试快捷方式" android:key="@string/c48" android:summary="开启后可以从【摇一摇】和【通知】进入" />
+        <Preference android:title="开发者调试中心" android:key="@string/c92" android:summary="调试小助手" />
+        <com.zhihu.android.app.ui.widget.SwitchPreference android:title="广告样式Debug" android:key="@string/c94" android:defaultValue="false" />
+        <Preference android:title="广告样式数据库" android:key="@string/c93" />
+        <Preference android:title="广告样式测试" android:key="@string/c95" />
+        <Preference android:title="第三方sdk广告测试" android:key="@string/c2o" />
+        <Preference android:title="推送测试" android:key="@string/c_n" android:summary="这里可以直接发送推送测试的请求" />
+        <Preference android:title="打开 flutter 页面" android:key="@string/cb6" />
+    </PreferenceCategory>
+</PreferenceScreen>

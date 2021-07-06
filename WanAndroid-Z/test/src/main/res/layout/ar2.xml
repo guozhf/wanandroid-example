@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:orientation="vertical" android:tag="layout/recycler_item_feed_question_card_0" android:paddingLeft="@dimen/ce" android:paddingRight="@dimen/fi" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:zhihu="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/z6" android:ellipsize="end" android:id="@id/title" android:tag="binding_1" android:paddingTop="@dimen/fc" android:paddingRight="@dimen/fi" android:paddingBottom="@dimen/fc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="@dimen/ck" />
+    <com.zhihu.android.base.widget.ZHTextView android:textAppearance="@style/a2_" android:ellipsize="end" android:id="@id/body" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/f" android:lineSpacingMultiplier="@dimen/ck" android:paddingEnd="8.0dip" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

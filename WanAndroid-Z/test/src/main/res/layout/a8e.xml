@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.bootstrap.BottomSheetLayout android:id="@id/bottom_sheet_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zhihu.android.base.widget.ZHConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/title_bg" android:background="@drawable/a0i" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/tv_big_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0sp" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/title_bg" app:layout_constraintStart_toStartOf="@id/title_bg" app:layout_constraintTop_toTopOf="@id/title_bg" />
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/bbw" android:tint="@color/GBK07A" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/title_bg" app:layout_constraintEnd_toEndOf="@id/title_bg" app:layout_constraintTop_toTopOf="@id/title_bg" />
+        <View android:id="@id/title_bottom_line" android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toBottomOf="@id/title_bg" />
+        <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/title_bottom_line">
+            <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    </com.zhihu.android.base.widget.ZHConstraintLayout>
+</com.zhihu.android.bootstrap.BottomSheetLayout>

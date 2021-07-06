@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.zui.widget.ZUILinearLayout android:orientation="vertical" android:layout_width="162.5dip" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="91.5dip" layout="@layout/ud" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/BK99" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="2" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/BK06" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+</com.zhihu.android.zui.widget.ZUILinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHLinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHButton android:theme="@style/a4e" android:textColor="@color/GBK03A" android:id="@id/bt_paste" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brf" />
+</com.zhihu.android.base.widget.ZHLinearLayout>

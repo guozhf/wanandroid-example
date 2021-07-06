@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/c6g" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHImageView android:id="@id/iv_switch" android:background="@drawable/c6h" android:layout_width="54.0dip" android:layout_height="wrap_content" />
+    <com.zhihu.android.base.widget.ZHLinearLayout2 android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="25.0dip">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_default" android:layout_width="54.0dip" android:layout_height="fill_parent" android:text="@string/cwt" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/GBK05A" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_time" android:layout_width="54.0dip" android:layout_height="fill_parent" android:text="@string/cxc" />
+    </com.zhihu.android.base.widget.ZHLinearLayout2>
+</FrameLayout>

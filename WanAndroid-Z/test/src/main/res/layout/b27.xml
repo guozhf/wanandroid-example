@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/input_box" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/adr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <EditText android:textSize="16.0sp" android:textColor="@color/GBK03A" android:textColorHint="@color/GBK07B" android:gravity="center_vertical" android:id="@id/bullet_input" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/dx3" android:maxLines="5" android:layout_weight="1.0" android:lineSpacingMultiplier="1.2" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+            <ImageView android:id="@id/bullet_input_switch" android:visibility="visible" android:layout_width="36.0dip" android:layout_height="35.0dip" android:src="@drawable/ae2" android:scaleType="fitCenter" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/GBL01A" android:gravity="center" android:layout_gravity="center" android:id="@id/bullet_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="32.0dip" android:text="发送" android:inputType="none" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+</RelativeLayout>

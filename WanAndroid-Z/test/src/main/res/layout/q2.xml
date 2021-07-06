@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_select_download_0" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="?au">
+        <ImageView android:layout_gravity="center|left" android:tag="binding_1" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/u9" android:tint="@color/GBK04A" bind:layout_constraintStart_toStartOf="parent" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d3j" android:lineSpacingExtra="0.0sp" bind:layout_constraintBottom_toTopOf="@id/selected_resolution" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/GBK04A" android:gravity="center_horizontal" android:id="@id/selected_resolution" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0sp" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toBottomOf="@id/title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/GBL01A" android:gravity="center" android:id="@id/download_center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/aaq" android:layout_marginEnd="20.0dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.kmarket.downloader.ui.widget.StorageUseView android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="14.0dip" />
+        <RelativeLayout android:id="@id/bottom_edit_layout" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="55.0dip" android:elevation="4.0dip">
+            <CheckBox android:id="@id/select" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK03A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d3i" android:layout_toRightOf="@id/select" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/GBK06A" android:id="@id/download" android:tag="binding_7" android:paddingLeft="10.0dip" android:paddingTop="@dimen/f3" android:paddingRight="10.0dip" android:paddingBottom="@dimen/f3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

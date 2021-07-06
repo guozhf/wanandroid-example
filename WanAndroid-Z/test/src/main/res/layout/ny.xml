@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/actionBar" android:layout_width="fill_parent" android:layout_height="?au" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="start" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/axe" android:tint="@color/GBK02A" android:paddingStart="@dimen/f9" android:paddingEnd="@dimen/f9" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/GBK02A" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="历史记录" />
+    </FrameLayout>
+    <com.zhihu.android.app.ui.widget.FixRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBar">
+        <com.zhihu.android.base.widget.ZHRecyclerView android:id="@id/recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.zhihu.android.app.ui.widget.FixRefreshLayout>
+    <com.zhihu.android.zui.widget.skeleton.ZUISkeletonView android:orientation="vertical" android:id="@id/loading_view" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/actionBar" app:zuiSkeleton="c01-3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/bsr" android:id="@id/action_share_picture" android:title="@string/acd" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_share_more" android:title="@string/acd" app:showAsAction="never" />
+    <item android:id="@id/action_report_spam" android:title="@string/c0" app:showAsAction="never" />
+</menu>

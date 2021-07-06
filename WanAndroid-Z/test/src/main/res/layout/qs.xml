@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tab_area" android:background="@color/GBK99A" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?au" android:elevation="4.0dip">
+        <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center_vertical" android:id="@id/back_img" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:src="@drawable/u9" app:tint="@color/GBK03A" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/GBK02A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="交易记录" android:layout_toRightOf="@id/back_img" android:layout_centerVertical="true" android:lineSpacingExtra="4.0sp" android:letterSpacing="-0.04" />
+    </RelativeLayout>
+    <com.zhihu.android.base.widget.SlidingTabLayout android:id="@id/tabs" android:background="@color/GBK99A" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="40.0dip" app:tl_indicator_color="@color/GBL01A" app:tl_indicator_height="3.0dip" app:tl_indicator_margin_top="36.0dip" app:tl_indicator_style="NORMAL" app:tl_indicator_width="60.0dip" app:tl_textBold="BOTH" app:tl_textSelectColor="@color/GBK03A" app:tl_textUnselectColor="@color/GBK06A" app:tl_textsize="15.0sp" />
+    <View android:background="@color/GBK09A" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.zhihu.android.base.widget.ZHViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

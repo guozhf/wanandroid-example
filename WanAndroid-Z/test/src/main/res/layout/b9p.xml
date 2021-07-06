@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/GBK99A" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?au">
+        <ImageView android:id="@id/img_close" android:background="@drawable/asb" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginStart="14.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/BK01" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/e8o" android:layout_weight="1.0" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/GBL01A" android:gravity="end" android:id="@id/text_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e8n" android:alpha="0.3" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <View android:background="@color/GBK08A" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <EditText android:textSize="17.0sp" android:textColor="@color/GBK02A" android:textColorHint="@color/GBK07A" android:id="@id/input" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/e8k" android:maxLength="50" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/BL05" android:gravity="end" android:id="@id/text_input_tips" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lineSpacingExtra="0.0sp" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

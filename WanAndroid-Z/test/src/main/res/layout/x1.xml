@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHRelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zhihu.android.base.widget.ZHButton android:textAppearance="@style/xz" android:gravity="bottom|center|right" android:id="@id/btn_captcha_code" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_l" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:borderlessButtonStyle" />
+    <com.zhihu.android.app.ui.widget.CountDownView android:id="@id/countdown_view" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip" android:layout_alignBottom="@id/btn_captcha_code" android:layout_alignParentRight="true" />
+    <com.zhihu.android.base.widget.ZHTextInputLayout android:id="@id/captcha_code_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:hint="@string/aou" android:layout_toLeftOf="@id/btn_captcha_code" android:layout_centerVertical="true">
+        <com.zhihu.android.base.widget.ZHEditText android:id="@id/captcha_code_input_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+    </com.zhihu.android.base.widget.ZHTextInputLayout>
+</com.zhihu.android.base.widget.ZHRelativeLayout>

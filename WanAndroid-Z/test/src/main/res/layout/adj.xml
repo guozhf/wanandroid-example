@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.android.base.widget.ZHFrameLayout android:layout_gravity="center" android:id="@id/video_controller_widgets_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/error_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/cover_imageview" android:background="@color/BK01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <View android:id="@id/error_mask" android:background="#66000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_deffffff" android:layout_gravity="center" android:id="@id/error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.zhihu.android.base.widget.ZHImageView android:layout_gravity="center" android:id="@id/middle_play_button" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/bz5" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/color_ffffffff" android:indeterminateTintMode="src_in" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/video_top_banner" android:background="@drawable/a47" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/close_video_player_button" android:layout_width="@dimen/f_" android:layout_height="@dimen/f_" android:layout_margin="@dimen/f7" app:srcCompat="@drawable/a4b" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_ffffffff" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/video_title_textview" android:padding="@dimen/f7" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_panel" android:background="@drawable/a48" android:paddingTop="@dimen/fi" android:paddingBottom="@dimen/fi" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHImageView android:id="@id/small_play_button" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="@dimen/nk" android:layout_height="@dimen/nj" android:src="@drawable/bs2" android:scaleType="fitXY" android:tint="@color/color_ffffffff" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/current_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <SeekBar android:id="@id/seekbar" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="4.0dip" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/a55" android:minHeight="4.0dip" android:thumb="@drawable/bz7" android:layout_weight="1.0" android:thumbTint="@color/color_ffffffff" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        <ImageView android:id="@id/screen_switch_button" android:paddingLeft="@dimen/f7" android:paddingRight="@dimen/f7" android:layout_width="@dimen/nk" android:layout_height="@dimen/nj" android:src="@drawable/bz8" android:scaleType="fitXY" android:tint="@color/color_ffffffff" />
+    </LinearLayout>
+    <com.zhihu.android.player.player.GestureControlView android:layout_gravity="center" android:id="@id/gesture_control_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.zhihu.android.base.widget.ZHFrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" app:cardBackgroundColor="@color/GBK99A" app:cardCornerRadius="10.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/selectedBackground" android:background="@color/GYL06A" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.3" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/f9" android:paddingBottom="@dimen/f9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/f7" android:textColor="@color/GBK02A" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/GBK02A" android:id="@id/priceAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" android:fontFamily="@font/b" />
+        <com.zhihu.android.base.widget.ZHTextView android:textSize="@dimen/f4" android:textColor="@color/GYL10A" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f3" android:fontFamily="@font/b" />
+    </LinearLayout>
+    <com.zhihu.android.app.view.CheckTagView android:layout_gravity="end|bottom|center" android:id="@id/selectedTag" android:layout_width="22.0dip" android:layout_height="22.0dip" />
+    <FrameLayout android:id="@id/selectedBorder" android:background="@drawable/ev" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

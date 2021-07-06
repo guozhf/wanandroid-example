@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zhihu.android.base.widget.ZHDraweeView android:id="@id/guidance_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="4.5dip" android:layout_marginBottom="4.5dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="4.0dip" app:businessType="community" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/GBK02A" android:id="@id/guidance_tip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.5dip" android:layout_marginBottom="4.5dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/guidance_close" android:padding="10.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/b0f" android:layout_marginStart="4.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+    <View android:id="@id/shadow_bottom" android:background="@drawable/b3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+</LinearLayout>
